@@ -1,0 +1,20 @@
+[[main]]
+  name = "خانه"
+  pageRef = "/"
+  weight = 10
+[[main]]
+  name = "رویدادها و خاطره‌ها"
+  pageRef = "events"
+  weight = 20
+[[main]]
+  name = "دربارهٔ ما"
+  pageRef = "about"
+  weight = 30
+[[main]]
+  name = "ارتباط با ما"
+  pageRef = "contact"
+  weight = 40
+[[footer]]
+  name = "فیس‌بوک"
+  url = "https://www.facebook.com/profile.php?id=100090246127295"
+  weight = 10

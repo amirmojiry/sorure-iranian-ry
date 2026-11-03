@@ -1,0 +1,16 @@
+disabled = false
+languageCode = "en"
+locale = "en"
+label = "English"
+weight = 1
+title = "Sorure Iranian ry | Culture and community in Vaasa"
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Sorure Iranian ry brings people together through Iranian cultural heritage, shared experiences and community events in Vaasa, Finland."
+[params.author]
+  name = "Sorure Iranian ry"
+  headline = "Culture, connection, community."
+  links = [{ facebook = "https://www.facebook.com/profile.php?id=100090246127295" }]

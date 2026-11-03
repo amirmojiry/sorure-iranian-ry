@@ -1,0 +1,53 @@
+{{ $ui := index site.Data.ui site.Language.Lang }}
+{{ $events := where site.RegularPages "Section" "events" }}
+<section class="sorure-hero" aria-labelledby="sorure-hero-title">
+  <div class="sorure-hero-copy">
+    <span class="sorure-eyebrow">{{ $ui.eyebrow }}</span>
+    <h1 id="sorure-hero-title">{{ .Title }}</h1>
+    <p class="sorure-lead">{{ .Params.heroLead | default site.Params.description }}</p>
+    <div class="sorure-actions">
+      <a class="sorure-btn sorure-btn-primary" href="{{ printf "%sevents/" site.Home.RelPermalink }}">{{ $ui.events }}</a>
+      <a class="sorure-btn sorure-btn-ghost" href="{{ printf "%sabout/" site.Home.RelPermalink }}">{{ $ui.discover }}</a>
+    </div>
+  </div>
+  <div class="sorure-hero-art" aria-hidden="true">
+    <div class="sorure-orbit orbit-outer"></div>
+    <div class="sorure-orbit orbit-middle"></div>
+    <div class="sorure-sun"><span></span></div>
+    <div class="sorure-art-wordmark">SORURE<span>IRANIAN RY</span></div>
+  </div>
+</section>
+<section class="sorure-intro" aria-labelledby="sorure-intro-title">
+  <span class="sorure-section-kicker">SORURE IRANIAN RY</span>
+  <h2 id="sorure-intro-title">{{ $ui.mission_title }}</h2>
+  <p>{{ $ui.mission_text }}</p>
+  <div class="sorure-values">
+    <div><span class="sorure-value-icon" aria-hidden="true">✺</span><h3>{{ $ui.value_one }}</h3><p>{{ $ui.value_one_text }}</p></div>
+    <div><span class="sorure-value-icon" aria-hidden="true">◈</span><h3>{{ $ui.value_two }}</h3><p>{{ $ui.value_two_text }}</p></div>
+    <div><span class="sorure-value-icon" aria-hidden="true">✳</span><h3>{{ $ui.value_three }}</h3><p>{{ $ui.value_three_text }}</p></div>
+  </div>
+</section>
+<section class="sorure-recent" aria-labelledby="sorure-recent-title">
+  <div class="sorure-section-head">
+    <div><span class="sorure-section-kicker">{{ $ui.recent }}</span><h2 id="sorure-recent-title">{{ $ui.stories }}</h2><p>{{ $ui.stories_intro }}</p></div>
+    <a class="sorure-text-link" href="{{ printf "%sevents/" site.Home.RelPermalink }}">{{ $ui.view_all }} <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="sorure-story-grid">
+    {{ range first 6 ($events.ByDate.Reverse) }}
+      <a class="sorure-story-card" href="{{ .RelPermalink }}">
+        <div class="sorure-story-cover sorure-cover-{{ .Params.event_type | default "community" }}">
+          <span class="sorure-story-glyph" aria-hidden="true">{{ .Params.symbol | default "✺" }}</span>
+          <span class="sorure-card-year">{{ .Params.event_year }}</span>
+        </div>
+        <div class="sorure-story-body"><span class="sorure-story-date">{{ .Params.event_date_label }}</span><h3>{{ .Title }}</h3><p>{{ .Description }}</p><span class="sorure-read-more">{{ $ui.more }} <span aria-hidden="true">↗</span></span></div>
+      </a>
+    {{ end }}
+  </div>
+</section>
+<section class="sorure-footer-cta">
+  <div><h2>{{ $ui.contact_us }}</h2><p>{{ $ui.contact_intro }}</p></div>
+  <div class="sorure-actions">
+    <a class="sorure-btn sorure-btn-primary" href="mailto:{{ site.Params.email }}">{{ $ui.email }}</a>
+    <a class="sorure-btn sorure-btn-ghost" href="{{ site.Params.facebook }}" rel="noopener noreferrer" target="_blank">{{ $ui.fb }}</a>
+  </div>
+</section>

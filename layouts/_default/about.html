@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{ $ui := index site.Data.ui site.Language.Lang }}
+<article class="sorure-about">
+  <header class="sorure-page-hero">
+    <span class="sorure-eyebrow">{{ $ui.eyebrow }}</span>
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Description }}</p>
+  </header>
+  <div class="sorure-about-intro">{{ .Content }}</div>
+  <h2 class="sorure-timeline-heading">{{ $ui.timeline }}</h2>
+  <ol class="sorure-timeline">
+    {{ range .Params.milestones }}
+      <li>
+        <span class="sorure-timeline-year">{{ .year }}</span>
+        <div class="sorure-timeline-card"><h3>{{ .title }}</h3><p>{{ .description }}</p></div>
+      </li>
+    {{ end }}
+  </ol>
+  <div class="sorure-about-bottom">
+    <h2>{{ $ui.contact_us }}</h2>
+    <p>{{ $ui.contact_intro }}</p>
+    <div class="sorure-actions">
+      <a class="sorure-btn sorure-btn-primary" href="mailto:{{ site.Params.email }}">{{ $ui.email }}</a>
+      <a class="sorure-btn sorure-btn-ghost" href="{{ site.Params.facebook }}" target="_blank" rel="noopener noreferrer">{{ $ui.fb }}</a>
+    </div>
+  </div>
+</article>
+{{ end }}

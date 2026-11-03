@@ -1,0 +1,46 @@
+colorScheme = "blowfish"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableSearch = true
+enableA11y = true
+enableStructuredBreadcrumbs = true
+defaultSocialImage = "img/social.svg"
+mainSections = ["events"]
+facebook = "https://www.facebook.com/profile.php?id=100090246127295"
+email = "sorureiranianry@gmail.com"
+disableImageOptimization = true
+
+[header]
+  layout = "basic"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "custom"
+  showRecent = false
+
+[article]
+  showDate = false
+  showAuthor = false
+  showReadingTime = false
+  showWordCount = false
+  showBreadCrumbs = true
+  showBreadcrumbs = true
+  showPagination = true
+  showTableOfContents = false
+
+[list]
+  showDate = false
+  showSummary = true
+  showCards = true
+  cardView = false
+  groupByYear = true
+  constrainItemsWidth = false
+
+[seo]
+  metaDescriptionOrder = ["description", "summary", "site"]

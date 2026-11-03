@@ -1,0 +1,16 @@
+disabled = false
+languageCode = "fa"
+locale = "fa"
+label = "فارسی"
+weight = 3
+title = "انجمن سرور ایرانیان | فرهنگ و همدلی در واسا"
+[params]
+  displayName = "فا"
+  isoCode = "fa"
+  rtl = true
+  dateFormat = "2006/01/02"
+  description = "انجمن سرور ایرانیان در واسا، فنلاند؛ فضایی برای معرفی فرهنگ ایرانی، ارتباط میان فرهنگ‌ها و رویدادهای اجتماعی."
+[params.author]
+  name = "انجمن سرور ایرانیان"
+  headline = "فرهنگ، دوستی و همدلی."
+  links = [{ facebook = "https://www.facebook.com/profile.php?id=100090246127295" }]

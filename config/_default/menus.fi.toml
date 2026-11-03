@@ -1,0 +1,20 @@
+[[main]]
+  name = "Etusivu"
+  pageRef = "/"
+  weight = 10
+[[main]]
+  name = "Tapahtumat"
+  pageRef = "events"
+  weight = 20
+[[main]]
+  name = "Meistä"
+  pageRef = "about"
+  weight = 30
+[[main]]
+  name = "Yhteystiedot"
+  pageRef = "contact"
+  weight = 40
+[[footer]]
+  name = "Facebook"
+  url = "https://www.facebook.com/profile.php?id=100090246127295"
+  weight = 10

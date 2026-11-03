@@ -1,0 +1,16 @@
+disabled = false
+languageCode = "fi"
+locale = "fi"
+label = "Suomi"
+weight = 2
+title = "Sorure Iranian ry | Kulttuuria ja yhteisöllisyyttä Vaasassa"
+[params]
+  displayName = "FI"
+  isoCode = "fi"
+  rtl = false
+  dateFormat = "2.1.2006"
+  description = "Sorure Iranian ry tuo ihmisiä yhteen kulttuurin, yhteisten kokemusten ja yhteisöllisten tapahtumien kautta Vaasassa."
+[params.author]
+  name = "Sorure Iranian ry"
+  headline = "Kulttuuria, kohtaamisia ja yhteisöllisyyttä."
+  links = [{ facebook = "https://www.facebook.com/profile.php?id=100090246127295" }]
