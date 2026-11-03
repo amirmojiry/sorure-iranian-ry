@@ -1,0 +1,25 @@
+---
+title: "Kesäilta Grönvikissä"
+description: "Yhdessäoloa, ulkopelejä ja ruokailua Vaasan rannikolla."
+slug: "gronvik-summer-2024"
+date: "2024-08-17T12:00:00+02:00"
+publishDate: "2026-11-03T12:00:00+02:00"
+lastmod: "2026-11-03T12:00:00+02:00"
+event_date: "2024-08-17"
+event_date_label: "17. elokuuta 2024"
+date_precision: "exact"
+event_year: "2024"
+event_type: "community"
+symbol: "◈"
+showDate: false
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+showTableOfContents: false
+venue: "Grönvik beach, Vaasa"
+facebook: "https://www.facebook.com/permalink.php?story_fbid=pfbid02cfDBEiwPJvPsANN2vRFcUBuqB4xPaLaa2CAyzxMYhW8A2J5wWFEUJNw4gPMxzjVkl&id=100090246127295"
+---
+
+{{< event-meta >}}
+
+Soruren kesätapaaminen Grönvikissä kokosi ystäviä ja perheitä meren äärelle. Piknik, grillaus, jalkapallo ja keskustelu loivat rennon yhteisen illan.
