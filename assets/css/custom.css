@@ -1,0 +1,99 @@
+/* Sorure Iranian ry: accessible public visual layer over Blowfish */
+:root { --sr-ink:#143541; --sr-teal:#146c75; --sr-jade:#80a8a0; --sr-sand:#ffead0; --sr-coral:#df8661; --sr-muted:#657b82; --sr-radius:20px; }
+html[lang="fa"] { font-family: Tahoma, "Noto Naskh Arabic", "Noto Sans Arabic", system-ui, sans-serif; }
+html[lang="fi"], html[lang="en"] { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.sorure-hero { position:relative; margin:2.4rem 0 5rem; display:grid; grid-template-columns:1.05fr .95fr; min-height:470px; background:linear-gradient(120deg,#103641 0%,#174f59 56%,#236a6c 100%); color:#fff8ed; border-radius:30px; overflow:hidden; isolation:isolate; box-shadow:0 18px 50px #10364126; }
+.sorure-hero::before { content:""; position:absolute; width:600px; height:600px; border-radius:50%; background:#fff8df0b; inset-block-start:-370px; inset-inline-start:-130px; z-index:-1; }
+.sorure-hero-copy { padding:clamp(2rem,5vw,4.7rem); align-self:center; position:relative; z-index:1; }
+.sorure-eyebrow,.sorure-section-kicker { display:inline-block; letter-spacing:.15em; font-size:.74rem; font-weight:800; text-transform:uppercase; color:#ddc49d; }
+html[dir="rtl"] .sorure-eyebrow { letter-spacing:0; }
+.sorure-hero h1 { font-size:clamp(2.5rem,4.9vw,4.5rem); line-height:1.15; letter-spacing:-.035em; margin:1.1rem 0; font-weight:850; color:#fffcf5; }
+html[dir="rtl"] .sorure-hero h1 { line-height:1.7; letter-spacing:0; }
+.sorure-lead { font-size:clamp(1rem,1.4vw,1.25rem); line-height:1.9; max-width:520px; color:#e1ece8; }
+.sorure-actions { display:flex; flex-wrap:wrap; gap:.7rem; margin-top:2rem; align-items:center; }
+.sorure-btn { display:inline-flex; align-items:center; justify-content:center; text-decoration:none!important; border-radius:999px; padding:.82rem 1.45rem; font-weight:750; font-size:.94rem; transition:transform .2s,background .2s,box-shadow .2s; outline-offset:3px; }
+.sorure-btn:hover { transform:translateY(-2px); }
+.sorure-btn-primary { background:#f7c47e; color:#17323b!important; box-shadow:0 8px 24px #0c2f3b2f; }
+.sorure-btn-primary:hover { background:#ffe0a9; }
+.sorure-btn-ghost { background:#ffffff12; border:1px solid #ffffff7a; color:#fff!important; }
+.sorure-btn-ghost:hover { background:#ffffff25; }
+.sorure-hero-art { position:relative; min-height:380px; background:radial-gradient(circle at 50% 48%,#f5c47d17,transparent 65%); display:flex; align-items:center; justify-content:center; }
+.sorure-orbit { position:absolute; border:1px solid #d3efe44d; border-radius:50%; aspect-ratio:1; transform:rotate(22deg); }
+.orbit-outer { width:min(83%,450px); }
+.orbit-middle { width:min(63%,320px); }
+.sorure-sun { position:absolute; width:clamp(135px,15vw,205px); aspect-ratio:1; background:radial-gradient(circle at 30% 28%,#ffdda1,#ec986d 75%); border-radius:50%; box-shadow:0 0 70px #f5c47d3e; display:flex; align-items:center; justify-content:center; }
+.sorure-sun::before,.sorure-sun::after { content:""; width:72%; height:72%; border:1px solid #fff4d98f; position:absolute; transform:rotate(45deg); }
+.sorure-sun::after { transform:rotate(0deg); width:60%; height:60%; }
+.sorure-art-wordmark { position:absolute; bottom:3rem; inset-inline:0; text-align:center; font-size:clamp(1rem,2.1vw,1.8rem); letter-spacing:.2em; font-weight:850; color:#fff6e2; text-shadow:0 2px 12px #133941; }
+.sorure-art-wordmark span { display:block; margin-top:.2rem; font-size:.53em; font-weight:650; letter-spacing:.35em; color:#f0cea0; }
+.sorure-intro { max-width:1100px; margin:0 auto 6.5rem; text-align:center; }
+.sorure-intro .sorure-section-kicker,.sorure-section-kicker { color:var(--sr-teal); }
+.sorure-intro h2 { font-size:clamp(1.9rem,3.3vw,2.8rem); font-weight:850; line-height:1.35; margin:.8rem auto; max-width:820px; }
+.sorure-intro>p { color:var(--sr-muted); max-width:760px; margin:auto; line-height:1.9; }
+.sorure-values { display:grid; grid-template-columns:repeat(3,1fr); gap:1.1rem; margin-top:2.5rem; text-align:start; }
+.sorure-values>div { padding:1.7rem; border:1px solid #d7e6e3; border-radius:var(--sr-radius); background:linear-gradient(160deg,#fff,#f4f9f7); box-shadow:0 12px 27px #0d3e4310; }
+.sorure-value-icon { display:inline-flex; width:50px; height:50px; justify-content:center; align-items:center; border-radius:16px; background:#e3eeea; color:#185c60; font-size:1.8rem; }
+.sorure-values h3 { font-size:1.14rem; font-weight:800; margin:1.05rem 0 .4rem; }
+.sorure-values p { font-size:.95rem; color:var(--sr-muted); line-height:1.7; }
+.sorure-recent { margin-bottom:6rem; }
+.sorure-section-head { display:flex; align-items:end; justify-content:space-between; gap:1.4rem; margin-bottom:1.5rem; }
+.sorure-section-head h2 { font-size:clamp(1.8rem,3vw,2.65rem); font-weight:850; margin:.5rem 0; }
+.sorure-section-head p { color:var(--sr-muted); max-width:610px; }
+.sorure-text-link,.sorure-read-more { color:var(--sr-teal); font-weight:800; text-decoration:none!important; white-space:nowrap; }
+.sorure-story-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.15rem; }
+.sorure-story-card { overflow:hidden; border-radius:var(--sr-radius); background:#fff; border:1px solid #dde8e7; display:block; text-decoration:none!important; transition:box-shadow .2s,transform .2s; }
+.sorure-story-card:hover { transform:translateY(-4px); box-shadow:0 18px 38px #164c521a; }
+.sorure-story-cover { aspect-ratio:1.9/1; position:relative; display:flex; justify-content:center; align-items:center; background:linear-gradient(120deg,#234c58,#76a89c); overflow:hidden; }
+.sorure-story-cover::before { content:""; position:absolute; width:170px; aspect-ratio:1; border:1px solid #ffffff83; transform:rotate(27deg); }
+.sorure-story-cover::after { content:""; position:absolute; width:230px; aspect-ratio:1; border:1px solid #ffffff50; border-radius:50%; }
+.sorure-cover-culture { background:linear-gradient(135deg,#824c57,#e7a37e); }
+.sorure-cover-language { background:linear-gradient(135deg,#284c7f,#7a9cb4); }
+.sorure-cover-community { background:linear-gradient(135deg,#1c6370,#7aaea0); }
+.sorure-cover-sports { background:linear-gradient(135deg,#476f5f,#adc48b); }
+.sorure-cover-art { background:linear-gradient(135deg,#574e81,#b5a0be); }
+.sorure-cover-volunteer { background:linear-gradient(135deg,#4a6e43,#b1bd6b); }
+.sorure-story-glyph { font-size:4.1rem; color:#fff6e2; position:relative; z-index:1; }
+.sorure-card-year { position:absolute; z-index:2; inset-block-start:.85rem; inset-inline-end:1rem; background:#fffdf2df; color:#244452; border-radius:30px; font-size:.78rem; font-weight:850; padding:.2rem .7rem; }
+.sorure-story-body { padding:1.2rem 1.35rem 1.4rem; }
+.sorure-story-date { color:var(--sr-teal); font-size:.82rem; font-weight:750; }
+.sorure-story-body h3 { color:#143a43; font-size:1.13rem; margin:.5rem 0; font-weight:800; line-height:1.45; }
+.sorure-story-body p { color:#6b7c84; font-size:.9rem; line-height:1.7; min-height:4.5rem; }
+.sorure-read-more { display:block; margin-top:.9rem; font-size:.87rem; }
+.sorure-footer-cta,.sorure-about-bottom { background:#f6efe4; border:1px solid #f0dec8; border-radius:26px; padding:clamp(1.8rem,4vw,3.1rem); display:flex; align-items:center; justify-content:space-between; gap:2rem; margin:5rem 0 4rem; }
+.sorure-footer-cta h2,.sorure-about-bottom h2 { color:#2a4748; font-size:1.85rem; font-weight:850; }
+.sorure-footer-cta p,.sorure-about-bottom p { color:#596b70; margin-top:.45rem; max-width:530px; }
+.sorure-footer-cta .sorure-btn-ghost,.sorure-about-bottom .sorure-btn-ghost { color:#23535b!important; border-color:#79a4a4; }
+.sorure-page-hero { border-radius:26px; background:linear-gradient(125deg,#123f4d,#2f7375); color:#fff; padding:clamp(2rem,5vw,4rem); margin:2rem 0 3rem; }
+.sorure-page-hero h1 { color:#fff; font-size:clamp(2.35rem,5vw,4.3rem); font-weight:850; margin:.8rem 0; line-height:1.35; }
+.sorure-page-hero p { color:#ecf3eb; font-size:1.15rem; line-height:1.9; max-width:820px; }
+.sorure-about-intro { max-width:770px; font-size:1.13rem; line-height:2; margin:2.3rem 0 3rem; }
+.sorure-timeline-heading { font-size:2rem; font-weight:850; margin-bottom:2rem; }
+.sorure-timeline { list-style:none; padding:0; margin:0 0 3rem; display:grid; gap:1.5rem; border-inline-start:3px solid #a8c8bb; padding-inline-start:2.25rem; }
+.sorure-timeline li { position:relative; padding:0; }
+.sorure-timeline li::before { content:""; position:absolute; inset-inline-start:-2.79rem; inset-block-start:1.6rem; background:#e1ac72; width:14px; height:14px; border-radius:50%; border:3px solid #fff; box-shadow:0 0 0 3px #a8c8bb; }
+.sorure-timeline-year { font-size:1.22rem; color:#18727b; font-weight:900; }
+.sorure-timeline-card { background:#f5f9f7; border:1px solid #dce9e4; border-radius:18px; padding:1.2rem 1.6rem; margin-top:.5rem; }
+.sorure-timeline-card h3 { font-size:1.18rem; font-weight:850; margin-bottom:.35rem; }
+.sorure-timeline-card p { color:#566e75; line-height:1.9; }
+.sorure-event-meta { padding:1.25rem 1.5rem; border-radius:18px; margin:1rem 0 2.1rem; border:1px solid #cddfdc; background:linear-gradient(115deg,#f4f9f6,#fcfaf6); font-size:.94rem; }
+.sorure-event-facts { display:flex; flex-wrap:wrap; gap:.6rem 1.2rem; }
+.sorure-event-fact { display:inline-flex; align-items:center; gap:.35rem; color:#305760; }
+.sorure-external-links { margin-top:1rem; border-top:1px solid #cddfda; padding-top:.95rem; display:flex; flex-wrap:wrap; gap:.55rem; align-items:center; }
+.sorure-external-links p { flex-basis:100%; margin:0!important; color:#56727b; font-size:.85rem; font-weight:800; }
+.sorure-external-links a { font-size:.84rem; border:1px solid #a8cfc5; border-radius:999px; padding:.3rem .72rem; color:#205963; text-decoration:none!important; background:#fff; }
+.sorure-external-links a:hover { background:#e2f0eb; }
+.sorure-contact-card { background:#f4f9f7; border:1px solid #cbded9; border-radius:23px; padding:2rem; margin:2rem 0; }
+.sorure-contact-card h2 { color:#16515c; font-size:1.45rem; font-weight:850; margin:0 0 1rem; }
+.sorure-contact-card a { color:#14616a; overflow-wrap:anywhere; }
+html.dark .sorure-values>div, html.dark .sorure-story-card, html.dark .sorure-contact-card, html.dark .sorure-timeline-card, html.dark .sorure-event-meta { background:#213640; border-color:#42565f; color:#e0ece7; }
+html.dark .sorure-story-body h3, html.dark .sorure-about-bottom h2, html.dark .sorure-footer-cta h2,html.dark .sorure-timeline-card h3 { color:#eef2e9; }
+html.dark .sorure-story-body p, html.dark .sorure-timeline-card p, html.dark .sorure-values p, html.dark .sorure-section-head p, html.dark .sorure-event-fact, html.dark .sorure-intro>p { color:#bdd0cc; }
+html.dark .sorure-footer-cta,html.dark .sorure-about-bottom { background:#28424c; border-color:#46616b; }
+html.dark .sorure-footer-cta p,html.dark .sorure-about-bottom p { color:#e0eae4; }
+html.dark .sorure-external-links a { background:#2e4b55; color:#e4f3f0; border-color:#4d7677; }
+html.dark .sorure-section-kicker,html.dark .sorure-story-date,html.dark .sorure-text-link,html.dark .sorure-read-more { color:#8ad5cb; }
+html[dir="rtl"] .sorure-story-body,html[dir="rtl"] .sorure-about-intro { text-align:start; }
+html[dir="rtl"] .sorure-hero h1,html[dir="rtl"] .sorure-page-hero h1 { line-height:1.6; }
+@media(max-width:900px) { .sorure-hero { grid-template-columns:1fr; } .sorure-hero-art { min-height:270px; } .sorure-values,.sorure-story-grid { grid-template-columns:repeat(2,1fr); } .sorure-footer-cta,.sorure-about-bottom { flex-direction:column; align-items:flex-start; } }
+@media(max-width:600px) { .sorure-hero { margin:1rem 0 3rem; border-radius:22px; } .sorure-hero-art { min-height:235px; } .sorure-hero-copy { padding:1.8rem; } .sorure-values,.sorure-story-grid { grid-template-columns:1fr; } .sorure-section-head { align-items:flex-start; flex-direction:column; } .sorure-story-body p { min-height:0; } .sorure-event-meta { padding:1rem; } }
+@media(prefers-reduced-motion:reduce) { .sorure-btn,.sorure-story-card { transition:none; } .sorure-btn:hover,.sorure-story-card:hover { transform:none; } }
