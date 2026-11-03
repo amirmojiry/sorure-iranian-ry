@@ -106,3 +106,96 @@ html[dir="rtl"] .sorure-hero h1,html[dir="rtl"] .sorure-page-hero h1 { line-heig
 @media(max-width:900px) { .sorure-hero { grid-template-columns:1fr; } .sorure-hero-art { min-height:270px; } .sorure-values,.sorure-story-grid { grid-template-columns:repeat(2,1fr); } .sorure-footer-cta,.sorure-about-bottom { flex-direction:column; align-items:flex-start; } }
 @media(max-width:600px) { .sorure-hero { margin:1rem 0 3rem; border-radius:22px; } .sorure-hero-art { min-height:235px; } .sorure-hero-copy { padding:1.8rem; } .sorure-values,.sorure-story-grid { grid-template-columns:1fr; } .sorure-section-head { align-items:flex-start; flex-direction:column; } .sorure-story-body p { min-height:0; } .sorure-event-meta { padding:1rem; } }
 @media(prefers-reduced-motion:reduce) { .sorure-btn,.sorure-story-card { transition:none; } .sorure-btn:hover,.sorure-story-card:hover { transform:none; } }
+
+/* Wide, readable layout shared by the archive, event articles and public info pages. */
+body { width: 100%; max-width: 1500px !important; padding-inline: clamp(1rem, 3.8vw, 3.5rem) !important; }
+#main-content { width: 100%; min-width: 0; }
+.sorure-archive-page, .sorure-event-page { width: 100%; max-width: none; margin-inline: auto; }
+.sorure-archive-header { margin: 1.5rem 0 1.6rem; }
+.sorure-archive-header p { max-width: none; }
+.sorure-archive-intro { width: 100%; max-width: none; color: #526d72; font-size: 1.03rem; line-height: 1.95; margin-bottom: 2.7rem; }
+.sorure-archive-intro p { width: 100%; max-width: none; }
+.sorure-archive-year { margin: 2.4rem 0 3.6rem; }
+.sorure-archive-year h2 { font-size: 1.75rem; font-weight: 850; margin-bottom: 1.25rem; padding-bottom: .6rem; border-bottom: 1px solid #d4e2df; color: #164a54; }
+.sorure-event-card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.35rem; align-items: stretch; }
+.sorure-event-card { display: block; min-width: 0; height: 100%; overflow: hidden; border: 1px solid #d5e6e1; border-radius: 22px; background: #fff; box-shadow: 0 7px 24px #16414a0e; transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease; }
+.sorure-event-card:hover { transform: translateY(-4px); box-shadow: 0 15px 36px #16414a1f; border-color: #8aafa9; }
+.sorure-event-card:focus-within { outline: 3px solid #64aaa6; outline-offset: 3px; }
+.sorure-event-card-link { color: inherit !important; text-decoration: none !important; height: 100%; display: flex; flex-direction: column; }
+.sorure-event-card-link:focus-visible { outline: none; }
+.sorure-event-card-art { position: relative; min-height: 116px; display: flex; align-items: center; justify-content: center; overflow: hidden; isolation: isolate; }
+.sorure-event-card-art::before, .sorure-event-card-art::after { content: ""; position: absolute; border: 1px solid #ffffff58; aspect-ratio: 1; pointer-events: none; }
+.sorure-event-card-art::before { width: 185px; transform: rotate(25deg); }
+.sorure-event-card-art::after { width: 245px; border-radius: 50%; }
+.sorure-event-card-symbol { position: relative; z-index: 2; font-size: 3.1rem; color: #fff7ea; }
+.sorure-event-card-year { position: absolute; inset-inline-end: 1rem; inset-block-start: .75rem; font-size: .78rem; font-weight: 800; color: #20434a; border-radius: 999px; padding: .12rem .6rem; background: #fffbf1e8; z-index: 3; }
+.sorure-event-card-content { display: flex; flex-direction: column; flex: 1; min-width: 0; padding: 1.3rem; text-align: start; }
+.sorure-event-card-meta { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1rem; align-items: flex-start; }
+.sorure-event-chip { display: inline-flex; align-items: flex-start; gap: .4rem; border: 1px solid transparent; border-radius: 11px; padding: .46rem .65rem; font-size: .8rem; font-weight: 650; line-height: 1.55; text-align: start; max-width: 100%; overflow-wrap: anywhere; }
+.sorure-event-chip svg { width: 16px; height: 16px; flex: 0 0 16px; margin-top: .12rem; }
+.sorure-event-chip-date { background: #e7f4ef; color: #215d56; border-color: #d3e9df; }
+.sorure-event-chip-place { background: #fff4e8; color: #76533c; border-color: #f1e1c9; }
+.sorure-event-card-content h3 { font-size: 1.25rem; font-weight: 850; line-height: 1.55; color: #153841; margin: .1rem 0 .5rem; }
+.sorure-event-card-summary { color: #5e757d; line-height: 1.8; font-size: .93rem; margin: 0 0 1.25rem; flex: 1; }
+.sorure-event-card-read { display: inline-flex; align-items: center; gap: .35rem; font-size: .91rem; font-weight: 750; color: #17717a; margin-top: auto; }
+.sorure-event-card-link:hover .sorure-event-card-read { text-decoration: underline; text-underline-offset: 4px; }
+.sorure-home-event-grid { margin-top: 1.4rem; }
+
+/* The full event detail page uses available desktop width rather than Blowfish's prose cap. */
+.sorure-event-breadcrumb { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; font-size: .84rem; margin: 2rem 0 1.5rem; color: #607980; }
+.sorure-event-breadcrumb a { color: #18747c; text-decoration: none; }
+.sorure-event-breadcrumb a:hover { text-decoration: underline; }
+.sorure-event-breadcrumb [aria-current="page"] { overflow-wrap: anywhere; }
+.sorure-event-page-header { width: 100%; max-width: none; padding: 0 0 1.3rem; border-bottom: 1px solid #d9e7e3; margin-bottom: 1.4rem; }
+.sorure-event-page-header h1 { font-size: clamp(2rem, 3.25vw, 3.4rem); font-weight: 850; line-height: 1.4; color: #173943; margin: .3rem 0 .75rem; }
+.sorure-event-page-header p { width: 100%; max-width: none; color: #617981; font-size: 1.08rem; line-height: 1.9; }
+.sorure-event-article-body { width: 100%; max-width: none; font-size: 1.08rem; line-height: 2; }
+.sorure-event-article-body > p { width: 100%; max-width: none; line-height: 2.05; margin: 1.4rem 0; }
+.sorure-event-page .sorure-event-meta { width: 100%; max-width: none; margin: 1.45rem 0; padding: clamp(1.2rem, 2.4vw, 2rem); }
+.sorure-event-page .sorure-event-facts { gap: .85rem 1.5rem; }
+.sorure-event-page .sorure-event-fact { line-height: 1.7; overflow-wrap: anywhere; }
+.sorure-event-page-footer { margin: 2.4rem 0 3.5rem; padding-top: 1.3rem; border-top: 1px solid #d9e7e3; }
+.sorure-event-back { display: inline-flex; gap: .4rem; text-decoration: none; align-items: center; color: #16717a; font-weight: 750; }
+.sorure-event-back:hover { text-decoration: underline; }
+
+/* Other basic public text pages should not retain a narrow 65ch desktop column. */
+#main-content > article > #single_header { width: 100%; max-width: none; }
+#main-content > article > section.prose { width: 100%; max-width: none; }
+#main-content > article > section.prose > div.min-w-0 { width: 100%; max-width: none; }
+#main-content > article > section.prose .article-content { width: 100%; max-width: none; }
+#main-content > article > section.prose .article-content > p { max-width: none; }
+.sorure-about-intro { max-width: none; width: 100%; }
+.sorure-timeline, .sorure-about-bottom { width: 100%; }
+
+html.dark .sorure-event-card { background: #243842; border-color: #425761; box-shadow: none; }
+html.dark .sorure-event-card-content h3,
+html.dark .sorure-event-page-header h1,
+html.dark .sorure-archive-year h2 { color: #edf4ef; }
+html.dark .sorure-event-card-summary,
+html.dark .sorure-event-page-header p,
+html.dark .sorure-archive-intro,
+html.dark .sorure-event-breadcrumb { color: #bdd0cd; }
+html.dark .sorure-event-chip-date { background: #24564f; color: #e2f9ec; border-color: #477c70; }
+html.dark .sorure-event-chip-place { background: #654832; color: #fff2db; border-color: #846748; }
+html.dark .sorure-event-card-read,
+html.dark .sorure-event-breadcrumb a,
+html.dark .sorure-event-back { color: #8fdbd3; }
+html.dark .sorure-event-page-header,
+html.dark .sorure-event-page-footer,
+html.dark .sorure-archive-year h2 { border-color: #425760; }
+
+@media (max-width: 1100px) {
+  .sorure-event-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .sorure-event-card-grid { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .sorure-event-card-art { min-height: 108px; }
+  .sorure-event-card-content { padding: 1.05rem; }
+  .sorure-archive-header { margin-top: .8rem; }
+  .sorure-event-page-header h1 { font-size: 2rem; }
+  .sorure-event-breadcrumb { margin-top: 1.2rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sorure-event-card { transition: none; }
+  .sorure-event-card:hover { transform: none; }
+}

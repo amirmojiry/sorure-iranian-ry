@@ -1,6 +1,6 @@
 ---
-title: "Getting to know Hokm: a Persian card-game evening"
-description: "A friendly introduction to the traditional Persian team card game Hokm."
+title: "Hokm card-game evening"
+description: "A friendly evening to play Hokm, the traditional Persian team card game."
 slug: "hokm-evening-2026"
 date: "2026-10-30T12:00:00+02:00"
 publishDate: "2026-11-03T12:00:00+02:00"
@@ -23,4 +23,4 @@ osterbotten: "https://events.osterbotten.fi/en/events/show/61711"
 
 {{< event-meta >}}
 
-Sorure organised a Hokm card-game gathering in late October 2026 at Vaasa Integration Services. The event introduced the traditional four-player game, with conversations about its rules and small printed guides for those interested in learning.
+On 30 October 2026, Sorure held a Hokm card-game evening at Vaasa Integration Services. The gathering was organised for playing Hokm together in a friendly setting. A small booklet covering advanced Hokm techniques and strategies was also shared with those interested.

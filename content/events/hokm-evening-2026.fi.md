@@ -1,6 +1,6 @@
 ---
-title: "Hokm – persialaisen korttipelin ilta"
-description: "Yhteinen tutustuminen perinteiseen iranilaiseen korttipeliin."
+title: "Hokm-korttipeli-ilta"
+description: "Yhteinen peli-ilta, jossa pelattiin perinteistä iranilaista Hokm-joukkuekorttipeliä."
 slug: "hokm-evening-2026"
 date: "2026-10-30T12:00:00+02:00"
 publishDate: "2026-11-03T12:00:00+02:00"
@@ -23,4 +23,4 @@ osterbotten: "https://events.osterbotten.fi/en/events/show/61711"
 
 {{< event-meta >}}
 
-Sorure järjesti lokakuun lopussa 2026 Hokm-korttipeli-illan Vaasan kotoutumispalvelujen tiloissa. Illassa tutustuttiin neljän pelaajan joukkuepeliin, juteltiin säännöistä ja jaettiin pieniä ohjevihkoja.
+Sorure järjesti 30. lokakuuta 2026 Hokm-korttipeli-illan Vaasan kotoutumispalvelujen tiloissa. Illan tarkoituksena oli pelata Hokmia yhdessä rennossa ilmapiirissä. Lisäksi kiinnostuneille jaettiin pieni vihkonen, jossa käsiteltiin Hokm-pelin edistyneitä tekniikoita ja strategioita.

@@ -32,15 +32,9 @@
     <div><span class="sorure-section-kicker">{{ $ui.recent }}</span><h2 id="sorure-recent-title">{{ $ui.stories }}</h2><p>{{ $ui.stories_intro }}</p></div>
     <a class="sorure-text-link" href="{{ printf "%sevents/" site.Home.RelPermalink }}">{{ $ui.view_all }} <span aria-hidden="true">↗</span></a>
   </div>
-  <div class="sorure-story-grid">
+  <div class="sorure-event-card-grid sorure-home-event-grid">
     {{ range first 6 ($events.ByDate.Reverse) }}
-      <a class="sorure-story-card" href="{{ .RelPermalink }}">
-        <div class="sorure-story-cover sorure-cover-{{ .Params.event_type | default "community" }}">
-          <span class="sorure-story-glyph" aria-hidden="true">{{ .Params.symbol | default "✺" }}</span>
-          <span class="sorure-card-year">{{ .Params.event_year }}</span>
-        </div>
-        <div class="sorure-story-body"><span class="sorure-story-date">{{ .Params.event_date_label }}</span><h3>{{ .Title }}</h3><p>{{ .Description }}</p><span class="sorure-read-more">{{ $ui.more }} <span aria-hidden="true">↗</span></span></div>
-      </a>
+      {{ partial "sorure/event-card.html" . }}
     {{ end }}
   </div>
 </section>
