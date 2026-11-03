@@ -44,3 +44,7 @@ There are no trackers, cookies, login systems or contact forms. The public email
 Hugo/Blowfish handles sitemaps, robots.txt, canonical and alternate-language (hreflang) links, Open Graph metadata and RSS. The site includes a decorative public SVG sharing image and its own privacy-conscious structured data. Event articles are published as stories about past events, not misleading announcements for future events.
 
 Blowfish remains a separate, MIT-licensed theme; rights to third-party photographs, links and original cultural works remain with their creators.
+
+## Persian typography
+
+Persian-language pages (`/fa/`) use **Vazirmatn Variable** v33.003 (100–900). Hugo downloads the pinned WOFF2 asset at build time and serves it locally alongside the generated site, avoiding third-party font requests in visitors' browsers. English and Finnish typography is unchanged. The font is copyright the Vazirmatn Project Authors and licensed under SIL OFL 1.1; see `static/licenses/Vazirmatn-OFL.txt`.

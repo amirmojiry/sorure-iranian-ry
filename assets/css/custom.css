@@ -1,6 +1,15 @@
 /* Sorure Iranian ry: accessible public visual layer over Blowfish */
 :root { --sr-ink:#143541; --sr-teal:#146c75; --sr-jade:#80a8a0; --sr-sand:#ffead0; --sr-coral:#df8661; --sr-muted:#657b82; --sr-radius:20px; }
-html[lang="fa"] { font-family: Tahoma, "Noto Naskh Arabic", "Noto Sans Arabic", system-ui, sans-serif; }
+/* Vazirmatn is bundled by Hugo from the pinned upstream font at build time.
+   It is served from this GitHub Pages site, not a third-party font CDN. */
+html[lang="fa"],
+html[lang="fa"] body,
+html[lang="fa"] button,
+html[lang="fa"] input,
+html[lang="fa"] select,
+html[lang="fa"] textarea {
+  font-family: "Vazirmatn", Tahoma, "Noto Naskh Arabic", "Noto Sans Arabic", sans-serif;
+}
 html[lang="fi"], html[lang="en"] { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 .sorure-hero { position:relative; margin:2.4rem 0 5rem; display:grid; grid-template-columns:1.05fr .95fr; min-height:470px; background:linear-gradient(120deg,#103641 0%,#174f59 56%,#236a6c 100%); color:#fff8ed; border-radius:30px; overflow:hidden; isolation:isolate; box-shadow:0 18px 50px #10364126; }
 .sorure-hero::before { content:""; position:absolute; width:600px; height:600px; border-radius:50%; background:#fff8df0b; inset-block-start:-370px; inset-inline-start:-130px; z-index:-1; }
