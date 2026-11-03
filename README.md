@@ -1,52 +1,46 @@
 # Sorure Iranian ry — Public website
 
-The public, three-language site of Sorure Iranian ry in Vaasa, Finland.
+A public, multilingual Hugo / Blowfish website for Sorure Iranian ry in Vaasa, Finland.
 
-**Stack:** [Hugo](https://gohugo.io/) + [Blowfish](https://blowfish.page/) v3.9.0 (Hugo Modules), built as a static site and deployed on GitHub Pages. All event content is available in English (`en`), Finnish (`fi`) and Persian (`fa`, RTL).
+**Languages:** English (`/en/`), Finnish (`/fi/`), Persian (`/fa/` with RTL).
 
-## Local development
+**Public URL (after Pages is enabled):** https://amirmojiry.github.io/sorure-iranian-ry/
 
-Install Hugo Extended and Go, then:
+## Development
 
-```bash
-hugo mod download
-hugo server --disableFastRender
+Install Hugo Extended 0.162+ and Go 1.24+, then:
+
+```sh
+hugo mod get github.com/nunocoracao/blowfish/v3@v3.9.0
+hugo server
 ```
 
-To build:
+The theme is pinned to v3.9.0 via Hugo Modules in `go.mod` and `hugo.toml`. Deployments run with `.github/workflows/deploy.yml`.
 
-```bash
-hugo --gc --minify
-```
+To enable: GitHub repo **Settings → Pages → Build and deployment → GitHub Actions**. Check **Actions** for the result. The expected public URL is not confirmed until a deployment finishes successfully.
 
-The deployment workflow is in `.github/workflows/deploy.yml`. In **Settings → Pages**, choose **Build and deployment → Source: GitHub Actions**. The expected website URL is https://amirmojiry.github.io/sorure-iranian-ry/ (only after deployment has succeeded).
+## Add an archived event
 
-## Edit or add an event
+Each archived event has three corresponding files:
 
-Create **three matching Markdown files**:
+- `content/events/<slug>.en.md`
+- `content/events/<slug>.fi.md`
+- `content/events/<slug>.fa.md`
 
-- `content/events/your-event.en.md`
-- `content/events/your-event.fi.md`
-- `content/events/your-event.fa.md`
+Keep the same slug and core facts. Required metadata: `title`, `description`, `date` (sorting anchor), `publishDate` (actual web publication date), `event_date` (exact dates only), `event_date_label`, `date_precision` (`exact`, `season`, `year`), `event_year`, `event_type` and `symbol`. Optional public links: `facebook`, `vaasa`, `lahella`, `osterbotten`. Include the `{{< event-meta >}}` shortcode at the beginning of each event story.
 
-Use the same base filename and `slug` in all three languages. Required content fields: `title`, `description`, `date` (sorting reference only), `publishDate` (actual publication date), `event_date` (only an exact date if verified), `event_date_label`, `date_precision` (`exact`, `month`, `season`, `year`), `event_year`, `event_type`, `symbol`; optional: `venue`, `facebook`, `vaasa`, `lahella`, `osterbotten`. Begin the body with `{{< event-meta >}}` to show an honest date label and available public source links.
+When an exact event date is unknown, use a representative date only for sorting, mark `date_precision` as approximate and show a clearly approximate `event_date_label`. Approximate dates are not exposed as exact Event dates in structured data.
 
-When only the season or year is known, use an approximate sort anchor (`date`), set `date_precision` to `season` or `year`, and describe it as approximate in `event_date_label`. Approximate dates are **never published as exact structured Event dates**.
+## Public-content and privacy rules
 
-## Privacy and publication policy
+**The repository is public.** Never commit budgets, bank details, attendance numbers, internal WhatsApp exports, board-only notes, participant names, private images, internal assessments of turnout or unpublished event plans. Event descriptions should only cover suitable public information.
 
-This is a **public GitHub repository**. Do not commit attendance counts, internal meeting notes, bank statements, budgets, volunteer contact details, private photos, unpublished evaluations, private WhatsApp material, or financial grant applications. Public event articles should describe the activity itself, not internal performance or financial details. Use only event photos with consent and appropriate usage rights.
+Links should refer to the real public Facebook post or Vaasa/Lähellä/Ostrobothnia listing for the event. An event with no post-specific source can link to the association's public Facebook page instead; do not present the Facebook profile as an event proof.
 
-The association's public contact email is `sorureiranianry@gmail.com`. The Facebook page is https://www.facebook.com/profile.php?id=100090246127295. External event links are optional and should refer to actual public pages.
+There are no trackers, cookies, login systems or contact forms. The public email is `sorureiranianry@gmail.com` (also listed by the City of Vaasa), and the Facebook profile is https://www.facebook.com/profile.php?id=100090246127295.
 
-The site does not use trackers, cookies or a contact form. Messages go through the visitor's email client.
+## SEO and maintenance
 
-## Design, localization and SEO
+Hugo/Blowfish handles sitemaps, robots.txt, canonical and alternate-language (hreflang) links, Open Graph metadata and RSS. The site includes a decorative public SVG sharing image and its own privacy-conscious structured data. Event articles are published as stories about past events, not misleading announcements for future events.
 
-- Blowfish layout plus public-facing customized home, about and event link components
-- Hugo multilingual site with Persian RTL and translated navigation
-- XML sitemap, robots.txt, canonical and hreflang via Hugo/Blowfish
-- RSS, Open Graph, and privacy-aware JSON-LD BlogPosting metadata
-- Decorative SVG OG image: not a photograph of any real event
-
-Website code © contributors. Blowfish is a separate, MIT-licensed theme. Event descriptions and third-party assets retain their respective rights.
+Blowfish remains a separate, MIT-licensed theme; rights to third-party photographs, links and original cultural works remain with their creators.

@@ -24,13 +24,14 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: '1.24'
+          cache: false
       - name: Install Hugo Extended
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.169.0'
           extended: true
-      - name: Download pinned Blowfish theme
-        run: hugo mod download
+      - name: Fetch pinned Blowfish theme
+        run: hugo mod get github.com/nunocoracao/blowfish/v3@v3.9.0
       - name: Build static site
         run: hugo --gc --minify --cleanDestinationDir
       - name: Configure GitHub Pages
