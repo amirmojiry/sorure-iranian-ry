@@ -1,4 +1,4 @@
-{{ $p := .Page }}{{ $ui := index site.Data.ui $p.Language.Lang }}
+{{ $p := .Page }}{{ $ui := index hugo.Data.ui $p.Language.Lang }}
 <aside class="sorure-event-meta" aria-label="{{ $ui.event_date }}">
   <div class="sorure-event-facts">
     <span class="sorure-event-fact"><span aria-hidden="true">◷</span> <strong>{{ if ne $p.Params.date_precision "exact" }}{{ $ui.approx }}{{ else }}{{ $ui.event_date }}{{ end }}:</strong> {{ $p.Params.event_date_label }}</span>

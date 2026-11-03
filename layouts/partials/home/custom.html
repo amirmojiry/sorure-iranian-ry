@@ -1,4 +1,4 @@
-{{ $ui := index site.Data.ui site.Language.Lang }}
+{{ $ui := index hugo.Data.ui site.Language.Lang }}
 {{ $events := where site.RegularPages "Section" "events" }}
 <section class="sorure-hero" aria-labelledby="sorure-hero-title">
   <div class="sorure-hero-copy">

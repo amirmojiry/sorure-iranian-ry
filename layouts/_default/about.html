@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $ui := index site.Data.ui site.Language.Lang }}
+{{ $ui := index hugo.Data.ui site.Language.Lang }}
 <article class="sorure-about">
   <header class="sorure-page-hero">
     <span class="sorure-eyebrow">{{ $ui.eyebrow }}</span>
