@@ -25,7 +25,7 @@ Vaasassa asuu monipuolisia luovan alan, opetuksen ja muiden alojen osaajia. **So
 
 **Taste Tale Studio** yhdistää makuja ja tarinoita välimerellisissä ja kansainvälisissä ruoissa, kakuissa sekä leivonnaisissa.
 
-**Verkossa:** [Taste Tale Studion verkkosivusto](https://amirmojiry.github.io/taste-tale-studio/)
+{{< business-link href="https://amirmojiry.github.io/taste-tale-studio/" label="Taste Tale Studion verkkosivusto" >}}
 
 ## Mim Gallery — taidetta, kalligrafiaa ja tilaustöitä
 
@@ -34,7 +34,7 @@ Vaasassa asuu monipuolisia luovan alan, opetuksen ja muiden alojen osaajia. **So
 
 **Mim Galleryn** töissä yhdistyvät kalligrafia, käsintehdyt kirjaimet, kuvitukset ja erilaiset tekniikat. Myös yksilölliset tilaustyöt kuuluvat esittelyyn.
 
-**Verkkosivusto:** [maryammohammadzadehha.github.io](https://maryammohammadzadehha.github.io/)
+{{< business-link href="https://maryammohammadzadehha.github.io/" label="maryammohammadzadehha.github.io" >}}
 
 ## Mehrnaz Saeedinezhad — viulunsoiton opetusta
 
@@ -43,7 +43,7 @@ Vaasassa asuu monipuolisia luovan alan, opetuksen ja muiden alojen osaajia. **So
 
 **Mehrnaz Saeedinezhad** opettaa klassista ja persialaista viulunsoittoa lapsille ja aikuisille Vaasassa sekä verkossa. Esitteessä mainitaan yli kymmenen vuoden opetuskokemus ja maksuton ensimmäinen lähiopetuskerta Vaasassa.
 
-**Verkkosivusto:** [mehrnazviolin.com](https://mehrnazviolin.com/)
+{{< business-link href="https://mehrnazviolin.com/" label="mehrnazviolin.com" >}}
 
 ## Valosilta — tekoälymarkkinointia
 
@@ -52,16 +52,16 @@ Vaasassa asuu monipuolisia luovan alan, opetuksen ja muiden alojen osaajia. **So
 
 **Valosilta** auttaa yrityksiä parantamaan näkyvyyttään tekoälypohjaisissa hauissa, kuten ChatGPT:n ja Googlen tekoälysuosituksissa. Esittelyssä mainitaan kiinteähintainen näkyvyyskartoitus.
 
-**Verkkosivusto:** [valosilta.com](https://valosilta.com/)
+{{< business-link href="https://valosilta.com/" label="valosilta.com" >}}
 
 ## Dejavu Garden — kasvipalveluita
 
-{{< business-photo src="img/blog/dejavu-garden.svg" alt="Dejavu Gardenin huonekasvipalvelut" >}}
+{{< business-photo src="img/blog/dejavu-garden.jpg" alt="Dejavu Gardenin esitekuva" >}}
 
 
 **Dejavu Garden** auttaa huonekasvien kunnon arvioinnissa ja kasvuolosuhteiden parantamisessa.
 
-**Yhteystiedot:** Esitteessä ei mainita erillistä verkkosivustoa. **Sähköposti:** [Nabi.masoud@gmail.com](mailto:Nabi.masoud@gmail.com)
+{{< business-link href="mailto:Nabi.masoud@gmail.com" label="Sähköposti: Nabi.masoud@gmail.com" >}}
 
 ---
 
