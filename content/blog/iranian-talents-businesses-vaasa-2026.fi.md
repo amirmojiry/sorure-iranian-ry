@@ -9,7 +9,7 @@ publication_label: "5. marraskuuta 2026"
 event_year: "2026"
 event_type: "community"
 symbol: "✧"
-cover_image: "img/blog/iranian-talents.svg"
+cover_image: "img/blog/brochure-cover.jpg"
 tags: ["Vaasa", "Iranilainen yhteisö", "Osaaminen"]
 ---
 Vaasassa asuu monipuolisia luovan alan, opetuksen ja muiden alojen osaajia. **Sorure Iranian ry** esittelee viisi osaajaa ja hanketta yhteisön *Iranian Talents & Businesses in Vaasa* -esitteessä.
@@ -20,16 +20,16 @@ Vaasassa asuu monipuolisia luovan alan, opetuksen ja muiden alojen osaajia. **So
 
 ## Taste Tale Studio — kotiruokaa ja leivonnaisia
 
-{{< business-photo src="https://raw.githubusercontent.com/amirmojiry/taste-tale-studio/main/assets/images/persian-tasting-plate-960.webp" alt="Taste Tale Studion ruokia ja kakkuja" >}}
+{{< business-photo src="img/blog/taste-tale.jpg" alt="Taste Tale Studion ruokia ja kakkuja" >}}
 
 
 **Taste Tale Studio** yhdistää makuja ja tarinoita välimerellisissä ja kansainvälisissä ruoissa, kakuissa sekä leivonnaisissa.
 
-**Verkossa:** [Taste Tale Studion projektisivu](https://github.com/amirmojiry/taste-tale-studio)
+**Verkossa:** [Taste Tale Studion verkkosivusto](https://amirmojiry.github.io/taste-tale-studio/)
 
 ## Mim Gallery — taidetta, kalligrafiaa ja tilaustöitä
 
-{{< business-photo src="https://maryammohammadzadehha.github.io/images/homeland.jpg" alt="Mim Galleryn taidetta ja kalligrafiaa" >}}
+{{< business-photo src="img/blog/mim-gallery.jpg" alt="Mim Galleryn taidetta ja kalligrafiaa" >}}
 
 
 **Mim Galleryn** töissä yhdistyvät kalligrafia, käsintehdyt kirjaimet, kuvitukset ja erilaiset tekniikat. Myös yksilölliset tilaustyöt kuuluvat esittelyyn.
@@ -38,7 +38,7 @@ Vaasassa asuu monipuolisia luovan alan, opetuksen ja muiden alojen osaajia. **So
 
 ## Mehrnaz Saeedinezhad — viulunsoiton opetusta
 
-{{< business-photo src="img/blog/violin.svg" alt="Viulukuvitus Mehrnaz Saeedinezhadin opetuksesta" >}}
+{{< business-photo src="img/blog/mehrnaz-violin.jpg" alt="Viulukuvitus Mehrnaz Saeedinezhadin opetuksesta" >}}
 
 
 **Mehrnaz Saeedinezhad** opettaa klassista ja persialaista viulunsoittoa lapsille ja aikuisille Vaasassa sekä verkossa. Esitteessä mainitaan yli kymmenen vuoden opetuskokemus ja maksuton ensimmäinen lähiopetuskerta Vaasassa.
@@ -47,7 +47,7 @@ Vaasassa asuu monipuolisia luovan alan, opetuksen ja muiden alojen osaajia. **So
 
 ## Valosilta — tekoälymarkkinointia
 
-{{< business-photo src="img/blog/valosilta.svg" alt="Valosilta ja tekoälymarkkinointi" >}}
+{{< business-photo src="img/blog/valosilta.jpg" alt="Valosilta ja tekoälymarkkinointi" >}}
 
 
 **Valosilta** auttaa yrityksiä parantamaan näkyvyyttään tekoälypohjaisissa hauissa, kuten ChatGPT:n ja Googlen tekoälysuosituksissa. Esittelyssä mainitaan kiinteähintainen näkyvyyskartoitus.
@@ -61,7 +61,7 @@ Vaasassa asuu monipuolisia luovan alan, opetuksen ja muiden alojen osaajia. **So
 
 **Dejavu Garden** auttaa huonekasvien kunnon arvioinnissa ja kasvuolosuhteiden parantamisessa.
 
-**Yhteystiedot:** Esitteessä on suorat yhteystiedot, mutta erillistä verkkosivustoa ei mainita.
+**Yhteystiedot:** Esitteessä ei mainita erillistä verkkosivustoa. **Sähköposti:** [Nabi.masoud@gmail.com](mailto:Nabi.masoud@gmail.com)
 
 ---
 
