@@ -30,7 +30,9 @@ en:
   more: "Read the story"
   contact_us: "Get in touch"
   contact_intro: "Questions, ideas or collaboration? We'd love to hear from you."
-  about_button: "Read about Sorure"
+  about_button: "Read about Sorure"  blog_publication: "Publication date"
+  blog_back: "Back to blog"
+
 fi:
   eyebrow: "VAASA · SUOMI · PERUSTETTU 2023"
   discover: "Tutustu tarinaamme"
@@ -63,7 +65,9 @@ fi:
   more: "Lue lisää"
   contact_us: "Ota yhteyttä"
   contact_intro: "Kysymyksiä, ideoita tai yhteistyöehdotuksia? Kuulemme mielellämme."
-  about_button: "Tutustu yhdistykseen"
+  about_button: "Tutustu yhdistykseen"  blog_publication: "Julkaisupäivä"
+  blog_back: "Takaisin blogiin"
+
 fa:
   eyebrow: "واسا · فنلاند · از سال ۲۰۲۳"
   discover: "آشنایی با داستان ما"
@@ -97,3 +101,5 @@ fa:
   contact_us: "با ما در ارتباط باشید"
   contact_intro: "پرسش، پیشنهاد یا ایده‌ای برای همکاری دارید؟ خوشحال می‌شویم پیام بدهید."
   about_button: "دربارهٔ انجمن"
+  blog_publication: "تاریخ انتشار"
+  blog_back: "بازگشت به بلاگ"
