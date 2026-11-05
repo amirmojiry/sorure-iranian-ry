@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ $ui := index hugo.Data.ui .Language.Lang }}
+{{ $archive := site.GetPage "section" "blog" }}
+<article class="sorure-event-page sorure-blog-page">
+  <nav class="sorure-event-breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ $archive.RelPermalink }}">{{ $archive.Title }}</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">{{ .Title }}</span>
+  </nav>
+  <header class="sorure-event-page-header">
+    <span class="sorure-section-kicker">{{ $archive.Title }}</span>
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Description }}</p>
+  </header>
+  <div class="sorure-event-article-body">
+    <aside class="sorure-event-meta sorure-blog-meta" aria-label="{{ $ui.blog_publication }}">
+      <span class="sorure-event-fact"><span aria-hidden="true">◷</span><strong>{{ $ui.blog_publication }}:</strong> {{ .Params.publication_label | default (.Date.Format "2 January 2006") }}</span>
+    </aside>
+    {{ .Content }}
+  </div>
+  <footer class="sorure-event-page-footer">
+    <a class="sorure-event-back" href="{{ $archive.RelPermalink }}">{{ $ui.blog_back }} <span aria-hidden="true">↗</span></a>
+  </footer>
+</article>
+{{ end }}
