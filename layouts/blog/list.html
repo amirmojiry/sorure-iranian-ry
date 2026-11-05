@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ $ui := index hugo.Data.ui .Language.Lang }}
+<section class="sorure-archive-page" aria-labelledby="sorure-archive-title">
+  <header class="sorure-page-hero sorure-archive-header">
+    <span class="sorure-eyebrow">{{ .Title }}</span>
+    <h1 id="sorure-archive-title">{{ .Title }}</h1>
+    <p>{{ .Description }}</p>
+  </header>
+  {{ with .Content }}
+    <div class="sorure-archive-intro">{{ . }}</div>
+  {{ end }}
+  {{ range .Pages.GroupByDate "2006" }}
+    <section class="sorure-archive-year" aria-labelledby="blog-year-{{ .Key }}">
+      <h2 id="blog-year-{{ .Key }}">{{ .Key }}</h2>
+      <div class="sorure-event-card-grid">
+        {{ range .Pages }}
+          {{ partial "sorure/event-card.html" . }}
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+</section>
+{{ end }}
