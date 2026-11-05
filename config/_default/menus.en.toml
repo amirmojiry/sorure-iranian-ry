@@ -7,6 +7,10 @@
   pageRef = "events"
   weight = 20
 [[main]]
+  name = "Community blog"
+  pageRef = "blog"
+  weight = 25
+[[main]]
   name = "About us"
   pageRef = "about"
   weight = 30
