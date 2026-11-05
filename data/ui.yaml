@@ -30,7 +30,8 @@ en:
   more: "Read the story"
   contact_us: "Get in touch"
   contact_intro: "Questions, ideas or collaboration? We'd love to hear from you."
-  about_button: "Read about Sorure"  blog_publication: "Publication date"
+  about_button: "Read about Sorure"
+  blog_publication: "Publication date"
   blog_back: "Back to blog"
 
 fi:
@@ -65,7 +66,8 @@ fi:
   more: "Lue lisää"
   contact_us: "Ota yhteyttä"
   contact_intro: "Kysymyksiä, ideoita tai yhteistyöehdotuksia? Kuulemme mielellämme."
-  about_button: "Tutustu yhdistykseen"  blog_publication: "Julkaisupäivä"
+  about_button: "Tutustu yhdistykseen"
+  blog_publication: "Julkaisupäivä"
   blog_back: "Takaisin blogiin"
 
 fa:
