@@ -1,0 +1,10 @@
+{{- $source := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $src := $source -}}
+{{- if not (hasPrefix $source "http") -}}
+  {{- $src = $source | relURL -}}
+{{- end -}}
+<figure class="sorure-business-photo">
+  <img src="{{ $src | safeURL }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+  {{- with .Get "caption" -}}<figcaption>{{ . }}</figcaption>{{- end -}}
+</figure>
