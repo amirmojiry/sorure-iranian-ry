@@ -8,6 +8,10 @@ tags: ["Vaasa", "Iranilainen yhteisö", "Osaaminen"]
 ---
 Vaasassa asuu monipuolisia luovan alan, opetuksen ja muiden alojen osaajia. **Sorure Iranian ry** esittelee viisi osaajaa ja hanketta yhteisön *Iranian Talents & Businesses in Vaasa* -esitteessä.
 
+
+{{< iranian-businesses-brochure >}}
+
+
 ## Taste Tale Studio — kotiruokaa ja leivonnaisia
 
 **Taste Tale Studio** yhdistää makuja ja tarinoita välimerellisissä ja kansainvälisissä ruoissa, kakuissa sekä leivonnaisissa.
