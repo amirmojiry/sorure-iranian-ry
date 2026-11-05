@@ -3,7 +3,13 @@ title: "معرفی توانمندی‌ها و کسب‌وکارهای ایران
 description: "آشنایی با پنج فعالیت و توانمندی ایرانیان واسا در بروشور انجمن سرور ایرانیان."
 date: 2026-11-05T12:00:00+02:00
 publishDate: 2026-11-05T12:00:00+02:00
-showDate: true
+showDate: false
+event_date_label: "۵ نوامبر ۲۰۲۶"
+publication_label: "۵ نوامبر ۲۰۲۶"
+event_year: "2026"
+event_type: "community"
+symbol: "✧"
+cover_image: "img/blog/iranian-talents.svg"
 tags: ["واسا", "جامعه ایرانی", "توانمندی‌ها"]
 ---
 انجمن **سرور ایرانیان** در بروشور «توانمندی‌ها و کسب‌وکارهای ایرانی واسا» پنج نمونه از فعالیت‌ها و مهارت‌های متنوع ایرانیان ساکن واسا را معرفی می‌کند؛ از آشپزی و هنر تا آموزش موسیقی، بازاریابی و نگهداری گیاهان.
@@ -14,11 +20,17 @@ tags: ["واسا", "جامعه ایرانی", "توانمندی‌ها"]
 
 ## Taste Tale Studio — آشپزی خانگی و شیرینی‌پزی
 
+{{< business-photo src="https://raw.githubusercontent.com/amirmojiry/taste-tale-studio/main/assets/images/persian-tasting-plate-960.webp" alt="نمونه غذاها و کیک‌های Taste Tale Studio" >}}
+
+
 **Taste Tale Studio** با تهیه غذاهای مدیترانه‌ای و بین‌المللی، کیک‌ها و شیرینی‌ها، طعم‌های گوناگون را با داستان‌ها و تجربه‌های فرهنگی پیوند می‌دهد.
 
 **نشانی اینترنتی:** [صفحه پروژه Taste Tale Studio](https://github.com/amirmojiry/taste-tale-studio)
 
 ## Mim Gallery — هنر و خوشنویسی
+
+{{< business-photo src="https://maryammohammadzadehha.github.io/images/homeland.jpg" alt="اثر هنری و خوشنویسی Mim Gallery" >}}
+
 
 **Mim Gallery** فضایی برای آثار هنری، خوشنویسی، طراحی حروف و تصویرسازی است که سبک‌ها و تکنیک‌های مختلف را ترکیب می‌کند و سفارش‌های هنری اختصاصی نیز می‌پذیرد.
 
@@ -26,17 +38,26 @@ tags: ["واسا", "جامعه ایرانی", "توانمندی‌ها"]
 
 ## مهرناز سعیدنژاد — آموزش ویولن
 
+{{< business-photo src="img/blog/violin.svg" alt="تصویرسازی ویولن برای معرفی کلاس‌های مهرناز سعیدنژاد" >}}
+
+
 **مهرناز سعیدنژاد** آموزش ویولن کلاسیک و ایرانی را برای کودکان و بزرگ‌سالان، به‌صورت حضوری در واسا و آنلاین ارائه می‌کند. در بروشور به بیش از ده سال تجربه تدریس و رایگان بودن جلسه نخست حضوری در واسا اشاره شده است.
 
 **وب‌سایت:** [mehrnazviolin.com](https://mehrnazviolin.com/)
 
 ## Valosilta — بازاریابی مبتنی بر هوش مصنوعی
 
+{{< business-photo src="img/blog/valosilta.svg" alt="تصویرسازی خدمات بازاریابی Valosilta" >}}
+
+
 **Valosilta** به کسب‌وکارها کمک می‌کند در جست‌وجو و پیشنهادهای مبتنی بر هوش مصنوعی، از جمله ChatGPT و Google AI، بهتر دیده شوند. یکی از خدمات معرفی‌شده، ارزیابی میزان دیده‌شدن با قیمت مشخص است.
 
 **وب‌سایت:** [valosilta.com](https://valosilta.com/)
 
 ## Dejavu Garden — خدمات گیاهان آپارتمانی
+
+{{< business-photo src="img/blog/dejavu-garden.svg" alt="تصویرسازی خدمات گیاهان آپارتمانی Dejavu Garden" >}}
+
 
 **Dejavu Garden** در بررسی وضعیت گیاهان خانگی و بهبود شرایط نگهداری و رشد آن‌ها کمک می‌کند.
 
