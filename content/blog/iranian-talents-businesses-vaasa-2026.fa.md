@@ -25,7 +25,7 @@ tags: ["واسا", "جامعه ایرانی", "توانمندی‌ها"]
 
 **Taste Tale Studio** با تهیه غذاهای مدیترانه‌ای و بین‌المللی، کیک‌ها و شیرینی‌ها، طعم‌های گوناگون را با داستان‌ها و تجربه‌های فرهنگی پیوند می‌دهد.
 
-**نشانی اینترنتی:** [وب‌سایت Taste Tale Studio](https://amirmojiry.github.io/taste-tale-studio/)
+{{< business-link href="https://amirmojiry.github.io/taste-tale-studio/" label="وب‌سایت Taste Tale Studio" >}}
 
 ## Mim Gallery — هنر و خوشنویسی
 
@@ -34,7 +34,7 @@ tags: ["واسا", "جامعه ایرانی", "توانمندی‌ها"]
 
 **Mim Gallery** فضایی برای آثار هنری، خوشنویسی، طراحی حروف و تصویرسازی است که سبک‌ها و تکنیک‌های مختلف را ترکیب می‌کند و سفارش‌های هنری اختصاصی نیز می‌پذیرد.
 
-**وب‌سایت:** [maryammohammadzadehha.github.io](https://maryammohammadzadehha.github.io/)
+{{< business-link href="https://maryammohammadzadehha.github.io/" label="maryammohammadzadehha.github.io" >}}
 
 ## مهرناز سعیدنژاد — آموزش ویولن
 
@@ -43,7 +43,7 @@ tags: ["واسا", "جامعه ایرانی", "توانمندی‌ها"]
 
 **مهرناز سعیدنژاد** آموزش ویولن کلاسیک و ایرانی را برای کودکان و بزرگ‌سالان، به‌صورت حضوری در واسا و آنلاین ارائه می‌کند. در بروشور به بیش از ده سال تجربه تدریس و رایگان بودن جلسه نخست حضوری در واسا اشاره شده است.
 
-**وب‌سایت:** [mehrnazviolin.com](https://mehrnazviolin.com/)
+{{< business-link href="https://mehrnazviolin.com/" label="mehrnazviolin.com" >}}
 
 ## Valosilta — بازاریابی مبتنی بر هوش مصنوعی
 
@@ -52,16 +52,16 @@ tags: ["واسا", "جامعه ایرانی", "توانمندی‌ها"]
 
 **Valosilta** به کسب‌وکارها کمک می‌کند در جست‌وجو و پیشنهادهای مبتنی بر هوش مصنوعی، از جمله ChatGPT و Google AI، بهتر دیده شوند. یکی از خدمات معرفی‌شده، ارزیابی میزان دیده‌شدن با قیمت مشخص است.
 
-**وب‌سایت:** [valosilta.com](https://valosilta.com/)
+{{< business-link href="https://valosilta.com/" label="valosilta.com" >}}
 
 ## Dejavu Garden — خدمات گیاهان آپارتمانی
 
-{{< business-photo src="img/blog/dejavu-garden.svg" alt="تصویرسازی خدمات گیاهان آپارتمانی Dejavu Garden" >}}
+{{< business-photo src="img/blog/dejavu-garden.jpg" alt="تصویر Dejavu Garden در بروشور" >}}
 
 
 **Dejavu Garden** در بررسی وضعیت گیاهان خانگی و بهبود شرایط نگهداری و رشد آن‌ها کمک می‌کند.
 
-**راه ارتباطی:** وب‌سایت مستقلی در بروشور معرفی نشده است. **ایمیل:** [Nabi.masoud@gmail.com](mailto:Nabi.masoud@gmail.com)
+{{< business-link href="mailto:Nabi.masoud@gmail.com" label="ایمیل: Nabi.masoud@gmail.com" >}}
 
 ---
 
