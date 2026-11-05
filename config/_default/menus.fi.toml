@@ -7,6 +7,10 @@
   pageRef = "events"
   weight = 20
 [[main]]
+  name = "Yhteisöblogi"
+  pageRef = "blog"
+  weight = 25
+[[main]]
   name = "Meistä"
   pageRef = "about"
   weight = 30
