@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">Sorure Iranian ry — Cultural events in Vaasa, 6 and 7 November 2026</title>
+<desc id="desc">A teal and cream editorial illustration with two date cards for Identity and World’s Day.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#103a48"/><stop offset="1" stop-color="#20766d"/></linearGradient>
+<linearGradient id="gold" x2="1" y2="1"><stop stop-color="#efd2a2"/><stop offset="1" stop-color="#e9aa78"/></linearGradient>
+</defs>
+<rect width="1200" height="560" fill="url(#bg)"/>
+<circle cx="1090" cy="10" r="270" fill="none" stroke="#e6dbc0" stroke-opacity=".17" stroke-width="2"/>
+<circle cx="1090" cy="10" r="220" fill="none" stroke="#e6dbc0" stroke-opacity=".13" stroke-width="2"/>
+<circle cx="80" cy="520" r="235" fill="#fff" fill-opacity=".04"/>
+<text x="72" y="85" font-family="Arial,sans-serif" fill="#d6c3a1" font-size="25" font-weight="700" letter-spacing="5">SORURE IRANIAN RY</text>
+<text x="72" y="171" font-family="Georgia,serif" fill="#fffaf0" font-weight="700" font-size="55">Two days of culture in Vaasa</text>
+<text x="72" y="208" font-family="Arial,sans-serif" fill="#e1eddf" font-size="24" letter-spacing="2">NOVEMBER 2026</text>
+<g transform="translate(72 250)">
+<rect width="495" height="228" rx="22" fill="#f7f0e3"/>
+<rect x="24" y="22" width="120" height="178" rx="16" fill="#dbebde"/>
+<text x="84" y="98" text-anchor="middle" font-size="70" font-family="Georgia,serif" fill="#1d6263" font-weight="700">06</text>
+<text x="84" y="134" text-anchor="middle" font-size="22" font-family="Arial,sans-serif" fill="#316563" font-weight="700">FRI</text>
+<text x="172" y="85" font-family="Arial,sans-serif" font-weight="700" font-size="39" fill="#203d43">IDENTITY</text>
+<text x="172" y="121" font-family="Arial,sans-serif" font-size="23" fill="#516970">Fashion &amp; food</text>
+<text x="172" y="180" font-family="Arial,sans-serif" font-weight="700" font-size="20" fill="#165c62">CAMPUS ALERE</text>
+</g>
+<g transform="translate(590 250)">
+<rect width="538" height="228" rx="22" fill="#f7f0e3"/>
+<rect x="24" y="22" width="120" height="178" rx="16" fill="#f1dbbf"/>
+<text x="84" y="98" text-anchor="middle" font-size="70" font-family="Georgia,serif" fill="#995738" font-weight="700">07</text>
+<text x="84" y="134" text-anchor="middle" font-size="22" font-family="Arial,sans-serif" fill="#995738" font-weight="700">SAT</text>
+<text x="168" y="85" font-family="Arial,sans-serif" font-weight="700" font-size="35" fill="#203d43">WORLD'S DAY</text>
+<text x="168" y="121" font-family="Arial,sans-serif" font-size="23" fill="#516970">Music, dance &amp; Iran table</text>
+<text x="168" y="180" font-family="Arial,sans-serif" font-weight="700" font-size="20" fill="#165c62">ALMA · VAASA</text>
+</g>
+</svg>
