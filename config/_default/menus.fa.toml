@@ -7,7 +7,7 @@
   pageRef = "events"
   weight = 20
 [[main]]
-  name = "وبلاگ انجمن"
+  name = "بلاگ"
   pageRef = "blog"
   weight = 25
 [[main]]
