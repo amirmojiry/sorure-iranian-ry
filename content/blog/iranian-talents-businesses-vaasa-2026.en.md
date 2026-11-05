@@ -8,6 +8,10 @@ tags: ["Vaasa", "Iranian community", "Local talents"]
 ---
 Vaasa is home to people with a remarkable range of creative, educational and professional skills. **Sorure Iranian ry** is pleased to introduce five local talents and projects in its *Iranian Talents & Businesses in Vaasa* brochure.
 
+
+{{< iranian-businesses-brochure >}}
+
+
 ## Taste Tale Studio — home cooking and baking
 
 From Mediterranean and international dishes to cakes and pastries, **Taste Tale Studio** celebrates food as a way of sharing stories and bringing people together. Its home-cooking creations include savoury meals, colourful cakes and sweets.
