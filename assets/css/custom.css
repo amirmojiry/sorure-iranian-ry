@@ -205,10 +205,32 @@ html.dark .sorure-archive-year h2 { border-color: #425760; }
 .sorure-event-card-art:has(.sorure-event-card-photo)::before, .sorure-event-card-art:has(.sorure-event-card-photo)::after { display:none; }
 .sorure-event-card-art:has(.sorure-event-card-photo) { min-height: 175px; background:#e9eee9; }
 .sorure-business-photo { margin: 1.5rem 0 2.3rem; max-width: 900px; }
-.sorure-business-photo img { display:block; width:100%; max-height:510px; object-fit:cover; border-radius:18px; border:1px solid #d9e5df; background:#e8efe9; }
+.sorure-business-photo img { display:block; width:auto; height:auto; max-width:100%; max-height:510px; aspect-ratio:auto; object-fit:contain; border-radius:18px; border:1px solid #d9e5df; background:#e8efe9; }
 .sorure-business-photo figcaption { font-size:.85rem; color:#71848a; text-align:start; margin-top:.6rem; }
 .sorure-blog-page .sorure-blog-meta { margin: 1rem 0 2rem; }
 .sorure-blog-page .sorure-event-article-body h2 { margin:2.5rem 0 .8rem; font-size:clamp(1.4rem,2.1vw,1.8rem); font-weight:800; }
 .sorure-blog-page .sorure-event-article-body a { overflow-wrap:anywhere; }
 html.dark .sorure-business-photo img { border-color:#425760; }
 @media(max-width:640px) { .sorure-business-photo { margin:1.15rem 0 1.5rem; } .sorure-business-photo img { max-height:360px; } .sorure-event-card-art:has(.sorure-event-card-photo) { min-height:142px; } }
+
+/* Preserve the intrinsic aspect ratio when images are enlarged by Blowfish medium-zoom. */
+.sorure-business-photo { display:flex; flex-direction:column; align-items:center; }
+.sorure-business-photo img.medium-zoom-image, .sorure-business-photo img.medium-zoom-image--opened { object-fit:contain; }
+/* Archive cards navigate to the article; never show the image zoom cursor. */
+.sorure-event-card-photo.nozoom { cursor:inherit; }
+.sorure-event-card-link { cursor:pointer; }
+/* Visible, keyboard-accessible calls to action for websites and PDF downloads. */
+.sorure-business-link-wrap { display:flex; justify-content:flex-start; align-items:center; flex-wrap:wrap; gap:.65rem; margin:1.15rem 0 2rem; }
+.sorure-business-link { display:inline-flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:.7rem; max-width:100%; padding:.68rem 1.2rem; border-radius:999px; border:1px solid #9bc7bd; background:#e6f3ef; color:#155c62!important; text-decoration:none!important; font-size:.97rem; font-weight:850; line-height:1.6; box-shadow:0 4px 13px #1b51521a; transition:transform .18s ease,box-shadow .18s ease,background .18s ease; overflow-wrap:anywhere; text-align:center; }
+.sorure-business-link-label { text-decoration:underline; text-decoration-thickness:1.5px; text-underline-offset:4px; }
+.sorure-business-link:hover { background:#d6eae3; transform:translateY(-2px); box-shadow:0 7px 17px #1b51522b; }
+.sorure-business-link:focus-visible { outline:3px solid #246f77; outline-offset:3px; }
+.sorure-brochure-download-wrap { margin:1.35rem 0 2.3rem; }
+.sorure-brochure-download { background:#17636d; border-color:#17636d; color:#fff!important; box-shadow:0 7px 22px #174e5629; }
+.sorure-brochure-download:hover { background:#104e57; color:#fff!important; }
+.sorure-brochure-download svg { flex:0 0 auto; }
+html.dark .sorure-business-link:not(.sorure-brochure-download) { background:#244a4e; border-color:#6daca3; color:#e4f8f2!important; }
+html.dark .sorure-business-link:not(.sorure-brochure-download):hover { background:#315d5b; }
+html.dark .sorure-brochure-download { background:#177987; border-color:#5aa9af; color:#fff!important; }
+@media(max-width:640px) { .sorure-business-link { padding:.65rem 1rem; font-size:.9rem; } }
+@media(prefers-reduced-motion:reduce) { .sorure-business-link { transition:none; } .sorure-business-link:hover { transform:none; } }
