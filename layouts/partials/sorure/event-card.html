@@ -2,7 +2,11 @@
 <article class="sorure-event-card">
   <a class="sorure-event-card-link" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
     <div class="sorure-event-card-art sorure-cover-{{ .Params.event_type | default "community" }}" aria-hidden="true">
-      <span class="sorure-event-card-symbol">{{ .Params.symbol | default "✺" }}</span>
+      {{ with .Params.cover_image }}
+        <img class="sorure-event-card-photo" src="{{ . | relURL }}" alt="" loading="lazy" decoding="async">
+      {{ else }}
+        <span class="sorure-event-card-symbol">{{ $.Params.symbol | default "✺" }}</span>
+      {{ end }}
       <span class="sorure-event-card-year">{{ .Params.event_year }}</span>
     </div>
     <div class="sorure-event-card-content">
