@@ -1,0 +1,13 @@
+{{- $href := .Get "href" -}}
+{{- $label := .Get "label" -}}
+{{- $external := hasPrefix $href "https://" -}}
+<div class="sorure-business-link-wrap">
+  <a class="sorure-business-link" href="{{ $href | safeURL }}"{{ if $external }} target="_blank" rel="noopener noreferrer"{{ end }}>
+    <span class="sorure-business-link-label">{{ $label }}</span>
+    {{- if $external -}}
+      <span aria-hidden="true">↗</span>
+    {{- else -}}
+      <span aria-hidden="true">✉</span>
+    {{- end -}}
+  </a>
+</div>
