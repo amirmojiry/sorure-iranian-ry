@@ -25,7 +25,7 @@ Vaasa is home to people with a remarkable range of creative, educational and pro
 
 From Mediterranean and international dishes to cakes and pastries, **Taste Tale Studio** celebrates food as a way of sharing stories and bringing people together. Its home-cooking creations include savoury meals, colourful cakes and sweets.
 
-**Online:** [Taste Tale Studio website](https://amirmojiry.github.io/taste-tale-studio/)
+{{< business-link href="https://amirmojiry.github.io/taste-tale-studio/" label="Taste Tale Studio website" >}}
 
 ## Mim Gallery — art, calligraphy and custom orders
 
@@ -34,7 +34,7 @@ From Mediterranean and international dishes to cakes and pastries, **Taste Tale 
 
 **Mim Gallery** explores lettering, calligraphy, illustration and mixed-media artwork. Its work combines different artistic techniques and styles, with personalised creative commissions.
 
-**Website:** [maryammohammadzadehha.github.io](https://maryammohammadzadehha.github.io/)
+{{< business-link href="https://maryammohammadzadehha.github.io/" label="maryammohammadzadehha.github.io" >}}
 
 ## Mehrnaz Saeedinezhad — violin instruction
 
@@ -43,7 +43,7 @@ From Mediterranean and international dishes to cakes and pastries, **Taste Tale 
 
 **Mehrnaz Saeedinezhad** teaches classical and Persian violin to children and adults, offering in-person lessons in Vaasa and online lessons internationally. The brochure highlights more than ten years of teaching experience and a free first in-person session in Vaasa.
 
-**Website:** [mehrnazviolin.com](https://mehrnazviolin.com/)
+{{< business-link href="https://mehrnazviolin.com/" label="mehrnazviolin.com" >}}
 
 ## Valosilta — AI marketing and online visibility
 
@@ -52,16 +52,16 @@ From Mediterranean and international dishes to cakes and pastries, **Taste Tale 
 
 **Valosilta** supports businesses seeking greater visibility in AI-assisted search, including ChatGPT and Google AI recommendations. Its introduction highlights a fixed-price visibility audit.
 
-**Website:** [valosilta.com](https://valosilta.com/)
+{{< business-link href="https://valosilta.com/" label="valosilta.com" >}}
 
 ## Dejavu Garden — plant services
 
-{{< business-photo src="img/blog/dejavu-garden.svg" alt="Dejavu Garden houseplant services illustration" >}}
+{{< business-photo src="img/blog/dejavu-garden.jpg" alt="Dejavu Garden photographed in the community brochure" >}}
 
 
 **Dejavu Garden** offers support for houseplants, including checking their condition and advising on ways to improve their care and growing environment.
 
-**Contact:** No standalone website is listed in the brochure. **Email:** [Nabi.masoud@gmail.com](mailto:Nabi.masoud@gmail.com)
+{{< business-link href="mailto:Nabi.masoud@gmail.com" label="Email: Nabi.masoud@gmail.com" >}}
 
 ---
 
