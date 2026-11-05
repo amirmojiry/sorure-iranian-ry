@@ -1,0 +1,10 @@
+{{- $pdf := "downloads/iranian-talents-businesses-vaasa-2026.pdf" -}}
+{{- if fileExists (printf "static/%s" $pdf) -}}
+  {{- if eq .Page.Language.Lang "fa" -}}
+  <p><a class="brochure-download" href="{{ $pdf | relURL }}" download>دریافت نسخه کامل بروشور (PDF)</a></p>
+  {{- else if eq .Page.Language.Lang "fi" -}}
+  <p><a class="brochure-download" href="{{ $pdf | relURL }}" download>Lataa koko esite (PDF)</a></p>
+  {{- else -}}
+  <p><a class="brochure-download" href="{{ $pdf | relURL }}" download>Download the complete brochure (PDF)</a></p>
+  {{- end -}}
+{{- end -}}
