@@ -3,7 +3,7 @@
   <a class="sorure-event-card-link" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
     <div class="sorure-event-card-art sorure-cover-{{ .Params.event_type | default "community" }}" aria-hidden="true">
       {{ with .Params.cover_image }}
-        <img class="sorure-event-card-photo" src="{{ . | relURL }}" alt="" loading="lazy" decoding="async">
+        <img class="sorure-event-card-photo nozoom" src="{{ . | relURL }}" alt="" loading="lazy" decoding="async">
       {{ else }}
         <span class="sorure-event-card-symbol">{{ $.Params.symbol | default "✺" }}</span>
       {{ end }}
