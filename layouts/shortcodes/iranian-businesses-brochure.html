@@ -1,10 +1,15 @@
 {{- $pdf := "downloads/iranian-talents-businesses-vaasa-2026.pdf" -}}
 {{- if fileExists (printf "static/%s" $pdf) -}}
+  {{- $label := "Download the complete brochure (PDF)" -}}
   {{- if eq .Page.Language.Lang "fa" -}}
-  <p><a class="brochure-download" href="{{ $pdf | relURL }}" download>دریافت نسخه کامل بروشور (PDF)</a></p>
+    {{- $label = "دریافت نسخه کامل بروشور (PDF)" -}}
   {{- else if eq .Page.Language.Lang "fi" -}}
-  <p><a class="brochure-download" href="{{ $pdf | relURL }}" download>Lataa koko esite (PDF)</a></p>
-  {{- else -}}
-  <p><a class="brochure-download" href="{{ $pdf | relURL }}" download>Download the complete brochure (PDF)</a></p>
+    {{- $label = "Lataa koko esite (PDF)" -}}
   {{- end -}}
+  <div class="sorure-business-link-wrap sorure-brochure-download-wrap">
+    <a class="sorure-business-link sorure-brochure-download" href="{{ $pdf | relURL }}" download>
+      <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4"/></svg>
+      <span class="sorure-business-link-label">{{ $label }}</span>
+    </a>
+  </div>
 {{- end -}}
