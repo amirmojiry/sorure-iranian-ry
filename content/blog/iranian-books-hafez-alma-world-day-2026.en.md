@@ -9,6 +9,7 @@ event_type: "culture"
 symbol: "✦"
 cover_image: "img/blog/iran-table-world-day-2026.jpg"
 publication_label: "8 November 2026"
+event_date_label: "8 November 2026"
 tags: ["Iran", "Vaasa", "World's Day", "Literature"]
 ---
 
