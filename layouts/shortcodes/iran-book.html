@@ -1,0 +1,12 @@
+{{- $title := .Get "title" -}}
+{{- $img := .Get "img" -}}
+{{- $query := .Get "query" -}}
+{{- $label := .Get "label" -}}
+<section class="sorure-book-entry" aria-label="{{ $title }}">
+  <div class="sorure-book-cover"><img src="{{ $img | relURL }}" alt="{{ $title }}" loading="lazy" decoding="async"></div>
+  <div class="sorure-book-info">
+    <h3>{{ $title }}</h3>
+    <div class="sorure-book-description">{{ .Inner | markdownify }}</div>
+    <a class="sorure-book-catalog-link" href="https://vaasankirjasto.finna.fi/Search/Results?lookfor={{ $query | urlquery }}&amp;type=AllFields" target="_blank" rel="noopener noreferrer">{{ $label }} <span aria-hidden="true">↗</span></a>
+  </div>
+</section>

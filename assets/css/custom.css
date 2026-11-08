@@ -234,3 +234,19 @@ html.dark .sorure-business-link:not(.sorure-brochure-download):hover { backgroun
 html.dark .sorure-brochure-download { background:#177987; border-color:#5aa9af; color:#fff!important; }
 @media(max-width:640px) { .sorure-business-link { padding:.65rem 1rem; font-size:.9rem; } }
 @media(prefers-reduced-motion:reduce) { .sorure-business-link { transition:none; } .sorure-business-link:hover { transform:none; } }
+
+
+/* Books displayed at Alma World’s Day: responsive, accessible catalog cards. */
+.sorure-blog-page .sorure-book-entry{display:grid;grid-template-columns:minmax(125px,180px) minmax(0,1fr);gap:clamp(1rem,2.5vw,1.7rem);align-items:start;margin:1.5rem 0;padding:1.2rem;border:1px solid #d9e7e3;background:linear-gradient(140deg,#fffdf8,#f5f9f6);border-radius:18px;box-shadow:0 7px 22px #173e3b0d}
+.sorure-book-cover{display:flex;align-items:flex-start;justify-content:center;min-width:0}
+.sorure-book-cover img{display:block;width:auto;height:auto;max-width:100%;max-height:260px;object-fit:contain;border-radius:5px;box-shadow:0 6px 18px #12282e21}
+.sorure-book-info{min-width:0}
+.sorure-blog-page .sorure-book-info h3{font-size:clamp(1.12rem,2vw,1.48rem);font-weight:850;line-height:1.55;margin:0 0 .6rem;color:#173943}
+.sorure-book-description p{margin:.3rem 0 1rem;line-height:1.85;font-size:1rem}
+.sorure-book-catalog-link{display:inline-flex;align-items:center;gap:.6rem;text-decoration:none!important;color:#115c62!important;background:#e5f2ed;border:1px solid #b5d9cf;border-radius:999px;padding:.55rem 1rem;font-weight:750;font-size:.92rem;line-height:1.6}
+.sorure-book-catalog-link:hover{background:#d7eae2}
+.sorure-book-catalog-link:focus-visible{outline:3px solid #246f77;outline-offset:3px}
+html.dark .sorure-book-entry{background:#243842;border-color:#425761}
+html.dark .sorure-blog-page .sorure-book-info h3{color:#edf4ef}
+html.dark .sorure-book-catalog-link{background:#265653;color:#ecf9f4!important;border-color:#60998e}
+@media(max-width:560px){.sorure-blog-page .sorure-book-entry{grid-template-columns:minmax(85px,110px) minmax(0,1fr);gap:.85rem;padding:.9rem}.sorure-book-cover img{max-height:190px}.sorure-book-catalog-link{font-size:.83rem;padding:.5rem .75rem;white-space:normal}.sorure-book-description p{font-size:.93rem}}
