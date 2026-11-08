@@ -1,8 +1,8 @@
 ---
 title: "Books about Iran and the Hafez Poetry Tradition at Alma World’s Day"
 description: "Ten books about Iranian literature, culture and art displayed at World’s Day in Vaasa, with library catalogue links and an introduction to Fal-e Hafez."
-date: "2026-11-08T14:30:00+02:00"
-publishDate: "2026-11-08T14:30:00+02:00"
+date: "2026-11-08T12:00:00+02:00"
+publishDate: "2026-11-08T12:00:00+02:00"
 showDate: false
 event_year: "2026"
 event_type: "culture"

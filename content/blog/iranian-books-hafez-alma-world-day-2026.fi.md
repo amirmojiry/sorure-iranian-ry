@@ -1,8 +1,8 @@
 ---
 title: "Irania käsittelevät kirjat ja Hafizin runoperinne Alman Maailman päivässä"
 description: "Kymmenen Iranin kirjallisuutta, kulttuuria ja taidetta esittelevää kirjaa Vaasan Maailman päivässä sekä tietoa Hafizin runoperinteestä ja kirjaston hakulinkit."
-date: "2026-11-08T14:30:00+02:00"
-publishDate: "2026-11-08T14:30:00+02:00"
+date: "2026-11-08T12:00:00+02:00"
+publishDate: "2026-11-08T12:00:00+02:00"
 showDate: false
 event_year: "2026"
 event_type: "culture"
