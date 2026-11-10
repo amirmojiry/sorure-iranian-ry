@@ -1,4 +1,6 @@
 ---
+blogcategories: ["association-updates"]
+blogtags: ["association-events", "intercultural-exchange", "vaasa", "iranian-community"]
 title: "Sorure Iranian ry at two cultural events in Vaasa, 6–7 November 2026"
 description: "Join Sorure Iranian ry at the Identity fashion event and World’s Day at Alma."
 date: "2026-11-05T13:30:00+02:00"
@@ -10,7 +12,6 @@ symbol: "✦"
 cover_image: "img/blog/november-cultural-events-2026.svg"
 event_date_label: "5 November 2026"
 publication_label: "5 November 2026"
-tags: ["Vaasa", "Cultural events", "Iranian community"]
 ---
 
 **Sorure Iranian ry** will participate in two cultural events in Vaasa on **Friday 6 and Saturday 7 November 2026**. We warmly invite everyone interested in cultural exchange to meet the association and discover aspects of Iranian culture.

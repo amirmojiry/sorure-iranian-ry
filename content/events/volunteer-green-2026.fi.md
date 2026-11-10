@@ -10,6 +10,8 @@ event_date_label: "Kesä 2026 (arvio)"
 date_precision: "season"
 event_year: "2026"
 event_type: "volunteer"
+eventcategories: ["environment-volunteering"]
+eventtags: ["volunteering", "environment", "partnership"]
 symbol: "❃"
 showDate: false
 showAuthor: false

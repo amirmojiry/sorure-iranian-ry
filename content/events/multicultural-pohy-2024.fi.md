@@ -10,6 +10,8 @@ event_date_label: "15. toukokuuta 2024"
 date_precision: "exact"
 event_year: "2024"
 event_type: "culture"
+eventcategories: ["culture-arts"]
+eventtags: ["intercultural-exchange", "arts-creativity", "partnership"]
 symbol: "✺"
 showDate: false
 showAuthor: false

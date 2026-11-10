@@ -1,4 +1,6 @@
 ---
+blogcategories: ["culture-literature"]
+blogtags: ["persian-literature", "hafez", "world-day", "vaasa", "iranian-community"]
 title: "Irania käsittelevät kirjat ja Hafizin runoperinne Alman Maailman päivässä"
 description: "Kymmenen Iranin kirjallisuutta, kulttuuria ja taidetta esittelevää kirjaa Vaasan Maailman päivässä sekä tietoa Hafizin runoperinteestä ja kirjaston hakulinkit."
 date: "2026-11-08T12:00:00+02:00"
@@ -10,7 +12,6 @@ symbol: "✦"
 cover_image: "img/blog/iran-table-world-day-2026.jpg"
 publication_label: "8. marraskuuta 2026"
 event_date_label: "8. marraskuuta 2026"
-tags: ["Iran", "Vaasa", "World's Day", "Literature"]
 ---
 
 {{< business-photo src="img/blog/iran-table-world-day-2026.jpg" alt="Iran table with books and Hafez poetry fortunes at Alma World’s Day, Vaasa, 2026" >}}

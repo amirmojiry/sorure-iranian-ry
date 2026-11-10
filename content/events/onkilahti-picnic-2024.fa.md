@@ -10,6 +10,8 @@ event_date_label: "۲۰ ژوئیهٔ ۲۰۲۴"
 date_precision: "exact"
 event_year: "2024"
 event_type: "community"
+eventcategories: ["community-inclusion"]
+eventtags: ["community-building", "families", "outdoors"]
 symbol: "◈"
 showDate: false
 showAuthor: false

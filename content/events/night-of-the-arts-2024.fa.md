@@ -10,6 +10,8 @@ event_date_label: "۱۵ اوت ۲۰۲۴"
 date_precision: "exact"
 event_year: "2024"
 event_type: "art"
+eventcategories: ["culture-arts"]
+eventtags: ["arts-creativity", "community-building", "intercultural-exchange"]
 symbol: "✧"
 showDate: false
 showAuthor: false

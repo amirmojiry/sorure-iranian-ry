@@ -22,9 +22,10 @@
           </span>
         {{ end }}
       </div>
+      {{ partial "sorure/content-taxonomy.html" (dict "page" . "compact" true) }}
       <h3>{{ .Title }}</h3>
       <p class="sorure-event-card-summary">{{ .Description }}</p>
-      <span class="sorure-event-card-read">{{ $ui.more }} <span aria-hidden="true">↗</span></span>
+      <span class="sorure-event-card-read">{{ if eq .Section "blog" }}{{ $ui.blog_read_more }}{{ else }}{{ $ui.event_read_more }}{{ end }} <span aria-hidden="true">↗</span></span>
     </div>
   </a>
 </article>

@@ -10,6 +10,8 @@ event_date_label: "۲۱ دسامبر ۲۰۲۳"
 date_precision: "exact"
 event_year: "2023"
 event_type: "culture"
+eventcategories: ["culture-arts"]
+eventtags: ["cultural-heritage", "community-building", "families"]
 symbol: "✹"
 showDate: false
 showAuthor: false

@@ -10,6 +10,8 @@ event_date_label: "2. lokakuuta 2026"
 date_precision: "exact"
 event_year: "2026"
 event_type: "culture"
+eventcategories: ["food-skills"]
+eventtags: ["food-traditions", "intercultural-exchange", "skills-sharing"]
 symbol: "✺"
 showDate: false
 showAuthor: false

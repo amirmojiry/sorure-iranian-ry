@@ -10,6 +10,8 @@ event_date_label: "تابستان ۲۰۲۶ (تقریبی)"
 date_precision: "season"
 event_year: "2026"
 event_type: "language"
+eventcategories: ["education-language"]
+eventtags: ["language-learning", "integration", "adult-learning"]
 symbol: "✦"
 showDate: false
 showAuthor: false

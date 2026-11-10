@@ -4,12 +4,13 @@
     <span class="sorure-event-fact"><span aria-hidden="true">◷</span> <strong>{{ if ne $p.Params.date_precision "exact" }}{{ $ui.approx }}{{ else }}{{ $ui.event_date }}{{ end }}:</strong> {{ $p.Params.event_date_label }}</span>
     {{ with $p.Params.venue }}<span class="sorure-event-fact"><span aria-hidden="true">⌾</span> <strong>{{ $ui.location }}:</strong> {{ . }}</span>{{ end }}
   </div>
-  <div class="sorure-external-links">
-    <p>{{ $ui.sources }}</p>
-    {{ with $p.Params.facebook }}<a href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer">{{ $ui.facebook }} ↗</a>{{ end }}
-    {{ with $p.Params.vaasa }}<a href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer">{{ $ui.vaasa }} ↗</a>{{ end }}
-    {{ with $p.Params.lahella }}<a href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer">{{ $ui.lahella }} ↗</a>{{ end }}
-    {{ with $p.Params.osterbotten }}<a href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer">{{ $ui.ostrobothnia }} ↗</a>{{ end }}
-    <a href="{{ site.Params.facebook }}" target="_blank" rel="noopener noreferrer">{{ $ui.facebook_page }} ↗</a>
-  </div>
+  {{ if or $p.Params.facebook $p.Params.vaasa $p.Params.lahella $p.Params.osterbotten }}
+    <div class="sorure-external-links">
+      <p>{{ $ui.sources }}</p>
+      {{ with $p.Params.facebook }}<a href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer">{{ $ui.facebook }} ↗</a>{{ end }}
+      {{ with $p.Params.vaasa }}<a href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer">{{ $ui.vaasa }} ↗</a>{{ end }}
+      {{ with $p.Params.lahella }}<a href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer">{{ $ui.lahella }} ↗</a>{{ end }}
+      {{ with $p.Params.osterbotten }}<a href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer">{{ $ui.ostrobothnia }} ↗</a>{{ end }}
+    </div>
+  {{ end }}
 </aside>

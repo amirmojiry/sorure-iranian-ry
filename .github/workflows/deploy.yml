@@ -32,6 +32,8 @@ jobs:
           extended: true
       - name: Fetch pinned Blowfish theme
         run: hugo mod get github.com/nunocoracao/blowfish/v3@v3.9.0
+      - name: Validate event and blog taxonomy metadata
+        run: python3 scripts/validate_content.py
       - name: Build static site
         run: hugo --gc --minify --cleanDestinationDir
       - name: Configure or enable GitHub Pages

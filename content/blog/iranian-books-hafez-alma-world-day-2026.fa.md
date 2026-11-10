@@ -1,4 +1,6 @@
 ---
+blogcategories: ["culture-literature"]
+blogtags: ["persian-literature", "hafez", "world-day", "vaasa", "iranian-community"]
 title: "کتاب‌هایی درباره ایران و فال حافظ در روز جهان آلما"
 description: "معرفی ۱۰ کتاب درباره ادبیات، فرهنگ و هنر ایران که در روز جهان آلما در واسا به نمایش درآمدند؛ همراه با لینک جست‌وجوی کتابخانه و آشنایی با فال حافظ."
 date: "2026-11-08T12:00:00+02:00"
@@ -10,7 +12,6 @@ symbol: "✦"
 cover_image: "img/blog/iran-table-world-day-2026.jpg"
 publication_label: "۸ نوامبر ۲۰۲۶"
 event_date_label: "۸ نوامبر ۲۰۲۶"
-tags: ["Iran", "Vaasa", "World's Day", "Literature"]
 ---
 
 {{< business-photo src="img/blog/iran-table-world-day-2026.jpg" alt="Iran table with books and Hafez poetry fortunes at Alma World’s Day, Vaasa, 2026" >}}

@@ -10,6 +10,8 @@ event_date_label: "Summer 2026 (approx.)"
 date_precision: "season"
 event_year: "2026"
 event_type: "volunteer"
+eventcategories: ["environment-volunteering"]
+eventtags: ["volunteering", "environment", "partnership"]
 symbol: "❃"
 showDate: false
 showAuthor: false

@@ -10,6 +10,8 @@ event_date_label: "Vuosi 2024 (tarkka ajankohta arvio)"
 date_precision: "year"
 event_year: "2024"
 event_type: "language"
+eventcategories: ["education-language"]
+eventtags: ["language-learning", "integration", "adult-learning"]
 symbol: "✦"
 showDate: false
 showAuthor: false

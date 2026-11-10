@@ -10,6 +10,8 @@ event_date_label: "۴ اکتبر ۲۰۲۵"
 date_precision: "exact"
 event_year: "2025"
 event_type: "community"
+eventcategories: ["community-inclusion"]
+eventtags: ["community-building", "families", "outdoors"]
 symbol: "◈"
 showDate: false
 showAuthor: false

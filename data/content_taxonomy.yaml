@@ -1,0 +1,170 @@
+event:
+  category_order:
+    - "culture-arts"
+    - "education-language"
+    - "sports-wellbeing"
+    - "community-inclusion"
+    - "children-families"
+    - "food-skills"
+    - "environment-volunteering"
+  categories:
+    culture-arts:
+      en: "Culture, arts & heritage"
+      fi: "Kulttuuri, taide ja kulttuuriperintö"
+      fa: "فرهنگ، هنر و میراث"
+    education-language:
+      en: "Education & language learning"
+      fi: "Koulutus ja kielten oppiminen"
+      fa: "آموزش و زبان"
+    sports-wellbeing:
+      en: "Sports & wellbeing"
+      fi: "Liikunta ja hyvinvointi"
+      fa: "ورزش و تندرستی"
+    community-inclusion:
+      en: "Community & participation"
+      fi: "Yhteisöllisyys ja osallisuus"
+      fa: "اجتماع و مشارکت"
+    children-families:
+      en: "Children & families"
+      fi: "Lapset ja perheet"
+      fa: "کودک و خانواده"
+    food-skills:
+      en: "Food culture & everyday skills"
+      fi: "Ruokakulttuuri ja arjen taidot"
+      fa: "خوراک و مهارت‌های زندگی"
+    environment-volunteering:
+      en: "Environment & volunteering"
+      fi: "Ympäristö ja vapaaehtoistyö"
+      fa: "محیط‌زیست و داوطلبی"
+  tags:
+    community-building:
+      en: "Community connections"
+      fi: "Yhteisöllisyys"
+      fa: "پیوندهای اجتماعی"
+    intercultural-exchange:
+      en: "Intercultural exchange"
+      fi: "Kulttuurienvälinen vuorovaikutus"
+      fa: "تعامل میان‌فرهنگی"
+    cultural-heritage:
+      en: "Cultural heritage"
+      fi: "Kulttuuriperintö"
+      fa: "میراث فرهنگی"
+    language-learning:
+      en: "Language learning"
+      fi: "Kielten oppiminen"
+      fa: "زبان‌آموزی"
+    integration:
+      en: "Integration"
+      fi: "Kotoutuminen"
+      fa: "ادغام اجتماعی"
+    adult-learning:
+      en: "Adult learning"
+      fi: "Aikuiskoulutus"
+      fa: "آموزش بزرگسالان"
+    children:
+      en: "Children"
+      fi: "Lapset"
+      fa: "کودکان"
+    families:
+      en: "Families"
+      fi: "Perheet"
+      fa: "خانواده‌ها"
+    arts-creativity:
+      en: "Arts & creativity"
+      fi: "Taide ja luovuus"
+      fa: "هنر و خلاقیت"
+    literature:
+      en: "Literature"
+      fi: "Kirjallisuus"
+      fa: "ادبیات"
+    physical-activity:
+      en: "Physical activity"
+      fi: "Liikunta"
+      fa: "فعالیت بدنی"
+    wellbeing:
+      en: "Wellbeing"
+      fi: "Hyvinvointi"
+      fa: "سلامت و تندرستی"
+    outdoors:
+      en: "Outdoor activities"
+      fi: "Ulkoilu"
+      fa: "فعالیت‌های فضای باز"
+    food-traditions:
+      en: "Food traditions"
+      fi: "Ruokaperinteet"
+      fa: "سنت‌های غذایی"
+    skills-sharing:
+      en: "Skills sharing"
+      fi: "Taitojen jakaminen"
+      fa: "انتقال مهارت"
+    environment:
+      en: "Environment"
+      fi: "Ympäristö"
+      fa: "محیط‌زیست"
+    volunteering:
+      en: "Volunteering"
+      fi: "Vapaaehtoistyö"
+      fa: "داوطلبی"
+    partnership:
+      en: "Partnership"
+      fi: "Yhteistyö"
+      fa: "همکاری"
+blog:
+  category_order:
+    - "association-updates"
+    - "culture-literature"
+    - "community-stories"
+  categories:
+    association-updates:
+      en: "Association news & updates"
+      fi: "Yhdistyksen uutiset"
+      fa: "خبرها و فعالیت‌های انجمن"
+    culture-literature:
+      en: "Culture & literature"
+      fi: "Kulttuuri ja kirjallisuus"
+      fa: "فرهنگ و ادبیات"
+    community-stories:
+      en: "Community stories & local talent"
+      fi: "Yhteisötarinat ja paikallinen osaaminen"
+      fa: "داستان‌های جامعه و توانمندی‌ها"
+  tags:
+    vaasa:
+      en: "Vaasa"
+      fi: "Vaasa"
+      fa: "واسا"
+    iranian-community:
+      en: "Iranian community"
+      fi: "Iranilainen yhteisö"
+      fa: "جامعه ایرانی"
+    association-events:
+      en: "Association events"
+      fi: "Yhdistyksen tapahtumat"
+      fa: "برنامه‌های انجمن"
+    intercultural-exchange:
+      en: "Intercultural exchange"
+      fi: "Kulttuurienvälinen vuorovaikutus"
+      fa: "تعامل میان‌فرهنگی"
+    persian-literature:
+      en: "Persian literature"
+      fi: "Persialainen kirjallisuus"
+      fa: "ادبیات فارسی"
+    hafez:
+      en: "Hafez"
+      fi: "Hafiz"
+      fa: "حافظ"
+    world-day:
+      en: "World’s Day"
+      fi: "Maailman päivä"
+      fa: "روز جهان"
+    local-talents:
+      en: "Local skills & talents"
+      fi: "Paikallinen osaaminen"
+      fa: "توانمندی‌های محلی"
+    creative-arts:
+      en: "Creative arts"
+      fi: "Luovat alat"
+      fa: "هنرهای خلاق"
+    entrepreneurship:
+      en: "Entrepreneurship"
+      fi: "Yrittäjyys"
+      fa: "کارآفرینی"

@@ -1,5 +1,9 @@
 {{ define "main" }}
 {{ $ui := index hugo.Data.ui site.Language.Lang }}
+{{ $lang := site.Language.Lang }}
+{{ $association := site.Data.association }}
+{{ $tax := site.Data.content_taxonomy.event }}
+{{ $events := where (where site.RegularPages "Section" "events") "Lang" $lang }}
 <article class="sorure-about">
   <header class="sorure-page-hero">
     <span class="sorure-eyebrow">{{ $ui.eyebrow }}</span>
@@ -7,15 +11,53 @@
     <p>{{ .Description }}</p>
   </header>
   <div class="sorure-about-intro">{{ .Content }}</div>
+
+  <section class="sorure-registered-details" aria-labelledby="sorure-registered-title">
+    <h2 id="sorure-registered-title">{{ $ui.official_information }}</h2>
+    <dl>
+      <div><dt>{{ $ui.business_id_label }}</dt><dd><bdi>{{ $association.business_id }}</bdi></dd></div>
+      <div><dt>{{ $ui.registered_language_label }}</dt><dd>{{ $ui.registered_language_value }}</dd></div>
+      <div><dt>{{ $ui.legal_form_label }}</dt><dd>{{ $ui.legal_form_value }}</dd></div>
+      <div><dt>{{ $ui.activities_started_label }}</dt><dd><bdi>{{ $association.activities_started }}</bdi></dd></div>
+      <div><dt>{{ $ui.founding_year_label }}</dt><dd><bdi>{{ $association.founding_year }}</bdi></dd></div>
+    </dl>
+  </section>
+
   <h2 class="sorure-timeline-heading">{{ $ui.timeline }}</h2>
   <ol class="sorure-timeline">
     {{ range .Params.milestones }}
+      {{ $yearKey := printf "%v" (.year_key | default .year) }}
+      {{ $yearEvents := where $events "Params.event_year" $yearKey }}
       <li>
         <span class="sorure-timeline-year">{{ .year }}</span>
-        <div class="sorure-timeline-card"><h3>{{ .title }}</h3><p>{{ .description }}</p></div>
+        <div class="sorure-timeline-card">
+          <h3>{{ .title }}</h3>
+          <p>{{ .description }}</p>
+          {{ if gt (len $yearEvents) 0 }}
+            <div class="sorure-year-summary" aria-label="{{ $ui.documented_activities }}">
+              <p class="sorure-year-total">{{ $ui.documented_activities }}: <strong>{{ len $yearEvents }}</strong></p>
+              <ul class="sorure-year-categories">
+                {{ range $tax.category_order }}
+                  {{ $slug := . }}
+                  {{ $count := 0 }}
+                  {{ range $yearEvents }}
+                    {{ if in (.Params.eventcategories | default (slice)) $slug }}
+                      {{ $count = add $count 1 }}
+                    {{ end }}
+                  {{ end }}
+                  {{ if gt $count 0 }}
+                    {{ $translated := index (index $tax.categories $slug) $lang | default $slug }}
+                    <li><strong>{{ $count }}</strong> {{ $translated }}</li>
+                  {{ end }}
+                {{ end }}
+              </ul>
+            </div>
+          {{ end }}
+        </div>
       </li>
     {{ end }}
   </ol>
+  <p class="sorure-about-count-note">{{ $ui.documented_activities_note }}</p>
   <div class="sorure-about-bottom">
     <h2>{{ $ui.contact_us }}</h2>
     <p>{{ $ui.contact_intro }}</p>

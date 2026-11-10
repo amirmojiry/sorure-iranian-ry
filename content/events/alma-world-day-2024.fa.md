@@ -10,6 +10,8 @@ event_date_label: "۲۶ اکتبر ۲۰۲۴"
 date_precision: "exact"
 event_year: "2024"
 event_type: "culture"
+eventcategories: ["culture-arts"]
+eventtags: ["intercultural-exchange", "cultural-heritage", "partnership"]
 symbol: "✺"
 showDate: false
 showAuthor: false

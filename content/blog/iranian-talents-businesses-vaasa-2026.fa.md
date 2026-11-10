@@ -1,4 +1,6 @@
 ---
+blogcategories: ["community-stories"]
+blogtags: ["local-talents", "entrepreneurship", "creative-arts", "iranian-community", "vaasa"]
 title: "معرفی توانمندی‌ها و کسب‌وکارهای ایرانیان واسا"
 description: "آشنایی با پنج فعالیت و توانمندی ایرانیان واسا در بروشور انجمن سرور ایرانیان."
 date: 2026-11-05T12:00:00+02:00
@@ -10,7 +12,6 @@ event_year: "2026"
 event_type: "community"
 symbol: "✧"
 cover_image: "img/blog/brochure-cover.jpg"
-tags: ["واسا", "جامعه ایرانی", "توانمندی‌ها"]
 ---
 انجمن **سرور ایرانیان** در بروشور «توانمندی‌ها و کسب‌وکارهای ایرانی واسا» پنج نمونه از فعالیت‌ها و مهارت‌های متنوع ایرانیان ساکن واسا را معرفی می‌کند؛ از آشپزی و هنر تا آموزش موسیقی، بازاریابی و نگهداری گیاهان.
 

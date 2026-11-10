@@ -10,6 +10,8 @@ event_date_label: "28. joulukuuta 2024"
 date_precision: "exact"
 event_year: "2024"
 event_type: "sports"
+eventcategories: ["sports-wellbeing"]
+eventtags: ["physical-activity", "wellbeing", "community-building"]
 symbol: "◆"
 showDate: false
 showAuthor: false

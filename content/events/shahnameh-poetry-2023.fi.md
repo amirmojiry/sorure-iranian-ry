@@ -10,6 +10,8 @@ event_date_label: "Kesä 2023 (arvio)"
 date_precision: "season"
 event_year: "2023"
 event_type: "culture"
+eventcategories: ["culture-arts"]
+eventtags: ["literature", "cultural-heritage"]
 symbol: "❋"
 showDate: false
 showAuthor: false

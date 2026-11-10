@@ -1,4 +1,6 @@
 ---
+blogcategories: ["association-updates"]
+blogtags: ["association-events", "intercultural-exchange", "vaasa", "iranian-community"]
 title: "Sorure Iranian ry mukana kahdessa Vaasan kulttuuritapahtumassa 6.–7.11.2026"
 description: "Tervetuloa tapaamaan yhdistystä Identity-muotitapahtumassa ja Alman Maailman päivässä."
 date: "2026-11-05T13:30:00+02:00"
@@ -10,7 +12,6 @@ symbol: "✦"
 cover_image: "img/blog/november-cultural-events-2026.svg"
 event_date_label: "5. marraskuuta 2026"
 publication_label: "5. marraskuuta 2026"
-tags: ["Vaasa", "Kulttuuritapahtumat", "Iranilainen yhteisö"]
 ---
 
 **Sorure Iranian ry** osallistuu kahteen kulttuuritapahtumaan Vaasassa **perjantaina 6. ja lauantaina 7. marraskuuta 2026**. Kutsumme kaikki kulttuurien kohtaamisesta kiinnostuneet tutustumaan yhdistyksemme toimintaan ja iranilaiseen kulttuuriin.

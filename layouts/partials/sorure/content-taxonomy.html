@@ -1,0 +1,30 @@
+{{- $page := .page -}}
+{{- $compact := .compact | default false -}}
+{{- $prefix := cond (eq $page.Section "blog") "blog" "event" -}}
+{{- $categoryField := printf "%scategories" $prefix -}}
+{{- $tagField := printf "%stags" $prefix -}}
+{{- $categories := index $page.Params $categoryField | default (slice) -}}
+{{- $tags := index $page.Params $tagField | default (slice) -}}
+{{- $definitions := index site.Data.content_taxonomy $prefix -}}
+{{- $language := $page.Language.Lang -}}
+{{- $ui := index hugo.Data.ui $language -}}
+{{- if or $categories (and (not $compact) $tags) }}
+  <div class="sorure-taxonomy-badges{{ if $compact }} is-compact{{ end }}" aria-label="{{ $ui.topics }}">
+    {{- range $categories }}
+      {{- $label := . -}}
+      {{- with index $definitions.categories . }}
+        {{- $label = index . $language | default $label -}}
+      {{- end }}
+      <span class="sorure-taxonomy-category" title="{{ $ui.topic_category }}">{{ $label }}</span>
+    {{- end }}
+    {{- if not $compact }}
+      {{- range $tags }}
+        {{- $label := . -}}
+        {{- with index $definitions.tags . }}
+          {{- $label = index . $language | default $label -}}
+        {{- end }}
+        <span class="sorure-taxonomy-tag" title="{{ $ui.topic_tag }}">#{{ $label }}</span>
+      {{- end }}
+    {{- end }}
+  </div>
+{{- end }}

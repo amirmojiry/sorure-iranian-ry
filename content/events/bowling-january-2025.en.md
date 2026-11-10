@@ -10,6 +10,8 @@ event_date_label: "31 January 2025"
 date_precision: "exact"
 event_year: "2025"
 event_type: "sports"
+eventcategories: ["sports-wellbeing"]
+eventtags: ["physical-activity", "wellbeing", "community-building"]
 symbol: "◆"
 showDate: false
 showAuthor: false

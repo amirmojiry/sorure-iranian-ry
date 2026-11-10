@@ -16,8 +16,10 @@ buildFuture = false
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+  eventcategory = "eventcategories"
+  eventtag = "eventtags"
+  blogcategory = "blogcategories"
+  blogtag = "blogtags"
 [imaging]
   anchor = "Center"
 [module]

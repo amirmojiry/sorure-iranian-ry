@@ -10,6 +10,8 @@ event_date_label: "۲ اکتبر ۲۰۲۶"
 date_precision: "exact"
 event_year: "2026"
 event_type: "culture"
+eventcategories: ["food-skills"]
+eventtags: ["food-traditions", "intercultural-exchange", "skills-sharing"]
 symbol: "✺"
 showDate: false
 showAuthor: false

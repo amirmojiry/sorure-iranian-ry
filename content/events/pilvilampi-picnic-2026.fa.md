@@ -10,6 +10,8 @@ event_date_label: "۴ ژوئیهٔ ۲۰۲۶"
 date_precision: "exact"
 event_year: "2026"
 event_type: "community"
+eventcategories: ["community-inclusion"]
+eventtags: ["community-building", "families", "outdoors"]
 symbol: "◈"
 showDate: false
 showAuthor: false

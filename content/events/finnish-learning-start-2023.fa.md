@@ -10,6 +10,8 @@ event_date_label: "۶ ژوئیهٔ ۲۰۲۳"
 date_precision: "exact"
 event_year: "2023"
 event_type: "language"
+eventcategories: ["education-language"]
+eventtags: ["language-learning", "integration", "adult-learning"]
 symbol: "✦"
 showDate: false
 showAuthor: false

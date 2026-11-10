@@ -1,4 +1,6 @@
 ---
+blogcategories: ["association-updates"]
+blogtags: ["association-events", "intercultural-exchange", "vaasa", "iranian-community"]
 title: "حضور انجمن سرور ایرانیان در دو رویداد فرهنگی واسا، ۶ و ۷ نوامبر ۲۰۲۶"
 description: "معرفی برنامه‌های انجمن در رویداد نمایش مد Identity و روز جهان در مرکز آلما."
 date: "2026-11-05T13:30:00+02:00"
@@ -10,7 +12,6 @@ symbol: "✦"
 cover_image: "img/blog/november-cultural-events-2026.svg"
 event_date_label: "۵ نوامبر ۲۰۲۶"
 publication_label: "۵ نوامبر ۲۰۲۶"
-tags: ["واسا", "رویدادهای فرهنگی", "سرور ایرانیان"]
 ---
 
 انجمن **سرور ایرانیان (Sorure Iranian ry)** در روزهای **جمعه ۶ و شنبه ۷ نوامبر ۲۰۲۶** در دو برنامه فرهنگی شهر واسا حضور خواهد داشت. از علاقه‌مندان دعوت می‌کنیم در این رویدادها با فعالیت‌های انجمن و جلوه‌هایی از فرهنگ ایرانی آشنا شوند.

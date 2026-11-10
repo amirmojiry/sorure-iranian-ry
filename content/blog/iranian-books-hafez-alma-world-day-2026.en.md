@@ -1,4 +1,6 @@
 ---
+blogcategories: ["culture-literature"]
+blogtags: ["persian-literature", "hafez", "world-day", "vaasa", "iranian-community"]
 title: "Books about Iran and the Hafez Poetry Tradition at Alma World’s Day"
 description: "Ten books about Iranian literature, culture and art displayed at World’s Day in Vaasa, with library catalogue links and an introduction to Fal-e Hafez."
 date: "2026-11-08T12:00:00+02:00"
@@ -10,7 +12,6 @@ symbol: "✦"
 cover_image: "img/blog/iran-table-world-day-2026.jpg"
 publication_label: "8 November 2026"
 event_date_label: "8 November 2026"
-tags: ["Iran", "Vaasa", "World's Day", "Literature"]
 ---
 
 {{< business-photo src="img/blog/iran-table-world-day-2026.jpg" alt="Iran table with books and Hafez poetry fortunes at Alma World’s Day, Vaasa, 2026" >}}

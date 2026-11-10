@@ -10,6 +10,8 @@ event_date_label: "۳ مارس ۲۰۲۴"
 date_precision: "exact"
 event_year: "2024"
 event_type: "culture"
+eventcategories: ["culture-arts"]
+eventtags: ["literature", "cultural-heritage", "partnership"]
 symbol: "✦"
 showDate: false
 showAuthor: false

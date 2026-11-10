@@ -266,3 +266,36 @@ html.dark .sorure-event-gallery-section h2{color:#edf4ef}
 html.dark .sorure-event-gallery-item a{border-color:#425761;background:#263f45}
 @media(max-width:600px){.sorure-event-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem}.sorure-event-gallery-single{grid-template-columns:minmax(0,350px)}.sorure-event-gallery-item img{height:240px}.sorure-event-gallery-single .sorure-event-gallery-item img{height:auto}}
 @media(prefers-reduced-motion:reduce){.sorure-event-gallery-item img{transition:none}.sorure-event-gallery-item a:hover img{transform:none}}
+
+/* Distinct event/blog categories and tags: readable multilingual topic badges. */
+.sorure-taxonomy-badges{display:flex;align-items:center;gap:.45rem;flex-wrap:wrap;margin:.6rem 0 1.5rem}
+.sorure-taxonomy-badges.is-compact{margin:0 0 .8rem}
+.sorure-taxonomy-category,.sorure-taxonomy-tag{display:inline-flex;align-items:center;border-radius:999px;padding:.26rem .72rem;font-size:.82rem;font-weight:750;line-height:1.55;max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.sorure-taxonomy-category{color:#155b59;background:#dceee9;border:1px solid #badbd0}
+.sorure-taxonomy-tag{color:#516f7b;background:#eef2f4;border:1px solid #d7e1e4;font-weight:600}
+.sorure-event-card .sorure-taxonomy-category{font-size:.75rem}
+html.dark .sorure-taxonomy-category{color:#e5fbf4;background:#225c55;border-color:#528f84}
+html.dark .sorure-taxonomy-tag{color:#d0e2e7;background:#2c4654;border-color:#58727d}
+/* The About timeline counts one primary category per documented event. */
+.sorure-year-summary{border-top:1px solid #d7e5df;padding-top:1rem;margin-top:1.1rem}
+.sorure-timeline-card .sorure-year-total{margin:0 0 .65rem;color:#1d575f;font-size:.9rem;font-weight:750}
+.sorure-year-total strong{font-size:1.05rem;font-variant-numeric:tabular-nums}
+.sorure-year-categories{list-style:none;display:flex;flex-wrap:wrap;gap:.45rem;margin:0;padding:0}
+.sorure-year-categories li{background:#e6f0ec;border:1px solid #cce0d7;color:#265c56;border-radius:999px;padding:.27rem .74rem;font-size:.84rem;line-height:1.7}
+.sorure-year-categories li::before{display:none}
+.sorure-year-categories strong{font-weight:850;margin-inline-end:.23rem;font-variant-numeric:tabular-nums}
+.sorure-about-count-note{font-size:.87rem;line-height:1.85;color:#60787d;margin:-1.2rem 0 2.2rem}
+.sorure-registered-details{margin:0 0 3.1rem;border:1px solid #d8e7e2;border-radius:20px;background:#f8fbf9;padding:clamp(1.15rem,2.5vw,1.9rem)}
+.sorure-registered-details h2{font-size:1.4rem;font-weight:850;color:#184953;margin:0 0 1.25rem}
+.sorure-registered-details dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:1rem 1.6rem;margin:0}
+.sorure-registered-details dl>div{min-width:0}
+.sorure-registered-details dt{color:#627a7c;font-size:.82rem;font-weight:750;margin-bottom:.25rem}
+.sorure-registered-details dd{margin:0;color:#1e4147;font-size:1rem;font-weight:720;line-height:1.7;overflow-wrap:anywhere}
+html.dark .sorure-year-summary{border-color:#435d61}
+html.dark .sorure-timeline-card .sorure-year-total,html.dark .sorure-registered-details h2{color:#deefe9}
+html.dark .sorure-year-categories li{background:#274a46;border-color:#496b62;color:#e0f4e9}
+html.dark .sorure-about-count-note,html.dark .sorure-registered-details dt{color:#b5cccb}
+html.dark .sorure-registered-details{background:#233a40;border-color:#425760}
+html.dark .sorure-registered-details dd{color:#e4f0ec}
+@media(max-width:620px){.sorure-registered-details dl{grid-template-columns:1fr 1fr}.sorure-registered-details h2{font-size:1.2rem}}
+@media(max-width:390px){.sorure-registered-details dl{grid-template-columns:1fr}}

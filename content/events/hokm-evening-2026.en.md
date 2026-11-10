@@ -10,6 +10,8 @@ event_date_label: "30 October 2026"
 date_precision: "exact"
 event_year: "2026"
 event_type: "community"
+eventcategories: ["community-inclusion"]
+eventtags: ["community-building", "cultural-heritage"]
 symbol: "♠"
 showDate: false
 showAuthor: false

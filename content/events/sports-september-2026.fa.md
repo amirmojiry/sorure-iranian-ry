@@ -10,6 +10,8 @@ event_date_label: "۲۵ سپتامبر ۲۰۲۶"
 date_precision: "exact"
 event_year: "2026"
 event_type: "sports"
+eventcategories: ["sports-wellbeing"]
+eventtags: ["physical-activity", "wellbeing", "community-building"]
 symbol: "◆"
 showDate: false
 showAuthor: false

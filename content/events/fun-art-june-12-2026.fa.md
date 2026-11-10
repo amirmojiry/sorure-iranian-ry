@@ -10,6 +10,8 @@ event_date_label: "۱۲ ژوئن ۲۰۲۶"
 date_precision: "exact"
 event_year: "2026"
 event_type: "art"
+eventcategories: ["children-families"]
+eventtags: ["children", "families", "arts-creativity"]
 symbol: "✧"
 showDate: false
 showAuthor: false

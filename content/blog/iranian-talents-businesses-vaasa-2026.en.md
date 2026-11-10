@@ -1,4 +1,6 @@
 ---
+blogcategories: ["community-stories"]
+blogtags: ["local-talents", "entrepreneurship", "creative-arts", "iranian-community", "vaasa"]
 title: "Iranian talents and businesses in Vaasa"
 description: "Meet five Iranian-led creative projects, skills and services presented in Sorure Iranian ry's community brochure."
 date: 2026-11-05T12:00:00+02:00
@@ -10,7 +12,6 @@ event_year: "2026"
 event_type: "community"
 symbol: "✧"
 cover_image: "img/blog/brochure-cover.jpg"
-tags: ["Vaasa", "Iranian community", "Local talents"]
 ---
 Vaasa is home to people with a remarkable range of creative, educational and professional skills. **Sorure Iranian ry** is pleased to introduce five local talents and projects in its *Iranian Talents & Businesses in Vaasa* brochure.
 

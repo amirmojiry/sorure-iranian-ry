@@ -1,4 +1,6 @@
 ---
+blogcategories: ["community-stories"]
+blogtags: ["local-talents", "entrepreneurship", "creative-arts", "iranian-community", "vaasa"]
 title: "Vaasalaista iranilaista osaamista ja toimintaa"
 description: "Tutustu viiteen iranilaistaustaiseen luovaan hankkeeseen, osaajaan ja palveluun Sorure Iranian ry:n esitteessä."
 date: 2026-11-05T12:00:00+02:00
@@ -10,7 +12,6 @@ event_year: "2026"
 event_type: "community"
 symbol: "✧"
 cover_image: "img/blog/brochure-cover.jpg"
-tags: ["Vaasa", "Iranilainen yhteisö", "Osaaminen"]
 ---
 Vaasassa asuu monipuolisia luovan alan, opetuksen ja muiden alojen osaajia. **Sorure Iranian ry** esittelee viisi osaajaa ja hanketta yhteisön *Iranian Talents & Businesses in Vaasa* -esitteessä.
 
