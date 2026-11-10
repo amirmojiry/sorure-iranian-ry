@@ -10,6 +10,10 @@ event_date_label: "۵ ژوئن ۲۰۲۶"
 date_precision: "exact"
 event_year: "2026"
 event_type: "art"
+cover_image: "img/events/fun-art-june-05-2026-01.jpg"
+event_gallery:
+  - src: "img/events/fun-art-june-05-2026-01.jpg"
+    alt: "کودکان و همراهان در برنامه خلاقیت، کاردستی و هنر انجمن سرور ایرانیان"
 eventcategories: ["children-families"]
 eventtags: ["children", "families", "arts-creativity"]
 symbol: "✧"

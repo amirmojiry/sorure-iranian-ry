@@ -9,6 +9,11 @@
   {{ with .Content }}
     <div class="sorure-archive-intro">{{ . }}</div>
   {{ end }}
+  <nav class="sorure-archive-taxnav" aria-label="{{ $ui.browse_topics }}">
+    <span>{{ $ui.browse_topics }}:</span>
+    <a href="{{ printf "%s%scategories/" site.Home.RelPermalink "event" }}">{{ $ui.categories_label }}</a>
+    <a href="{{ printf "%s%stags/" site.Home.RelPermalink "event" }}">{{ $ui.tags_label }}</a>
+  </nav>
   {{ range .Pages.GroupByDate "2006" }}
     <section class="sorure-archive-year" aria-labelledby="events-year-{{ .Key }}">
       <h2 id="events-year-{{ .Key }}">{{ .Key }}</h2>

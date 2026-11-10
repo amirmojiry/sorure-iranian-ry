@@ -168,3 +168,15 @@ blog:
       en: "Entrepreneurship"
       fi: "Yrittäjyys"
       fa: "کارآفرینی"
+    environment:
+      en: "Environment"
+      fi: "Ympäristö"
+      fa: "محیط‌زیست"
+    volunteering:
+      en: "Volunteering"
+      fi: "Vapaaehtoistyö"
+      fa: "داوطلبی"
+    civic-participation:
+      en: "Community participation"
+      fi: "Yhteiskunnallinen osallistuminen"
+      fa: "مشارکت اجتماعی"

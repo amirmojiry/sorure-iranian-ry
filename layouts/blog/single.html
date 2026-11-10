@@ -18,6 +18,22 @@
       <span class="sorure-event-fact"><span aria-hidden="true">◷</span><strong>{{ $ui.blog_publication }}:</strong> {{ .Params.publication_label | default (.Date.Format "2 January 2006") }}</span>
     </aside>
     {{ .Content }}
+    {{ with .Params.blog_gallery }}
+      {{ $heading := "Photos from the story" }}
+      {{ if eq $.Language.Lang "fa" }}{{ $heading = "تصاویر این فعالیت" }}{{ else if eq $.Language.Lang "fi" }}{{ $heading = "Kuvia toiminnasta" }}{{ end }}
+      <section class="sorure-event-gallery-section" aria-label="{{ $heading }}">
+        <h2>{{ $heading }}</h2>
+        <div class="sorure-event-gallery{{ if eq (len .) 1 }} sorure-event-gallery-single{{ end }}">
+          {{ range . }}
+            <figure class="sorure-event-gallery-item">
+              <a href="{{ .src | relURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .alt }}">
+                <img src="{{ .src | relURL }}" alt="{{ .alt }}" loading="lazy" decoding="async">
+              </a>
+            </figure>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
   </div>
   <footer class="sorure-event-page-footer">
     <a class="sorure-event-back" href="{{ $archive.RelPermalink }}">{{ $ui.blog_back }} <span aria-hidden="true">↗</span></a>

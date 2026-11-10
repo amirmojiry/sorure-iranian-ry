@@ -69,3 +69,17 @@ Run `python3 scripts/validate_content.py` when editing or adding event/blog cont
 ## Registered association information
 
 Official association details shown on the About page in all three languages are maintained in `data/association.yaml`: Y-tunnus, registered language, legal form, start of activities and founding year. Unlike a relative statement such as "three years ago," founding years do not go stale as time passes.
+
+## Browsing events and blog posts by topics
+
+All event and blog primary categories and tags are clickable. Their term listings use the same archive card design as the event and blog indexes. Hugo renders them using project templates in layouts/term.html (matching items) and layouts/taxonomy.html (available categories/tags), with localized labels from data/content_taxonomy.yaml and data/ui.yaml.
+
+The event-card layout uses separate links for the photo, title, read-more action and taxonomy chips: never nest links in links. The event and blog taxonomies remain independent.
+
+For the About year totals, an event category chip points to the category archive with a year=2026 query and #year-2026 anchor (change year as needed). The archive groups results by event_year and uses small progressive-enhancement JavaScript to hide other year groups. Without JavaScript, the anchor still takes users directly to the requested year's group, which remains fully accessible. Do not treat a category's unfiltered total as a single-year count.
+
+## Volunteer cleanup story and photo archive
+
+The trilingual post content/blog/vaasa-environmental-volunteers-2026.<lang>.md is dated 19 October 2026 and remains separate from the summer volunteer-event archive entry. It records the publicly supplied aggregate of approximately 250 volunteer person-hours and links to the specific Facebook post. Its five photographs are optimized and stored in static/img/blog/environment-cleanup-2026-*.jpg, with multilingual alt text, and rendered via blog_gallery in the existing gallery design. Event photographs for the Finnish A0 session and the 5 June Fun & Art activity use event_gallery and their own image paths.
+
+Run python3 scripts/verify_generated_site.py after hugo --gc --minify --cleanDestinationDir. Deployment checks generated HTML for relevant routes, taxonomy links, year filters, and gallery images.

@@ -299,3 +299,33 @@ html.dark .sorure-registered-details{background:#233a40;border-color:#425760}
 html.dark .sorure-registered-details dd{color:#e4f0ec}
 @media(max-width:620px){.sorure-registered-details dl{grid-template-columns:1fr 1fr}.sorure-registered-details h2{font-size:1.2rem}}
 @media(max-width:390px){.sorure-registered-details dl{grid-template-columns:1fr}}
+
+
+/* Taxonomy directory and term archives use the same visual system as events/blog. */
+.sorure-taxonomy-index-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.05rem;margin:2rem 0 3.4rem}
+.sorure-taxonomy-index-card{display:flex;flex-direction:column;align-items:flex-start;position:relative;gap:.8rem;padding:1.35rem 1.5rem;border-radius:19px;border:1px solid #d5e6e1;background:linear-gradient(145deg,#fff,#f5f9f7);box-shadow:0 7px 23px #16414a0d;color:#193f47!important;text-decoration:none!important;min-width:0;transition:transform .2s ease,box-shadow .2s ease}
+.sorure-taxonomy-index-card:hover{transform:translateY(-3px);box-shadow:0 14px 28px #16414a1a;border-color:#9fc8be}
+.sorure-taxonomy-index-card:focus-visible{outline:3px solid #287d83;outline-offset:3px}
+.sorure-taxonomy-index-label{font-size:1.2rem;font-weight:800;line-height:1.65;padding-inline-end:1.2rem}
+.sorure-taxonomy-index-count{color:#627980;font-size:.86rem}
+.sorure-taxonomy-index-count strong{font-size:1rem;font-variant-numeric:tabular-nums;color:#1c6865}
+.sorure-taxonomy-index-arrow{position:absolute;inset-block-start:1.15rem;inset-inline-end:1.15rem;color:#378f89;font-weight:850}
+.sorure-taxonomy-footnav{margin:2.3rem 0 3rem}
+.sorure-taxonomy-footnav a{color:#176970!important;font-weight:750;text-decoration:none!important}
+.sorure-taxonomy-footnav a:hover{text-decoration:underline!important}
+.sorure-taxonomy-year{scroll-margin-top:1.5rem}
+.sorure-taxonomy-year:target{border-left:3px solid #4c9a88;padding-inline-start:1rem}
+.sorure-taxonomy-year[hidden],.sorure-year-filter-notice[hidden]{display:none!important}
+.sorure-taxonomy-year-count{font-size:.8rem;font-weight:550;color:#6a7f82}
+.sorure-year-filter-notice{display:flex;align-items:center;justify-content:space-between;gap:1.2rem;flex-wrap:wrap;padding:.8rem 1.1rem;border-radius:14px;background:#e6f3ef;border:1px solid #c9e2d8;color:#245e61;margin:2rem 0}
+.sorure-year-filter-notice a{font-weight:750;color:#14666a!important}
+html.dark .sorure-taxonomy-index-card{background:#263d45;border-color:#425761;color:#eaf5f0!important}
+html.dark .sorure-taxonomy-index-count,html.dark .sorure-taxonomy-year-count{color:#b3d0cb}
+html.dark .sorure-taxonomy-index-count strong{color:#9fe0d4}
+html.dark .sorure-taxonomy-year:target{border-color:#60cbb1}
+html.dark .sorure-year-filter-notice{background:#294d4d;color:#e7f7ef;border-color:#537570}
+html.dark .sorure-year-filter-notice a{color:#a4e3dc!important}
+html.dark .sorure-taxonomy-footnav a{color:#a4e3dc!important}
+@media(max-width:1000px){.sorure-taxonomy-index-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.sorure-taxonomy-index-grid{grid-template-columns:1fr;gap:.85rem}.sorure-taxonomy-index-card{padding:1.1rem 1.2rem}}
+@media(prefers-reduced-motion:reduce){.sorure-taxonomy-index-card{transition:none}.sorure-taxonomy-index-card:hover{transform:none}}

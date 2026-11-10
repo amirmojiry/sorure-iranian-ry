@@ -10,6 +10,12 @@ event_date_label: "تابستان ۲۰۲۶ (تقریبی)"
 date_precision: "season"
 event_year: "2026"
 event_type: "language"
+cover_image: "img/events/finnish-a0-summer-2026-01.jpg"
+event_gallery:
+  - src: "img/events/finnish-a0-summer-2026-01.jpg"
+    alt: "شرکت‌کنندگان در کلاس آموزش مقدماتی زبان فنلاندی انجمن"
+  - src: "img/events/finnish-a0-summer-2026-02.jpg"
+    alt: "تخته کلاس با تمرین‌های زبان فنلاندی و توضیح‌های فارسی"
 eventcategories: ["education-language"]
 eventtags: ["language-learning", "integration", "adult-learning"]
 symbol: "✦"

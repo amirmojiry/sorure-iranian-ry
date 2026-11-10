@@ -47,7 +47,7 @@
                   {{ end }}
                   {{ if gt $count 0 }}
                     {{ $translated := index (index $tax.categories $slug) $lang | default $slug }}
-                    <li><strong>{{ $count }}</strong> {{ $translated }}</li>
+                    <li><a href="{{ printf "%seventcategories/%s/?year=%s#year-%s" site.Home.RelPermalink $slug $yearKey $yearKey }}" aria-label="{{ $translated }} – {{ $yearKey }}"><strong>{{ $count }}</strong> {{ $translated }}</a></li>
                   {{ end }}
                 {{ end }}
               </ul>

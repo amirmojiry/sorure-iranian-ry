@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{ $plural := .Data.Plural }}
+{{ $domain := cond (hasPrefix $plural "blog") "blog" "event" }}
+{{ $isCategory := hasSuffix $plural "categories" }}
+{{ $group := cond $isCategory "categories" "tags" }}
+{{ $lang := .Language.Lang }}
+{{ $ui := index hugo.Data.ui $lang }}
+{{ $definitions := index (index hugo.Data.content_taxonomy $domain) $group }}
+{{ $archive := site.GetPage "section" (cond (eq $domain "blog") "blog" "events") }}
+{{ $title := "" }}
+{{ if eq $domain "blog" }}
+  {{ $title = cond $isCategory $ui.blog_categories_heading $ui.blog_tags_heading }}
+{{ else }}
+  {{ $title = cond $isCategory $ui.event_categories_heading $ui.event_tags_heading }}
+{{ end }}
+<section class="sorure-archive-page sorure-taxonomy-archive" aria-labelledby="sorure-archive-title">
+  <nav class="sorure-event-breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ $archive.RelPermalink }}">{{ $archive.Title }}</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">{{ $title }}</span>
+  </nav>
+  <header class="sorure-page-hero sorure-archive-header">
+    <span class="sorure-eyebrow">Sorure Iranian ry</span>
+    <h1 id="sorure-archive-title">{{ $title }}</h1>
+    <p>{{ if eq $domain "blog" }}{{ $ui.blog_topics_intro }}{{ else }}{{ $ui.event_topics_intro }}{{ end }}</p>
+  </header>
+  <div class="sorure-taxonomy-index-grid">
+    {{ range .Pages }}
+      {{ $key := .Data.Term }}
+      {{ $label := .LinkTitle }}
+      {{ with index $definitions $key }}
+        {{ $label = index . $lang | default $label }}
+      {{ end }}
+      <a class="sorure-taxonomy-index-card" href="{{ .RelPermalink }}">
+        <span class="sorure-taxonomy-index-label">{{ $label }}</span>
+        <span class="sorure-taxonomy-index-count">
+          <strong>{{ len .Pages }}</strong> {{ if eq $domain "blog" }}{{ $ui.blog_entries_label }}{{ else }}{{ $ui.event_entries_label }}{{ end }}
+        </span>
+        <span class="sorure-taxonomy-index-arrow" aria-hidden="true">↗</span>
+      </a>
+    {{ end }}
+  </div>
+  <p class="sorure-taxonomy-footnav"><a href="{{ $archive.RelPermalink }}">{{ $ui.back_to_archive }} ↗</a></p>
+</section>
+{{ end }}

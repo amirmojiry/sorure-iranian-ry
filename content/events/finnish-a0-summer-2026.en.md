@@ -10,6 +10,12 @@ event_date_label: "Summer 2026 (approx.)"
 date_precision: "season"
 event_year: "2026"
 event_type: "language"
+cover_image: "img/events/finnish-a0-summer-2026-01.jpg"
+event_gallery:
+  - src: "img/events/finnish-a0-summer-2026-01.jpg"
+    alt: "Participants attending a beginner Finnish language session"
+  - src: "img/events/finnish-a0-summer-2026-02.jpg"
+    alt: "A whiteboard with beginner Finnish exercises and Persian explanations"
 eventcategories: ["education-language"]
 eventtags: ["language-learning", "integration", "adult-learning"]
 symbol: "✦"

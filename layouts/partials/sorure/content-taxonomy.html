@@ -3,28 +3,28 @@
 {{- $prefix := cond (eq $page.Section "blog") "blog" "event" -}}
 {{- $categoryField := printf "%scategories" $prefix -}}
 {{- $tagField := printf "%stags" $prefix -}}
-{{- $categories := index $page.Params $categoryField | default (slice) -}}
-{{- $tags := index $page.Params $tagField | default (slice) -}}
-{{- $definitions := index site.Data.content_taxonomy $prefix -}}
-{{- $language := $page.Language.Lang -}}
-{{- $ui := index hugo.Data.ui $language -}}
-{{- if or $categories (and (not $compact) $tags) }}
-  <div class="sorure-taxonomy-badges{{ if $compact }} is-compact{{ end }}" aria-label="{{ $ui.topics }}">
-    {{- range $categories }}
-      {{- $label := . -}}
-      {{- with index $definitions.categories . }}
-        {{- $label = index . $language | default $label -}}
+{{- $categoryPages := $page.GetTerms $categoryField -}}
+{{- $tagPages := $page.GetTerms $tagField -}}
+{{- $definitions := index hugo.Data.content_taxonomy $prefix -}}
+{{- $lang := $page.Language.Lang -}}
+{{- $ui := index hugo.Data.ui $lang -}}
+{{- if or $categoryPages $tagPages }}
+  <nav class="sorure-taxonomy-badges{{ if $compact }} is-compact{{ end }}" aria-label="{{ $ui.topics }}">
+    {{- range $categoryPages }}
+      {{- $label := .LinkTitle -}}
+      {{- with index $definitions.categories .Data.Term }}
+        {{- $label = index . $lang | default $label -}}
       {{- end }}
-      <span class="sorure-taxonomy-category" title="{{ $ui.topic_category }}">{{ $label }}</span>
+      <a class="sorure-taxonomy-category" href="{{ .RelPermalink }}" title="{{ $ui.topic_category }}">{{ $label }}</a>
     {{- end }}
-    {{- if not $compact }}
-      {{- range $tags }}
-        {{- $label := . -}}
-        {{- with index $definitions.tags . }}
-          {{- $label = index . $language | default $label -}}
-        {{- end }}
-        <span class="sorure-taxonomy-tag" title="{{ $ui.topic_tag }}">#{{ $label }}</span>
+    {{- $visibleTags := $tagPages -}}
+    {{- if $compact }}{{ $visibleTags = first 2 $tagPages }}{{ end -}}
+    {{- range $visibleTags }}
+      {{- $label := .LinkTitle -}}
+      {{- with index $definitions.tags .Data.Term }}
+        {{- $label = index . $lang | default $label -}}
       {{- end }}
+      <a class="sorure-taxonomy-tag" href="{{ .RelPermalink }}" title="{{ $ui.topic_tag }}">#{{ $label }}</a>
     {{- end }}
-  </div>
+  </nav>
 {{- end }}

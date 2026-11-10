@@ -9,23 +9,23 @@
       {{ end }}
       <span class="sorure-event-card-year">{{ .Params.event_year }}</span>
     </div>
-    <div class="sorure-event-card-content">
-      <div class="sorure-event-card-meta">
-        <span class="sorure-event-chip sorure-event-chip-date">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></svg>
-          <span>{{ .Params.event_date_label }}</span>
-        </span>
-        {{ with .Params.venue }}
-          <span class="sorure-event-chip sorure-event-chip-place">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>
-            <span>{{ . }}</span>
-          </span>
-        {{ end }}
-      </div>
-      {{ partial "sorure/content-taxonomy.html" (dict "page" . "compact" true) }}
-      <h3>{{ .Title }}</h3>
-      <p class="sorure-event-card-summary">{{ .Description }}</p>
-      <span class="sorure-event-card-read">{{ if eq .Section "blog" }}{{ $ui.blog_read_more }}{{ else }}{{ $ui.event_read_more }}{{ end }} <span aria-hidden="true">↗</span></span>
-    </div>
   </a>
+  <div class="sorure-event-card-content">
+    <div class="sorure-event-card-meta">
+      <span class="sorure-event-chip sorure-event-chip-date">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></svg>
+        <span>{{ .Params.event_date_label }}</span>
+      </span>
+      {{ with .Params.venue }}
+        <span class="sorure-event-chip sorure-event-chip-place">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          <span>{{ . }}</span>
+        </span>
+      {{ end }}
+    </div>
+    {{ partial "sorure/content-taxonomy.html" (dict "page" . "compact" true) }}
+    <h3><a class="sorure-event-card-title-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="sorure-event-card-summary">{{ .Description }}</p>
+    <a class="sorure-event-card-read" href="{{ .RelPermalink }}">{{ if eq .Section "blog" }}{{ $ui.blog_read_more }}{{ else }}{{ $ui.event_read_more }}{{ end }} <span aria-hidden="true">↗</span></a>
+  </div>
 </article>

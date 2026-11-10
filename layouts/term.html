@@ -1,0 +1,77 @@
+{{ define "main" }}
+{{ $plural := .Data.Plural }}
+{{ $term := .Data.Term }}
+{{ $domain := cond (hasPrefix $plural "blog") "blog" "event" }}
+{{ $isCategory := hasSuffix $plural "categories" }}
+{{ $group := cond $isCategory "categories" "tags" }}
+{{ $lang := .Language.Lang }}
+{{ $ui := index hugo.Data.ui $lang }}
+{{ $definitions := index (index hugo.Data.content_taxonomy $domain) $group }}
+{{ $name := .LinkTitle }}
+{{ with index $definitions $term }}
+  {{ $name = index . $lang | default $name }}
+{{ end }}
+{{ $archive := site.GetPage "section" (cond (eq $domain "blog") "blog" "events") }}
+{{ $taxonomyTitle := $ui.tags_label }}
+{{ if $isCategory }}{{ $taxonomyTitle = $ui.categories_label }}{{ end }}
+{{ $taxonomyLink := printf "%s%s/" site.Home.RelPermalink $plural }}
+<section class="sorure-archive-page sorure-taxonomy-archive" aria-labelledby="sorure-archive-title">
+  <nav class="sorure-event-breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ $archive.RelPermalink }}">{{ $archive.Title }}</a>
+    <span aria-hidden="true">/</span>
+    <a href="{{ $taxonomyLink }}">{{ $taxonomyTitle }}</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">{{ $name }}</span>
+  </nav>
+  <header class="sorure-page-hero sorure-archive-header">
+    <span class="sorure-eyebrow">Sorure Iranian ry</span>
+    <h1 id="sorure-archive-title">{{ $name }}</h1>
+    <p>{{ len .Pages }} {{ if eq $domain "blog" }}{{ $ui.blog_entries_label }}{{ else }}{{ $ui.event_entries_label }}{{ end }}</p>
+  </header>
+  {{ if eq $domain "event" }}
+    {{ range .Pages.GroupByParam "event_year" }}
+      <section id="year-{{ .Key }}" class="sorure-archive-year sorure-taxonomy-year" data-archive-year="{{ .Key }}" aria-labelledby="archive-year-{{ .Key }}">
+        <h2 id="archive-year-{{ .Key }}">{{ .Key }} <span class="sorure-taxonomy-year-count">({{ len .Pages }})</span></h2>
+        <div class="sorure-event-card-grid">
+          {{ range .Pages.ByDate.Reverse }}
+            {{ partial "sorure/event-card.html" . }}
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+    <div class="sorure-year-filter-notice" id="sorure-year-filter-notice" hidden aria-live="polite">
+      <span id="sorure-year-filter-text"></span>
+      <a href="{{ .RelPermalink }}">{{ $ui.all_years }}</a>
+    </div>
+    <script>
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var year = params.get("year");
+        if (!year || !/^\d{4}$/.test(year)) return;
+        var groups = document.querySelectorAll(".sorure-taxonomy-year[data-archive-year]");
+        var selected = document.getElementById("year-" + year);
+        if (!selected) return;
+        for (var i = 0; i < groups.length; i++) {
+          groups[i].hidden = groups[i] !== selected;
+        }
+        var notice = document.getElementById("sorure-year-filter-notice");
+        document.getElementById("sorure-year-filter-text").textContent = {{ $ui.year_filter_prefix | jsonify }} + " " + year;
+        notice.hidden = false;
+        selected.scrollIntoView({block:"start"});
+      })();
+    </script>
+  {{ else }}
+    {{ range .Pages.GroupByDate "2006" }}
+      <section class="sorure-archive-year" aria-labelledby="blog-year-{{ .Key }}">
+        <h2 id="blog-year-{{ .Key }}">{{ .Key }}</h2>
+        <div class="sorure-event-card-grid">
+          {{ range .Pages }}
+            {{ partial "sorure/event-card.html" . }}
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+  <p class="sorure-taxonomy-footnav"><a href="{{ $archive.RelPermalink }}">{{ $ui.back_to_archive }} ↗</a></p>
+</section>
+{{ end }}

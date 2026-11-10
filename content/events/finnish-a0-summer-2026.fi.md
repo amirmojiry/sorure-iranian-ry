@@ -10,6 +10,12 @@ event_date_label: "Kesä 2026 (arvio)"
 date_precision: "season"
 event_year: "2026"
 event_type: "language"
+cover_image: "img/events/finnish-a0-summer-2026-01.jpg"
+event_gallery:
+  - src: "img/events/finnish-a0-summer-2026-01.jpg"
+    alt: "Osallistujia suomen kielen alkeiskurssilla"
+  - src: "img/events/finnish-a0-summer-2026-02.jpg"
+    alt: "Valkotaulu, jolla on suomen kielen harjoituksia ja persiankielisiä selityksiä"
 eventcategories: ["education-language"]
 eventtags: ["language-learning", "integration", "adult-learning"]
 symbol: "✦"
