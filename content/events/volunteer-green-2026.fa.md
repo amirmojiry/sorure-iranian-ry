@@ -10,6 +10,18 @@ event_date_label: "تابستان ۲۰۲۶ (تقریبی)"
 date_precision: "season"
 event_year: "2026"
 event_type: "volunteer"
+cover_image: "img/blog/environment-cleanup-2026-02.jpg"
+event_gallery:
+  - src: "img/blog/environment-cleanup-2026-01.jpg"
+    alt: "گل‌های صورتی گیاه مهاجم در طبیعت واسا"
+  - src: "img/blog/environment-cleanup-2026-02.jpg"
+    alt: "داوطلبان در حال پاک‌سازی گیاهان مهاجم در فضای سبز واسا"
+  - src: "img/blog/environment-cleanup-2026-03.jpg"
+    alt: "خوراکی‌های آماده‌شده برای دورهمی تقدیر از داوطلبان"
+  - src: "img/blog/environment-cleanup-2026-04.jpg"
+    alt: "گروهی از داوطلبان در حال کار در طبیعت"
+  - src: "img/blog/environment-cleanup-2026-05.jpg"
+    alt: "کیسه‌های جمع‌آوری‌شده پس از پاک‌سازی گیاهان"
 eventcategories: ["environment-volunteering"]
 eventtags: ["volunteering", "environment", "partnership"]
 symbol: "❃"

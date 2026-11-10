@@ -10,6 +10,14 @@ event_date_label: "تابستان ۲۰۲۶ (تقریبی)"
 date_precision: "season"
 event_year: "2026"
 event_type: "language"
+cover_image: "img/events/finnish-a1-summer-2026-01.jpg"
+event_gallery:
+  - src: "img/events/finnish-a1-summer-2026-01.jpg"
+    alt: "کارت‌های پرسش و پاسخ برای تمرین مکالمه زبان فنلاندی در کلاس A1"
+  - src: "img/events/finnish-a1-summer-2026-02.jpg"
+    alt: "برگه تمرین تصویری با موقعیت‌های روزمره و حباب‌های گفت‌وگو"
+  - src: "img/events/finnish-a1-summer-2026-03.jpg"
+    alt: "کارت‌های موضوعی زبان فنلاندی برای تمرین گفت‌وگو در کلاس A1"
 eventcategories: ["education-language"]
 eventtags: ["language-learning", "integration", "adult-learning"]
 symbol: "✦"

@@ -10,6 +10,14 @@ event_date_label: "Kesä 2026 (arvio)"
 date_precision: "season"
 event_year: "2026"
 event_type: "language"
+cover_image: "img/events/finnish-a1-summer-2026-01.jpg"
+event_gallery:
+  - src: "img/events/finnish-a1-summer-2026-01.jpg"
+    alt: "Suomen kielen keskustelukortteja A1-tason harjoituksiin"
+  - src: "img/events/finnish-a1-summer-2026-02.jpg"
+    alt: "Kuvallinen harjoitusmoniste, jossa on arjen tilanteita ja tyhjiä puhekuplia"
+  - src: "img/events/finnish-a1-summer-2026-03.jpg"
+    alt: "Pöydälle aseteltuja suomen kielen keskustelukortteja A1-tason opiskelijoille"
 eventcategories: ["education-language"]
 eventtags: ["language-learning", "integration", "adult-learning"]
 symbol: "✦"

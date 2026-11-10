@@ -10,6 +10,18 @@ event_date_label: "Summer 2026 (approx.)"
 date_precision: "season"
 event_year: "2026"
 event_type: "volunteer"
+cover_image: "img/blog/environment-cleanup-2026-02.jpg"
+event_gallery:
+  - src: "img/blog/environment-cleanup-2026-01.jpg"
+    alt: "Pink flowers of an invasive plant in a green area of Vaasa"
+  - src: "img/blog/environment-cleanup-2026-02.jpg"
+    alt: "Volunteers removing invasive plants from an overgrown area in Vaasa"
+  - src: "img/blog/environment-cleanup-2026-03.jpg"
+    alt: "Food and refreshments prepared for an appreciation gathering"
+  - src: "img/blog/environment-cleanup-2026-04.jpg"
+    alt: "Community volunteers working together to clear invasive vegetation"
+  - src: "img/blog/environment-cleanup-2026-05.jpg"
+    alt: "Bags of collected plant material after the environmental cleanup"
 eventcategories: ["environment-volunteering"]
 eventtags: ["volunteering", "environment", "partnership"]
 symbol: "❃"

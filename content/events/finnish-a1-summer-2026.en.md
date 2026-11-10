@@ -10,6 +10,14 @@ event_date_label: "Summer 2026 (approx.)"
 date_precision: "season"
 event_year: "2026"
 event_type: "language"
+cover_image: "img/events/finnish-a1-summer-2026-01.jpg"
+event_gallery:
+  - src: "img/events/finnish-a1-summer-2026-01.jpg"
+    alt: "Finnish conversation question cards used for A1 language practice"
+  - src: "img/events/finnish-a1-summer-2026-02.jpg"
+    alt: "Illustrated worksheet showing everyday situations with empty speech bubbles"
+  - src: "img/events/finnish-a1-summer-2026-03.jpg"
+    alt: "Finnish speaking-prompt cards arranged on a table for A1 learners"
 eventcategories: ["education-language"]
 eventtags: ["language-learning", "integration", "adult-learning"]
 symbol: "✦"

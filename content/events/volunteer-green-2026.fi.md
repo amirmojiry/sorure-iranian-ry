@@ -10,6 +10,18 @@ event_date_label: "Kesä 2026 (arvio)"
 date_precision: "season"
 event_year: "2026"
 event_type: "volunteer"
+cover_image: "img/blog/environment-cleanup-2026-02.jpg"
+event_gallery:
+  - src: "img/blog/environment-cleanup-2026-01.jpg"
+    alt: "Haitallisen vieraskasvin vaaleanpunaisia kukkia Vaasan viheralueella"
+  - src: "img/blog/environment-cleanup-2026-02.jpg"
+    alt: "Vapaaehtoisia poistamassa vieraskasveja Vaasan viheralueella"
+  - src: "img/blog/environment-cleanup-2026-03.jpg"
+    alt: "Tarjoiluja vapaaehtoisten kiitostilaisuutta varten"
+  - src: "img/blog/environment-cleanup-2026-04.jpg"
+    alt: "Vapaaehtoisia raivaamassa haitallista kasvillisuutta"
+  - src: "img/blog/environment-cleanup-2026-05.jpg"
+    alt: "Kerättyjä kasvijätesäkkejä siivoustalkoiden jälkeen"
 eventcategories: ["environment-volunteering"]
 eventtags: ["volunteering", "environment", "partnership"]
 symbol: "❃"
