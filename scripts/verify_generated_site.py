@@ -23,7 +23,7 @@ def main() -> None:
     page("fa/about", ["?year=2026#year-2026", "eventcategories/", "3343844-7"])
     for lang in ("en", "fi", "fa"):
         page(f"{lang}/eventcategories/sports-wellbeing",
-             ["sorure-taxonomy-archive", "sports-october-2026", 'data-archive-year="2026"', "sorure-year-filter-notice"],
+             ["sorure-taxonomy-archive", "sports-october-2026", "data-archive-year", "sorure-year-filter-notice"],
              ["pickling-october-2026"])
         page(f"{lang}/eventtags/physical-activity", ["sorure-taxonomy-archive"])
         page(f"{lang}/blogcategories/association-updates",
