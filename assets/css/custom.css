@@ -118,11 +118,11 @@ body { width: 100%; max-width: 1500px !important; padding-inline: clamp(1rem, 3.
 .sorure-archive-year { margin: 2.4rem 0 3.6rem; }
 .sorure-archive-year h2 { font-size: 1.75rem; font-weight: 850; margin-bottom: 1.25rem; padding-bottom: .6rem; border-bottom: 1px solid #d4e2df; color: #164a54; }
 .sorure-event-card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.35rem; align-items: stretch; }
-.sorure-event-card { display: block; min-width: 0; height: 100%; overflow: hidden; border: 1px solid #d5e6e1; border-radius: 22px; background: #fff; box-shadow: 0 7px 24px #16414a0e; transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease; }
+.sorure-event-card { display: flex; flex-direction: column; min-width: 0; height: 100%; overflow: hidden; border: 1px solid #d5e6e1; border-radius: 22px; background: #fff; box-shadow: 0 7px 24px #16414a0e; transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease; }
 .sorure-event-card:hover { transform: translateY(-4px); box-shadow: 0 15px 36px #16414a1f; border-color: #8aafa9; }
 .sorure-event-card:focus-within { outline: 3px solid #64aaa6; outline-offset: 3px; }
-.sorure-event-card-link { color: inherit !important; text-decoration: none !important; height: 100%; display: flex; flex-direction: column; }
-.sorure-event-card-link:focus-visible { outline: none; }
+.sorure-event-card-link { color: inherit !important; text-decoration: none !important; display: block; height: auto; flex: 0 0 auto; }
+.sorure-event-card-link:focus-visible { outline: 3px solid #25868a; outline-offset: -3px; }
 .sorure-event-card-art { position: relative; min-height: 116px; display: flex; align-items: center; justify-content: center; overflow: hidden; isolation: isolate; }
 .sorure-event-card-art::before, .sorure-event-card-art::after { content: ""; position: absolute; border: 1px solid #ffffff58; aspect-ratio: 1; pointer-events: none; }
 .sorure-event-card-art::before { width: 185px; transform: rotate(25deg); }
@@ -138,7 +138,7 @@ body { width: 100%; max-width: 1500px !important; padding-inline: clamp(1rem, 3.
 .sorure-event-card-content h3 { font-size: 1.25rem; font-weight: 850; line-height: 1.55; color: #153841; margin: .1rem 0 .5rem; }
 .sorure-event-card-summary { color: #5e757d; line-height: 1.8; font-size: .93rem; margin: 0 0 1.25rem; flex: 1; }
 .sorure-event-card-read { display: inline-flex; align-items: center; gap: .35rem; font-size: .91rem; font-weight: 750; color: #17717a; margin-top: auto; }
-.sorure-event-card-link:hover .sorure-event-card-read { text-decoration: underline; text-underline-offset: 4px; }
+.sorure-event-card-read:hover, .sorure-event-card-title-link:hover { text-decoration: underline; text-underline-offset: 4px; }
 .sorure-home-event-grid { margin-top: 1.4rem; }
 
 /* The full event detail page uses available desktop width rather than Blowfish's prose cap. */
@@ -329,3 +329,18 @@ html.dark .sorure-taxonomy-footnav a{color:#a4e3dc!important}
 @media(max-width:1000px){.sorure-taxonomy-index-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.sorure-taxonomy-index-grid{grid-template-columns:1fr;gap:.85rem}.sorure-taxonomy-index-card{padding:1.1rem 1.2rem}}
 @media(prefers-reduced-motion:reduce){.sorure-taxonomy-index-card{transition:none}.sorure-taxonomy-index-card:hover{transform:none}}
+
+
+/* Event and blog cards: image, content and taxonomy links are separate siblings.
+   Do not restore height:100% on the image link: it would hide the card text. */
+.sorure-event-card-title-link { color: inherit !important; text-decoration: none !important; }
+.sorure-event-card-title-link:focus-visible, .sorure-event-card-read:focus-visible {
+  outline: 3px solid #25868a;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.sorure-event-card-read { text-decoration: none !important; }
+.sorure-event-card-read:hover, .sorure-event-card-title-link:hover { text-decoration: underline !important; }
+.sorure-event-card .sorure-taxonomy-badges a { text-decoration: none !important; }
+.sorure-event-card .sorure-taxonomy-badges a:hover { filter: brightness(.93); }
+.sorure-event-card .sorure-taxonomy-badges a:focus-visible { outline: 3px solid #25868a; outline-offset: 2px; }
