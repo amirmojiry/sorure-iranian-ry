@@ -19,6 +19,14 @@ venue: "Hietalahden koulu, Ravikatu 9, Vaasa"
 facebook: "https://www.facebook.com/permalink.php?story_fbid=pfbid0KxijTkYL465ogY5X5vUxc5LmvZVcoLYSsPxpxbUaP8WPbaDP1pYixPcUoYKgev3rl&id=100090246127295"
 vaasa: "https://www.vaasa.fi/en/events/friday-sports-evening-sorure-iranian-2/"
 osterbotten: "https://events.osterbotten.fi/evenemang/visa/61297"
+cover_image: "img/events/sports-september-2026-01.jpg"
+event_gallery:
+  - src: "img/events/sports-september-2026-01.jpg"
+    alt: "بازی والیبال در برنامه ورزشی سپتامبر ۲۰۲۶"
+  - src: "img/events/sports-september-2026-02.jpg"
+    alt: "یکی از شرکت‌کنندگان کنار حلقه‌های ورزشی سالن"
+  - src: "img/events/sports-september-2026-03.jpg"
+    alt: "شرکت‌کنندگان در حال بازی والیبال"
 ---
 
 {{< event-meta >}}

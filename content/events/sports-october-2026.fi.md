@@ -20,6 +20,12 @@ facebook: "https://www.facebook.com/100090246127295/posts/1120775780940616/"
 vaasa: "https://www.vaasa.fi/en/events/friday-sports-evening-sorure-iranian-2/"
 lahella: "https://www.lahella.fi/en-GB/a/204683414119"
 osterbotten: "https://events.osterbotten.fi/evenemang/visa/61297"
+cover_image: "img/events/sports-october-2026-01.jpg"
+event_gallery:
+  - src: "img/events/sports-october-2026-01.jpg"
+    alt: "Lentopalloa Hietalahden koululla lokakuussa 2026"
+  - src: "img/events/sports-october-2026-02.jpg"
+    alt: "Toinen näkymä lokakuun sisäliikuntaillasta"
 ---
 
 {{< event-meta >}}

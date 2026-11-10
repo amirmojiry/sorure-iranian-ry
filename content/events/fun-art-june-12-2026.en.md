@@ -17,6 +17,10 @@ showReadingTime: false
 showWordCount: false
 venue: "Vaasa Integration Services"
 vaasa: "https://www.vaasa.fi/en/events/fun-art-time-5/"
+cover_image: "img/events/fun-art-june-12-2026-01.jpg"
+event_gallery:
+  - src: "img/events/fun-art-june-12-2026-01.jpg"
+    alt: "Fun & Art Time event poster showing dates 12 and 19 June 2026"
 ---
 
 {{< event-meta >}}

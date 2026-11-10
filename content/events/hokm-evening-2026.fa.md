@@ -19,6 +19,10 @@ venue: "Vaasa Integration Services, Korsholmanpuistikko 44"
 facebook: "https://www.facebook.com/100090246127295/posts/1136383789379815/"
 vaasa: "https://www.vaasa.fi/tapahtumat/hokm-card-game-evening/"
 osterbotten: "https://events.osterbotten.fi/en/events/show/61711"
+cover_image: "img/events/hokm-evening-2026-01.jpg"
+event_gallery:
+  - src: "img/events/hokm-evening-2026-01.jpg"
+    alt: "دورهمی دوستانه و بازی حکم"
 ---
 
 {{< event-meta >}}

@@ -19,6 +19,14 @@ venue: "Vartti, Korsholmanpuistikko 44, Vaasa"
 facebook: "https://www.facebook.com/permalink.php?story_fbid=pfbid02jL1vbduHh1Cpk5NMnAhv9puw3SWzE1sJiaFTGAg7ub4sevJC13sFcRGJ9xZFmpbbl&id=100090246127295"
 vaasa: "https://www.vaasa.fi/en/events/womens-pickling-get-together-2/"
 osterbotten: "https://events.osterbotten.fi/en/events/show/61401"
+cover_image: "img/events/pickling-october-2026-01.jpg"
+event_gallery:
+  - src: "img/events/pickling-october-2026-01.jpg"
+    alt: "Kotitekoisia vihannessäilykkeitä purkeissa"
+  - src: "img/events/pickling-october-2026-02.jpg"
+    alt: "Vihanneksia ja mausteita säilöntätyöpajassa"
+  - src: "img/events/pickling-october-2026-03.jpg"
+    alt: "Osallistujat valmistamassa vihannessäilykkeitä yhdessä"
 ---
 
 {{< event-meta >}}

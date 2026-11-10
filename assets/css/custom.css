@@ -250,3 +250,19 @@ html.dark .sorure-book-entry{background:#243842;border-color:#425761}
 html.dark .sorure-blog-page .sorure-book-info h3{color:#edf4ef}
 html.dark .sorure-book-catalog-link{background:#265653;color:#ecf9f4!important;border-color:#60998e}
 @media(max-width:560px){.sorure-blog-page .sorure-book-entry{grid-template-columns:minmax(85px,110px) minmax(0,1fr);gap:.85rem;padding:.9rem}.sorure-book-cover img{max-height:190px}.sorure-book-catalog-link{font-size:.83rem;padding:.5rem .75rem;white-space:normal}.sorure-book-description p{font-size:.93rem}}
+
+
+/* Photo galleries on archived community event pages */
+.sorure-event-gallery-section{margin:2.25rem 0 2.5rem;max-width:1100px}
+.sorure-event-gallery-section h2{font-size:clamp(1.45rem,2.1vw,1.9rem);font-weight:800;color:#173943;margin:0 0 1rem}
+.sorure-event-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:1rem}
+.sorure-event-gallery-single{grid-template-columns:minmax(0,450px)}
+.sorure-event-gallery-item{margin:0;min-width:0}
+.sorure-event-gallery-item a{display:block;background:#edf3f0;border:1px solid #d8e5e0;border-radius:17px;overflow:hidden;box-shadow:0 8px 24px #163b4110;outline-offset:3px}
+.sorure-event-gallery-item img{display:block;width:100%;height:320px;object-fit:contain;background:#f6f7f5;transition:transform .2s ease}
+.sorure-event-gallery-item a:hover img{transform:scale(1.02)}
+.sorure-event-gallery-single .sorure-event-gallery-item img{height:auto;max-height:560px}
+html.dark .sorure-event-gallery-section h2{color:#edf4ef}
+html.dark .sorure-event-gallery-item a{border-color:#425761;background:#263f45}
+@media(max-width:600px){.sorure-event-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem}.sorure-event-gallery-single{grid-template-columns:minmax(0,350px)}.sorure-event-gallery-item img{height:240px}.sorure-event-gallery-single .sorure-event-gallery-item img{height:auto}}
+@media(prefers-reduced-motion:reduce){.sorure-event-gallery-item img{transition:none}.sorure-event-gallery-item a:hover img{transform:none}}
