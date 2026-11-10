@@ -34,7 +34,7 @@ def main() -> None:
              ["environment-cleanup-2026-01.jpg", "environment-cleanup-2026-02.jpg",
               "environment-cleanup-2026-03.jpg", "environment-cleanup-2026-04.jpg",
               "environment-cleanup-2026-05.jpg", "sorure-taxonomy-category",
-              "sorure-taxonomy-tag", "250", "facebook.com/permalink.php"])
+              "sorure-taxonomy-tag", "۲۵۰" if lang == "fa" else "250", "facebook.com/permalink.php"])
         page(f"{lang}/events/finnish-a0-summer-2026",
              ["finnish-a0-summer-2026-01.jpg", "finnish-a0-summer-2026-02.jpg"])
         page(f"{lang}/events/fun-art-june-05-2026",
