@@ -10,6 +10,14 @@ event_date_label: "۶ ژوئیهٔ ۲۰۲۳"
 date_precision: "exact"
 event_year: "2023"
 event_type: "language"
+cover_image: "img/events/finnish-learning-start-2023-01.jpg"
+event_gallery:
+  - src: "img/events/finnish-learning-start-2023-01.jpg"
+    alt: "شرکت‌کنندگان در کلاس گروهی زبان فنلاندی در کنار میز"
+  - src: "img/events/finnish-learning-start-2023-02.jpg"
+    alt: "گروهی از زبان‌آموزان مشغول تمرین و مطالعه زبان فنلاندی"
+  - src: "img/events/finnish-learning-start-2023-03.jpg"
+    alt: "زبان‌آموزان در حال تمرین نوشتاری در جلسه گروهی"
 eventcategories: ["education-language"]
 eventtags: ["language-learning", "integration", "adult-learning"]
 symbol: "✦"

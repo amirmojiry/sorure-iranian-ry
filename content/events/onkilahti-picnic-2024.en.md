@@ -10,6 +10,18 @@ event_date_label: "20 July 2024"
 date_precision: "exact"
 event_year: "2024"
 event_type: "community"
+cover_image: "img/events/onkilahti-picnic-2024-01.jpg"
+event_gallery:
+  - src: "img/events/onkilahti-picnic-2024-01.jpg"
+    alt: "Group playing beach volleyball at the Onkilahti picnic"
+  - src: "img/events/onkilahti-picnic-2024-02.jpg"
+    alt: "Participants gathering on the waterfront lawn"
+  - src: "img/events/onkilahti-picnic-2024-03.jpg"
+    alt: "Children and families playing on a sandy court"
+  - src: "img/events/onkilahti-picnic-2024-04.jpg"
+    alt: "Participants enjoying outdoor games on the waterfront grass"
+  - src: "img/events/onkilahti-picnic-2024-05.jpg"
+    alt: "A participant carrying refreshments at the picnic"
 eventcategories: ["community-inclusion"]
 eventtags: ["community-building", "families", "outdoors"]
 symbol: "◈"

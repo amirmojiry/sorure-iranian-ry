@@ -10,6 +10,14 @@ event_date_label: "6. heinäkuuta 2023"
 date_precision: "exact"
 event_year: "2023"
 event_type: "language"
+cover_image: "img/events/finnish-learning-start-2023-01.jpg"
+event_gallery:
+  - src: "img/events/finnish-learning-start-2023-01.jpg"
+    alt: "Suomen kielen opiskelijoita yhteisen pöydän ääressä"
+  - src: "img/events/finnish-learning-start-2023-02.jpg"
+    alt: "Suomen kielen opiskelijoita tekemässä harjoituksia ryhmätunnilla"
+  - src: "img/events/finnish-learning-start-2023-03.jpg"
+    alt: "Osallistujia tekemässä kirjallisia suomen kielen harjoituksia"
 eventcategories: ["education-language"]
 eventtags: ["language-learning", "integration", "adult-learning"]
 symbol: "✦"

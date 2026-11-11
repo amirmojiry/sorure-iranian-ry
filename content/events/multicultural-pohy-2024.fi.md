@@ -10,6 +10,18 @@ event_date_label: "15. toukokuuta 2024"
 date_precision: "exact"
 event_year: "2024"
 event_type: "culture"
+cover_image: "img/events/multicultural-pohy-2024-01.jpg"
+event_gallery:
+  - src: "img/events/multicultural-pohy-2024-01.jpg"
+    alt: "Elävää iranilaista musiikkia santur-soittimella"
+  - src: "img/events/multicultural-pohy-2024-02.jpg"
+    alt: "Yleisö seuraamassa santur-musiikkiesitystä"
+  - src: "img/events/multicultural-pohy-2024-03.jpg"
+    alt: "Videonäytös iranilaisesta taiteesta ja arkkitehtuurista tapahtumassa"
+  - src: "img/events/multicultural-pohy-2024-04.jpg"
+    alt: "Lähikuva santur-soittimesta ja mikrofonista"
+  - src: "img/events/multicultural-pohy-2024-05.jpg"
+    alt: "Sininen koristelautanen, jossa on perinteisiä persialaisia kuvioita"
 eventcategories: ["culture-arts"]
 eventtags: ["intercultural-exchange", "arts-creativity", "partnership"]
 symbol: "✺"

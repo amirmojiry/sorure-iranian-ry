@@ -10,6 +10,18 @@ event_date_label: "۱۵ مه ۲۰۲۴"
 date_precision: "exact"
 event_year: "2024"
 event_type: "culture"
+cover_image: "img/events/multicultural-pohy-2024-01.jpg"
+event_gallery:
+  - src: "img/events/multicultural-pohy-2024-01.jpg"
+    alt: "اجرای زنده موسیقی ایرانی با ساز سنتور"
+  - src: "img/events/multicultural-pohy-2024-02.jpg"
+    alt: "مخاطبان در حال تماشای اجرای سنتور"
+  - src: "img/events/multicultural-pohy-2024-03.jpg"
+    alt: "نمایش ویدئویی از هنر و معماری ایرانی در برنامه"
+  - src: "img/events/multicultural-pohy-2024-04.jpg"
+    alt: "نمای نزدیک ساز سنتور و میکروفن"
+  - src: "img/events/multicultural-pohy-2024-05.jpg"
+    alt: "بشقاب تزئینی با نقش‌های آبی ایرانی"
 eventcategories: ["culture-arts"]
 eventtags: ["intercultural-exchange", "arts-creativity", "partnership"]
 symbol: "✺"

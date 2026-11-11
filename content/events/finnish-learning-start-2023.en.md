@@ -10,6 +10,14 @@ event_date_label: "6 July 2023"
 date_precision: "exact"
 event_year: "2023"
 event_type: "language"
+cover_image: "img/events/finnish-learning-start-2023-01.jpg"
+event_gallery:
+  - src: "img/events/finnish-learning-start-2023-01.jpg"
+    alt: "Participants studying Finnish together around a table"
+  - src: "img/events/finnish-learning-start-2023-02.jpg"
+    alt: "Finnish language learners working on exercises during a group lesson"
+  - src: "img/events/finnish-learning-start-2023-03.jpg"
+    alt: "Participants completing written Finnish exercises in a group session"
 eventcategories: ["education-language"]
 eventtags: ["language-learning", "integration", "adult-learning"]
 symbol: "✦"

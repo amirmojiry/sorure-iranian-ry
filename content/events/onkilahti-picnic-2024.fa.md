@@ -10,6 +10,18 @@ event_date_label: "۲۰ ژوئیهٔ ۲۰۲۴"
 date_precision: "exact"
 event_year: "2024"
 event_type: "community"
+cover_image: "img/events/onkilahti-picnic-2024-01.jpg"
+event_gallery:
+  - src: "img/events/onkilahti-picnic-2024-01.jpg"
+    alt: "بازی والیبال ساحلی گروهی در پیک‌نیک اونکی‌لاهتی"
+  - src: "img/events/onkilahti-picnic-2024-02.jpg"
+    alt: "دورهمی شرکت‌کنندگان کنار ساحل و فضای سبز"
+  - src: "img/events/onkilahti-picnic-2024-03.jpg"
+    alt: "کودکان و خانواده‌ها در حال بازی روی زمین شنی"
+  - src: "img/events/onkilahti-picnic-2024-04.jpg"
+    alt: "شرکت‌کنندگان در حال بازی و گفت‌وگو روی چمن کنار دریا"
+  - src: "img/events/onkilahti-picnic-2024-05.jpg"
+    alt: "شرکت‌کننده‌ای با خوراکی و پذیرایی در محوطه پیک‌نیک"
 eventcategories: ["community-inclusion"]
 eventtags: ["community-building", "families", "outdoors"]
 symbol: "◈"

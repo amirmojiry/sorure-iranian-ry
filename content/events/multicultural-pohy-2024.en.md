@@ -10,6 +10,18 @@ event_date_label: "15 May 2024"
 date_precision: "exact"
 event_year: "2024"
 event_type: "culture"
+cover_image: "img/events/multicultural-pohy-2024-01.jpg"
+event_gallery:
+  - src: "img/events/multicultural-pohy-2024-01.jpg"
+    alt: "Live performance of traditional Iranian music on the santur"
+  - src: "img/events/multicultural-pohy-2024-02.jpg"
+    alt: "Audience watching a live santur performance"
+  - src: "img/events/multicultural-pohy-2024-03.jpg"
+    alt: "Video presentation of Iranian art and architecture at the event"
+  - src: "img/events/multicultural-pohy-2024-04.jpg"
+    alt: "Close-up of a santur instrument and microphone"
+  - src: "img/events/multicultural-pohy-2024-05.jpg"
+    alt: "Decorative blue plate with traditional Persian patterns"
 eventcategories: ["culture-arts"]
 eventtags: ["intercultural-exchange", "arts-creativity", "partnership"]
 symbol: "✺"
