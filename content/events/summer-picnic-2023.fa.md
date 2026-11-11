@@ -10,6 +10,16 @@ event_date_label: "۲۴ اوت ۲۰۲۳"
 date_precision: "exact"
 event_year: "2023"
 event_type: "community"
+cover_image: "img/events/summer-picnic-2023-01.jpg"
+event_gallery:
+  - src: "img/events/summer-picnic-2023-01.jpg"
+    alt: "کباب روی آتش در پیک‌نیک تابستانی انجمن"
+  - src: "img/events/summer-picnic-2023-02.jpg"
+    alt: "اعضای انجمن در حال بازی ورق دور میز پیک‌نیک در فضای جنگلی"
+  - src: "img/events/summer-picnic-2023-03.jpg"
+    alt: "آماده‌کردن آتش و کباب در فضای باز"
+  - src: "img/events/summer-picnic-2023-04.jpg"
+    alt: "گروهی از اعضا و خانواده‌ها در کنار آلاچیق پیک‌نیک تابستانی"
 eventcategories: ["community-inclusion"]
 eventtags: ["community-building", "families", "outdoors"]
 symbol: "◈"

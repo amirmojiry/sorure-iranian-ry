@@ -39,6 +39,15 @@ def main() -> None:
              ["finnish-a0-summer-2026-01.jpg", "finnish-a0-summer-2026-02.jpg"])
         page(f"{lang}/events/fun-art-june-05-2026",
              ["fun-art-june-05-2026-01.jpg"])
+    # Every gallery photo must exist in the generated site, and each translation must reference it.
+    for lang in ("en", "fi", "fa"):
+        for slug, count in (("summer-picnic-2023", 4), ("nowruz-sizdah-2023", 3)):
+            names = [f"{slug}-{n:02d}.jpg" for n in range(1, count + 1)]
+            page(f"{lang}/events/{slug}", names)
+            for image_name in names:
+                asset = PUBLIC / "img" / "events" / image_name
+                if not asset.is_file() or asset.stat().st_size < 8000:
+                    raise AssertionError(f"Missing or empty photo: {image_name}")
     print("Generated-site smoke checks passed for all three languages.")
 
 

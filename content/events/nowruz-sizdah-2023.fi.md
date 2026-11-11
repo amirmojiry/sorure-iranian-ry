@@ -10,6 +10,14 @@ event_date_label: "2. huhtikuuta 2023"
 date_precision: "exact"
 event_year: "2023"
 event_type: "culture"
+cover_image: "img/events/nowruz-sizdah-2023-01.jpg"
+event_gallery:
+  - src: "img/events/nowruz-sizdah-2023-01.jpg"
+    alt: "Iranilaisia ruokia tarjolla Nowruz- ja Sizdeh Bedar -juhlassa"
+  - src: "img/events/nowruz-sizdah-2023-02.jpg"
+    alt: "Juhlavieraita tanssimassa Nowruz-juhlassa värivalojen keskellä"
+  - src: "img/events/nowruz-sizdah-2023-03.jpg"
+    alt: "Nowruz-juhlaa varten koristeltu juhlatila"
 eventcategories: ["culture-arts"]
 eventtags: ["cultural-heritage", "community-building", "families"]
 symbol: "✹"

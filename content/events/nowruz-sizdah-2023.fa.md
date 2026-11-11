@@ -10,6 +10,14 @@ event_date_label: "۲ آوریل ۲۰۲۳"
 date_precision: "exact"
 event_year: "2023"
 event_type: "culture"
+cover_image: "img/events/nowruz-sizdah-2023-01.jpg"
+event_gallery:
+  - src: "img/events/nowruz-sizdah-2023-01.jpg"
+    alt: "میز غذاهای ایرانی در جشن نوروز و سیزده‌بدر انجمن در واسا"
+  - src: "img/events/nowruz-sizdah-2023-02.jpg"
+    alt: "رقص و شادی شرکت‌کنندگان در جشن نوروز با نورپردازی رنگی"
+  - src: "img/events/nowruz-sizdah-2023-03.jpg"
+    alt: "سالن آماده‌شده و تزئین‌شده برای مراسم نوروز"
 eventcategories: ["culture-arts"]
 eventtags: ["cultural-heritage", "community-building", "families"]
 symbol: "✹"
