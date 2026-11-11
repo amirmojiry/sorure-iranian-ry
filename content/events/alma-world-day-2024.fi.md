@@ -10,6 +10,12 @@ event_date_label: "26. lokakuuta 2024"
 date_precision: "exact"
 event_year: "2024"
 event_type: "culture"
+cover_image: "img/events/alma-world-day-2024-01.jpg"
+event_gallery:
+  - src: "img/events/alma-world-day-2024-01.jpg"
+    alt: "Osallistujia perinteisissä iranilaisissa ja kurdilaisissa asuissa Alman Maailman päivässä vuonna 2024"
+  - src: "img/events/alma-world-day-2024-02.jpg"
+    alt: "Kolme osallistujaa perinteisissä asuissa Alman Maailman päivässä"
 eventcategories: ["culture-arts"]
 eventtags: ["intercultural-exchange", "cultural-heritage", "partnership"]
 symbol: "✺"

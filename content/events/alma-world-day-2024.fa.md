@@ -10,6 +10,12 @@ event_date_label: "۲۶ اکتبر ۲۰۲۴"
 date_precision: "exact"
 event_year: "2024"
 event_type: "culture"
+cover_image: "img/events/alma-world-day-2024-01.jpg"
+event_gallery:
+  - src: "img/events/alma-world-day-2024-01.jpg"
+    alt: "شرکت‌کنندگان با لباس‌های محلی و سنتی در رویداد روز جهان آلما در سال ۲۰۲۴"
+  - src: "img/events/alma-world-day-2024-02.jpg"
+    alt: "سه شرکت‌کننده با لباس‌های محلی در رویداد فرهنگی روز جهان آلما"
 eventcategories: ["culture-arts"]
 eventtags: ["intercultural-exchange", "cultural-heritage", "partnership"]
 symbol: "✺"

@@ -10,6 +10,12 @@ event_date_label: "5 October 2024"
 date_precision: "exact"
 event_year: "2024"
 event_type: "sports"
+cover_image: "img/events/sports-october-2024-01.jpg"
+event_gallery:
+  - src: "img/events/sports-october-2024-01.jpg"
+    alt: "Participants playing a team sport in a gym in October 2024"
+  - src: "img/events/sports-october-2024-02.jpg"
+    alt: "Group photo of participants after an indoor sports event in October 2024"
 eventcategories: ["sports-wellbeing"]
 eventtags: ["physical-activity", "wellbeing", "community-building"]
 symbol: "◆"

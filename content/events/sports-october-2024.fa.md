@@ -10,6 +10,12 @@ event_date_label: "۵ اکتبر ۲۰۲۴"
 date_precision: "exact"
 event_year: "2024"
 event_type: "sports"
+cover_image: "img/events/sports-october-2024-01.jpg"
+event_gallery:
+  - src: "img/events/sports-october-2024-01.jpg"
+    alt: "شرکت‌کنندگان در حال بازی گروهی در سالن ورزشی در اکتبر ۲۰۲۴"
+  - src: "img/events/sports-october-2024-02.jpg"
+    alt: "عکس گروهی شرکت‌کنندگان در برنامه ورزش انجمن در اکتبر ۲۰۲۴"
 eventcategories: ["sports-wellbeing"]
 eventtags: ["physical-activity", "wellbeing", "community-building"]
 symbol: "◆"

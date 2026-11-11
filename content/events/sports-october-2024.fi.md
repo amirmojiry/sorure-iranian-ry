@@ -10,6 +10,12 @@ event_date_label: "5. lokakuuta 2024"
 date_precision: "exact"
 event_year: "2024"
 event_type: "sports"
+cover_image: "img/events/sports-october-2024-01.jpg"
+event_gallery:
+  - src: "img/events/sports-october-2024-01.jpg"
+    alt: "Osallistujia pelaamassa joukkuepeliä liikuntasalissa lokakuussa 2024"
+  - src: "img/events/sports-october-2024-02.jpg"
+    alt: "Ryhmäkuva lokakuun 2024 sisäliikuntatapahtuman osallistujista"
 eventcategories: ["sports-wellbeing"]
 eventtags: ["physical-activity", "wellbeing", "community-building"]
 symbol: "◆"

@@ -10,6 +10,12 @@ event_date_label: "26 October 2024"
 date_precision: "exact"
 event_year: "2024"
 event_type: "culture"
+cover_image: "img/events/alma-world-day-2024-01.jpg"
+event_gallery:
+  - src: "img/events/alma-world-day-2024-01.jpg"
+    alt: "Participants wearing traditional Iranian and Kurdish clothing at Alma World’s Day in 2024"
+  - src: "img/events/alma-world-day-2024-02.jpg"
+    alt: "Three participants wearing traditional clothing at Alma World’s Day"
 eventcategories: ["culture-arts"]
 eventtags: ["intercultural-exchange", "cultural-heritage", "partnership"]
 symbol: "✺"
