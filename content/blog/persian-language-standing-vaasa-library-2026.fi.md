@@ -51,6 +51,23 @@ Seuraavat luettelomerkinnät liittyvät Iranissa puhuttuihin kieliin. **Niiden m
 
 **Turkish ja Azerbaijani ovat eri merkintöjä**: 184 turkinkielistä hakutulosta eivät tarkoita 184 azerbaidžaninkielistä aineistoa. **Dari** on luetteloitu erikseen persiasta, ja **Iranian languages** tarkoittaa kieliryhmää eikä kaikkien iranilaisten kielten yhteenlaskettua tietuemäärää. Määriä ei siis pidä laskea suoraan yhteen.
 
+## Neljä iranilaisten kielten ryhmään luokiteltua musiikki-CD:tä
+
+[Finnan Iranian languages (`ira`) -kieliluokan](https://vaasankirjasto.finna.fi/Search/Results?filter%5B%5D=%7Elanguage%3A%22ira%22&type=AllFields&lng=en-gb) neljä tietuetta ovat **musiikki-/ääni-CD-levyjä**, joita ei näy persian (`fas`) 311 tietueen joukossa. Nimekkeiden ja artistien perusteella ne liittyvät persialaiseen tai iranilaiseen musiikkiin:
+
+| Persiankielinen toimitettu nimeke | Artisti | Finna-tietue |
+|---|---|---|
+| آریان ۲: و اما عشق | Arian Band | [ARIAN II VA AMMA ESHGH](https://vaasankirjasto.finna.fi/Record/vaasa.09936617-2576-4fcd-ac36-0d6f0af412c8) |
+| دو چهره | Behnam | [DOUBLE FACED](https://vaasankirjasto.finna.fi/Record/vaasa.05139018-c85a-400e-bd79-1e107ddc18d0) |
+| برای تو | Mohammad Khakpour | [TO YOU](https://vaasankirjasto.finna.fi/Record/vaasa.42a54432-764c-4d3c-bb76-e88b7ffb0548) |
+| چه شورها دارم، غم جانکاهی | Gholamhosein Banan | [CHE SHUURHA DARÄM GHÄME DJANKAHI](https://vaasankirjasto.finna.fi/Record/vaasa.f14f3c05-62b0-4067-a4b7-409417f424e9) |
+
+Yhdistys on lisännyt nämä neljä aiempaan [315 tietueen laajennettuun persiaan liittyvien aineistojen luetteloon]({{< relref "blog/persian-books-vaasa-library-2026" >}}). Luettelo sisältää nyt **311 `fas`-tietuetta ja neljä `ira`-tietuetta**, eikä uusia tietueita ole aiemmassa luettelossa.
+
+**Kielitilasto ei kuitenkaan muutu:** Finnan persian luokassa on edelleen **311 tulosta** (alkuperäinen sijoitus **18**) ja iranilaisten kielten yleisluokassa **4**. Pelkästään toimituksellisessa vertailussa **315** sijoittuisi japanin (316) ja viron (313) väliin, mutta **se ei ole Finnan virallinen persian kieliluokan luku tai sijoitus**. Myöskään CD-levyn luokituksesta ei voi päätellä kaikkien kappaleiden laulunkieltä.
+
+Esimerkki havainnollistaa, kuinka yhteen kielisuodattimeen rajautuva haku voi jättää laajempaan kieliryhmään merkittyjä kulttuurisesti läheisiä aineistoja pois.
+
 Esimerkiksi belutši, gilaki, mazandarani, luri, turkmeeni ja talyši eivät esiinny erillisinä merkintöinä **toimitetussa luettelossa**. Se ei kuitenkaan osoita, ettei tällaisia aineistoja olisi kirjastossa: ne voivat olla luokiteltuina toisin tai vaatia tarkempaa hakua.
 
 ## Koko taulukko: kaikki 146 luokkaa
@@ -63,6 +80,6 @@ Alla on alkuperäisen listan **jokainen 146 luokasta**. Mukana ovat myös vanhat
 
 ## Tutustu persiankielisten aineistojen luetteloon
 
-Yhdistys on julkaissut myös [kaikkien **311 persiankieliseksi merkityn tietueen** haettavan luettelon]({{< relref "blog/persian-books-vaasa-library-2026" >}}), jossa on nimekkeet persialais-arabialaisin kirjaimin ja luettelon alkuperäisessä muodossa, tekijät, aineistolajit, vuodet sekä suorat Finna-linkit. **273 tietuetta on kirjoja** ja **38 muuntyyppisiä aineistoja**, kuten elokuvia ja äänitteitä.
+Yhdistys julkaisi aiemmin [311 persiankieliseksi merkityn tietueen luettelon]({{< relref "blog/persian-books-vaasa-library-2026" >}}), jossa on alkuperäiset sekä persialais-arabialaisin kirjaimin kirjoitetut nimekkeet ja Finna-linkit. Neljän lisätyn CD:n jälkeen laajennettu luettelo sisältää **315 tietuetta**: **273 kirjaa** ja **42 muuta aineistoa**.
 
-**Lähteet ja rajoitukset:** Luvut on kirjoitettu tähän 19.11.2026 toimitetusta [Vaasan Finnan kielisuodattimen](https://vaasankirjasto.finna.fi/Search/Results?type=AllFields&lng=en-gb) tulosluettelosta. Kielimerkinnät voivat mennä päällekkäin eikä niiden yhteenlaskettu summa välttämättä vastaa ainutkertaisten aineistojen määrää.
+**Lähteet ja rajoitukset:** Kielitilastot perustuvat [Vaasan Finnan kielisuodattimen](https://vaasankirjasto.finna.fi/Search/Results?type=AllFields&lng=en-gb) tietoihin 19.11.2026. Neljä `ira`-luokkaan merkittyä CD:tä lisättiin yhdistyksen toimitettuun luetteloon erillisen hakutuloksen perusteella 20.11.2026. Kielimerkinnät voivat mennä päällekkäin eikä niiden yhteenlaskettu summa välttämättä vastaa ainutkertaisten aineistojen määrää.
