@@ -75,7 +75,7 @@ jobs:
             assert sum('main' in (x.get('data-holding-locations') or '').split(',') for x in parser.rows)==264
             assert sum('huudi' in (x.get('data-holding-locations') or '').split(',') for x in parser.rows)==4
             assert sum('variska' in (x.get('data-holding-locations') or '').split(',') for x in parser.rows)==1
-            assert sum(x.get('data-holding-locations','')=='' for x in parser.rows)==48
+            assert sum((x.get('data-holding-locations') or '')=='' for x in parser.rows)==48
             assert len(parser.urls)>=315
             print('LOCATION_HTML_PASS',lang,len(parser.rows),len(parser.buttons),len(parser.selects))
           PY
