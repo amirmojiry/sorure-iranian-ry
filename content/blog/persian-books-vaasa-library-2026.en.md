@@ -5,7 +5,6 @@ title: "311 Persian-language catalogue records at Vaasa City Library"
 description: "A searchable, sortable catalogue index of 311 Persian-tagged records: books, films, audiobooks and music, with original and Persian titles, creators, formats, years, ISBNs and direct Finna links."
 date: "2026-11-19T13:00:00+02:00"
 publishDate: "2026-11-19T13:00:00+02:00"
-lastmod: "2026-11-19T15:00:00+02:00"
 showDate: false
 event_year: "2026"
 event_type: "culture"
