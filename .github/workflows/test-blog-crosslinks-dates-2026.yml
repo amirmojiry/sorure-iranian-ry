@@ -1,0 +1,53 @@
+name: Test blog publication dates and cross-links
+on:
+  push:
+    branches: [fix/blog-publication-dates-crosslinks-2026-11]
+    paths:
+      - '.github/workflows/test-blog-crosslinks-dates-2026.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+          cache: false
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.169.0'
+          extended: true
+      - name: Validate content taxonomy
+        run: python3 scripts/validate_content.py
+      - name: Build all languages
+        run: |
+          hugo mod get github.com/nunocoracao/blowfish/v3@v3.9.0
+          hugo --gc --minify --cleanDestinationDir
+          python3 scripts/verify_generated_site.py
+      - name: Confirm both blog-card publication dates and reciprocal links
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re,html
+          for lang in ("fa","en","fi"):
+            root=Path("public")/lang/"blog"
+            index=(root/"index.html").read_text()
+            cards=re.findall(r'<article class="sorure-event-card">.*?</article>',index,re.S)
+            for slug in ("persian-books-vaasa-library-2026","persian-language-standing-vaasa-library-2026"):
+              target=f"/sorure-iranian-ry/{lang}/blog/{slug}/"
+              matched=[card for card in cards if f'href="{target}"' in card]
+              assert len(matched)==1,(lang,slug,"card",len(matched))
+              assert '<time datetime="2026-11-19">' in matched[0],(lang,slug,"missing date")
+            books=(root/"persian-books-vaasa-library-2026"/"index.html").read_text()
+            ranks=(root/"persian-language-standing-vaasa-library-2026"/"index.html").read_text()
+            assert f'href="/sorure-iranian-ry/{lang}/blog/persian-language-standing-vaasa-library-2026/"' in books,(lang,"books outbound")
+            assert f'href="/sorure-iranian-ry/{lang}/blog/persian-books-vaasa-library-2026/"' in ranks,(lang,"rankings outbound")
+            assert 'در بررسی قبلی انجمن' in ranks if lang=="fa" else True
+            assert ('بازتأیید نکرده‌ایم' not in ranks) if lang=="fa" else True
+            assert ('We did not independently revalidate' not in ranks) if lang=="en" else True
+            assert ('Kaikkia lukuja ei ole tarkistettu' not in ranks) if lang=="fi" else True
+            print("BLOG_DATES_AND_LINKS_PASS",lang)
+          PY
