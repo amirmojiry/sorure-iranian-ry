@@ -44,9 +44,24 @@ Nämä neljä musiikki-CD:tä eivät olleet alkuperäisessä `fas`-haussa, sill�
 
 Lue myös [artikkelimme persian asemasta Vaasan kirjaston kielijakaumassa]({{< relref "blog/persian-language-standing-vaasa-library-2026" >}}): vertailussa on kaikkiaan 146 kieliluokkaa.
 
+## Missä kirjastoissa aineistot sijaitsevat?
+
+Kolmessa toimitetussa XML-tiedostossa, jotka on nimetty **pääkirjaston (Main library)** hakutuloksiksi, on **264 aineistotietuetta**. Neljän teoksen sijainniksi on ilmoitettu **kohtaamispaikka Huudi (Meeting point Huudi)** ja yhden **Variskan kirjasto**.
+
+| Ilmoitettu sijainti | Tietueita |
+|---|---:|
+| Pääkirjasto — kolmen XML-tiedoston perusteella | 264 |
+| Kohtaamispaikka Huudi | 4 |
+| Variskan kirjasto | 1 |
+| Sijainti ei selviä toimitetuista tiedoista | 48 |
+
+Huudiin on ilmoitettu teokset **Zämin** (Mahdokht Kashkuli), **Mahi vä morvariid**, **Tooghi** ja **Ai ghesse, ghesse, ghesse**. **Ajayebe darya-ha va khoshki-ha** on ilmoitettu Variskan kirjastoon. Kaksi viimeksi mainittua teosta sisältyy myös kolmen XML-tiedoston tuloksiin, joten niille näytetään **molemmat ilmoitetut sijainnit**. Sijaintikohtaiset määrät voivat siten olla päällekkäisiä.
+
+**Tietolähteitä koskeva huomautus:** Jokaisen XML-tiedoston hakuosoitteessa on **kaksi erillistä kirjastotoimipisteen suodatinta**. Olemme säilyttäneet 264 tietueelle toimitetun pääkirjastomerkinnän, mutta tiedostot eivät yksinään vahvista jokaisen niteen tarkkaa toimipistettä. Tarkista nidekohtaiset tiedot Finnasta. **Sijaintitieto ei kerro tämänhetkisestä lainattavuudesta**, eikä ”Ei tiedossa” tarkoita, ettei aineistoa olisi kirjastossa.
+
 ## Haku ja järjestäminen
 
-Hae alkuperäisen tai persiankielisen nimekkeen, tekijän, vuoden tai ISBN:n perusteella. **Napsauta minkä tahansa sarakkeen otsikkoa lajitellaksesi aineiston; uusi napsautus vaihtaa suunnan.** Voit myös rajata hakua aineistolajin ja **Finnan kielimerkinnän** (`fas` tai `ira`) mukaan. Puhelimella taulukkoa voi vierittää vaakasuunnassa.
+Hae alkuperäisen tai persiankielisen nimekkeen, tekijän, vuoden tai ISBN:n perusteella. **Napsauta minkä tahansa sarakkeen otsikkoa lajitellaksesi aineiston; uusi napsautus vaihtaa suunnan.** Voit myös rajata hakua aineistolajin, **Finnan kielimerkinnän** (`fas` tai `ira`) ja **sijaintikirjaston** (pääkirjasto, Huudi, Variska tai tuntematon sijainti) mukaan. Puhelimella taulukkoa voi vierittää vaakasuunnassa.
 
 {{< vaasa-persian-books >}}
 
@@ -56,6 +71,7 @@ Hae alkuperäisen tai persiankielisen nimekkeen, tekijän, vuoden tai ISBN:n per
 - **Persialais-arabialaisin kirjaimin kirjoitettu nimeke** on useimmiten toimituksellinen, joskus likimääräinen translitterointi tai käännös, jota ei ole vahvistettu jokaisen teoksen kannesta. Arabiankielinen nimeke ”أجراس ناعمة / شظايا من يوميات الغراب” on tallennettu annetussa muodossa.
 - **Tekijä** on saatu luettelon kansikuvan osoitteesta. Persiankielinen muoto on toimituksellinen eikä jokaisen tekijän osalta riippumattomasti tarkistettu. Äänitteissä ja elokuvissa kyse voi olla esimerkiksi esittäjästä, muusikosta tai ohjaajasta.
 - **Aineistolaji** pohjautuu Finnan luokitukseen, ei tietoon lainaustilanteesta.
+- **Sijaintikirjasto** perustuu toimitettuihin suodatettuihin hakutuloksiin ja yksittäisiin sijaintitietoihin, ei ajantasaiseen lainaustilanteeseen. ”Ei tiedossa” merkitsee, ettei sijaintia voitu määrittää näistä lähteistä.
 - **Finnan kielimerkintä:** alkuperäiset 311 tietuetta kuuluvat persian (`fas`) luokkaan ja neljä lisättyä CD:tä iranilaisten kielten (`ira`) yleisluokkaan. Nämä eivät ole sama merkintä.
 - **Julkaisuvuosi** on säilytetty alkuperäisessä muodossaan: joukossa on sekä iranilaisen että gregoriaanisen kalenterin vuosia. Numeraalinen lajittelu ei muuta kalentereita.
 - **RSS-tietueen päiväys** on RSS-syötteen päivämääräkenttä, **ei vahvistettu hankinta-, saapumis- tai hyllytyspäivä**.
