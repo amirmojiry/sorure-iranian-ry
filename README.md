@@ -19,9 +19,13 @@ The theme is pinned to v3.9.0 via Hugo Modules in `go.mod` and `hugo.toml`. Depl
 
 To enable: GitHub repo **Settings → Pages → Build and deployment → GitHub Actions**. Check **Actions** for the result. The expected public URL is not confirmed until a deployment finishes successfully.
 
-## Add an archived event
+## Event publishing workflow
 
-Each archived event has three corresponding files:
+When an AI agent or editor adds a future event, publishes invitations to local event calendars, or documents an event that has taken place, start with [AGENTS.md](AGENTS.md) and the complete [event workflow guide](docs/EVENT_WORKFLOW.md). It includes the Google Sheet register, three-language website publication, Vaasa and Lähellä form specifications, Facebook/WhatsApp/Telegram messages and channel-specific verification. External-platform publishing requires actual authorised access; drafts alone are not published events.
+
+## Add or update an event
+
+Each website event has three corresponding language files:
 
 - `content/events/<slug>.en.md`
 - `content/events/<slug>.fi.md`
@@ -41,7 +45,7 @@ There are no trackers, cookies, login systems or contact forms. The public email
 
 ## SEO and maintenance
 
-Hugo/Blowfish handles sitemaps, robots.txt, canonical and alternate-language (hreflang) links, Open Graph metadata and RSS. The site includes a decorative public SVG sharing image and its own privacy-conscious structured data. Event articles are published as stories about past events, not misleading announcements for future events.
+Hugo/Blowfish handles sitemaps, robots.txt, canonical and alternate-language (hreflang) links, Open Graph metadata and RSS. The site includes a decorative public SVG sharing image and its own privacy-conscious structured data. Before an event, the article must clearly be an upcoming announcement in the future tense; after it, revise the same slug into a factual retrospective. Do not imply planned activities have already happened. The current Hugo configuration has `buildFuture = false`, so verify that future announcements render before linking them, and ensure the event is listed under the appropriate year.
 
 Blowfish remains a separate, MIT-licensed theme; rights to third-party photographs, links and original cultural works remain with their creators.
 
