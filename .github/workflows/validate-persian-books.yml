@@ -1,0 +1,50 @@
+name: Validate Persian book catalogue
+on:
+  push:
+    branches: [feat/vaasa-persian-books-2026-11]
+    paths:
+      - '.github/workflows/validate-persian-books.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+          cache: false
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.169.0'
+          extended: true
+      - name: Validate catalog source and content taxonomy
+        run: |
+          python3 scripts/validate_content.py
+          python3 - <<'PY'
+          import json
+          b=json.load(open('data/vaasa_persian_books.json'))['books']
+          assert len(b)==273,len(b)
+          assert len({r['id'] for r in b})==273
+          assert sum(bool(r['title_fa']) for r in b)==267
+          assert all(r['url'].startswith('https://vaasankirjasto.finna.fi/Record/vaasa.') for r in b)
+          print('BOOK_DATA_VALID',len(b))
+          PY
+      - name: Build Hugo
+        run: |
+          hugo mod get github.com/nunocoracao/blowfish/v3@v3.9.0
+          hugo --gc --minify --cleanDestinationDir
+          python3 scripts/verify_generated_site.py
+      - name: Check each translated page and 273 rows
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          for lang in ('fa','en','fi'):
+            file=Path('public')/lang/'blog'/'persian-books-vaasa-library-2026'/'index.html'
+            text=file.read_text()
+            assert 'data-persian-books' in text,lang
+            assert text.count('data-book-row')==273, (lang,text.count('data-book-row'))
+            print('BOOK_PAGE_VALID',lang,len(text))
+          PY
