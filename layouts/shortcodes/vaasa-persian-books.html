@@ -1,14 +1,20 @@
 {{- $lang := .Page.Lang -}}
 {{- $strings := dict
-  "fa" (dict "search" "جست‌وجو در عنوان، پدیدآورنده، نوع، سال یا شابک" "roman" "عنوان ثبت‌شده در کتابخانه" "persian" "عنوان فارسی (بازنویسی)" "author" "پدیدآورنده در کاتالوگ" "authorfa" "نام فارسی پدیدآورنده" "kind" "نوع منبع" "all" "همهٔ منابع" "year" "سال انتشار" "rssdate" "تاریخ رکورد RSS" "isbn" "شابک" "result" "مورد از ۳۱۱ منبع" "none" "موردی با این جست‌وجو و فیلتر پیدا نشد." "open" "مشاهده در Finna" "order" "ترتیب در خروجی" "sorthelp" "برای مرتب‌سازی روی عنوان ستون کلیک کنید؛ با کلیک دوباره جهت برعکس می‌شود.")
-  "en" (dict "search" "Search titles, creators, formats, years or ISBNs" "roman" "Library catalogue title" "persian" "Persian title (editorial)" "author" "Creator in catalogue" "authorfa" "Creator in Persian" "kind" "Material type" "all" "All materials" "year" "Publication year" "rssdate" "RSS record date" "isbn" "ISBN" "result" "of 311 materials" "none" "No matching materials." "open" "Open in Finna" "order" "Original list order" "sorthelp" "Click a column heading to sort; click again to reverse.")
-  "fi" (dict "search" "Hae nimekettä, tekijää, aineistolajia, vuotta tai ISBN:ää" "roman" "Kirjastoluettelon nimeke" "persian" "Persiankielinen nimeke (toimitettu)" "author" "Tekijä luettelossa" "authorfa" "Tekijän nimi persiaksi" "kind" "Aineistolaji" "all" "Kaikki aineistot" "year" "Julkaisuvuosi" "rssdate" "RSS-tietueen päiväys" "isbn" "ISBN" "result" "/ 311 aineistoa" "none" "Vastaavia aineistoja ei löytynyt." "open" "Avaa Finnassa" "order" "Alkuperäinen järjestys" "sorthelp" "Lajittele napsauttamalla sarakeotsikkoa. Uusi napsautus vaihtaa suunnan.")
+  "fa" (dict "search" "جست‌وجو در عنوان، پدیدآورنده، نوع، سال یا شابک" "roman" "عنوان ثبت‌شده در کتابخانه" "persian" "عنوان فارسی (بازنویسی)" "author" "پدیدآورنده در کاتالوگ" "authorfa" "نام فارسی پدیدآورنده" "kind" "نوع منبع" "all" "همهٔ منابع" "year" "سال انتشار" "rssdate" "تاریخ رکورد RSS" "isbn" "شابک" "result" "مورد از ۳۱۵ منبع" "none" "موردی با این جست‌وجو و فیلتر پیدا نشد." "open" "مشاهده در Finna" "order" "ترتیب در خروجی" "langlabel" "برچسب زبان در Finna" "langall" "هر دو برچسب" "sorthelp" "برای مرتب‌سازی روی عنوان ستون کلیک کنید؛ با کلیک دوباره جهت برعکس می‌شود.")
+  "en" (dict "search" "Search titles, creators, formats, years or ISBNs" "roman" "Library catalogue title" "persian" "Persian title (editorial)" "author" "Creator in catalogue" "authorfa" "Creator in Persian" "kind" "Material type" "all" "All materials" "year" "Publication year" "rssdate" "RSS record date" "isbn" "ISBN" "result" "of 315 materials" "none" "No matching materials." "open" "Open in Finna" "order" "Original list order" "langlabel" "Finna language label" "langall" "Both language labels" "sorthelp" "Click a column heading to sort; click again to reverse.")
+  "fi" (dict "search" "Hae nimekettä, tekijää, aineistolajia, vuotta tai ISBN:ää" "roman" "Kirjastoluettelon nimeke" "persian" "Persiankielinen nimeke (toimitettu)" "author" "Tekijä luettelossa" "authorfa" "Tekijän nimi persiaksi" "kind" "Aineistolaji" "all" "Kaikki aineistot" "year" "Julkaisuvuosi" "rssdate" "RSS-tietueen päiväys" "isbn" "ISBN" "result" "/ 315 aineistoa" "none" "Vastaavia aineistoja ei löytynyt." "open" "Avaa Finnassa" "order" "Alkuperäinen järjestys" "langlabel" "Kielimerkintä Finnassa" "langall" "Molemmat kielimerkinnät" "sorthelp" "Lajittele napsauttamalla sarakeotsikkoa. Uusi napsautus vaihtaa suunnan.")
 -}}
 {{- $types := dict
   "fa" (dict "book" "کتاب" "audiobook" "کتاب صوتی" "audio_cd" "سی‌دی صوتی/موسیقی" "audio_track" "اثر صوتی" "video" "فیلم (DVD)" "other" "سایر")
   "en" (dict "book" "Book" "audiobook" "Audiobook" "audio_cd" "Audio / music CD" "audio_track" "Audio recording" "video" "Film (DVD)" "other" "Other")
   "fi" (dict "book" "Kirja" "audiobook" "Äänikirja" "audio_cd" "Ääni-/musiikki-CD" "audio_track" "Äänite" "video" "Elokuva (DVD)" "other" "Muu")
 -}}
+{{- $langNames := dict
+  "fa" (dict "fas" "فارسی" "ira" "زبان‌های ایرانی")
+  "en" (dict "fas" "Persian" "ira" "Iranian languages")
+  "fi" (dict "fas" "Persia" "ira" "Iranilaiset kielet")
+-}}
+{{- $originNames := index $langNames $lang | default (index $langNames "en") -}}
 {{- $t := index $strings $lang | default (index $strings "en") -}}
 {{- $typeNames := index $types $lang | default (index $types "en") -}}
 {{- $items := site.Data.vaasa_persian_books.materials -}}
@@ -29,6 +35,14 @@
         <option value="video">{{ index $typeNames "video" }}</option>
       </select>
     </div>
+    <div class="sorure-books-language-field">
+      <label for="sorure-books-language-{{ $lang }}">{{ $t.langlabel }}</label>
+      <select id="sorure-books-language-{{ $lang }}" data-book-language-filter>
+        <option value="">{{ $t.langall }}</option>
+        <option value="fas">{{ index $originNames "fas" }}</option>
+        <option value="ira">{{ index $originNames "ira" }}</option>
+      </select>
+    </div>
     <p class="sorure-books-counter" aria-live="polite"><strong data-book-count>{{ len $items }}</strong> {{ $t.result }}</p>
   </div>
   <p class="sorure-books-sort-help">{{ $t.sorthelp }}</p>
@@ -40,6 +54,7 @@
           <th scope="col" aria-sort="none"><button type="button" data-sort-key="title_fa">{{ $t.persian }} <span data-sort-indicator aria-hidden="true">↕</span></button></th>
           <th scope="col" aria-sort="none"><button type="button" data-sort-key="title_latin">{{ $t.roman }} <span data-sort-indicator aria-hidden="true">↕</span></button></th>
           <th scope="col" aria-sort="none"><button type="button" data-sort-key="material_type">{{ $t.kind }} <span data-sort-indicator aria-hidden="true">↕</span></button></th>
+          <th scope="col" aria-sort="none"><button type="button" data-sort-key="language_finna">{{ $t.langlabel }} <span data-sort-indicator aria-hidden="true">↕</span></button></th>
           <th scope="col" aria-sort="none"><button type="button" data-sort-key="author_fa">{{ $t.authorfa }} <span data-sort-indicator aria-hidden="true">↕</span></button></th>
           <th scope="col" aria-sort="none"><button type="button" data-sort-key="author">{{ $t.author }} <span data-sort-indicator aria-hidden="true">↕</span></button></th>
           <th scope="col" aria-sort="none"><button type="button" data-sort-key="year">{{ $t.year }} <span data-sort-indicator aria-hidden="true">↕</span></button></th>
@@ -50,11 +65,13 @@
       <tbody>
         {{- range $i, $item := $items }}
         {{- $typeLabel := index $typeNames $item.material_type | default $item.format -}}
-        <tr data-book-row data-source-order="{{ $item.search_position }}" data-material-type="{{ $item.material_type }}" data-sort-order="{{ $item.search_position }}" data-sort-title_fa="{{ $item.title_fa }}" data-sort-title_latin="{{ $item.title_latin }}" data-sort-material_type="{{ $typeLabel }}" data-sort-author_fa="{{ $item.author_fa }}" data-sort-author="{{ $item.author }}" data-sort-year="{{ $item.year }}" data-sort-indexed_date="{{ $item.indexed_date }}" data-sort-isbn="{{ $item.isbn }}">
+        {{- $originLabel := index $originNames $item.language_finna | default $item.language_finna -}}
+        <tr data-book-row data-source-order="{{ $item.search_position }}" data-material-type="{{ $item.material_type }}" data-language-origin="{{ $item.language_finna }}" data-sort-language_finna="{{ $originLabel }}" data-sort-order="{{ $item.search_position }}" data-sort-title_fa="{{ $item.title_fa }}" data-sort-title_latin="{{ $item.title_latin }}" data-sort-material_type="{{ $typeLabel }}" data-sort-author_fa="{{ $item.author_fa }}" data-sort-author="{{ $item.author }}" data-sort-year="{{ $item.year }}" data-sort-indexed_date="{{ $item.indexed_date }}" data-sort-isbn="{{ $item.isbn }}">
           <td class="sorure-books-number">{{ $item.search_position }}</td>
           <td lang="fa" dir="rtl">{{ with $item.title_fa }}<strong>{{ . }}</strong>{{ else }}<span class="sorure-books-missing">—</span>{{ end }}</td>
           <td lang="en" dir="ltr"><a href="{{ $item.url }}" target="_blank" rel="noopener noreferrer" title="{{ $t.open }}">{{ $item.title_latin }}</a></td>
           <td>{{ $typeLabel }}</td>
+          <td>{{ $originLabel }}</td>
           <td lang="fa" dir="rtl">{{ $item.author_fa | default "—" }}</td>
           <td lang="en" dir="ltr">{{ $item.author | default "—" }}</td>
           <td dir="ltr" class="sorure-books-nowrap">{{ $item.year | default "—" }}</td>
@@ -72,13 +89,14 @@
 .sorure-books-controls{display:flex;flex-wrap:wrap;gap:.7rem 1rem;align-items:end;margin:0 0 .65rem}
 .sorure-books-search-field{flex:2 1 300px;min-width:190px}
 .sorure-books-type-field{flex:1 1 165px;max-width:270px}
+.sorure-books-language-field{flex:1 1 165px;max-width:270px}
 .sorure-books-controls label{display:block;margin:0 0 .35rem;font-weight:650}
-.sorure-books-search,.sorure-books-type-field select{display:block;width:100%;min-height:43px;padding:.65rem .8rem;border:1px solid #82928f;border-radius:.65rem;background:transparent;color:inherit;font:inherit;box-sizing:border-box}
-.sorure-books-type-field option{color:#17212a;background:#fff}
+.sorure-books-search,.sorure-books-type-field select,.sorure-books-language-field select{display:block;width:100%;min-height:43px;padding:.65rem .8rem;border:1px solid #82928f;border-radius:.65rem;background:transparent;color:inherit;font:inherit;box-sizing:border-box}
+.sorure-books-type-field option,.sorure-books-language-field option{color:#17212a;background:#fff}
 .sorure-books-counter{margin:0 0 .65rem!important;font-size:.85rem;opacity:.84;white-space:nowrap}
 .sorure-books-sort-help{margin:.35rem 0 .75rem!important;opacity:.75;font-size:.82rem}
 .sorure-books-scroll{overflow-x:auto;overflow-y:visible;border:1px solid #c7d0cc;border-radius:.75rem}
-.sorure-books-table{width:100%;min-width:1460px;border-collapse:collapse;text-align:start;line-height:1.52;margin:0!important}
+.sorure-books-table{width:100%;min-width:1580px;border-collapse:collapse;text-align:start;line-height:1.52;margin:0!important}
 .sorure-books-table th,.sorure-books-table td{padding:.7rem .75rem;border-bottom:1px solid #dfe5e2;text-align:start;vertical-align:top}
 .sorure-books-table th{background:rgba(100,120,105,.14);font-weight:650;white-space:normal;min-width:80px}
 .sorure-books-table th button{display:flex;align-items:start;justify-content:space-between;gap:.5rem;width:100%;margin:0;padding:0;border:0;background:transparent;color:inherit;text-align:inherit;cursor:pointer;font:inherit;font-weight:inherit;line-height:1.4}
@@ -88,10 +106,10 @@
 .sorure-books-table th[aria-sort="ascending"] [data-sort-indicator],.sorure-books-table th[aria-sort="descending"] [data-sort-indicator]{opacity:1}
 .sorure-books-table tbody tr:last-child td{border-bottom:0}
 .sorure-books-table tbody tr:hover{background:rgba(100,120,105,.07)}
-.sorure-books-table td:nth-child(2),.sorure-books-table td:nth-child(5){min-width:175px}
+.sorure-books-table td:nth-child(2),.sorure-books-table td:nth-child(6){min-width:175px}
 .sorure-books-table td:nth-child(3){min-width:210px;max-width:315px;overflow-wrap:anywhere}
 .sorure-books-table td:nth-child(4){min-width:125px}
-.sorure-books-table td:nth-child(6){min-width:140px}
+.sorure-books-table td:nth-child(5){min-width:130px}.sorure-books-table td:nth-child(7){min-width:140px}
 .sorure-books-table a{text-decoration:underline;text-underline-offset:2px}
 .sorure-books-number{font-variant-numeric:tabular-nums;opacity:.75}
 .sorure-books-nowrap{white-space:nowrap;font-variant-numeric:tabular-nums}
@@ -105,6 +123,7 @@
     wrapper.setAttribute('data-books-ready','true');
     const input=wrapper.querySelector('[data-book-search]');
     const formatSelect=wrapper.querySelector('[data-book-type-filter]');
+    const languageSelect=wrapper.querySelector('[data-book-language-filter]');
     const tbody=wrapper.querySelector('tbody');
     const rows=Array.from(wrapper.querySelectorAll('[data-book-row]'));
     const count=wrapper.querySelector('[data-book-count]');
@@ -122,17 +141,20 @@
       row.dataset.searchValue=normalize([
         row.getAttribute('data-sort-title_fa'),row.getAttribute('data-sort-title_latin'),
         row.getAttribute('data-sort-author_fa'),row.getAttribute('data-sort-author'),
-        row.getAttribute('data-sort-material_type'),row.getAttribute('data-sort-year'),
+        row.getAttribute('data-sort-material_type'),row.getAttribute('data-sort-language_finna'),
+        row.getAttribute('data-sort-year'),
         row.getAttribute('data-sort-isbn'),row.getAttribute('data-sort-indexed_date')
       ].join(' '));
     });
     function updateVisibility(){
       const query=normalize(input.value);
       const selectedType=formatSelect.value;
+      const selectedLanguage=languageSelect.value;
       let visible=0;
       rows.forEach(function(row){
         const found=(!query||row.dataset.searchValue.includes(query))
-          &&(!selectedType||row.getAttribute('data-material-type')===selectedType);
+          &&(!selectedType||row.getAttribute('data-material-type')===selectedType)
+          &&(!selectedLanguage||row.getAttribute('data-language-origin')===selectedLanguage);
         row.hidden=!found;
         row.style.display=found?'':'none';
         if(found)visible++;
@@ -176,6 +198,7 @@
     }
     input.addEventListener('input',updateVisibility);
     formatSelect.addEventListener('change',updateVisibility);
+    languageSelect.addEventListener('change',updateVisibility);
     sortButtons.forEach(function(button){
       button.addEventListener('click',function(){sortBy(button.getAttribute('data-sort-key'));});
     });
