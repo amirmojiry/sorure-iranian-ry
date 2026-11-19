@@ -29,6 +29,8 @@ Sorure Iranian ry on koonnut **311 persiankieliseksi (fas) luokiteltua aineistot
 
 **293 tietueessa on julkaisuvuosi**, **171:ssä ISBN** ja **288:ssa tekijän tai muun vastuuhenkilön nimi** kansikuvan osoitteen metatiedoissa. Kaikista näistä tekijänimistä on lisätty toimituksellinen persiankielinen kirjoitusasu. **Kaikille 311 tietueelle** on lisätty nimeke persialais-arabialaisin kirjaimin; yksi nimekkeistä on arabiankielinen.
 
+Lue myös [artikkelimme persian asemasta Vaasan kirjaston kielijakaumassa]({{< relref "blog/persian-language-standing-vaasa-library-2026" >}}): vertailussa on kaikkiaan 146 kieliluokkaa.
+
 ## Haku ja järjestäminen
 
 Hae alkuperäisen tai persiankielisen nimekkeen, tekijän, vuoden tai ISBN:n perusteella. **Napsauta minkä tahansa sarakkeen otsikkoa lajitellaksesi aineiston; uusi napsautus vaihtaa suunnan.** Voit myös rajata hakua aineistolajin mukaan. Puhelimella taulukkoa voi vierittää vaakasuunnassa.

@@ -63,6 +63,6 @@ The searchable table below reproduces **every category in the supplied dataset**
 
 ## Explore the Persian catalogue
 
-We have also published a [searchable index of all **311 Persian-tagged results**](/en/blog/persian-books-vaasa-library-2026/) with Persian/Arabic-script and original titles, creator names, material types, publication years, and direct links to Finna. Of these, **273 are classified as books** and **38 as other material types**, including films and recordings.
+We have also published a [searchable index of all **311 Persian-tagged results**]({{< relref "blog/persian-books-vaasa-library-2026" >}}) with Persian/Arabic-script and original titles, creator names, material types, publication years, and direct links to Finna. Of these, **273 are classified as books** and **38 as other material types**, including films and recordings.
 
-**Sources and limitations:** The counts were transcribed from a snapshot supplied from the [Vaasa Finna Language filter](https://vaasankirjasto.finna.fi/Search/Results?type=AllFields&lng=en-gb), dated **19 November 2026**. We did not independently revalidate all counts through the live API, so the current totals may differ. Language facets can overlap, and adding every language count will not reliably produce a count of unique items.
+**Sources and limitations:** The counts were transcribed from a snapshot supplied from the [Vaasa Finna Language filter](https://vaasankirjasto.finna.fi/Search/Results?type=AllFields&lng=en-gb), dated **19 November 2026**. Language facets can overlap, and adding every language count will not reliably produce a count of unique items.
