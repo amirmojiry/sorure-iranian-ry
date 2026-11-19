@@ -1,0 +1,75 @@
+{{- $lang := .Page.Lang -}}
+{{- $strings := dict
+  "fa" (dict "search" "جست‌وجو در عنوان فارسی، لاتین، نویسنده یا سال انتشار" "roman" "عنوان ثبت‌شده در کتابخانه" "persian" "عنوان فارسی (بازنویسی)" "author" "نویسنده (در صورت ثبت)" "year" "سال انتشار" "rssdate" "تاریخ رکورد RSS" "isbn" "شابک" "result" "کتاب از ۲۷۳ کتاب" "none" "کتابی با این عبارت پیدا نشد" "open" "مشاهده در Finna")
+  "en" (dict "search" "Search Persian title, catalog title, author, or publication year" "roman" "Catalog title" "persian" "Persian title (editorial rendering)" "author" "Author (if supplied)" "year" "Publication year" "rssdate" "RSS record date" "isbn" "ISBN" "result" "of 273 books" "none" "No matching books" "open" "Open in Finna")
+  "fi" (dict "search" "Hae persiankielistä tai luettelon nimeä, tekijää tai julkaisuvuotta" "roman" "Luettelon nimeke" "persian" "Persiankielinen nimeke (toimitettu)" "author" "Tekijä (jos tiedossa)" "year" "Julkaisuvuosi" "rssdate" "RSS-tietueen päiväys" "isbn" "ISBN" "result" "/ 273 kirjaa" "none" "Hakua vastaavia kirjoja ei löytynyt" "open" "Avaa Finnassa")
+-}}
+{{- $t := index $strings $lang | default (index $strings "en") -}}
+{{- $books := site.Data.vaasa_persian_books.books -}}
+<div class="sorure-books" data-persian-books lang="{{ $lang }}">
+  <div class="sorure-books-controls">
+    <label for="sorure-books-search-{{ $lang }}">{{ $t.search }}</label>
+    <input id="sorure-books-search-{{ $lang }}" class="sorure-books-search" data-book-search type="search" autocomplete="off" placeholder="{{ $t.search }}">
+    <p class="sorure-books-counter" aria-live="polite"><strong data-book-count>{{ len $books }}</strong> {{ $t.result }}</p>
+  </div>
+  <div class="sorure-books-scroll" role="region" tabindex="0" aria-label="{{ $t.roman }}">
+    <table class="sorure-books-table">
+      <thead>
+        <tr><th scope="col">#</th><th scope="col">{{ $t.persian }}</th><th scope="col">{{ $t.roman }}</th><th scope="col">{{ $t.author }}</th><th scope="col">{{ $t.year }}</th><th scope="col">{{ $t.rssdate }}</th><th scope="col">{{ $t.isbn }}</th></tr>
+      </thead>
+      <tbody>
+        {{- range $i, $book := $books }}
+        <tr data-book-row data-book-search-value="{{ printf "%s %s %s %s %s" $book.title_fa $book.title_latin $book.author $book.year $book.isbn | lower }}">
+          <td class="sorure-books-number">{{ add $i 1 }}</td>
+          <td lang="fa" dir="rtl">{{ with $book.title_fa }}<strong>{{ . }}</strong>{{ else }}<span class="sorure-books-missing">—</span>{{ end }}</td>
+          <td lang="en" dir="ltr"><a href="{{ $book.url }}" target="_blank" rel="noopener noreferrer" title="{{ $t.open }}">{{ $book.title_latin }}</a></td>
+          <td dir="auto">{{ $book.author | default "—" }}</td>
+          <td dir="ltr" class="sorure-books-nowrap">{{ $book.year | default "—" }}</td>
+          <td dir="ltr" class="sorure-books-nowrap">{{ $book.indexed_date | default "—" }}</td>
+          <td dir="ltr" class="sorure-books-nowrap">{{ $book.isbn | default "—" }}</td>
+        </tr>
+        {{- end }}
+      </tbody>
+    </table>
+  </div>
+  <p class="sorure-books-empty" data-books-empty hidden>{{ $t.none }}</p>
+</div>
+<style>
+.sorure-books{margin:1.5rem 0 2.5rem;font-size:.92rem;max-width:100%}
+.sorure-books-controls{display:flex;flex-wrap:wrap;gap:.65rem 1.2rem;align-items:center;margin:0 0 .9rem}
+.sorure-books-controls label{flex:1 0 100%;font-weight:650}
+.sorure-books-search{width:min(100%,34rem);padding:.8rem 1rem;border:1px solid #98a8a5;border-radius:.7rem;background:transparent;color:inherit;font:inherit;box-sizing:border-box}
+.sorure-books-counter{margin:0!important;font-size:.85rem;opacity:.85}
+.sorure-books-scroll{overflow-x:auto;overflow-y:visible;border:1px solid #d0d8d4;border-radius:.75rem}
+.sorure-books-table{width:100%;min-width:920px;border-collapse:collapse;text-align:start;line-height:1.55;margin:0!important}
+.sorure-books-table th,.sorure-books-table td{padding:.7rem .85rem;border-bottom:1px solid #dfe5e2;text-align:start;vertical-align:top}
+.sorure-books-table thead{background:rgba(100,120,105,.12)}
+.sorure-books-table tr:last-child td{border-bottom:0}
+.sorure-books-table tbody tr:hover{background:rgba(100,120,105,.07)}
+.sorure-books-table td:nth-child(2){min-width:185px}
+.sorure-books-table td:nth-child(3){min-width:210px;max-width:310px;overflow-wrap:anywhere}
+.sorure-books-table a{text-decoration:underline;text-underline-offset:2px}
+.sorure-books-number{font-variant-numeric:tabular-nums;opacity:.7}
+.sorure-books-nowrap{white-space:nowrap;font-variant-numeric:tabular-nums}
+.sorure-books-missing{opacity:.45}
+.sorure-books-empty{font-weight:600;padding:1rem}
+@media(max-width:640px){.sorure-books-scroll{margin-inline:-.25rem}.sorure-books-table th,.sorure-books-table td{padding:.6rem .7rem}.sorure-books-controls{display:block}.sorure-books-counter{margin-top:.6rem!important}}
+</style>
+<script>
+(function(){
+  document.querySelectorAll('[data-persian-books]:not([data-books-ready])').forEach(function(wrapper){
+    wrapper.setAttribute('data-books-ready','true');
+    var input=wrapper.querySelector('[data-book-search]');
+    var rows=Array.from(wrapper.querySelectorAll('[data-book-row]'));
+    var count=wrapper.querySelector('[data-book-count]');
+    var empty=wrapper.querySelector('[data-books-empty]');
+    function normalize(value){return (value||'').toLocaleLowerCase().normalize('NFKC').replace(/[يى]/g,'ی').replace(/ك/g,'ک').replace(/[\u200c\u200e\u200f]/g,' ').trim();}
+    function update(){
+      var query=normalize(input.value);var visible=0;
+      rows.forEach(function(row){var found=!query||normalize(row.getAttribute('data-book-search-value')).includes(query);row.hidden=!found;row.style.display=found?'':'none';if(found)visible++;});
+      count.textContent=String(visible);empty.hidden=visible>0;
+    }
+    input.addEventListener('input',update);
+  });
+})();
+</script>
