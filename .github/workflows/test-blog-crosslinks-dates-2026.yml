@@ -31,23 +31,50 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          import re,html
+          from html.parser import HTMLParser
+          class Inspector(HTMLParser):
+            def __init__(self):
+              super().__init__()
+              self.cards=[]
+              self.current=None
+              self.hrefs=set()
+            def handle_starttag(self,tag,attrs):
+              attrs=dict(attrs)
+              if tag=="a" and attrs.get("href"):
+                self.hrefs.add(attrs["href"])
+              if tag=="article" and "sorure-event-card" in attrs.get("class","").split():
+                self.current={"hrefs":set(),"dates":set()}
+                self.cards.append(self.current)
+              if self.current:
+                if tag=="a" and attrs.get("href"):
+                  self.current["hrefs"].add(attrs["href"])
+                if tag=="time" and attrs.get("datetime"):
+                  self.current["dates"].add(attrs["datetime"])
+            def handle_endtag(self,tag):
+              if tag=="article":
+                self.current=None
           for lang in ("fa","en","fi"):
             root=Path("public")/lang/"blog"
-            index=(root/"index.html").read_text()
-            cards=re.findall(r'<article class="sorure-event-card">.*?</article>',index,re.S)
+            inspector=Inspector()
+            inspector.feed((root/"index.html").read_text())
+            assert inspector.cards,(lang,"no blog cards")
             for slug in ("persian-books-vaasa-library-2026","persian-language-standing-vaasa-library-2026"):
               target=f"/sorure-iranian-ry/{lang}/blog/{slug}/"
-              matched=[card for card in cards if f'href="{target}"' in card]
-              assert len(matched)==1,(lang,slug,"card",len(matched))
-              assert '<time datetime="2026-11-19">' in matched[0],(lang,slug,"missing date")
+              matching=[card for card in inspector.cards if target in card["hrefs"]]
+              assert len(matching)==1,(lang,slug,"card",len(matching),[sorted(c["hrefs"])[:1] for c in inspector.cards[:3]])
+              assert "2026-11-19" in matching[0]["dates"],(lang,slug,"missing date",matching[0]["dates"])
             books=(root/"persian-books-vaasa-library-2026"/"index.html").read_text()
             ranks=(root/"persian-language-standing-vaasa-library-2026"/"index.html").read_text()
-            assert f'href="/sorure-iranian-ry/{lang}/blog/persian-language-standing-vaasa-library-2026/"' in books,(lang,"books outbound")
-            assert f'href="/sorure-iranian-ry/{lang}/blog/persian-books-vaasa-library-2026/"' in ranks,(lang,"rankings outbound")
-            assert 'در بررسی قبلی انجمن' in ranks if lang=="fa" else True
-            assert ('بازتأیید نکرده‌ایم' not in ranks) if lang=="fa" else True
-            assert ('We did not independently revalidate' not in ranks) if lang=="en" else True
-            assert ('Kaikkia lukuja ei ole tarkistettu' not in ranks) if lang=="fi" else True
+            outbound_books=Inspector();outbound_books.feed(books)
+            outbound_ranks=Inspector();outbound_ranks.feed(ranks)
+            assert f"/sorure-iranian-ry/{lang}/blog/persian-language-standing-vaasa-library-2026/" in outbound_books.hrefs,(lang,"books outbound",sorted(outbound_books.hrefs)[:8])
+            assert f"/sorure-iranian-ry/{lang}/blog/persian-books-vaasa-library-2026/" in outbound_ranks.hrefs,(lang,"rankings outbound",sorted(outbound_ranks.hrefs)[:8])
+            if lang=="fa":
+              assert 'در بررسی قبلی انجمن' in ranks
+              assert 'بازتأیید نکرده‌ایم' not in ranks
+            if lang=="en":
+              assert 'We did not independently revalidate' not in ranks
+            if lang=="fi":
+              assert 'Kaikkia lukuja ei ole tarkistettu' not in ranks
             print("BLOG_DATES_AND_LINKS_PASS",lang)
           PY
