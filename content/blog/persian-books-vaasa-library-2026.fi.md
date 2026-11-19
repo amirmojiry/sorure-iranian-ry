@@ -5,7 +5,6 @@ title: "311 persiankieliseksi luokiteltua aineistotietuetta Vaasan kirjastossa"
 description: "Haettava ja sarakkeittain lajiteltava luettelo 311 persiankieliseksi merkitystä aineistosta: kirjat, elokuvat, äänikirjat ja musiikki sekä nimekkeet, tekijät, aineistolajit, vuodet ja tietuelinkit."
 date: "2026-11-19T13:00:00+02:00"
 publishDate: "2026-11-19T13:00:00+02:00"
-lastmod: "2026-11-19T15:00:00+02:00"
 showDate: false
 event_year: "2026"
 event_type: "culture"
