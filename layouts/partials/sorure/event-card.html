@@ -1,4 +1,9 @@
 {{ $ui := index hugo.Data.ui .Language.Lang }}
+{{ $isBlog := eq .Section "blog" }}
+{{ $dateLabel := .Params.event_date_label }}
+{{ if $isBlog }}
+  {{ $dateLabel = .Params.publication_label | default (.Date.Format "2 January 2006") }}
+{{ end }}
 <article class="sorure-event-card">
   <a class="sorure-event-card-link" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
     <div class="sorure-event-card-art sorure-cover-{{ .Params.event_type | default "community" }}" aria-hidden="true">
@@ -12,10 +17,16 @@
   </a>
   <div class="sorure-event-card-content">
     <div class="sorure-event-card-meta">
-      <span class="sorure-event-chip sorure-event-chip-date">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></svg>
-        <span>{{ .Params.event_date_label }}</span>
-      </span>
+      {{ with $dateLabel }}
+        <span class="sorure-event-chip sorure-event-chip-date">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></svg>
+          {{ if $isBlog }}
+            <time datetime="{{ $.Date.Format "2006-01-02" }}">{{ . }}</time>
+          {{ else }}
+            <span>{{ . }}</span>
+          {{ end }}
+        </span>
+      {{ end }}
       {{ with .Params.venue }}
         <span class="sorure-event-chip sorure-event-chip-place">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>
