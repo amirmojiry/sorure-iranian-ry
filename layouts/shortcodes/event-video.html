@@ -1,0 +1,10 @@
+{{- $src := .Get "src" -}}
+{{- $poster := .Get "poster" -}}
+{{- $caption := .Get "caption" -}}
+<figure class="sorure-event-video" style="max-width:520px;margin:1.5rem auto;text-align:center;">
+  <video controls playsinline preload="metadata" width="480" height="848"{{ with $poster }} poster="{{ . | relURL }}"{{ end }} style="display:block;width:100%;height:auto;max-height:75vh;object-fit:contain;margin:0 auto;border-radius:0.75rem;background:#111;">
+    <source src="{{ $src | relURL }}" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  {{ with $caption }}<figcaption style="margin-top:0.5rem;opacity:0.8;font-size:0.9em;">{{ . }}</figcaption>{{ end }}
+</figure>

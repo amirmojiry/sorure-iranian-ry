@@ -4,7 +4,7 @@ description: "Handicrafts, visual culture and live santur music in a shared cult
 slug: "multicultural-pohy-2024"
 date: "2024-05-15T12:00:00+02:00"
 publishDate: "2026-11-03T12:00:00+02:00"
-lastmod: "2026-11-03T12:00:00+02:00"
+lastmod: "2026-11-19T13:00:00+02:00"
 event_date: "2024-05-15"
 event_date_label: "15 May 2024"
 date_precision: "exact"
@@ -22,6 +22,10 @@ event_gallery:
     alt: "Close-up of a santur instrument and microphone"
   - src: "img/events/multicultural-pohy-2024-05.jpg"
     alt: "Decorative blue plate with traditional Persian patterns"
+  - src: "img/events/multicultural-pohy-2024-06.webp"
+    alt: "Live santur performance at the POHY multicultural event in Vaasa"
+  - src: "img/events/multicultural-pohy-2024-07.webp"
+    alt: "Musician beside the santur at the POHY multicultural event"
 eventcategories: ["culture-arts"]
 eventtags: ["intercultural-exchange", "arts-creativity", "partnership"]
 symbol: "✺"

@@ -4,7 +4,7 @@ description: "Käsitöitä, kuvallista kulttuuria ja elävää santur-musiikkia.
 slug: "multicultural-pohy-2024"
 date: "2024-05-15T12:00:00+02:00"
 publishDate: "2026-11-03T12:00:00+02:00"
-lastmod: "2026-11-03T12:00:00+02:00"
+lastmod: "2026-11-19T13:00:00+02:00"
 event_date: "2024-05-15"
 event_date_label: "15. toukokuuta 2024"
 date_precision: "exact"
@@ -22,6 +22,10 @@ event_gallery:
     alt: "Lähikuva santur-soittimesta ja mikrofonista"
   - src: "img/events/multicultural-pohy-2024-05.jpg"
     alt: "Sininen koristelautanen, jossa on perinteisiä persialaisia kuvioita"
+  - src: "img/events/multicultural-pohy-2024-06.webp"
+    alt: "Santur-esitys POHY:n monikulttuurisessa tapahtumassa Vaasassa"
+  - src: "img/events/multicultural-pohy-2024-07.webp"
+    alt: "Muusikko santur-soittimen vieressä POHY:n monikulttuurisessa tilaisuudessa"
 eventcategories: ["culture-arts"]
 eventtags: ["intercultural-exchange", "arts-creativity", "partnership"]
 symbol: "✺"

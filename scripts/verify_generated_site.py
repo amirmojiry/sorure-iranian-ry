@@ -39,6 +39,25 @@ def main() -> None:
              ["finnish-a0-summer-2026-01.jpg", "finnish-a0-summer-2026-02.jpg"])
         page(f"{lang}/events/fun-art-june-05-2026",
              ["fun-art-june-05-2026-01.jpg"])
+    # Video showcases, book list and newly documented multicultural photos.
+    for lang in ("en", "fi", "fa"):
+        page(f"{lang}/events/multicultural-pohy-2024",
+             ["multicultural-pohy-2024-06.webp", "multicultural-pohy-2024-07.webp"])
+        page(f"{lang}/events/persian-library-books-2024",
+             ["persian-library-books-2024-01.mp4", "persian-library-books-2024-02.mp4",
+              "persian-library-books-2024-01-poster.webp", "persian-library-books-2024-02-poster.webp",
+              "978-600-229-697-9", "978-600-6043-73-9"])
+    for relative_path, min_bytes in (
+        ("videos/events/persian-library-books-2024-01.mp4", 1000000),
+        ("videos/events/persian-library-books-2024-02.mp4", 1000000),
+        ("img/events/persian-library-books-2024-01-poster.webp", 10000),
+        ("img/events/persian-library-books-2024-02-poster.webp", 10000),
+        ("img/events/multicultural-pohy-2024-06.webp", 20000),
+        ("img/events/multicultural-pohy-2024-07.webp", 20000),
+    ):
+        asset = PUBLIC / relative_path
+        if not asset.is_file() or asset.stat().st_size < min_bytes:
+            raise AssertionError(f"Missing or empty event media: {relative_path}")
     # Every gallery photo must exist in the generated site, and each translation must reference it.
     for lang in ("en", "fi", "fa"):
         for slug, count in (("summer-picnic-2023", 4), ("nowruz-sizdah-2023", 3)):

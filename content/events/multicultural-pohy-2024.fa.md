@@ -4,7 +4,7 @@ description: "نمایش هنر و صنایع‌دستی همراه با اجر�
 slug: "multicultural-pohy-2024"
 date: "2024-05-15T12:00:00+02:00"
 publishDate: "2026-11-03T12:00:00+02:00"
-lastmod: "2026-11-03T12:00:00+02:00"
+lastmod: "2026-11-19T13:00:00+02:00"
 event_date: "2024-05-15"
 event_date_label: "۱۵ مه ۲۰۲۴"
 date_precision: "exact"
@@ -22,6 +22,10 @@ event_gallery:
     alt: "نمای نزدیک ساز سنتور و میکروفن"
   - src: "img/events/multicultural-pohy-2024-05.jpg"
     alt: "بشقاب تزئینی با نقش‌های آبی ایرانی"
+  - src: "img/events/multicultural-pohy-2024-06.webp"
+    alt: "اجرای سنتور در برنامه چندفرهنگی با POHY در واسا"
+  - src: "img/events/multicultural-pohy-2024-07.webp"
+    alt: "هنرمند در کنار سنتور در رویداد چندفرهنگی POHY"
 eventcategories: ["culture-arts"]
 eventtags: ["intercultural-exchange", "arts-creativity", "partnership"]
 symbol: "✺"
