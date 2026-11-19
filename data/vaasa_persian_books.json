@@ -24,7 +24,21 @@
     "iranian_languages_supplement": 4,
     "rss_results_ira": 4,
     "original_language_fas_results": 311,
-    "iranian_languages_note": "Four audio CDs were catalogued under Iranian languages (ira) rather than Persian (fas). They are editorially included as Persian/Iranian-music-related. Their inclusion does not change the official Finna language-facet count for Persian (311), nor prove all CDs contain Persian lyrics."
+    "iranian_languages_note": "Four audio CDs were catalogued under Iranian languages (ira) rather than Persian (fas). They are editorially included as Persian/Iranian-music-related. Their inclusion does not change the official Finna language-facet count for Persian (311), nor prove all CDs contain Persian lyrics.",
+    "location_snapshot_date": "2026-11-20",
+    "holding_locations_count": {
+      "main": 264,
+      "huudi": 4,
+      "variska": 1,
+      "unknown": 48
+    },
+    "holding_location_source": "264 IDs from three uploaded RSS exports of Persian/Iranian-language results labeled 'Main library' by contributor, plus four title-level Huudi assignments and one Variska assignment given by contributor. The RSS URLs themselves include TWO different building facet IDs, so the 264 Main library designations cannot be independently proven per record solely from these feeds.",
+    "holding_location_caveat": "These are library branch indications, not live circulation or on-shelf availability. Multiple branches are shown where sources overlap. An empty array means branch unknown, not that the library does not hold the record. Each item may have additional holdings not shown.",
+    "location_filter_buildings": [
+      "1/Vaasankirjasto/485aba7e-14fd-49e2-8997-0e562ffe707a/",
+      "1/Vaasankirjasto/d6b4f026-b698-48ac-b818-edf291a3b30d/"
+    ],
+    "locations_source_export_total": 264
   },
   "materials": [
     {
@@ -41,7 +55,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ab20bb2d-170d-41d8-99ac-1755825b9429",
       "source_page": 1,
       "search_position": 1,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.0f958be4-6664-49d5-97d4-51c86fe6e2f7",
@@ -57,7 +74,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0f958be4-6664-49d5-97d4-51c86fe6e2f7",
       "source_page": 1,
       "search_position": 2,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.69fef78a-598d-478f-a21c-f00eaaeba658",
@@ -73,7 +91,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.69fef78a-598d-478f-a21c-f00eaaeba658",
       "source_page": 1,
       "search_position": 3,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.cb6b6dca-718d-4def-8a08-c7be1bbceec8",
@@ -89,7 +110,11 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.cb6b6dca-718d-4def-8a08-c7be1bbceec8",
       "source_page": 1,
       "search_position": 4,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main",
+        "variska"
+      ]
     },
     {
       "id": "vaasa.f55740d2-f675-472e-a143-35930da2f19e",
@@ -105,7 +130,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f55740d2-f675-472e-a143-35930da2f19e",
       "source_page": 1,
       "search_position": 5,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.1f493f4f-47c3-4c90-b79d-b43127248fcc",
@@ -121,7 +149,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1f493f4f-47c3-4c90-b79d-b43127248fcc",
       "source_page": 1,
       "search_position": 6,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.2cccfb4b-58ac-4352-b506-726d4f6a5468",
@@ -137,7 +168,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2cccfb4b-58ac-4352-b506-726d4f6a5468",
       "source_page": 1,
       "search_position": 7,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.623a84e5-8436-4064-805b-b7046d9b3d0b",
@@ -153,7 +187,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.623a84e5-8436-4064-805b-b7046d9b3d0b",
       "source_page": 1,
       "search_position": 8,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.0b11fe22-5af8-42bf-9e87-95814016515b",
@@ -169,7 +206,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0b11fe22-5af8-42bf-9e87-95814016515b",
       "source_page": 1,
       "search_position": 9,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.281209ca-a310-4b2b-8449-4a53a5f8fc82",
@@ -185,7 +225,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.281209ca-a310-4b2b-8449-4a53a5f8fc82",
       "source_page": 1,
       "search_position": 10,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.a1fcc0a1-dcad-408c-b580-1c613d493fd1",
@@ -201,7 +244,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a1fcc0a1-dcad-408c-b580-1c613d493fd1",
       "source_page": 1,
       "search_position": 11,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.4d4ae55d-e872-4b5a-bb71-80d0a61a818c",
@@ -217,7 +263,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.4d4ae55d-e872-4b5a-bb71-80d0a61a818c",
       "source_page": 1,
       "search_position": 12,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.156200fe-5bda-4584-8dfb-18bc44db5945",
@@ -233,7 +282,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.156200fe-5bda-4584-8dfb-18bc44db5945",
       "source_page": 1,
       "search_position": 13,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.5aee70a1-2a9c-4bec-b3a6-8641cfa63822",
@@ -249,7 +301,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.5aee70a1-2a9c-4bec-b3a6-8641cfa63822",
       "source_page": 1,
       "search_position": 14,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.c594b852-4f7e-4f19-adb2-7407d1747373",
@@ -265,7 +320,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c594b852-4f7e-4f19-adb2-7407d1747373",
       "source_page": 1,
       "search_position": 15,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.983f253e-67d0-4e80-b2a4-e965cf103781",
@@ -281,7 +339,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.983f253e-67d0-4e80-b2a4-e965cf103781",
       "source_page": 1,
       "search_position": 16,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.09c83b57-64d1-4690-8950-74dff27d243f",
@@ -297,7 +358,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.09c83b57-64d1-4690-8950-74dff27d243f",
       "source_page": 1,
       "search_position": 17,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.00db9083-3a6a-487b-9b95-70521c44fa78",
@@ -313,7 +377,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.00db9083-3a6a-487b-9b95-70521c44fa78",
       "source_page": 1,
       "search_position": 18,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.b76a7873-4b17-4eb5-959f-4c7289fd55f7",
@@ -329,7 +396,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b76a7873-4b17-4eb5-959f-4c7289fd55f7",
       "source_page": 1,
       "search_position": 19,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.ccea1dc7-c61a-44a7-8e48-5f404f6cada5",
@@ -345,7 +415,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ccea1dc7-c61a-44a7-8e48-5f404f6cada5",
       "source_page": 1,
       "search_position": 20,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.ef7b1bd8-9313-436b-906b-d922bfbb2338",
@@ -361,7 +434,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ef7b1bd8-9313-436b-906b-d922bfbb2338",
       "source_page": 1,
       "search_position": 21,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.91f2eb57-943a-4c44-936e-9eee84e8af30",
@@ -377,7 +453,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.91f2eb57-943a-4c44-936e-9eee84e8af30",
       "source_page": 1,
       "search_position": 22,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.90c20f33-fbe6-48ca-8e58-0d899c1d070d",
@@ -393,7 +472,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.90c20f33-fbe6-48ca-8e58-0d899c1d070d",
       "source_page": 1,
       "search_position": 23,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.c8ed2933-930a-4cbe-ae11-2c4a6a14feba",
@@ -409,7 +489,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c8ed2933-930a-4cbe-ae11-2c4a6a14feba",
       "source_page": 1,
       "search_position": 24,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.d381aae5-6c08-46f7-9461-4dc3bea07b03",
@@ -425,7 +508,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d381aae5-6c08-46f7-9461-4dc3bea07b03",
       "source_page": 1,
       "search_position": 25,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.3d73a395-c10e-44b3-ba31-4c61dcd5a863",
@@ -441,7 +527,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3d73a395-c10e-44b3-ba31-4c61dcd5a863",
       "source_page": 1,
       "search_position": 26,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.0a49b104-8e41-47f4-93a6-57cc7abb7083",
@@ -457,7 +546,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0a49b104-8e41-47f4-93a6-57cc7abb7083",
       "source_page": 1,
       "search_position": 27,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.53e5c1b5-c05d-473c-9074-2078d7240989",
@@ -473,7 +565,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.53e5c1b5-c05d-473c-9074-2078d7240989",
       "source_page": 1,
       "search_position": 28,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.5a4f1871-8beb-4d74-922d-68768f2bbfaf",
@@ -489,7 +584,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.5a4f1871-8beb-4d74-922d-68768f2bbfaf",
       "source_page": 1,
       "search_position": 29,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.76458a56-c0bd-488c-9133-597f2576631c",
@@ -505,7 +603,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.76458a56-c0bd-488c-9133-597f2576631c",
       "source_page": 1,
       "search_position": 30,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e0c52ff8-d910-407e-b191-8daf2880ee8d",
@@ -521,7 +622,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e0c52ff8-d910-407e-b191-8daf2880ee8d",
       "source_page": 1,
       "search_position": 31,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.dd755671-341e-4d51-993c-5284ff5ed4dc",
@@ -537,7 +641,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.dd755671-341e-4d51-993c-5284ff5ed4dc",
       "source_page": 1,
       "search_position": 32,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.6382882f-c80e-4fc7-aa27-abe3aac336e1",
@@ -553,7 +660,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6382882f-c80e-4fc7-aa27-abe3aac336e1",
       "source_page": 1,
       "search_position": 33,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.3696892b-26e5-4746-8a1b-b3b29f88374c",
@@ -569,7 +679,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3696892b-26e5-4746-8a1b-b3b29f88374c",
       "source_page": 1,
       "search_position": 34,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.0d39354e-f22e-49cb-b36b-e835847dd49b",
@@ -585,7 +696,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0d39354e-f22e-49cb-b36b-e835847dd49b",
       "source_page": 1,
       "search_position": 35,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.240d0172-634b-48da-8d7e-c074cbf7ecfa",
@@ -601,7 +713,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.240d0172-634b-48da-8d7e-c074cbf7ecfa",
       "source_page": 1,
       "search_position": 36,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.577de1be-5cfd-47f3-84e4-2ff9220ab53e",
@@ -617,7 +730,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.577de1be-5cfd-47f3-84e4-2ff9220ab53e",
       "source_page": 1,
       "search_position": 37,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.b7f5f094-c07d-45db-a502-59f202063ab4",
@@ -633,7 +747,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b7f5f094-c07d-45db-a502-59f202063ab4",
       "source_page": 1,
       "search_position": 38,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.fc4d99d5-94f1-4564-9f13-20970248a373",
@@ -649,7 +764,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fc4d99d5-94f1-4564-9f13-20970248a373",
       "source_page": 1,
       "search_position": 39,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.a3ff2781-4cf4-4b3e-a868-34a66584a9c2",
@@ -665,7 +781,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a3ff2781-4cf4-4b3e-a868-34a66584a9c2",
       "source_page": 1,
       "search_position": 40,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.12807895-40bc-42d8-85a7-634a79672568",
@@ -681,7 +798,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.12807895-40bc-42d8-85a7-634a79672568",
       "source_page": 1,
       "search_position": 41,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.94d14224-8293-4c89-ac9a-8f8da135b28c",
@@ -697,7 +815,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.94d14224-8293-4c89-ac9a-8f8da135b28c",
       "source_page": 1,
       "search_position": 42,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.c8ac71e3-4c67-4cdb-84e5-9f93e15a3781",
@@ -713,7 +832,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c8ac71e3-4c67-4cdb-84e5-9f93e15a3781",
       "source_page": 1,
       "search_position": 43,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.6e004e55-4cd9-43f1-8b1c-7d06574fe1a4",
@@ -729,7 +849,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6e004e55-4cd9-43f1-8b1c-7d06574fe1a4",
       "source_page": 1,
       "search_position": 44,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.6f6e3f6b-bb77-4380-85fa-4c4d87bd236f",
@@ -745,7 +866,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6f6e3f6b-bb77-4380-85fa-4c4d87bd236f",
       "source_page": 1,
       "search_position": 45,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.fc651472-d9f3-4919-9020-bdf9817f6f4e",
@@ -761,7 +883,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fc651472-d9f3-4919-9020-bdf9817f6f4e",
       "source_page": 1,
       "search_position": 46,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.03af055f-8a31-4a4a-98ab-766182390827",
@@ -777,7 +900,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.03af055f-8a31-4a4a-98ab-766182390827",
       "source_page": 1,
       "search_position": 47,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.91c8fd1d-bc64-4294-afa7-1e43f16aa60b",
@@ -793,7 +917,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.91c8fd1d-bc64-4294-afa7-1e43f16aa60b",
       "source_page": 1,
       "search_position": 48,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.844c3621-cf8b-4dbb-8811-252d2c4ba52a",
@@ -809,7 +934,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.844c3621-cf8b-4dbb-8811-252d2c4ba52a",
       "source_page": 1,
       "search_position": 49,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e6ecbbb1-eb72-4b56-814a-5a886f0ff003",
@@ -825,7 +953,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e6ecbbb1-eb72-4b56-814a-5a886f0ff003",
       "source_page": 1,
       "search_position": 50,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.560bcc1e-11d5-4280-83b7-4c706df99a78",
@@ -841,7 +970,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.560bcc1e-11d5-4280-83b7-4c706df99a78",
       "source_page": 1,
       "search_position": 51,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.d317bccf-b52d-4770-a765-7b5300ad3688",
@@ -857,7 +989,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d317bccf-b52d-4770-a765-7b5300ad3688",
       "source_page": 1,
       "search_position": 52,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.f4edac7c-6695-4a9e-963d-de6d5f9facac",
@@ -873,7 +1008,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f4edac7c-6695-4a9e-963d-de6d5f9facac",
       "source_page": 1,
       "search_position": 53,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.f6e9e66a-61c6-4586-8e1c-c86fe4016f4f",
@@ -889,7 +1027,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f6e9e66a-61c6-4586-8e1c-c86fe4016f4f",
       "source_page": 1,
       "search_position": 54,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.81cb2724-0257-4293-ba0e-23934571e7f9",
@@ -905,7 +1046,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.81cb2724-0257-4293-ba0e-23934571e7f9",
       "source_page": 1,
       "search_position": 55,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.9fbcbc4b-4e31-47a7-8471-aafb0389a86d",
@@ -921,7 +1065,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9fbcbc4b-4e31-47a7-8471-aafb0389a86d",
       "source_page": 1,
       "search_position": 56,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.6a2b866b-5b1e-41c3-a3ad-ebc4e1a1128d",
@@ -937,7 +1084,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6a2b866b-5b1e-41c3-a3ad-ebc4e1a1128d",
       "source_page": 1,
       "search_position": 57,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.a18de3b7-f6ae-4e76-bdf3-cef7830a1df8",
@@ -953,7 +1103,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a18de3b7-f6ae-4e76-bdf3-cef7830a1df8",
       "source_page": 1,
       "search_position": 58,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.95d31cc2-a33b-42fd-b432-85a2efc92ab7",
@@ -969,7 +1122,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.95d31cc2-a33b-42fd-b432-85a2efc92ab7",
       "source_page": 1,
       "search_position": 59,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.afa37fb3-25aa-404f-ac92-91bac68a4c16",
@@ -985,7 +1141,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.afa37fb3-25aa-404f-ac92-91bac68a4c16",
       "source_page": 1,
       "search_position": 60,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.0fc452a9-a288-483f-a735-8ce07a9ef189",
@@ -1001,7 +1160,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0fc452a9-a288-483f-a735-8ce07a9ef189",
       "source_page": 1,
       "search_position": 61,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.1f2f1494-ea43-4d97-83ba-204eca52f105",
@@ -1017,7 +1177,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1f2f1494-ea43-4d97-83ba-204eca52f105",
       "source_page": 1,
       "search_position": 62,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.c31f57d0-ac58-490d-a107-b59a41663261",
@@ -1033,7 +1194,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c31f57d0-ac58-490d-a107-b59a41663261",
       "source_page": 1,
       "search_position": 63,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.3d4c5c60-07f5-4a41-913d-8e60476c1094",
@@ -1049,7 +1211,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3d4c5c60-07f5-4a41-913d-8e60476c1094",
       "source_page": 1,
       "search_position": 64,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.599e3199-5edb-435a-852f-b0888b94f686",
@@ -1065,7 +1230,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.599e3199-5edb-435a-852f-b0888b94f686",
       "source_page": 1,
       "search_position": 65,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.2fac9fb6-cb23-4d50-a1e3-55b797b04367",
@@ -1081,7 +1249,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2fac9fb6-cb23-4d50-a1e3-55b797b04367",
       "source_page": 1,
       "search_position": 66,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.066a9e33-e65f-4949-932e-a15a94ac5dd1",
@@ -1097,7 +1268,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.066a9e33-e65f-4949-932e-a15a94ac5dd1",
       "source_page": 1,
       "search_position": 67,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.6ecabd57-9450-404e-9711-f394a45d0ff2",
@@ -1113,7 +1287,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6ecabd57-9450-404e-9711-f394a45d0ff2",
       "source_page": 1,
       "search_position": 68,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e9600991-6269-40d2-abce-f8004dfbfa3f",
@@ -1129,7 +1306,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e9600991-6269-40d2-abce-f8004dfbfa3f",
       "source_page": 1,
       "search_position": 69,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.f7e7d0eb-9aa4-4ee5-98c6-96ac98e3ed42",
@@ -1145,7 +1325,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f7e7d0eb-9aa4-4ee5-98c6-96ac98e3ed42",
       "source_page": 1,
       "search_position": 70,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e071d540-e395-4684-824b-fb28becf75f9",
@@ -1161,7 +1344,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e071d540-e395-4684-824b-fb28becf75f9",
       "source_page": 1,
       "search_position": 71,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.79dcdacd-e721-41cf-8621-bf2307968243",
@@ -1177,7 +1363,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.79dcdacd-e721-41cf-8621-bf2307968243",
       "source_page": 1,
       "search_position": 72,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.2a7a0d4e-b944-450d-9afb-efa3533af467",
@@ -1193,7 +1382,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2a7a0d4e-b944-450d-9afb-efa3533af467",
       "source_page": 1,
       "search_position": 73,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.47f7d16e-71e5-4fe6-8c03-11235926e89f",
@@ -1209,7 +1401,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.47f7d16e-71e5-4fe6-8c03-11235926e89f",
       "source_page": 1,
       "search_position": 74,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.c2202d58-2442-44ef-80c9-576a13440074",
@@ -1225,7 +1420,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c2202d58-2442-44ef-80c9-576a13440074",
       "source_page": 1,
       "search_position": 75,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.71fe8a76-883f-4c7c-8f5a-8405636cad7c",
@@ -1241,7 +1439,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.71fe8a76-883f-4c7c-8f5a-8405636cad7c",
       "source_page": 1,
       "search_position": 76,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.fd693b95-b7d9-4a2e-8e3c-953fa3de0345",
@@ -1257,7 +1458,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fd693b95-b7d9-4a2e-8e3c-953fa3de0345",
       "source_page": 1,
       "search_position": 77,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.401675a6-d2da-4d3e-9353-e381f27a7fe9",
@@ -1273,7 +1477,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.401675a6-d2da-4d3e-9353-e381f27a7fe9",
       "source_page": 1,
       "search_position": 78,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.466db599-be6c-4140-90e5-fa6282623739",
@@ -1289,7 +1496,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.466db599-be6c-4140-90e5-fa6282623739",
       "source_page": 1,
       "search_position": 79,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.2c5c0a5d-eb1b-492c-8ca3-6bda07ab4588",
@@ -1305,7 +1515,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2c5c0a5d-eb1b-492c-8ca3-6bda07ab4588",
       "source_page": 1,
       "search_position": 80,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.8f29ef6c-2809-48ea-9976-0741d61930f6",
@@ -1321,7 +1534,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.8f29ef6c-2809-48ea-9976-0741d61930f6",
       "source_page": 1,
       "search_position": 81,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.1f1ba49e-215b-4f1b-bced-ba403647a26c",
@@ -1337,7 +1553,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1f1ba49e-215b-4f1b-bced-ba403647a26c",
       "source_page": 1,
       "search_position": 82,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.1cd3848c-2ae4-4a32-8e6e-57907a2678e1",
@@ -1353,7 +1572,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1cd3848c-2ae4-4a32-8e6e-57907a2678e1",
       "source_page": 1,
       "search_position": 83,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.a183dd69-9077-4417-b722-4547584b2eb7",
@@ -1369,7 +1591,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a183dd69-9077-4417-b722-4547584b2eb7",
       "source_page": 1,
       "search_position": 84,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.d53dec6c-ff48-4f58-880c-14aada0e591a",
@@ -1385,7 +1610,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d53dec6c-ff48-4f58-880c-14aada0e591a",
       "source_page": 1,
       "search_position": 85,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e0f44306-f59f-4fbb-b41d-5437421d4031",
@@ -1401,7 +1629,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e0f44306-f59f-4fbb-b41d-5437421d4031",
       "source_page": 1,
       "search_position": 86,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.14908d28-560a-4cac-8b29-ede83b587f73",
@@ -1417,7 +1648,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.14908d28-560a-4cac-8b29-ede83b587f73",
       "source_page": 1,
       "search_position": 87,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.a6de08ce-5245-458e-aa84-7dffa052bcfb",
@@ -1433,7 +1665,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a6de08ce-5245-458e-aa84-7dffa052bcfb",
       "source_page": 1,
       "search_position": 88,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.d7133c24-15f8-4660-9cfd-923708a3439b",
@@ -1449,7 +1684,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d7133c24-15f8-4660-9cfd-923708a3439b",
       "source_page": 1,
       "search_position": 89,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.49dcce63-2f5f-429e-a325-06e908a6c483",
@@ -1465,7 +1703,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.49dcce63-2f5f-429e-a325-06e908a6c483",
       "source_page": 1,
       "search_position": 90,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.7bd245e3-c099-41f0-a435-c9039a2692cb",
@@ -1481,7 +1722,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7bd245e3-c099-41f0-a435-c9039a2692cb",
       "source_page": 1,
       "search_position": 91,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.94f57df1-8fb3-46ca-8e35-25d3b41fd739",
@@ -1497,7 +1739,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.94f57df1-8fb3-46ca-8e35-25d3b41fd739",
       "source_page": 1,
       "search_position": 92,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.02de5126-bb58-4e32-a878-421e067ec861",
@@ -1513,7 +1758,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.02de5126-bb58-4e32-a878-421e067ec861",
       "source_page": 1,
       "search_position": 93,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.99c5c44b-b81a-4e5b-a567-f6b519ead04c",
@@ -1529,7 +1777,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.99c5c44b-b81a-4e5b-a567-f6b519ead04c",
       "source_page": 1,
       "search_position": 94,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.d9b0a7ed-cf08-4052-95e7-2d34766af0ad",
@@ -1545,7 +1796,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d9b0a7ed-cf08-4052-95e7-2d34766af0ad",
       "source_page": 1,
       "search_position": 95,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "huudi"
+      ]
     },
     {
       "id": "vaasa.60b77ff7-3302-4e4a-be9a-b9eaa424c739",
@@ -1561,7 +1815,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.60b77ff7-3302-4e4a-be9a-b9eaa424c739",
       "source_page": 1,
       "search_position": 96,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e756d764-d8ab-4578-979c-737a2db0d67d",
@@ -1577,7 +1834,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e756d764-d8ab-4578-979c-737a2db0d67d",
       "source_page": 1,
       "search_position": 97,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.7ec7b92f-ebdd-4a89-94e5-8f6da22c331a",
@@ -1593,7 +1853,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7ec7b92f-ebdd-4a89-94e5-8f6da22c331a",
       "source_page": 1,
       "search_position": 98,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e5c503f1-d51b-426a-9fa1-779188c0c362",
@@ -1609,7 +1872,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e5c503f1-d51b-426a-9fa1-779188c0c362",
       "source_page": 1,
       "search_position": 99,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.d2c8efb6-06b4-4f2f-a473-435c2ae534c1",
@@ -1625,7 +1891,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d2c8efb6-06b4-4f2f-a473-435c2ae534c1",
       "source_page": 1,
       "search_position": 100,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.17b53952-e9a5-435c-991b-faa5b0f3f40f",
@@ -1641,7 +1910,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.17b53952-e9a5-435c-991b-faa5b0f3f40f",
       "source_page": 2,
       "search_position": 101,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.9fc5b628-6524-4c14-aa09-b7cfa758932b",
@@ -1657,7 +1929,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9fc5b628-6524-4c14-aa09-b7cfa758932b",
       "source_page": 2,
       "search_position": 102,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.ec06976d-da33-44b0-8a93-eb82580c54f6",
@@ -1673,7 +1948,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ec06976d-da33-44b0-8a93-eb82580c54f6",
       "source_page": 2,
       "search_position": 103,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.af0d1a49-620e-454e-b3ab-ddcbff2b6ab1",
@@ -1689,7 +1967,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.af0d1a49-620e-454e-b3ab-ddcbff2b6ab1",
       "source_page": 2,
       "search_position": 104,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.7beece5f-232e-481a-86aa-6b133bdcf9f9",
@@ -1705,7 +1986,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7beece5f-232e-481a-86aa-6b133bdcf9f9",
       "source_page": 2,
       "search_position": 105,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.2fe01674-7d33-415e-ad5a-c3750be4922d",
@@ -1721,7 +2005,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2fe01674-7d33-415e-ad5a-c3750be4922d",
       "source_page": 2,
       "search_position": 106,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.36746cd4-71a0-43fa-8b8f-434a91a80671",
@@ -1737,7 +2024,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.36746cd4-71a0-43fa-8b8f-434a91a80671",
       "source_page": 2,
       "search_position": 107,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.6c4da67e-d8c9-476c-92a1-5c4633e1cd57",
@@ -1753,7 +2043,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6c4da67e-d8c9-476c-92a1-5c4633e1cd57",
       "source_page": 2,
       "search_position": 108,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.c1158a3a-c038-45eb-85f2-5afb037af456",
@@ -1769,7 +2062,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c1158a3a-c038-45eb-85f2-5afb037af456",
       "source_page": 2,
       "search_position": 109,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.89d19edc-2d8c-4b58-b95f-eabec454864b",
@@ -1785,7 +2081,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.89d19edc-2d8c-4b58-b95f-eabec454864b",
       "source_page": 2,
       "search_position": 110,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.1b0b8a4c-f572-47ec-805e-e3f5b1cc6acc",
@@ -1801,7 +2100,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1b0b8a4c-f572-47ec-805e-e3f5b1cc6acc",
       "source_page": 2,
       "search_position": 111,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.79d7ebcf-0f18-44d2-9a61-5e4638d5af6e",
@@ -1817,7 +2119,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.79d7ebcf-0f18-44d2-9a61-5e4638d5af6e",
       "source_page": 2,
       "search_position": 112,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.232a61fe-5401-4e89-9ac1-4cd6a6e3db59",
@@ -1833,7 +2136,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.232a61fe-5401-4e89-9ac1-4cd6a6e3db59",
       "source_page": 2,
       "search_position": 113,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.0376a914-9302-43c2-ad25-24b278b86568",
@@ -1849,7 +2155,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0376a914-9302-43c2-ad25-24b278b86568",
       "source_page": 2,
       "search_position": 114,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.11798e92-dc04-48d8-87ca-f054762ad1ca",
@@ -1865,7 +2174,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.11798e92-dc04-48d8-87ca-f054762ad1ca",
       "source_page": 2,
       "search_position": 115,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.86011423-b2b4-4ce1-9984-781c641b1419",
@@ -1881,7 +2193,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.86011423-b2b4-4ce1-9984-781c641b1419",
       "source_page": 2,
       "search_position": 116,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.a7043fc9-7af8-451d-a289-d8379e131ae0",
@@ -1897,7 +2212,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a7043fc9-7af8-451d-a289-d8379e131ae0",
       "source_page": 2,
       "search_position": 117,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.59eb249a-4cf7-4c38-a7dd-59c0b3b32210",
@@ -1913,7 +2231,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.59eb249a-4cf7-4c38-a7dd-59c0b3b32210",
       "source_page": 2,
       "search_position": 118,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.7e3f91ac-a7f9-4f5d-8175-e919caf66ae0",
@@ -1929,7 +2250,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7e3f91ac-a7f9-4f5d-8175-e919caf66ae0",
       "source_page": 2,
       "search_position": 119,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.8c168092-5671-45ab-96a6-170cb36d4cf8",
@@ -1945,7 +2269,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.8c168092-5671-45ab-96a6-170cb36d4cf8",
       "source_page": 2,
       "search_position": 120,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.8694f48f-b645-43d2-9052-711bedb15d5e",
@@ -1961,7 +2288,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.8694f48f-b645-43d2-9052-711bedb15d5e",
       "source_page": 2,
       "search_position": 121,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.1763c8d7-082e-4dcf-8e88-92569ff36286",
@@ -1977,7 +2305,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1763c8d7-082e-4dcf-8e88-92569ff36286",
       "source_page": 2,
       "search_position": 122,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.3d6bd49c-cbf2-4e38-ac6f-3070bc377bc8",
@@ -1993,7 +2324,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3d6bd49c-cbf2-4e38-ac6f-3070bc377bc8",
       "source_page": 2,
       "search_position": 123,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.af379b75-ca1c-4637-8b45-633ddb5ca2a0",
@@ -2009,7 +2341,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.af379b75-ca1c-4637-8b45-633ddb5ca2a0",
       "source_page": 2,
       "search_position": 124,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.c24f7f9d-1718-47c0-a5eb-ae133d4f3522",
@@ -2025,7 +2358,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c24f7f9d-1718-47c0-a5eb-ae133d4f3522",
       "source_page": 2,
       "search_position": 125,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.e6e61946-3fab-40cd-957b-0c1909610803",
@@ -2041,7 +2375,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e6e61946-3fab-40cd-957b-0c1909610803",
       "source_page": 2,
       "search_position": 126,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.df7dcc90-8f3f-4c28-8897-81c3ea7c9e61",
@@ -2057,7 +2394,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.df7dcc90-8f3f-4c28-8897-81c3ea7c9e61",
       "source_page": 2,
       "search_position": 127,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.ddaf084b-149a-4e36-aea5-970eade8bdfc",
@@ -2073,7 +2411,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ddaf084b-149a-4e36-aea5-970eade8bdfc",
       "source_page": 2,
       "search_position": 128,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.9b85a1e6-7545-405d-8200-12905d04e9dd",
@@ -2089,7 +2430,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9b85a1e6-7545-405d-8200-12905d04e9dd",
       "source_page": 2,
       "search_position": 129,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.cd962ff3-15ec-4b4c-81c8-df3cb10543b9",
@@ -2105,7 +2449,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.cd962ff3-15ec-4b4c-81c8-df3cb10543b9",
       "source_page": 2,
       "search_position": 130,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.9bc3e64e-c301-47b5-9983-b3069c1d6387",
@@ -2121,7 +2468,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9bc3e64e-c301-47b5-9983-b3069c1d6387",
       "source_page": 2,
       "search_position": 131,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.a2b34d52-5c56-4652-9fe9-fffe0e0d86e3",
@@ -2137,7 +2487,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a2b34d52-5c56-4652-9fe9-fffe0e0d86e3",
       "source_page": 2,
       "search_position": 132,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e137ad0c-f839-426c-a242-f55adee48872",
@@ -2153,7 +2506,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e137ad0c-f839-426c-a242-f55adee48872",
       "source_page": 2,
       "search_position": 133,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.b3aad1aa-5d67-4a87-bd75-bb5aea867cce",
@@ -2169,7 +2525,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b3aad1aa-5d67-4a87-bd75-bb5aea867cce",
       "source_page": 2,
       "search_position": 134,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.6396b439-8073-4e4d-8b68-d1a3b9905ad7",
@@ -2185,7 +2542,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6396b439-8073-4e4d-8b68-d1a3b9905ad7",
       "source_page": 2,
       "search_position": 135,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.c71f4eb7-1ba8-4c11-80d3-e5f1281b8b3c",
@@ -2201,7 +2561,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c71f4eb7-1ba8-4c11-80d3-e5f1281b8b3c",
       "source_page": 2,
       "search_position": 136,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.b26996a4-ed12-4dfa-b5a5-cb45c4de6546",
@@ -2217,7 +2580,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b26996a4-ed12-4dfa-b5a5-cb45c4de6546",
       "source_page": 2,
       "search_position": 137,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.e3e0bdce-0a12-41b6-8698-cfda98f526b8",
@@ -2233,7 +2597,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e3e0bdce-0a12-41b6-8698-cfda98f526b8",
       "source_page": 2,
       "search_position": 138,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.671c827a-3bcc-41ca-9563-f4d3784e028d",
@@ -2249,7 +2616,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.671c827a-3bcc-41ca-9563-f4d3784e028d",
       "source_page": 2,
       "search_position": 139,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.d0899923-bdd3-4515-ae9a-f298a2144ce6",
@@ -2265,7 +2635,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d0899923-bdd3-4515-ae9a-f298a2144ce6",
       "source_page": 2,
       "search_position": 140,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.af1c6b7f-c8c2-4ea4-baee-c8bc7de0d886",
@@ -2281,7 +2654,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.af1c6b7f-c8c2-4ea4-baee-c8bc7de0d886",
       "source_page": 2,
       "search_position": 141,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.ac63fd0b-ceb9-4e30-bbcd-06ac41b1fec5",
@@ -2297,7 +2673,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ac63fd0b-ceb9-4e30-bbcd-06ac41b1fec5",
       "source_page": 2,
       "search_position": 142,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.dbac04b7-078a-4b46-b8bd-2da9e9cbf94b",
@@ -2313,7 +2692,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.dbac04b7-078a-4b46-b8bd-2da9e9cbf94b",
       "source_page": 2,
       "search_position": 143,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.85a152b7-20e0-49f8-a2d0-d6a264c31982",
@@ -2329,7 +2711,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.85a152b7-20e0-49f8-a2d0-d6a264c31982",
       "source_page": 2,
       "search_position": 144,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.0597b8bb-ee26-40bf-a76c-ad137db878a0",
@@ -2345,7 +2730,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0597b8bb-ee26-40bf-a76c-ad137db878a0",
       "source_page": 2,
       "search_position": 145,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.eccf23b7-4cc6-41c6-abff-a06b664cb3b7",
@@ -2361,7 +2747,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.eccf23b7-4cc6-41c6-abff-a06b664cb3b7",
       "source_page": 2,
       "search_position": 146,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.fd307f0a-17bb-4fef-a897-e34290fbb51d",
@@ -2377,7 +2766,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fd307f0a-17bb-4fef-a897-e34290fbb51d",
       "source_page": 2,
       "search_position": 147,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.f6a0ccce-8790-4c40-817a-51a029ffbf38",
@@ -2393,7 +2785,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f6a0ccce-8790-4c40-817a-51a029ffbf38",
       "source_page": 2,
       "search_position": 148,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.f388b621-8ee8-4fb1-97e0-a9341b1c2424",
@@ -2409,7 +2802,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f388b621-8ee8-4fb1-97e0-a9341b1c2424",
       "source_page": 2,
       "search_position": 149,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.9be84d0c-8974-4ecf-95c2-7945619488de",
@@ -2425,7 +2821,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9be84d0c-8974-4ecf-95c2-7945619488de",
       "source_page": 2,
       "search_position": 150,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.cf7b7271-0481-42ad-8a2f-b9ca5e3dd0d0",
@@ -2441,7 +2838,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.cf7b7271-0481-42ad-8a2f-b9ca5e3dd0d0",
       "source_page": 2,
       "search_position": 151,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.fa03d8d2-6ee7-46af-a8bc-084ac454721a",
@@ -2457,7 +2857,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fa03d8d2-6ee7-46af-a8bc-084ac454721a",
       "source_page": 2,
       "search_position": 152,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.382f82c7-88b5-46fb-851c-3638c9f1ca14",
@@ -2473,7 +2876,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.382f82c7-88b5-46fb-851c-3638c9f1ca14",
       "source_page": 2,
       "search_position": 153,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.3d3653b1-9445-492a-819e-24c3f88502bf",
@@ -2489,7 +2895,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3d3653b1-9445-492a-819e-24c3f88502bf",
       "source_page": 2,
       "search_position": 154,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.31c1cd20-7763-4e2f-baad-5d1db89c897a",
@@ -2505,7 +2914,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.31c1cd20-7763-4e2f-baad-5d1db89c897a",
       "source_page": 2,
       "search_position": 155,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.f744d1a6-60a4-4146-b36f-9f04b1fa7717",
@@ -2521,7 +2933,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f744d1a6-60a4-4146-b36f-9f04b1fa7717",
       "source_page": 2,
       "search_position": 156,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.b3a6c79c-b2d5-4edd-b4a2-44c944d36a2c",
@@ -2537,7 +2952,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b3a6c79c-b2d5-4edd-b4a2-44c944d36a2c",
       "source_page": 2,
       "search_position": 157,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.273412b8-837e-4446-b767-c7a95313eb1e",
@@ -2553,7 +2971,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.273412b8-837e-4446-b767-c7a95313eb1e",
       "source_page": 2,
       "search_position": 158,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.ed76080e-dd7b-41fb-ae73-575771255071",
@@ -2569,7 +2988,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ed76080e-dd7b-41fb-ae73-575771255071",
       "source_page": 2,
       "search_position": 159,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.3fff8d78-7db6-4a00-91f2-96c47ac95636",
@@ -2585,7 +3005,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3fff8d78-7db6-4a00-91f2-96c47ac95636",
       "source_page": 2,
       "search_position": 160,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.95e8fcc3-e604-4faa-a0db-19fbc531e857",
@@ -2601,7 +3024,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.95e8fcc3-e604-4faa-a0db-19fbc531e857",
       "source_page": 2,
       "search_position": 161,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.8bb6ad66-b9a7-4974-bf62-f3bddafb6c67",
@@ -2617,7 +3043,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.8bb6ad66-b9a7-4974-bf62-f3bddafb6c67",
       "source_page": 2,
       "search_position": 162,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.426f45da-6bb6-4792-90bd-4e6ddd561e62",
@@ -2633,7 +3062,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.426f45da-6bb6-4792-90bd-4e6ddd561e62",
       "source_page": 2,
       "search_position": 163,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e13a3e61-7c8d-42e0-89f8-3bf1453e9922",
@@ -2649,7 +3081,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e13a3e61-7c8d-42e0-89f8-3bf1453e9922",
       "source_page": 2,
       "search_position": 164,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.ff99c534-920f-4081-9564-3954aec7ca91",
@@ -2665,7 +3100,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ff99c534-920f-4081-9564-3954aec7ca91",
       "source_page": 2,
       "search_position": 165,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.13d80724-a352-4c0b-896f-264081dd0cdd",
@@ -2681,7 +3117,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.13d80724-a352-4c0b-896f-264081dd0cdd",
       "source_page": 2,
       "search_position": 166,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.c7da74c4-6f94-4cba-bb0e-741eb9c8819e",
@@ -2697,7 +3136,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c7da74c4-6f94-4cba-bb0e-741eb9c8819e",
       "source_page": 2,
       "search_position": 167,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.3b52557c-eb64-4500-9913-d74f311bbb71",
@@ -2713,7 +3155,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3b52557c-eb64-4500-9913-d74f311bbb71",
       "source_page": 2,
       "search_position": 168,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.ea324cc1-97ce-456e-8acc-f89eeb75b1bb",
@@ -2729,7 +3174,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ea324cc1-97ce-456e-8acc-f89eeb75b1bb",
       "source_page": 2,
       "search_position": 169,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.822576f5-dc0d-4f3a-a4b5-b91fadc247bc",
@@ -2745,7 +3193,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.822576f5-dc0d-4f3a-a4b5-b91fadc247bc",
       "source_page": 2,
       "search_position": 170,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.c7c7b7bc-bcbf-4577-91c9-5b524c6a4e41",
@@ -2761,7 +3212,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c7c7b7bc-bcbf-4577-91c9-5b524c6a4e41",
       "source_page": 2,
       "search_position": 171,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.96db709f-245d-491e-bd5f-df181bad7412",
@@ -2777,7 +3231,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.96db709f-245d-491e-bd5f-df181bad7412",
       "source_page": 2,
       "search_position": 172,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.f637295e-a75c-4697-be56-088de0286acb",
@@ -2793,7 +3250,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f637295e-a75c-4697-be56-088de0286acb",
       "source_page": 2,
       "search_position": 173,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.adca25d7-beb0-4db8-a4cc-c0d187375651",
@@ -2809,7 +3269,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.adca25d7-beb0-4db8-a4cc-c0d187375651",
       "source_page": 2,
       "search_position": 174,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.670c90fc-80a0-4997-ba93-e9fe4070989e",
@@ -2825,7 +3288,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.670c90fc-80a0-4997-ba93-e9fe4070989e",
       "source_page": 2,
       "search_position": 175,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.17345ea6-cdab-4fbc-924c-5032d12933d8",
@@ -2841,7 +3307,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.17345ea6-cdab-4fbc-924c-5032d12933d8",
       "source_page": 2,
       "search_position": 176,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.138ea7d0-1b49-4adb-820a-88b13afb3bd8",
@@ -2857,7 +3326,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.138ea7d0-1b49-4adb-820a-88b13afb3bd8",
       "source_page": 2,
       "search_position": 177,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.d29fb2f0-ba60-451b-874c-42723044abe3",
@@ -2873,7 +3345,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d29fb2f0-ba60-451b-874c-42723044abe3",
       "source_page": 2,
       "search_position": 178,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.89606183-8083-407b-ab17-1b0174717757",
@@ -2889,7 +3364,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.89606183-8083-407b-ab17-1b0174717757",
       "source_page": 2,
       "search_position": 179,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.79803111-035d-4764-8c43-eebdb5f7f4c6",
@@ -2905,7 +3383,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.79803111-035d-4764-8c43-eebdb5f7f4c6",
       "source_page": 2,
       "search_position": 180,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.7e95c9d5-1b2c-4061-bda7-ae5edcb0fbb4",
@@ -2921,7 +3402,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7e95c9d5-1b2c-4061-bda7-ae5edcb0fbb4",
       "source_page": 2,
       "search_position": 181,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.80690703-f98f-4c58-91ec-7ca040479c0b",
@@ -2937,7 +3421,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.80690703-f98f-4c58-91ec-7ca040479c0b",
       "source_page": 2,
       "search_position": 182,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.599dadfe-bb69-4ece-8eb4-0ebc0971d7f4",
@@ -2953,7 +3440,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.599dadfe-bb69-4ece-8eb4-0ebc0971d7f4",
       "source_page": 2,
       "search_position": 183,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.cea71158-57aa-48d2-9f79-db2b7b1ab82e",
@@ -2969,7 +3459,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.cea71158-57aa-48d2-9f79-db2b7b1ab82e",
       "source_page": 2,
       "search_position": 184,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.a8c652d4-6b62-41cc-8381-7f9bc8fc4fd7",
@@ -2985,7 +3478,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a8c652d4-6b62-41cc-8381-7f9bc8fc4fd7",
       "source_page": 2,
       "search_position": 185,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.7e3e1c75-4e19-478f-9306-4dac8e67a63f",
@@ -3001,7 +3497,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7e3e1c75-4e19-478f-9306-4dac8e67a63f",
       "source_page": 2,
       "search_position": 186,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.2d5bf7e3-98cd-48f1-9e15-2d09140d490d",
@@ -3017,7 +3516,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2d5bf7e3-98cd-48f1-9e15-2d09140d490d",
       "source_page": 2,
       "search_position": 187,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.941d84cc-92fe-4169-a805-5ac82119a816",
@@ -3033,7 +3535,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.941d84cc-92fe-4169-a805-5ac82119a816",
       "source_page": 2,
       "search_position": 188,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.22a9faf2-1495-49ce-848d-9967c9f886e2",
@@ -3049,7 +3554,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.22a9faf2-1495-49ce-848d-9967c9f886e2",
       "source_page": 2,
       "search_position": 189,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.90c3c164-ada3-4644-9c68-ec2fce3a7a32",
@@ -3065,7 +3573,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.90c3c164-ada3-4644-9c68-ec2fce3a7a32",
       "source_page": 2,
       "search_position": 190,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.44219dea-2680-4ee7-b571-1a64714e0852",
@@ -3081,7 +3592,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.44219dea-2680-4ee7-b571-1a64714e0852",
       "source_page": 2,
       "search_position": 191,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.21c620f9-628b-4bad-a6ac-626543736b2f",
@@ -3097,7 +3611,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.21c620f9-628b-4bad-a6ac-626543736b2f",
       "source_page": 2,
       "search_position": 192,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.7235032b-82a0-4fc6-9ce2-bf94d8040b2f",
@@ -3113,7 +3630,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7235032b-82a0-4fc6-9ce2-bf94d8040b2f",
       "source_page": 2,
       "search_position": 193,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.c9660755-cfc4-4332-bb83-3da4c8e778f5",
@@ -3129,7 +3649,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c9660755-cfc4-4332-bb83-3da4c8e778f5",
       "source_page": 2,
       "search_position": 194,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.6c3142ae-3cd8-4879-b038-93e29af843d3",
@@ -3145,7 +3668,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6c3142ae-3cd8-4879-b038-93e29af843d3",
       "source_page": 2,
       "search_position": 195,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.3651a7d9-6731-4839-b564-31dd539a5890",
@@ -3161,7 +3687,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3651a7d9-6731-4839-b564-31dd539a5890",
       "source_page": 2,
       "search_position": 196,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.0dccf0a0-b790-4d4c-bb7e-4bb03bfc4ef2",
@@ -3177,7 +3706,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0dccf0a0-b790-4d4c-bb7e-4bb03bfc4ef2",
       "source_page": 2,
       "search_position": 197,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.249ad194-02cd-4691-92c0-2b39a1bf5eb5",
@@ -3193,7 +3725,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.249ad194-02cd-4691-92c0-2b39a1bf5eb5",
       "source_page": 2,
       "search_position": 198,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.21f2e920-9335-48ab-80fd-edfe9decf9ce",
@@ -3209,7 +3744,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.21f2e920-9335-48ab-80fd-edfe9decf9ce",
       "source_page": 2,
       "search_position": 199,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.2926e0a0-6cdc-4968-bf37-fded08490f49",
@@ -3225,7 +3763,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2926e0a0-6cdc-4968-bf37-fded08490f49",
       "source_page": 2,
       "search_position": 200,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.75a98d78-a987-48f4-ab1b-7d13bee561cc",
@@ -3241,7 +3780,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.75a98d78-a987-48f4-ab1b-7d13bee561cc",
       "source_page": 3,
       "search_position": 201,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.af652184-37d3-4d3e-a0f1-b63f3d0b8c42",
@@ -3257,7 +3797,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.af652184-37d3-4d3e-a0f1-b63f3d0b8c42",
       "source_page": 3,
       "search_position": 202,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.afca0c37-0292-4f00-bd94-4ffccd0746f8",
@@ -3273,7 +3814,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.afca0c37-0292-4f00-bd94-4ffccd0746f8",
       "source_page": 3,
       "search_position": 203,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.d14bb3cb-d959-4626-ac6d-ad6fc63ef4bc",
@@ -3289,7 +3833,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d14bb3cb-d959-4626-ac6d-ad6fc63ef4bc",
       "source_page": 3,
       "search_position": 204,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.dc22d591-d46f-4be8-a0f2-4430c88b28ed",
@@ -3305,7 +3852,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.dc22d591-d46f-4be8-a0f2-4430c88b28ed",
       "source_page": 3,
       "search_position": 205,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.9a857af5-f1bb-4b02-9668-0bcfa47fc4e5",
@@ -3321,7 +3871,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9a857af5-f1bb-4b02-9668-0bcfa47fc4e5",
       "source_page": 3,
       "search_position": 206,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.0792ac2e-1217-4fc9-b0f8-c9b8048e6bb6",
@@ -3337,7 +3890,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0792ac2e-1217-4fc9-b0f8-c9b8048e6bb6",
       "source_page": 3,
       "search_position": 207,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.98b0e8a0-0760-40f4-83f9-19d7c57fc7c2",
@@ -3353,7 +3907,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.98b0e8a0-0760-40f4-83f9-19d7c57fc7c2",
       "source_page": 3,
       "search_position": 208,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.74e53243-a87b-49d2-af04-4f268890f1ee",
@@ -3369,7 +3926,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.74e53243-a87b-49d2-af04-4f268890f1ee",
       "source_page": 3,
       "search_position": 209,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "huudi"
+      ]
     },
     {
       "id": "vaasa.1d03b53e-926a-4fcd-bc0a-8e47b8249acb",
@@ -3385,7 +3945,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1d03b53e-926a-4fcd-bc0a-8e47b8249acb",
       "source_page": 3,
       "search_position": 210,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.39d26a8e-70ee-4b8a-976d-c949cc3a95f7",
@@ -3401,7 +3964,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.39d26a8e-70ee-4b8a-976d-c949cc3a95f7",
       "source_page": 3,
       "search_position": 211,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.057bf22c-225d-49d1-a9c9-cbb2bab7ed33",
@@ -3417,7 +3983,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.057bf22c-225d-49d1-a9c9-cbb2bab7ed33",
       "source_page": 3,
       "search_position": 212,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.79bc92d2-9cc4-4469-af78-3f498ac5798f",
@@ -3433,7 +4002,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.79bc92d2-9cc4-4469-af78-3f498ac5798f",
       "source_page": 3,
       "search_position": 213,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.03f9f33c-546b-4dc3-8cee-6f589d9fdf82",
@@ -3449,7 +4021,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.03f9f33c-546b-4dc3-8cee-6f589d9fdf82",
       "source_page": 3,
       "search_position": 214,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.520246eb-c527-4b0a-9b8f-df6910f5257e",
@@ -3465,7 +4040,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.520246eb-c527-4b0a-9b8f-df6910f5257e",
       "source_page": 3,
       "search_position": 215,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.200322c6-5a03-4acd-a657-18894c7619c4",
@@ -3481,7 +4059,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.200322c6-5a03-4acd-a657-18894c7619c4",
       "source_page": 3,
       "search_position": 216,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.05b63b84-728c-431c-8923-ea7da9dfd755",
@@ -3497,7 +4076,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.05b63b84-728c-431c-8923-ea7da9dfd755",
       "source_page": 3,
       "search_position": 217,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.3d844681-c659-4f48-bdd7-05bfc0ff1183",
@@ -3513,7 +4095,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3d844681-c659-4f48-bdd7-05bfc0ff1183",
       "source_page": 3,
       "search_position": 218,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.da3b3a72-2cb2-432e-b662-0a8ffda94ff4",
@@ -3529,7 +4114,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.da3b3a72-2cb2-432e-b662-0a8ffda94ff4",
       "source_page": 3,
       "search_position": 219,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e7519dc8-a542-4a67-a303-9fbe67496747",
@@ -3545,7 +4133,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e7519dc8-a542-4a67-a303-9fbe67496747",
       "source_page": 3,
       "search_position": 220,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.9f1b4e55-f666-40ae-a8f6-b9d506dd66b9",
@@ -3561,7 +4152,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9f1b4e55-f666-40ae-a8f6-b9d506dd66b9",
       "source_page": 3,
       "search_position": 221,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.b30f4158-6ce7-4292-b57d-94791e39caa2",
@@ -3577,7 +4171,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b30f4158-6ce7-4292-b57d-94791e39caa2",
       "source_page": 3,
       "search_position": 222,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.8c71b4bc-0743-4c63-8ef3-b7ebc75ee225",
@@ -3593,7 +4190,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.8c71b4bc-0743-4c63-8ef3-b7ebc75ee225",
       "source_page": 3,
       "search_position": 223,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.a04cd3fd-467b-419a-925a-06194dc74f75",
@@ -3609,7 +4209,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a04cd3fd-467b-419a-925a-06194dc74f75",
       "source_page": 3,
       "search_position": 224,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e93b8b28-bd28-471f-83a4-2cbee7cd5866",
@@ -3625,7 +4228,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e93b8b28-bd28-471f-83a4-2cbee7cd5866",
       "source_page": 3,
       "search_position": 225,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.021c1823-72b2-45e9-91d1-bfb6f3d8c712",
@@ -3641,7 +4247,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.021c1823-72b2-45e9-91d1-bfb6f3d8c712",
       "source_page": 3,
       "search_position": 226,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.1f2066cc-7b79-4c84-b7e8-bb134b11c5b0",
@@ -3657,7 +4266,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1f2066cc-7b79-4c84-b7e8-bb134b11c5b0",
       "source_page": 3,
       "search_position": 227,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.764c12d8-e8b9-4a3c-af6c-b40b5a682234",
@@ -3673,7 +4285,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.764c12d8-e8b9-4a3c-af6c-b40b5a682234",
       "source_page": 3,
       "search_position": 228,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.7b2b56df-5605-4e15-bf08-ca83e41c4113",
@@ -3689,7 +4304,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7b2b56df-5605-4e15-bf08-ca83e41c4113",
       "source_page": 3,
       "search_position": 229,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.89b3ec84-4f41-4fd1-8629-a4d821751269",
@@ -3705,7 +4321,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.89b3ec84-4f41-4fd1-8629-a4d821751269",
       "source_page": 3,
       "search_position": 230,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.027aa76d-2d37-4a98-b21c-7abdd2a9b8bb",
@@ -3721,7 +4340,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.027aa76d-2d37-4a98-b21c-7abdd2a9b8bb",
       "source_page": 3,
       "search_position": 231,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.7a6bbcf8-2b9c-47df-96da-43e6f456a83f",
@@ -3737,7 +4359,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7a6bbcf8-2b9c-47df-96da-43e6f456a83f",
       "source_page": 3,
       "search_position": 232,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.df9b0474-112e-4ff8-a2c7-da9538f1a1e9",
@@ -3753,7 +4378,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.df9b0474-112e-4ff8-a2c7-da9538f1a1e9",
       "source_page": 3,
       "search_position": 233,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.a78f2056-5fa4-46a5-a7f0-427cd3812b45",
@@ -3769,7 +4397,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a78f2056-5fa4-46a5-a7f0-427cd3812b45",
       "source_page": 3,
       "search_position": 234,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.cb11a293-a04f-43e6-9fa4-d51159e547a2",
@@ -3785,7 +4416,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.cb11a293-a04f-43e6-9fa4-d51159e547a2",
       "source_page": 3,
       "search_position": 235,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.80c2b8c4-e91e-4ff5-b494-c1247e3991f3",
@@ -3801,7 +4435,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.80c2b8c4-e91e-4ff5-b494-c1247e3991f3",
       "source_page": 3,
       "search_position": 236,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.922d1dbf-20f3-482b-acf2-2514aa97658c",
@@ -3817,7 +4454,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.922d1dbf-20f3-482b-acf2-2514aa97658c",
       "source_page": 3,
       "search_position": 237,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e67362e7-6046-4f62-a446-c5b78dcae5ae",
@@ -3833,7 +4473,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e67362e7-6046-4f62-a446-c5b78dcae5ae",
       "source_page": 3,
       "search_position": 238,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e17b0579-d20f-47ce-8239-dc93e045c333",
@@ -3849,7 +4492,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e17b0579-d20f-47ce-8239-dc93e045c333",
       "source_page": 3,
       "search_position": 239,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.bf91e14b-b954-4753-95ba-2380feb6af7a",
@@ -3865,7 +4511,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.bf91e14b-b954-4753-95ba-2380feb6af7a",
       "source_page": 3,
       "search_position": 240,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.cb8d8024-337e-4f52-a262-ab23126d9d81",
@@ -3881,7 +4530,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.cb8d8024-337e-4f52-a262-ab23126d9d81",
       "source_page": 3,
       "search_position": 241,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.40d27bb9-c57d-437f-89ff-cf90d815806c",
@@ -3897,7 +4549,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.40d27bb9-c57d-437f-89ff-cf90d815806c",
       "source_page": 3,
       "search_position": 242,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.5526bf12-5b78-4725-bdf9-55799aa97952",
@@ -3913,7 +4568,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.5526bf12-5b78-4725-bdf9-55799aa97952",
       "source_page": 3,
       "search_position": 243,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.da297a71-86d0-4c28-b337-c58c21fd2f61",
@@ -3929,7 +4587,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.da297a71-86d0-4c28-b337-c58c21fd2f61",
       "source_page": 3,
       "search_position": 244,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.f95832b9-b489-4a07-ad7e-4f625361443d",
@@ -3945,7 +4606,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f95832b9-b489-4a07-ad7e-4f625361443d",
       "source_page": 3,
       "search_position": 245,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.c47e83a3-a3aa-48c7-aafb-c1ee6e106f22",
@@ -3961,7 +4625,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c47e83a3-a3aa-48c7-aafb-c1ee6e106f22",
       "source_page": 3,
       "search_position": 246,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.2f3cf176-fc64-47ed-8dbf-73db2ee346a9",
@@ -3977,7 +4642,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2f3cf176-fc64-47ed-8dbf-73db2ee346a9",
       "source_page": 3,
       "search_position": 247,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.68ed51ac-8546-4bc1-83e4-04f633941e58",
@@ -3993,7 +4661,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.68ed51ac-8546-4bc1-83e4-04f633941e58",
       "source_page": 3,
       "search_position": 248,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.540a98c0-c4d6-4c4a-8fc9-6ef2a56ecc82",
@@ -4009,7 +4680,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.540a98c0-c4d6-4c4a-8fc9-6ef2a56ecc82",
       "source_page": 3,
       "search_position": 249,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.5ebf5121-a6f9-4a23-9a28-af86306f3166",
@@ -4025,7 +4699,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.5ebf5121-a6f9-4a23-9a28-af86306f3166",
       "source_page": 3,
       "search_position": 250,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.d2b66be8-8cad-4670-ab10-5403d1a5c524",
@@ -4041,7 +4718,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d2b66be8-8cad-4670-ab10-5403d1a5c524",
       "source_page": 3,
       "search_position": 251,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.08526f1e-4081-47dc-bcda-e68791fe4242",
@@ -4057,7 +4737,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.08526f1e-4081-47dc-bcda-e68791fe4242",
       "source_page": 3,
       "search_position": 252,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.4eba7f1f-1ed7-48db-ae30-91dfd706ffa9",
@@ -4073,7 +4756,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.4eba7f1f-1ed7-48db-ae30-91dfd706ffa9",
       "source_page": 3,
       "search_position": 253,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e59064a3-e97a-4877-9667-d28b4cc4499c",
@@ -4089,7 +4775,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e59064a3-e97a-4877-9667-d28b4cc4499c",
       "source_page": 3,
       "search_position": 254,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.279de7cb-e8a8-4fd3-a7bd-40f3fc0c0738",
@@ -4105,7 +4794,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.279de7cb-e8a8-4fd3-a7bd-40f3fc0c0738",
       "source_page": 3,
       "search_position": 255,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.66d3d4ac-fcb4-498a-9e53-3c0aa174ea8a",
@@ -4121,7 +4813,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.66d3d4ac-fcb4-498a-9e53-3c0aa174ea8a",
       "source_page": 3,
       "search_position": 256,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.7411eda2-bb88-4af4-b015-097f71b0d0ae",
@@ -4137,7 +4832,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7411eda2-bb88-4af4-b015-097f71b0d0ae",
       "source_page": 3,
       "search_position": 257,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.fdad225e-ca1c-4790-8425-4c3020e1f2d8",
@@ -4153,7 +4851,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fdad225e-ca1c-4790-8425-4c3020e1f2d8",
       "source_page": 3,
       "search_position": 258,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.a81fe990-050c-4d84-af01-f89410a605cd",
@@ -4169,7 +4870,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a81fe990-050c-4d84-af01-f89410a605cd",
       "source_page": 3,
       "search_position": 259,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.483f2d6b-6f73-43ce-acc5-03fc08fc5a6d",
@@ -4185,7 +4889,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.483f2d6b-6f73-43ce-acc5-03fc08fc5a6d",
       "source_page": 3,
       "search_position": 260,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.b37da9f4-ded7-4d71-ae0b-b82ee646d2bb",
@@ -4201,7 +4908,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b37da9f4-ded7-4d71-ae0b-b82ee646d2bb",
       "source_page": 3,
       "search_position": 261,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.754aae4f-d1c5-4e9c-8395-6756521e7acb",
@@ -4217,7 +4927,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.754aae4f-d1c5-4e9c-8395-6756521e7acb",
       "source_page": 3,
       "search_position": 262,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.bac9b24f-48d2-4e19-a974-c7d5de8a6cd0",
@@ -4233,7 +4946,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.bac9b24f-48d2-4e19-a974-c7d5de8a6cd0",
       "source_page": 3,
       "search_position": 263,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.0ee45303-a4c1-427e-a16d-c3f81d5f6f96",
@@ -4249,7 +4965,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0ee45303-a4c1-427e-a16d-c3f81d5f6f96",
       "source_page": 3,
       "search_position": 264,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.29727958-b803-419e-a602-5cf53482c74a",
@@ -4265,7 +4984,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.29727958-b803-419e-a602-5cf53482c74a",
       "source_page": 3,
       "search_position": 265,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.ce5ca5d6-859c-4685-ac4a-031a76627d8a",
@@ -4281,7 +5003,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ce5ca5d6-859c-4685-ac4a-031a76627d8a",
       "source_page": 3,
       "search_position": 266,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.56f04623-167c-4b4a-bed3-a81cab1175c2",
@@ -4297,7 +5022,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.56f04623-167c-4b4a-bed3-a81cab1175c2",
       "source_page": 3,
       "search_position": 267,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.0c7dc367-fd5c-4f34-a9d4-f3e13e5d56d5",
@@ -4313,7 +5041,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0c7dc367-fd5c-4f34-a9d4-f3e13e5d56d5",
       "source_page": 3,
       "search_position": 268,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.d126c52e-b4b1-4ac4-bcf3-a8ba47ab7b4d",
@@ -4329,7 +5060,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d126c52e-b4b1-4ac4-bcf3-a8ba47ab7b4d",
       "source_page": 3,
       "search_position": 269,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.0d602198-8d29-4fd3-8bee-f3fc74feba0e",
@@ -4345,7 +5079,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0d602198-8d29-4fd3-8bee-f3fc74feba0e",
       "source_page": 3,
       "search_position": 270,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.52a33d4c-7ad6-4273-9cc8-6d0c2974a506",
@@ -4361,7 +5098,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.52a33d4c-7ad6-4273-9cc8-6d0c2974a506",
       "source_page": 3,
       "search_position": 271,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.fe678629-03c7-4095-b5c4-02fdc34d2bea",
@@ -4377,7 +5117,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fe678629-03c7-4095-b5c4-02fdc34d2bea",
       "source_page": 3,
       "search_position": 272,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.708b340d-053a-47f8-b0b5-c7506d39f985",
@@ -4393,7 +5136,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.708b340d-053a-47f8-b0b5-c7506d39f985",
       "source_page": 3,
       "search_position": 273,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.346963b3-72f2-46db-98c8-20f954a45671",
@@ -4409,7 +5155,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.346963b3-72f2-46db-98c8-20f954a45671",
       "source_page": 3,
       "search_position": 274,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.535f5148-68ef-4918-adfb-64ca9f64472b",
@@ -4425,7 +5174,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.535f5148-68ef-4918-adfb-64ca9f64472b",
       "source_page": 3,
       "search_position": 275,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.846a483f-4e03-45da-abb5-f2e5918de8b8",
@@ -4441,7 +5193,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.846a483f-4e03-45da-abb5-f2e5918de8b8",
       "source_page": 3,
       "search_position": 276,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.df07bdb7-6415-4712-aaf6-63531ebda7e6",
@@ -4457,7 +5212,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.df07bdb7-6415-4712-aaf6-63531ebda7e6",
       "source_page": 3,
       "search_position": 277,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.d596b99f-3e31-4267-a65a-8941952f011d",
@@ -4473,7 +5231,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d596b99f-3e31-4267-a65a-8941952f011d",
       "source_page": 3,
       "search_position": 278,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.04e10d97-bc75-4918-9bdf-3c00675a7065",
@@ -4489,7 +5250,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.04e10d97-bc75-4918-9bdf-3c00675a7065",
       "source_page": 3,
       "search_position": 279,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e02165c2-59f5-43e2-8742-81178a9f3b49",
@@ -4505,7 +5269,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e02165c2-59f5-43e2-8742-81178a9f3b49",
       "source_page": 3,
       "search_position": 280,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.f4f9e854-7007-4009-974b-fc5952780854",
@@ -4521,7 +5286,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f4f9e854-7007-4009-974b-fc5952780854",
       "source_page": 3,
       "search_position": 281,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.8fb37855-1793-49ea-8a20-4e271c65c361",
@@ -4537,7 +5305,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.8fb37855-1793-49ea-8a20-4e271c65c361",
       "source_page": 3,
       "search_position": 282,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.fbeff647-4bc6-449d-90fa-ceb6f92db47c",
@@ -4553,7 +5324,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fbeff647-4bc6-449d-90fa-ceb6f92db47c",
       "source_page": 3,
       "search_position": 283,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.8f9da8a3-38a8-43f8-853f-b203cbfcf63e",
@@ -4569,7 +5343,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.8f9da8a3-38a8-43f8-853f-b203cbfcf63e",
       "source_page": 3,
       "search_position": 284,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.582e198b-6bc9-4944-8337-5a9d684f1206",
@@ -4585,7 +5362,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.582e198b-6bc9-4944-8337-5a9d684f1206",
       "source_page": 3,
       "search_position": 285,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.0bd0dc99-e5cd-40c8-86c7-36f59661953a",
@@ -4601,7 +5381,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0bd0dc99-e5cd-40c8-86c7-36f59661953a",
       "source_page": 3,
       "search_position": 286,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.3da6eb7a-efd9-4968-8d8e-27d3dfc51ffc",
@@ -4617,7 +5400,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3da6eb7a-efd9-4968-8d8e-27d3dfc51ffc",
       "source_page": 3,
       "search_position": 287,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.78b0420f-9dd6-48f8-8b10-df44a908c6d9",
@@ -4633,7 +5419,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.78b0420f-9dd6-48f8-8b10-df44a908c6d9",
       "source_page": 3,
       "search_position": 288,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.a3e464b4-b7aa-4f02-a8d9-e23a2bf1d5a2",
@@ -4649,7 +5438,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a3e464b4-b7aa-4f02-a8d9-e23a2bf1d5a2",
       "source_page": 3,
       "search_position": 289,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.2f592c2c-ca0a-4718-a74e-06e8fd557b96",
@@ -4665,7 +5457,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2f592c2c-ca0a-4718-a74e-06e8fd557b96",
       "source_page": 3,
       "search_position": 290,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.ff43e211-4f46-4578-bddd-a112aba36fc9",
@@ -4681,7 +5476,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ff43e211-4f46-4578-bddd-a112aba36fc9",
       "source_page": 3,
       "search_position": 291,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.0f854db5-a699-4432-89af-af8d74a283d0",
@@ -4697,7 +5495,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0f854db5-a699-4432-89af-af8d74a283d0",
       "source_page": 3,
       "search_position": 292,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.803155b8-5e80-4f14-9eb3-ba6ac2e071bf",
@@ -4713,7 +5514,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.803155b8-5e80-4f14-9eb3-ba6ac2e071bf",
       "source_page": 3,
       "search_position": 293,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.a89bb64f-9e7a-46f7-8983-87fe1f1146b1",
@@ -4729,7 +5533,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a89bb64f-9e7a-46f7-8983-87fe1f1146b1",
       "source_page": 3,
       "search_position": 294,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.85c4f458-0cb4-498e-9a1b-f2d61a268250",
@@ -4745,7 +5552,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.85c4f458-0cb4-498e-9a1b-f2d61a268250",
       "source_page": 3,
       "search_position": 295,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.c23a9fb8-bd51-4c6d-b37d-b6030fd0ee9b",
@@ -4761,7 +5571,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c23a9fb8-bd51-4c6d-b37d-b6030fd0ee9b",
       "source_page": 3,
       "search_position": 296,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.2e90692c-e3ab-4730-b352-9fedec567d73",
@@ -4777,7 +5590,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2e90692c-e3ab-4730-b352-9fedec567d73",
       "source_page": 3,
       "search_position": 297,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "huudi"
+      ]
     },
     {
       "id": "vaasa.d9c84d4f-bbf7-4c98-a82b-6efe28289dcd",
@@ -4793,7 +5609,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d9c84d4f-bbf7-4c98-a82b-6efe28289dcd",
       "source_page": 3,
       "search_position": 298,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.b1f81ab4-900b-4f15-b0cc-77264f6377e4",
@@ -4809,7 +5628,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b1f81ab4-900b-4f15-b0cc-77264f6377e4",
       "source_page": 3,
       "search_position": 299,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e32c9910-790b-4648-8e3f-f9984f6f65d0",
@@ -4825,7 +5647,11 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e32c9910-790b-4648-8e3f-f9984f6f65d0",
       "source_page": 3,
       "search_position": 300,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main",
+        "huudi"
+      ]
     },
     {
       "id": "vaasa.93ab7a61-5f8f-46b1-8142-59fb15f43c92",
@@ -4841,7 +5667,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.93ab7a61-5f8f-46b1-8142-59fb15f43c92",
       "source_page": 4,
       "search_position": 301,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.58776522-902e-45eb-a3d2-6d5cfc040549",
@@ -4857,7 +5686,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.58776522-902e-45eb-a3d2-6d5cfc040549",
       "source_page": 4,
       "search_position": 302,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.10283858-c4da-49fa-9d91-d26dd01d6593",
@@ -4873,7 +5703,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.10283858-c4da-49fa-9d91-d26dd01d6593",
       "source_page": 4,
       "search_position": 303,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.e9166658-97a0-49df-840d-ae2c5c0cb2be",
@@ -4889,7 +5722,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e9166658-97a0-49df-840d-ae2c5c0cb2be",
       "source_page": 4,
       "search_position": 304,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.121bf690-af8c-44a4-b24d-3bf700490a8e",
@@ -4905,7 +5741,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.121bf690-af8c-44a4-b24d-3bf700490a8e",
       "source_page": 4,
       "search_position": 305,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.35038445-3532-41ea-9d17-cc30b99cc6c1",
@@ -4921,7 +5760,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.35038445-3532-41ea-9d17-cc30b99cc6c1",
       "source_page": 4,
       "search_position": 306,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.fbb6dc29-a0c0-4d24-9deb-37db50c9e1dd",
@@ -4937,7 +5777,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fbb6dc29-a0c0-4d24-9deb-37db50c9e1dd",
       "source_page": 4,
       "search_position": 307,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.1e72b42b-c38d-4828-99ac-0a7fa26fa3f0",
@@ -4953,7 +5796,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1e72b42b-c38d-4828-99ac-0a7fa26fa3f0",
       "source_page": 4,
       "search_position": 308,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.c8af2e05-1373-4123-930b-103b95ddebe0",
@@ -4969,7 +5815,8 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c8af2e05-1373-4123-930b-103b95ddebe0",
       "source_page": 4,
       "search_position": 309,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": []
     },
     {
       "id": "vaasa.f904450e-7b79-48a5-895f-5b12e77ee5db",
@@ -4985,7 +5832,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f904450e-7b79-48a5-895f-5b12e77ee5db",
       "source_page": 4,
       "search_position": 310,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.7019f64c-95e6-4fcf-8a84-3fed29188186",
@@ -5001,7 +5851,10 @@
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7019f64c-95e6-4fcf-8a84-3fed29188186",
       "source_page": 4,
       "search_position": 311,
-      "language_finna": "fas"
+      "language_finna": "fas",
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.09936617-2576-4fcd-ac36-0d6f0af412c8",
@@ -5019,7 +5872,10 @@
       "source_feed": "Iranian languages (ira) RSS export, 4 results",
       "source_note": "Contributor-curated as Persian/Iranian-music-related; Finna language facet is Iranian languages, not Persian. Actual sung language not verified for every recording.",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.09936617-2576-4fcd-ac36-0d6f0af412c8",
-      "search_position": 312
+      "search_position": 312,
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.05139018-c85a-400e-bd79-1e107ddc18d0",
@@ -5037,7 +5893,10 @@
       "source_feed": "Iranian languages (ira) RSS export, 4 results",
       "source_note": "Contributor-curated as Persian/Iranian-music-related; Finna language facet is Iranian languages, not Persian. Actual sung language not verified for every recording.",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.05139018-c85a-400e-bd79-1e107ddc18d0",
-      "search_position": 313
+      "search_position": 313,
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.42a54432-764c-4d3c-bb76-e88b7ffb0548",
@@ -5055,7 +5914,10 @@
       "source_feed": "Iranian languages (ira) RSS export, 4 results",
       "source_note": "Contributor-curated as Persian/Iranian-music-related; Finna language facet is Iranian languages, not Persian. Actual sung language not verified for every recording.",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.42a54432-764c-4d3c-bb76-e88b7ffb0548",
-      "search_position": 314
+      "search_position": 314,
+      "holding_locations": [
+        "main"
+      ]
     },
     {
       "id": "vaasa.f14f3c05-62b0-4067-a4b7-409417f424e9",
@@ -5073,7 +5935,10 @@
       "source_feed": "Iranian languages (ira) RSS export, 4 results",
       "source_note": "Contributor-curated as Persian/Iranian-music-related; Finna language facet is Iranian languages, not Persian. Actual sung language not verified for every recording.",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f14f3c05-62b0-4067-a4b7-409417f424e9",
-      "search_position": 315
+      "search_position": 315,
+      "holding_locations": [
+        "main"
+      ]
     }
   ]
 }
