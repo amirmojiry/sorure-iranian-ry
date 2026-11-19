@@ -1,32 +1,52 @@
 ---
 blogcategories: ["culture-literature"]
 blogtags: ["persian-literature", "vaasa", "iranian-community"]
-title: "273 Persian-language book records in Vaasa City Library's catalogue"
-description: "Searchable index of 273 books catalogued as Persian-language titles in Vaasa, with catalogue titles, Persian renderings, authors, years, RSS dates, ISBNs and direct links."
+title: "311 Persian-language catalogue records at Vaasa City Library"
+description: "A searchable, sortable catalogue index of 311 Persian-tagged records: books, films, audiobooks and music, with original and Persian titles, creators, formats, years, ISBNs and direct Finna links."
 date: "2026-11-19T13:00:00+02:00"
 publishDate: "2026-11-19T13:00:00+02:00"
+lastmod: "2026-11-19T15:00:00+02:00"
 showDate: false
 event_year: "2026"
 event_type: "culture"
 symbol: "✦"
-publication_label: "19 November 2026"
+publication_label: "19 November 2026 (updated)"
 ---
-Sorure Iranian ry has assembled a searchable list of **273 book records** from four pages of the Persian-language (fas) search results in [Vaasa City Library's Finna catalogue](https://vaasankirjasto.finna.fi/). Each catalogue title links directly to its library record.
 
-**This is a catalogue snapshot dated 19 November 2026, not a live verification of physical holdings, lending status, or reservation availability.** Please check each record for current copy and branch information.
+Sorure Iranian ry has prepared a searchable index of **311 catalogue records associated with Persian (fas)** from four RSS result pages of [Vaasa City Library's Finna catalogue](https://vaasankirjasto.finna.fi/). It covers printed books as well as **audiobooks, music CDs, audio recordings and DVDs**. Click the original catalogue title to open that record directly in Finna.
 
-The export returned **311 records**: **273 books** and **38 other resources**, including sound recordings, audiobooks and videos. Of the books, **268 contain a publication year**, **254 an author name**, and **170 an ISBN**. Author names and ISBNs were extracted from catalogue cover-image URL parameters where present; check the original record before relying on them for formal bibliographic use.
+**This is a catalogue snapshot from 19 November 2026, not a live check of physical copies, library branches, lending status or reservations.** A catalogue hit alone does not prove that a physical copy is currently held by a Vaasa branch.
 
-The **catalogue title** is retained as exported. The **Persian title** is an *editorial, sometimes approximate reconstruction* from that title, available for 267 books; it has not been checked against every physical cover. Publication years are left as recorded (some are Solar Hijri). **RSS record date** is the feed's publication-date value, *not a confirmed acquisition date*.
+## What's included?
 
-## Search the 273 book records
+| Material type | Records |
+|---|---:|
+| Book | 273 |
+| Audio / music CD | 23 |
+| Audio recording | 10 |
+| Audiobook | 3 |
+| Film (DVD) | 2 |
+| **Total** | **311** |
 
-Search by Persian or catalogue title, author or publication year. On mobile, scroll the table horizontally.
+Publication years appear in **293 records** and ISBNs in **171**. The cover-image URL metadata supplies creator names for **288 records**; all of these have a separate editorial Persian-script rendering. Persian titles are provided for **305 records**.
+
+## Search and sort
+
+Search by original or Persian title, original or Persian creator name, year or ISBN. **Click any column heading to sort ascending; click again to reverse the order.** You can also filter by material type. On mobile, scroll horizontally to see all columns.
 
 {{< vaasa-persian-books >}}
 
-To find branch details, available copies or current loan status, open the relevant record in [Vaasa Finna](https://vaasankirjasto.finna.fi/). This page intentionally does not label any record as currently borrowable.
+## How to interpret the fields
 
-**Source:** [Vaasa Finna search filtered to Persian language](https://vaasankirjasto.finna.fi/Search/Results?sort=first_indexed%20desc%2Cid%20asc&limit=100&filter%5B%5D=%7Elanguage%3A%22fas%22&type=AllFields&lng=en-gb) (four RSS result pages).
+- **Catalogue title:** The original entry from the library feed; links to its specific record in Finna.
+- **Persian title:** An editorial transcription or translation, sometimes approximate, not independently verified against every physical cover. Six records have no confident Persian title.
+- **Creator:** Taken from catalogue cover-image URL metadata. The Persian version is an editorial rendering, not an independently verified name. For nonbooks, the person or organization may be an artist, performer or film director rather than an author.
+- **Material type:** Based on the format reported by Finna; it is not a claim that a copy is available for loan.
+- **Publication year:** Preserved as supplied. Some years are Solar Hijri and others Gregorian; numeric sorting does not convert between calendars.
+- **RSS record date:** Derived from the feed's publication-date field; this **does not establish the date the item was purchased, acquired, or shelved**.
 
-Corrections are welcome at [sorureiranianry@gmail.com](mailto:sorureiranianry@gmail.com).
+Some records may be tagged with Persian as one of their languages without consisting entirely of Persian-language content. Open the [Finna catalogue](https://vaasankirjasto.finna.fi/) record to check branch holdings and loan status.
+
+**Source:** [Persian-filtered search results in Vaasa Finna](https://vaasankirjasto.finna.fi/Search/Results?sort=first_indexed%20desc%2Cid%20asc&limit=100&filter%5B%5D=%7Elanguage%3A%22fas%22&type=AllFields&lng=en-gb), four RSS export pages.
+
+Report corrections to [sorureiranianry@gmail.com](mailto:sorureiranianry@gmail.com).
