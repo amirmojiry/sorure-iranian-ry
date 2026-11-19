@@ -6,7 +6,7 @@
     "printed_books": 273,
     "nonbook_records": 38,
     "notes": "RSS pubDate is not a verified library acquisition date. Bibliographic names/ISBNs from RSS cover URL params; branch holdings and availability unverified.",
-    "title_fa_note": "Persian titles are editorial reconstructions from catalog romanization, not verified against original printed works.",
+    "title_fa_note": "Most Persian-script titles are editorial reconstructions from catalogue romanization and have not been verified against physical covers. The title of Ajräs nä'imah / shazäyä min yawmiuät al-ghurab is the Arabic-script original supplied by the user.",
     "author_fa_note": "Persian name spellings are editorial transliterations of catalog cover metadata, not independently confirmed for each creator.",
     "verified_holdings": false,
     "formats": {
@@ -17,7 +17,9 @@
       "audio_track": 10
     },
     "persian_titles_inferred": 310,
-    "persian_author_names": 288
+    "persian_author_names": 288,
+    "titles_in_persian_or_arabic_script": 311,
+    "arabic_script_titles_supplied": 1
   },
   "materials": [
     {
@@ -218,7 +220,7 @@
     {
       "id": "vaasa.5aee70a1-2a9c-4bec-b3a6-8641cfa63822",
       "title_latin": "Ajräs nä'imah / shazäyä min yawmiuät al-ghurab",
-      "title_fa": "",
+      "title_fa": "أجراس ناعمة / شظايا من يوميات الغراب",
       "author": "Amin, Ahmad Muhammad",
       "author_fa": "احمد محمد امین",
       "year": "2003",
