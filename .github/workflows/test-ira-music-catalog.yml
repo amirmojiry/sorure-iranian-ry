@@ -1,0 +1,118 @@
+name: Test four Iranian-language music records
+on:
+  push:
+    branches: [feat/vaasa-iranian-language-cds-2026-11]
+    paths:
+      - '.github/workflows/test-ira-music-catalog.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+          cache: false
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.169.0'
+          extended: true
+      - name: Check record provenance, totals and article claims
+        run: |
+          python3 scripts/validate_content.py
+          python3 - <<'PY'
+          import json,collections
+          path='data/vaasa_persian_books.json'
+          d=json.load(open(path)); a=d['materials']
+          assert len(a)==315
+          assert len({x['id'] for x in a})==315
+          assert collections.Counter(x['language_finna'] for x in a)=={'fas':311,'ira':4}
+          assert collections.Counter(x['material_type'] for x in a)=={'book':273,'audio_cd':27,'audio_track':10,'audiobook':3,'video':2}
+          assert sum(bool(x['title_fa']) for x in a)==315
+          assert sum(bool(x['author']) for x in a)==292
+          assert sum(bool(x['author_fa']) for x in a)==292
+          assert sum(bool(x['isbn']) for x in a)==172
+          assert sum(bool(x['year']) for x in a)==293
+          assert [x['search_position'] for x in a]==list(range(1,316))
+          expect={
+            'vaasa.09936617-2576-4fcd-ac36-0d6f0af412c8':('ARIAN II VA AMMA ESHGH','Arian Band','2026-02-28',''),
+            'vaasa.05139018-c85a-400e-bd79-1e107ddc18d0':('DOUBLE FACED','Behnam','2025-09-17',''),
+            'vaasa.42a54432-764c-4d3c-bb76-e88b7ffb0548':('TO YOU','Khakpour, Mohammad','2025-09-17','9050322530'),
+            'vaasa.f14f3c05-62b0-4067-a4b7-409417f424e9':('CHE SHUURHA DARÄM GHÄME DJANKAHI','Banan, Gholamhosein','2025-09-17','')
+          }
+          for x in a:
+            assert x['url']=='https://vaasankirjasto.finna.fi/Record/'+x['id']
+            if x['language_finna']=='ira':
+              assert x['id'] in expect
+              assert (x['title_latin'],x['author'],x['indexed_date'],x['isbn'])==expect[x['id']]
+              assert x['format']=='Sound/CD' and x['material_type']=='audio_cd'
+              assert not x['year']
+          ranks=json.load(open('data/vaasa_library_language_ranking_2026.json'))['languages']
+          assert len(ranks)==146
+          assert [(x['count'],x['rank_all'],x['rank_named']) for x in ranks if x['name_en']=='Persian']==[(311,18,16)]
+          assert [(x['count'],x['rank_all']) for x in ranks if x['name_en']=='Iranian languages']==[(4,78)]
+          print('CATALOG_DATA_PASS',len(a),'languages',311,4)
+          PY
+      - name: Build and smoke-test site
+        run: |
+          hugo mod get github.com/nunocoracao/blowfish/v3@v3.9.0
+          hugo --gc --minify --cleanDestinationDir
+          python3 scripts/verify_generated_site.py
+      - name: Validate tables, labels, articles and JavaScript
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          import json
+          source=json.load(open('data/vaasa_persian_books.json'))
+          appended={x['id'] for x in source['materials'] if x['language_finna']=='ira'}
+          class Parser(HTMLParser):
+            def __init__(self):
+              super().__init__(); self.rows=[];self.buttons=[];self.selects=[];self.urls=[];self.links=[]
+            def handle_starttag(self,tag,attrs):
+              a=dict(attrs)
+              if tag=='tr' and 'data-book-row' in a:self.rows.append(a)
+              if tag=='button' and 'data-sort-key' in a:self.buttons.append(a['data-sort-key'])
+              if tag=='select':
+                for k in ('data-book-type-filter','data-book-language-filter'):
+                  if k in a:self.selects.append(k)
+              if tag=='a' and a.get('href','').startswith('https://vaasankirjasto.finna.fi/Record/'):
+                self.urls.append(a['href'])
+              if tag=='a' and a.get('href','').startswith('/sorure-iranian-ry/'):
+                self.links.append(a['href'])
+          for lang in ('fa','en','fi'):
+            root=Path('public')/lang/'blog'
+            books=(root/'persian-books-vaasa-library-2026'/'index.html').read_text()
+            rank=(root/'persian-language-standing-vaasa-library-2026'/'index.html').read_text()
+            p=Parser();p.feed(books)
+            assert len(p.rows)==315,(lang,'rows',len(p.rows))
+            assert len(p.buttons)==10,(lang,'headers',p.buttons)
+            assert 'language_finna' in p.buttons
+            assert set(p.selects)=={'data-book-type-filter','data-book-language-filter'},(lang,'selects',p.selects)
+            assert len(p.urls)>=315
+            source_labels={x.get('data-language-origin') for x in p.rows}
+            assert source_labels=={'ira','fas'},(lang,'source labels',source_labels)
+            assert sum(x.get('data-language-origin')=='ira' for x in p.rows)==4
+            assert all('data-sort-language_finna' in x for x in p.rows)
+            for rid in appended:
+              url='https://vaasankirjasto.finna.fi/Record/'+rid
+              assert url in p.urls,(lang,rid)
+              assert url in rank,(lang,'rank link',rid)
+            assert '315' in books if lang!='fa' else '۳۱۵' in books
+            assert '311' in rank if lang!='fa' else '۳۱۱' in rank
+            assert f'/sorure-iranian-ry/{lang}/blog/persian-language-standing-vaasa-library-2026/' in p.links
+            p2=Parser();p2.feed(rank)
+            assert f'/sorure-iranian-ry/{lang}/blog/persian-books-vaasa-library-2026/' in p2.links
+            print('CATALOG_HTML_PASS',lang,len(p.rows),len(p.buttons),len(p.urls))
+          PY
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          code=Path('layouts/shortcodes/vaasa-persian-books.html').read_text()
+          snippet=re.search(r'<script>([\s\S]*?)</script>',code).group(1)
+          Path('/tmp/vaasa-books.js').write_text(snippet)
+          PY
+          node --check /tmp/vaasa-books.js
