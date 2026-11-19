@@ -5,9 +5,10 @@
     "recorded_date": "2026-11-19",
     "provenance": "Counts transcribed verbatim from list supplied by the contributor; not independently verified as live totals",
     "total_categories": 146,
-    "rank_method": "rank_all includes non-linguistic and multi-language buckets; rank_named excludes exactly those two buckets. Ties use the order from the original source.",
+    "rank_method": "Counts are sorted descending; ties share competition rank (1,2,2,4). Overall ranking includes all 146 facet categories, including two non-specific labels. Named ranking excludes only No linguistic content and Multiple languages. Original source order is kept for tied rows.",
     "caveat": "These are indexed search-result counts by language facet, not physical inventory, unique books, loans, patron counts or speakers; multilingual records may appear under multiple labels.",
-    "iran_language_note": "Iran-linked categories are not exclusive to Iran and should not be added to calculate an Iranian collection; Turkish is not synonymous with Azerbaijani; 'Iranian languages' is an umbrella classification."
+    "iran_language_note": "Iran-linked categories are not exclusive to Iran and should not be added to calculate an Iranian collection; Turkish is not synonymous with Azerbaijani; 'Iranian languages' is an umbrella classification.",
+    "named_language_categories": 144
   },
   "languages": [
     {
@@ -17,7 +18,8 @@
       "rank_all": 1,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 1
+      "rank_named": 1,
+      "row_order": 1
     },
     {
       "name_en": "Swedish",
@@ -26,7 +28,8 @@
       "rank_all": 2,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 2
+      "rank_named": 2,
+      "row_order": 2
     },
     {
       "name_en": "English",
@@ -35,7 +38,8 @@
       "rank_all": 3,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 3
+      "rank_named": 3,
+      "row_order": 3
     },
     {
       "name_en": "No linguistic content, Not applicable",
@@ -44,7 +48,8 @@
       "rank_all": 4,
       "category": "non_specific",
       "iran_link": false,
-      "rank_named": null
+      "rank_named": null,
+      "row_order": 4
     },
     {
       "name_en": "German",
@@ -53,7 +58,8 @@
       "rank_all": 5,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 4
+      "rank_named": 4,
+      "row_order": 5
     },
     {
       "name_en": "French",
@@ -62,7 +68,8 @@
       "rank_all": 6,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 5
+      "rank_named": 5,
+      "row_order": 6
     },
     {
       "name_en": "Italian",
@@ -71,7 +78,8 @@
       "rank_all": 7,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 6
+      "rank_named": 6,
+      "row_order": 7
     },
     {
       "name_en": "Spanish",
@@ -80,7 +88,8 @@
       "rank_all": 8,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 7
+      "rank_named": 7,
+      "row_order": 8
     },
     {
       "name_en": "Russian",
@@ -89,7 +98,8 @@
       "rank_all": 9,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 8
+      "rank_named": 8,
+      "row_order": 9
     },
     {
       "name_en": "Multiple languages",
@@ -98,7 +108,8 @@
       "rank_all": 10,
       "category": "non_specific",
       "iran_link": false,
-      "rank_named": null
+      "rank_named": null,
+      "row_order": 10
     },
     {
       "name_en": "Latin",
@@ -107,7 +118,8 @@
       "rank_all": 11,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 9
+      "rank_named": 9,
+      "row_order": 11
     },
     {
       "name_en": "Norwegian",
@@ -116,7 +128,8 @@
       "rank_all": 12,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 10
+      "rank_named": 10,
+      "row_order": 12
     },
     {
       "name_en": "Arabic",
@@ -125,7 +138,8 @@
       "rank_all": 13,
       "category": "named_language",
       "iran_link": true,
-      "rank_named": 11
+      "rank_named": 11,
+      "row_order": 13
     },
     {
       "name_en": "Danish",
@@ -134,7 +148,8 @@
       "rank_all": 14,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 12
+      "rank_named": 12,
+      "row_order": 14
     },
     {
       "name_en": "Portuguese",
@@ -143,7 +158,8 @@
       "rank_all": 15,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 13
+      "rank_named": 13,
+      "row_order": 15
     },
     {
       "name_en": "Japanese",
@@ -152,7 +168,8 @@
       "rank_all": 16,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 14
+      "rank_named": 14,
+      "row_order": 16
     },
     {
       "name_en": "Estonian",
@@ -161,7 +178,8 @@
       "rank_all": 17,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 15
+      "rank_named": 15,
+      "row_order": 17
     },
     {
       "name_en": "Persian",
@@ -170,7 +188,8 @@
       "rank_all": 18,
       "category": "named_language",
       "iran_link": true,
-      "rank_named": 16
+      "rank_named": 16,
+      "row_order": 18
     },
     {
       "name_en": "Ukrainian",
@@ -179,7 +198,8 @@
       "rank_all": 19,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 17
+      "rank_named": 17,
+      "row_order": 19
     },
     {
       "name_en": "Turkish",
@@ -188,7 +208,8 @@
       "rank_all": 20,
       "category": "named_language",
       "iran_link": true,
-      "rank_named": 18
+      "rank_named": 18,
+      "row_order": 20
     },
     {
       "name_en": "Albanian",
@@ -197,7 +218,8 @@
       "rank_all": 21,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 19
+      "rank_named": 19,
+      "row_order": 21
     },
     {
       "name_en": "Chinese",
@@ -206,7 +228,8 @@
       "rank_all": 22,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 20
+      "rank_named": 20,
+      "row_order": 22
     },
     {
       "name_en": "Somali",
@@ -215,7 +238,8 @@
       "rank_all": 23,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 21
+      "rank_named": 21,
+      "row_order": 23
     },
     {
       "name_en": "Kurdish",
@@ -224,7 +248,8 @@
       "rank_all": 24,
       "category": "named_language",
       "iran_link": true,
-      "rank_named": 22
+      "rank_named": 22,
+      "row_order": 24
     },
     {
       "name_en": "Greek, Modern (1453- )",
@@ -233,16 +258,18 @@
       "rank_all": 25,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 23
+      "rank_named": 23,
+      "row_order": 25
     },
     {
       "name_en": "Sami languages",
       "name_fa": "زبان‌های سامی",
       "count": 110,
-      "rank_all": 26,
+      "rank_all": 25,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 24
+      "rank_named": 23,
+      "row_order": 26
     },
     {
       "name_en": "Hebrew",
@@ -251,7 +278,8 @@
       "rank_all": 27,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 25
+      "rank_named": 25,
+      "row_order": 27
     },
     {
       "name_en": "Hungarian",
@@ -260,7 +288,8 @@
       "rank_all": 28,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 26
+      "rank_named": 26,
+      "row_order": 28
     },
     {
       "name_en": "Icelandic",
@@ -269,16 +298,18 @@
       "rank_all": 29,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 27
+      "rank_named": 27,
+      "row_order": 29
     },
     {
       "name_en": "Serbian",
       "name_fa": "صربی",
       "count": 71,
-      "rank_all": 30,
+      "rank_all": 29,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 28
+      "rank_named": 27,
+      "row_order": 30
     },
     {
       "name_en": "Polish",
@@ -287,7 +318,8 @@
       "rank_all": 31,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 29
+      "rank_named": 29,
+      "row_order": 31
     },
     {
       "name_en": "Bulgarian",
@@ -296,7 +328,8 @@
       "rank_all": 32,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 30
+      "rank_named": 30,
+      "row_order": 32
     },
     {
       "name_en": "Thai",
@@ -305,7 +338,8 @@
       "rank_all": 33,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 31
+      "rank_named": 31,
+      "row_order": 33
     },
     {
       "name_en": "Croatian",
@@ -314,7 +348,8 @@
       "rank_all": 34,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 32
+      "rank_named": 32,
+      "row_order": 34
     },
     {
       "name_en": "Korean",
@@ -323,7 +358,8 @@
       "rank_all": 35,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 33
+      "rank_named": 33,
+      "row_order": 35
     },
     {
       "name_en": "Czech",
@@ -332,16 +368,18 @@
       "rank_all": 36,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 34
+      "rank_named": 34,
+      "row_order": 36
     },
     {
       "name_en": "Scottish Gaelic",
       "name_fa": "گیلیک اسکاتلندی",
       "count": 40,
-      "rank_all": 37,
+      "rank_all": 36,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 35
+      "rank_named": 34,
+      "row_order": 37
     },
     {
       "name_en": "Vietnamese",
@@ -350,7 +388,8 @@
       "rank_all": 38,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 36
+      "rank_named": 36,
+      "row_order": 38
     },
     {
       "name_en": "Romanian, Moldovan",
@@ -359,7 +398,8 @@
       "rank_all": 39,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 37
+      "rank_named": 37,
+      "row_order": 39
     },
     {
       "name_en": "Bengali",
@@ -368,25 +408,28 @@
       "rank_all": 40,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 38
+      "rank_named": 38,
+      "row_order": 40
     },
     {
       "name_en": "Karelian",
       "name_fa": "کارلیایی",
       "count": 36,
-      "rank_all": 41,
+      "rank_all": 40,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 39
+      "rank_named": 38,
+      "row_order": 41
     },
     {
       "name_en": "Dutch",
       "name_fa": "هلندی",
       "count": 36,
-      "rank_all": 42,
+      "rank_all": 40,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 40
+      "rank_named": 38,
+      "row_order": 42
     },
     {
       "name_en": "Bosnian",
@@ -395,7 +438,8 @@
       "rank_all": 43,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 41
+      "rank_named": 41,
+      "row_order": 43
     },
     {
       "name_en": "Romani",
@@ -404,7 +448,8 @@
       "rank_all": 44,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 42
+      "rank_named": 42,
+      "row_order": 44
     },
     {
       "name_en": "Latvian",
@@ -413,7 +458,8 @@
       "rank_all": 45,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 43
+      "rank_named": 43,
+      "row_order": 45
     },
     {
       "name_en": "Swahili",
@@ -422,16 +468,18 @@
       "rank_all": 46,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 44
+      "rank_named": 44,
+      "row_order": 46
     },
     {
       "name_en": "Yiddish",
       "name_fa": "ییدیش",
       "count": 25,
-      "rank_all": 47,
+      "rank_all": 46,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 45
+      "rank_named": 44,
+      "row_order": 47
     },
     {
       "name_en": "Irish",
@@ -440,7 +488,8 @@
       "rank_all": 48,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 46
+      "rank_named": 46,
+      "row_order": 48
     },
     {
       "name_en": "Hindi",
@@ -449,7 +498,8 @@
       "rank_all": 49,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 47
+      "rank_named": 47,
+      "row_order": 49
     },
     {
       "name_en": "Central Khmer",
@@ -458,7 +508,8 @@
       "rank_all": 50,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 48
+      "rank_named": 48,
+      "row_order": 50
     },
     {
       "name_en": "Catalan",
@@ -467,7 +518,8 @@
       "rank_all": 51,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 49
+      "rank_named": 49,
+      "row_order": 51
     },
     {
       "name_en": "Welsh",
@@ -476,16 +528,18 @@
       "rank_all": 52,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 50
+      "rank_named": 50,
+      "row_order": 52
     },
     {
       "name_en": "Lithuanian",
       "name_fa": "لیتوانیایی",
       "count": 14,
-      "rank_all": 53,
+      "rank_all": 52,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 51
+      "rank_named": 50,
+      "row_order": 53
     },
     {
       "name_en": "Zulu",
@@ -494,7 +548,8 @@
       "rank_all": 54,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 52
+      "rank_named": 52,
+      "row_order": 54
     },
     {
       "name_en": "Slovak",
@@ -503,7 +558,8 @@
       "rank_all": 55,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 53
+      "rank_named": 53,
+      "row_order": 55
     },
     {
       "name_en": "North American Indian languages",
@@ -512,16 +568,18 @@
       "rank_all": 56,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 54
+      "rank_named": 54,
+      "row_order": 56
     },
     {
       "name_en": "Tigrinya",
       "name_fa": "تیگرینیایی",
       "count": 11,
-      "rank_all": 57,
+      "rank_all": 56,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 55
+      "rank_named": 54,
+      "row_order": 57
     },
     {
       "name_en": "Tibetan",
@@ -530,25 +588,28 @@
       "rank_all": 58,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 56
+      "rank_named": 56,
+      "row_order": 58
     },
     {
       "name_en": "Esperanto",
       "name_fa": "اسپرانتو",
       "count": 9,
-      "rank_all": 59,
+      "rank_all": 58,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 57
+      "rank_named": 56,
+      "row_order": 59
     },
     {
       "name_en": "Faroese",
       "name_fa": "فاروئی",
       "count": 9,
-      "rank_all": 60,
+      "rank_all": 58,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 58
+      "rank_named": 56,
+      "row_order": 60
     },
     {
       "name_en": "Corsican",
@@ -557,16 +618,18 @@
       "rank_all": 61,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 59
+      "rank_named": 59,
+      "row_order": 61
     },
     {
       "name_en": "Kinyarwanda",
       "name_fa": "کینیارواندایی",
       "count": 8,
-      "rank_all": 62,
+      "rank_all": 61,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 60
+      "rank_named": 59,
+      "row_order": 62
     },
     {
       "name_en": "Church Slavic",
@@ -575,25 +638,28 @@
       "rank_all": 63,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 61
+      "rank_named": 61,
+      "row_order": 63
     },
     {
       "name_en": "Ladino",
       "name_fa": "لادینو",
       "count": 7,
-      "rank_all": 64,
+      "rank_all": 63,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 62
+      "rank_named": 61,
+      "row_order": 64
     },
     {
       "name_en": "Macedonian",
       "name_fa": "مقدونی",
       "count": 7,
-      "rank_all": 65,
+      "rank_all": 63,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 63
+      "rank_named": 61,
+      "row_order": 65
     },
     {
       "name_en": "French, Old (ca. 842-1400)",
@@ -602,61 +668,68 @@
       "rank_all": 66,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 64
+      "rank_named": 64,
+      "row_order": 66
     },
     {
       "name_en": "Greek, Ancient (to 1453)",
       "name_fa": "یونانی باستان",
       "count": 6,
-      "rank_all": 67,
+      "rank_all": 66,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 65
+      "rank_named": 64,
+      "row_order": 67
     },
     {
       "name_en": "Indic languages",
       "name_fa": "زبان‌های هندی (گروه)",
       "count": 6,
-      "rank_all": 68,
+      "rank_all": 66,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 66
+      "rank_named": 64,
+      "row_order": 68
     },
     {
       "name_en": "Indonesian",
       "name_fa": "اندونزیایی",
       "count": 6,
-      "rank_all": 69,
+      "rank_all": 66,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 67
+      "rank_named": 64,
+      "row_order": 69
     },
     {
       "name_en": "Sanskrit",
       "name_fa": "سانسکریت",
       "count": 6,
-      "rank_all": 70,
+      "rank_all": 66,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 68
+      "rank_named": 64,
+      "row_order": 70
     },
     {
       "name_en": "Slovenian",
       "name_fa": "اسلوونیایی",
       "count": 6,
-      "rank_all": 71,
+      "rank_all": 66,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 69
+      "rank_named": 64,
+      "row_order": 71
     },
     {
       "name_en": "Wolof",
       "name_fa": "ولوف",
       "count": 6,
-      "rank_all": 72,
+      "rank_all": 66,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 70
+      "rank_named": 64,
+      "row_order": 72
     },
     {
       "name_en": "Creoles and Pidgins",
@@ -665,43 +738,48 @@
       "rank_all": 73,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 71
+      "rank_named": 71,
+      "row_order": 73
     },
     {
       "name_en": "Finno-Ugrian languages",
       "name_fa": "زبان‌های فینو-اوگری",
       "count": 5,
-      "rank_all": 74,
+      "rank_all": 73,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 72
+      "rank_named": 71,
+      "row_order": 74
     },
     {
       "name_en": "Hawaiian",
       "name_fa": "هاوایی",
       "count": 5,
-      "rank_all": 75,
+      "rank_all": 73,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 73
+      "rank_named": 71,
+      "row_order": 75
     },
     {
       "name_en": "Armenian",
       "name_fa": "ارمنی",
       "count": 5,
-      "rank_all": 76,
+      "rank_all": 73,
       "category": "named_language",
       "iran_link": true,
-      "rank_named": 74
+      "rank_named": 71,
+      "row_order": 76
     },
     {
       "name_en": "Mongolian",
       "name_fa": "مغولی",
       "count": 5,
-      "rank_all": 77,
+      "rank_all": 73,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 75
+      "rank_named": 71,
+      "row_order": 77
     },
     {
       "name_en": "Basque",
@@ -710,70 +788,78 @@
       "rank_all": 78,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 76
+      "rank_named": 76,
+      "row_order": 78
     },
     {
       "name_en": "Iranian languages",
       "name_fa": "زبان‌های ایرانی (گروه)",
       "count": 4,
-      "rank_all": 79,
+      "rank_all": 78,
       "category": "named_language",
       "iran_link": true,
-      "rank_named": 77
+      "rank_named": 76,
+      "row_order": 79
     },
     {
       "name_en": "Georgian",
       "name_fa": "گرجی",
       "count": 4,
-      "rank_all": 80,
+      "rank_all": 78,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 78
+      "rank_named": 76,
+      "row_order": 80
     },
     {
       "name_en": "Malagasy",
       "name_fa": "مالاگاسی",
       "count": 4,
-      "rank_all": 81,
+      "rank_all": 78,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 79
+      "rank_named": 76,
+      "row_order": 81
     },
     {
       "name_en": "Maori",
       "name_fa": "مائوری",
       "count": 4,
-      "rank_all": 82,
+      "rank_all": 78,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 80
+      "rank_named": 76,
+      "row_order": 82
     },
     {
       "name_en": "Tamil",
       "name_fa": "تامیلی",
       "count": 4,
-      "rank_all": 83,
+      "rank_all": 78,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 81
+      "rank_named": 76,
+      "row_order": 83
     },
     {
       "name_en": "Urdu",
       "name_fa": "اردو",
       "count": 4,
-      "rank_all": 84,
+      "rank_all": 78,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 82
+      "rank_named": 76,
+      "row_order": 84
     },
     {
       "name_en": "Uzbek",
       "name_fa": "ازبکی",
       "count": 4,
-      "rank_all": 85,
+      "rank_all": 78,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 83
+      "rank_named": 76,
+      "row_order": 85
     },
     {
       "name_en": "Amharic",
@@ -782,79 +868,88 @@
       "rank_all": 86,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 84
+      "rank_named": 84,
+      "row_order": 86
     },
     {
       "name_en": "Ethiopic",
       "name_fa": "اتیوپیایی (برچسب کاتالوگ)",
       "count": 3,
-      "rank_all": 87,
+      "rank_all": 86,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 85
+      "rank_named": 84,
+      "row_order": 87
     },
     {
       "name_en": "Manx",
       "name_fa": "مانکسی",
       "count": 3,
-      "rank_all": 88,
+      "rank_all": 86,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 86
+      "rank_named": 84,
+      "row_order": 88
     },
     {
       "name_en": "Kalâtdlisut",
       "name_fa": "گرینلندی (کالالیسوت)",
       "count": 3,
-      "rank_all": 89,
+      "rank_all": 86,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 87
+      "rank_named": 84,
+      "row_order": 89
     },
     {
       "name_en": "Lingala",
       "name_fa": "لینگالا",
       "count": 3,
-      "rank_all": 90,
+      "rank_all": 86,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 88
+      "rank_named": 84,
+      "row_order": 90
     },
     {
       "name_en": "Burmese",
       "name_fa": "برمه‌ای",
       "count": 3,
-      "rank_all": 91,
+      "rank_all": 86,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 89
+      "rank_named": 84,
+      "row_order": 91
     },
     {
       "name_en": "Ndonga",
       "name_fa": "ندونگا",
       "count": 3,
-      "rank_all": 92,
+      "rank_all": 86,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 90
+      "rank_named": 84,
+      "row_order": 92
     },
     {
       "name_en": "Dari",
       "name_fa": "دری",
       "count": 3,
-      "rank_all": 93,
+      "rank_all": 86,
       "category": "named_language",
       "iran_link": true,
-      "rank_named": 91
+      "rank_named": 84,
+      "row_order": 93
     },
     {
       "name_en": "Xhosa",
       "name_fa": "خوسایی",
       "count": 3,
-      "rank_all": 94,
+      "rank_all": 86,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 92
+      "rank_named": 84,
+      "row_order": 94
     },
     {
       "name_en": "Afrikaans",
@@ -863,178 +958,198 @@
       "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 93
+      "rank_named": 93,
+      "row_order": 95
     },
     {
       "name_en": "Aramaic",
       "name_fa": "آرامی",
       "count": 2,
-      "rank_all": 96,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 94
+      "rank_named": 93,
+      "row_order": 96
     },
     {
       "name_en": "Aymara",
       "name_fa": "آیمارا",
       "count": 2,
-      "rank_all": 97,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 95
+      "rank_named": 93,
+      "row_order": 97
     },
     {
       "name_en": "Azerbaijani",
       "name_fa": "ترکی آذربایجانی",
       "count": 2,
-      "rank_all": 98,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": true,
-      "rank_named": 96
+      "rank_named": 93,
+      "row_order": 98
     },
     {
       "name_en": "Bambara",
       "name_fa": "بامبارا",
       "count": 2,
-      "rank_all": 99,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 97
+      "rank_named": 93,
+      "row_order": 99
     },
     {
       "name_en": "Belarusian",
       "name_fa": "بلاروسی",
       "count": 2,
-      "rank_all": 100,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 98
+      "rank_named": 93,
+      "row_order": 100
     },
     {
       "name_en": "Berber languages",
       "name_fa": "زبان‌های بربری",
       "count": 2,
-      "rank_all": 101,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 99
+      "rank_named": 93,
+      "row_order": 101
     },
     {
       "name_en": "Breton",
       "name_fa": "برتونی",
       "count": 2,
-      "rank_all": 102,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 100
+      "rank_named": 93,
+      "row_order": 102
     },
     {
       "name_en": "Cree",
       "name_fa": "کری",
       "count": 2,
-      "rank_all": 103,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 101
+      "rank_named": 93,
+      "row_order": 103
     },
     {
       "name_en": "English, Middle (1100-1500)",
       "name_fa": "انگلیسی میانه",
       "count": 2,
-      "rank_all": 104,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 102
+      "rank_named": 93,
+      "row_order": 104
     },
     {
       "name_en": "Fula",
       "name_fa": "فولا",
       "count": 2,
-      "rank_all": 105,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 103
+      "rank_named": 93,
+      "row_order": 105
     },
     {
       "name_en": "Quechua",
       "name_fa": "کچوا",
       "count": 2,
-      "rank_all": 106,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 104
+      "rank_named": 93,
+      "row_order": 106
     },
     {
       "name_en": "Sinhalese",
       "name_fa": "سینهالی",
       "count": 2,
-      "rank_all": 107,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 105
+      "rank_named": 93,
+      "row_order": 107
     },
     {
       "name_en": "Slavic languages",
       "name_fa": "زبان‌های اسلاوی (گروه)",
       "count": 2,
-      "rank_all": 108,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 106
+      "rank_named": 93,
+      "row_order": 108
     },
     {
       "name_en": "Shona",
       "name_fa": "شونا",
       "count": 2,
-      "rank_all": 109,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 107
+      "rank_named": 93,
+      "row_order": 109
     },
     {
       "name_en": "Sardinian",
       "name_fa": "ساردنیایی",
       "count": 2,
-      "rank_all": 110,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 108
+      "rank_named": 93,
+      "row_order": 110
     },
     {
       "name_en": "Tagalog",
       "name_fa": "تاگالوگ",
       "count": 2,
-      "rank_all": 111,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 109
+      "rank_named": 93,
+      "row_order": 111
     },
     {
       "name_en": "Tamashek",
       "name_fa": "تماشق",
       "count": 2,
-      "rank_all": 112,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 110
+      "rank_named": 93,
+      "row_order": 112
     },
     {
       "name_en": "Uighur",
       "name_fa": "اویغوری",
       "count": 2,
-      "rank_all": 113,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 111
+      "rank_named": 93,
+      "row_order": 113
     },
     {
       "name_en": "Yupik languages",
       "name_fa": "زبان‌های یوپیک",
       "count": 2,
-      "rank_all": 114,
+      "rank_all": 95,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 112
+      "rank_named": 93,
+      "row_order": 114
     },
     {
       "name_en": "Cebuano",
@@ -1043,286 +1158,318 @@
       "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 113
+      "rank_named": 113,
+      "row_order": 115
     },
     {
       "name_en": "Mari",
       "name_fa": "ماری",
       "count": 1,
-      "rank_all": 116,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 114
+      "rank_named": 113,
+      "row_order": 116
     },
     {
       "name_en": "Chuvash",
       "name_fa": "چوواشی",
       "count": 1,
-      "rank_all": 117,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 115
+      "rank_named": 113,
+      "row_order": 117
     },
     {
       "name_en": "Cornish",
       "name_fa": "کورنوالی",
       "count": 1,
-      "rank_all": 118,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 116
+      "rank_named": 113,
+      "row_order": 118
     },
     {
       "name_en": "Creoles and Pidgins, Portuguese-based",
       "name_fa": "کریول و پیجین با پایهٔ پرتغالی",
       "count": 1,
-      "rank_all": 119,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 117
+      "rank_named": 113,
+      "row_order": 119
     },
     {
       "name_en": "Galician",
       "name_fa": "گالیسیایی",
       "count": 1,
-      "rank_all": 120,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 118
+      "rank_named": 113,
+      "row_order": 120
     },
     {
       "name_en": "German, Middle High (ca. 1050-1500)",
       "name_fa": "آلمانی میانهٔ علیا",
       "count": 1,
-      "rank_all": 121,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 119
+      "rank_named": 113,
+      "row_order": 121
     },
     {
       "name_en": "Haitian French Creole",
       "name_fa": "کریول فرانسوی هائیتی",
       "count": 1,
-      "rank_all": 122,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 120
+      "rank_named": 113,
+      "row_order": 122
     },
     {
       "name_en": "Indo-European languages",
       "name_fa": "زبان‌های هندواروپایی (گروه)",
       "count": 1,
-      "rank_all": 123,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 121
+      "rank_named": 113,
+      "row_order": 123
     },
     {
       "name_en": "Iroquoian languages",
       "name_fa": "زبان‌های ایروکویی",
       "count": 1,
-      "rank_all": 124,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 122
+      "rank_named": 113,
+      "row_order": 124
     },
     {
       "name_en": "Karen languages",
       "name_fa": "زبان‌های کارن",
       "count": 1,
-      "rank_all": 125,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 123
+      "rank_named": 113,
+      "row_order": 125
     },
     {
       "name_en": "Kyrgyz",
       "name_fa": "قرقیزی",
       "count": 1,
-      "rank_all": 126,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 124
+      "rank_named": 113,
+      "row_order": 126
     },
     {
       "name_en": "Luxembourgish",
       "name_fa": "لوکزامبورگی",
       "count": 1,
-      "rank_all": 127,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 125
+      "rank_named": 113,
+      "row_order": 127
     },
     {
       "name_en": "Malayalam",
       "name_fa": "مالایالم",
       "count": 1,
-      "rank_all": 128,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 126
+      "rank_named": 113,
+      "row_order": 128
     },
     {
       "name_en": "Mandingo",
       "name_fa": "ماندینگو",
       "count": 1,
-      "rank_all": 129,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 127
+      "rank_named": 113,
+      "row_order": 129
     },
     {
       "name_en": "Maltese",
       "name_fa": "مالتی",
       "count": 1,
-      "rank_all": 130,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 128
+      "rank_named": 113,
+      "row_order": 130
     },
     {
       "name_en": "Erzya",
       "name_fa": "ارزیایی",
       "count": 1,
-      "rank_all": 131,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 129
+      "rank_named": 113,
+      "row_order": 131
     },
     {
       "name_en": "Neapolitan Italian",
       "name_fa": "ایتالیایی ناپلی",
       "count": 1,
-      "rank_all": 132,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 130
+      "rank_named": 113,
+      "row_order": 132
     },
     {
       "name_en": "Ndebele (Zimbabwe)",
       "name_fa": "اندبله (زیمبابوه)",
       "count": 1,
-      "rank_all": 133,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 131
+      "rank_named": 113,
+      "row_order": 133
     },
     {
       "name_en": "Nepali",
       "name_fa": "نپالی",
       "count": 1,
-      "rank_all": 134,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 132
+      "rank_named": 113,
+      "row_order": 134
     },
     {
       "name_en": "Old Norse",
       "name_fa": "نورس باستان",
       "count": 1,
-      "rank_all": 135,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 133
+      "rank_named": 113,
+      "row_order": 135
     },
     {
       "name_en": "Nyanja",
       "name_fa": "نیانجا",
       "count": 1,
-      "rank_all": 136,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 134
+      "rank_named": 113,
+      "row_order": 136
     },
     {
       "name_en": "Northern Sami",
       "name_fa": "سامی شمالی",
       "count": 1,
-      "rank_all": 137,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 135
+      "rank_named": 113,
+      "row_order": 137
     },
     {
       "name_en": "Skolt Sami",
       "name_fa": "سامی اسکولت",
       "count": 1,
-      "rank_all": 138,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 136
+      "rank_named": 113,
+      "row_order": 138
     },
     {
       "name_en": "Serer",
       "name_fa": "سرر",
       "count": 1,
-      "rank_all": 139,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 137
+      "rank_named": 113,
+      "row_order": 139
     },
     {
       "name_en": "Sundanese",
       "name_fa": "سوندایی",
       "count": 1,
-      "rank_all": 140,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 138
+      "rank_named": 113,
+      "row_order": 140
     },
     {
       "name_en": "Tahitian",
       "name_fa": "تاهیتیایی",
       "count": 1,
-      "rank_all": 141,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 139
+      "rank_named": 113,
+      "row_order": 141
     },
     {
       "name_en": "Tatar",
       "name_fa": "تاتاری",
       "count": 1,
-      "rank_all": 142,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 140
+      "rank_named": 113,
+      "row_order": 142
     },
     {
       "name_en": "Tigré",
       "name_fa": "تیگره",
       "count": 1,
-      "rank_all": 143,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 141
+      "rank_named": 113,
+      "row_order": 143
     },
     {
       "name_en": "Tongan",
       "name_fa": "تونگایی",
       "count": 1,
-      "rank_all": 144,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 142
+      "rank_named": 113,
+      "row_order": 144
     },
     {
       "name_en": "Udmurt",
       "name_fa": "اودمورتی",
       "count": 1,
-      "rank_all": 145,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 143
+      "rank_named": 113,
+      "row_order": 145
     },
     {
       "name_en": "Votic",
       "name_fa": "وتی",
       "count": 1,
-      "rank_all": 146,
+      "rank_all": 115,
       "category": "named_language",
       "iran_link": false,
-      "rank_named": 144
+      "rank_named": 113,
+      "row_order": 146
     }
   ]
 }
