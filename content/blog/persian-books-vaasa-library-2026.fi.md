@@ -1,32 +1,51 @@
 ---
 blogcategories: ["culture-literature"]
 blogtags: ["persian-literature", "vaasa", "iranian-community"]
-title: "273 persiankielistä kirjatietuetta Vaasan kaupunginkirjaston luettelossa"
-description: "Haettava luettelo 273 persiankieliseksi merkitystä kirjasta Vaasassa: luettelon nimeke, persiankielinen vastine, tekijä, julkaisuvuosi, RSS-päiväys, ISBN ja tietuelinkki."
+title: "311 persiankieliseksi luokiteltua aineistotietuetta Vaasan kirjastossa"
+description: "Haettava ja sarakkeittain lajiteltava luettelo 311 persiankieliseksi merkitystä aineistosta: kirjat, elokuvat, äänikirjat ja musiikki sekä nimekkeet, tekijät, aineistolajit, vuodet ja tietuelinkit."
 date: "2026-11-19T13:00:00+02:00"
 publishDate: "2026-11-19T13:00:00+02:00"
 showDate: false
 event_year: "2026"
 event_type: "culture"
 symbol: "✦"
-publication_label: "19. marraskuuta 2026"
+publication_label: "19. marraskuuta 2026 (päivitetty)"
 ---
-Sorure Iranian ry on koonnut haettavan luettelon **273 kirjatietueesta** [Vaasan kaupunginkirjaston Finna-palvelun](https://vaasankirjasto.finna.fi/) persiankielisten (fas) aineistojen hakutuloksista. Luettelon jokainen nimeke on linkitetty suoraan kirjaston tietueeseen.
 
-**Tämä on 19.11.2026 koottu luettelopoiminta, ei ajantasainen vahvistus fyysisten niteiden sijainnista, lainatilanteesta tai varaamisesta.** Tarkista yksittäisen kirjan kappaletiedot ja toimipiste suoraan Finnasta.
+Sorure Iranian ry on koonnut **311 persiankieliseksi (fas) luokiteltua aineistotietuetta** neljältä [Vaasan kaupunginkirjaston Finna-palvelun](https://vaasankirjasto.finna.fi/) RSS-hakutulossivulta. Luettelo kattaa kirjojen lisäksi **äänikirjoja, musiikki-CD-levyjä, äänitteitä ja DVD-elokuvia**. Luettelon alkuperäisen nimekkeen kautta pääset suoraan Finna-tietueeseen.
 
-Hakutuloksissa oli kaikkiaan **311 tietuetta**: **273 kirjaa** ja **38 muuta aineistoa**, kuten äänitteitä, äänikirjoja ja videoita. Kirjoista **268 tietueessa on julkaisuvuosi**, **254:ssä tekijän nimi** ja **170:ssä ISBN**. Tekijät ja ISBN-tunnukset on poimittu myös kansikuvan osoitteen metatiedoista, joten tarkista ne varsinaisesta tietueesta ennen virallista viittausta.
+**Luettelo perustuu 19.11.2026 saatuihin hakutuloksiin eikä ole ajantasainen tarkistus fyysisistä niteistä, toimipisteistä tai lainatilanteesta.** Pelkkä tietue ei todista, että teoksesta on tällä hetkellä lainattava nide Vaasan toimipisteessä.
 
-**Luettelon nimeke** on alkuperäinen Finnasta saatu nimi. **Persiankielinen nimeke** on 267 kirjan osalta toimituksellinen, toisinaan likimääräinen kirjoitusasu tai käännös, jota ei ole tarkistettu jokaisen kirjan kannesta. Julkaisuvuodet ovat alkuperäisessä muodossaan; osa käyttää iranilaista kalenteria. **RSS-tietueen päiväys** tarkoittaa syötteen päiväyskenttää, *ei vahvistettua kirjan hankintapäivää*.
+## Aineistolajit
 
-## Hae 273 kirjan luettelosta
+| Aineistolaji | Tietueita |
+|---|---:|
+| Kirja | 273 |
+| Ääni-/musiikki-CD | 23 |
+| Äänite | 10 |
+| Äänikirja | 3 |
+| Elokuva (DVD) | 2 |
+| **Yhteensä** | **311** |
 
-Voit hakea nimekkeellä, tekijällä tai julkaisuvuodella. Puhelimella taulukkoa voi vierittää vaakasuunnassa.
+**293 tietueessa on julkaisuvuosi**, **171:ssä ISBN** ja **288:ssa tekijän tai muun vastuuhenkilön nimi** kansikuvan osoitteen metatiedoissa. Kaikista näistä tekijänimistä on lisätty toimituksellinen persiankielinen kirjoitusasu. **305 tietueelle** on lisätty persiankielinen nimeke.
+
+## Haku ja järjestäminen
+
+Hae alkuperäisen tai persiankielisen nimekkeen, tekijän, vuoden tai ISBN:n perusteella. **Napsauta minkä tahansa sarakkeen otsikkoa lajitellaksesi aineiston; uusi napsautus vaihtaa suunnan.** Voit myös rajata hakua aineistolajin mukaan. Puhelimella taulukkoa voi vierittää vaakasuunnassa.
 
 {{< vaasa-persian-books >}}
 
-Saat tiedot kirjan sijainnista, kappaleista ja lainaustilanteesta avaamalla [Finna-tietueen](https://vaasankirjasto.finna.fi/). Tässä luettelossa ei väitetä yksittäisen kirjan olevan juuri nyt lainattavissa.
+## Tietojen tulkinta
 
-**Lähde:** [Vaasan Finna, hakurajaus persian kieleen](https://vaasankirjasto.finna.fi/Search/Results?sort=first_indexed%20desc%2Cid%20asc&limit=100&filter%5B%5D=%7Elanguage%3A%22fas%22&type=AllFields&lng=en-gb) (neljä RSS-tulossivua).
+- **Luettelon nimeke** on Finnasta saatu alkuperäinen nimeke ja suora linkki tietueeseen.
+- **Persiankielinen nimeke** on toimituksellinen, joskus likimääräinen translitterointi tai käännös; sitä ei ole vahvistettu jokaisen teoksen kannesta. Kuudelle tietueelle ei voitu määrittää luotettavaa vastinetta.
+- **Tekijä** on saatu luettelon kansikuvan osoitteesta. Persiankielinen muoto on toimituksellinen eikä jokaisen tekijän osalta riippumattomasti tarkistettu. Äänitteissä ja elokuvissa kyse voi olla esimerkiksi esittäjästä, muusikosta tai ohjaajasta.
+- **Aineistolaji** pohjautuu Finnan luokitukseen, ei tietoon lainaustilanteesta.
+- **Julkaisuvuosi** on säilytetty alkuperäisessä muodossaan: joukossa on sekä iranilaisen että gregoriaanisen kalenterin vuosia. Numeraalinen lajittelu ei muuta kalentereita.
+- **RSS-tietueen päiväys** on RSS-syötteen päivämääräkenttä, **ei vahvistettu hankinta-, saapumis- tai hyllytyspäivä**.
+
+Osa aineistosta voi olla luokiteltu persiankieliseksi, vaikka koko sisältö ei olisi persiaksi. Tarkista kappale-, toimipiste- ja varaustiedot [Finnasta](https://vaasankirjasto.finna.fi/).
+
+**Lähde:** [Persian kieleen rajatut hakutulokset Vaasan Finnassa](https://vaasankirjasto.finna.fi/Search/Results?sort=first_indexed%20desc%2Cid%20asc&limit=100&filter%5B%5D=%7Elanguage%3A%22fas%22&type=AllFields&lng=en-gb), neljä RSS-tulossivua.
 
 Korjauksia voi lähettää osoitteeseen [sorureiranianry@gmail.com](mailto:sorureiranianry@gmail.com).
