@@ -69,8 +69,8 @@ jobs:
             assert parser.filters==1,(lang,'select',parser.filters)
             assert parser.links==311,(lang,'record links',parser.links)
             scripts=re.findall(r'<script(?:\s[^>]*)?>([\s\S]*?)</script>',text)
-            snippet=next((s for s in scripts if 'data-book-row' in s and 'sortBy' in s),None)
-            assert snippet,(lang,'missing sorting script')
+            snippet=next((s for s in scripts if 'data-book-row' in s and 'data-sort-key' in s),None)
+            assert snippet,(lang,'missing sorting script',len(scripts),text.count('data-sort-key'))
             Path('/tmp/catalog-'+lang+'.js').write_text(snippet)
             print('CATALOG_HTML_PASS',lang,parser.rows,len(parser.buttons))
           PY
