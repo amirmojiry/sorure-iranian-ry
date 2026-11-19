@@ -1,0 +1,44 @@
+name: Inspect Vaasa Persian catalog
+on:
+  push:
+    paths:
+      - '.github/workflows/inspect-persian-catalog.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  investigate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect Finna API filters
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import urllib.request,urllib.parse,json,traceback
+          base='https://api.finna.fi/v1/search'
+          variants={
+            'all-persian':[('filter[]','language:"per"'),('filter[]','format:"0/Book/"')],
+            'vaasa':[('filter[]','language:"per"'),('filter[]','format:"0/Book/"'),('filter[]','building:"0/Vaasa/"')],
+            'vaasa-other':[('filter[]','language:"per"'),('filter[]','format:"0/Book/"'),('filter[]','building:"Vaasan kaupunginkirjasto"')],
+            'vaasa-organisation':[('filter[]','language:"per"'),('filter[]','format:"0/Book/"'),('filter[]','building:"0/Vaasan kaupunginkirjasto/"')],
+            'vaasa-fas':[('filter[]','language:"fas"'),('filter[]','format:"0/Book/"'),('filter[]','building:"0/Vaasa/"')]
+          }
+          for key,fil in variants.items():
+            qs=[('lookfor',''),('limit','2'),('facet[]','building'),('facet[]','language'),('field[]','id'),('field[]','title'),('field[]','authors'),('field[]','formats'),('field[]','languages'),('field[]','publicationInfo'),('field[]','physicalDescriptions'),('field[]','isbns')]+fil
+            url=base+'?'+urllib.parse.urlencode(qs)
+            print('TEST',key,url,flush=True)
+            try:
+              req=urllib.request.Request(url,headers={'User-Agent':'Sorure Iranian ry catalog research (open data)'})
+              with urllib.request.urlopen(req,timeout=35) as r: data=json.load(r)
+              print('DATA',key,'count',data.get('resultCount'), 'status',data.get('status'),'records',json.dumps(data.get('records',[])[:2],ensure_ascii=False)[:2500],flush=True)
+              if key=='all-persian':
+                def searchfacets(obj,prefix=''):
+                  if isinstance(obj,dict):
+                    if any('Vaasa' in str(obj.get(k,'')) for k in ('value','translated','name','label')):
+                      print('VAASA_FACET',json.dumps(obj,ensure_ascii=False)[:300],flush=True)
+                    for v in obj.values():searchfacets(v,prefix)
+                  elif isinstance(obj,list):
+                    for v in obj:searchfacets(v,prefix)
+                searchfacets(data.get('facets',{}))
+            except Exception as e:print('ERROR',key,repr(e),flush=True)
+          PY
