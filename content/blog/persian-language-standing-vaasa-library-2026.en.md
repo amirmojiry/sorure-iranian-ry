@@ -24,19 +24,19 @@ In the **19 November 2026 snapshot of language-filter counts supplied for this a
 | Persian rank across all categories | **18** |
 | Persian rank excluding the two non-specific labels | **16** |
 
-A **catalogue result is not necessarily a physical book, an available copy, or an item presently on a shelf**. These figures are based on the catalogue's Language filter, which the [Finna search guide](https://vaasankirjasto.finna.fi/Content/help-basic?lng=en-gb) describes as a way of narrowing search results.
+A “record” here means a catalogue search result, which may not be a printed book (it could be a music album, a film, etc.). The counts come from the “Language” filter.
 
 ## Persian among the catalogue's other languages
 
 Finnish leads with **155,018** results, followed by Swedish (**111,302**) and English (**50,084**). Much farther down the list, the counts are much closer together: **Japanese has 316**, **Estonian 313**, and **Persian 311**. Persian is therefore just **two records behind Estonian** and **five behind Japanese**, while appearing ahead of **Ukrainian (256)**, **Turkish (184)** and **Kurdish (125)**.
 
-The comparison below shows the categories immediately around Persian in the ranking. It should not be read as a measure of language use in Vaasa, demand for particular publications or the library's acquisition policy.
+The comparison below shows the categories immediately around Persian in the ranking.
 
 ## Languages also spoken in Iran
 
 Iran is multilingual. Persian, Azerbaijani, Kurdish, Arabic, Armenian and several other languages are spoken in different parts of the country. **Their speakers and cultural histories are not confined to Iran**: Arabic is used across many countries, Kurdish in several Middle Eastern countries, Armenian in Armenia and diasporic communities, and Turkic languages across a much wider region.
 
-The following catalogue labels may be relevant to communities in Iran, but their counts **must not be interpreted as the size of an “Iranian collection” or as a measure of the Iranian population in Vaasa**:
+The following catalogue labels are also associated with languages spoken in Iran:
 
 | Catalogue label | Results | Rank among all categories |
 |---|---:|---:|
@@ -49,7 +49,7 @@ The following catalogue labels may be relevant to communities in Iran, but their
 | Dari | 3 | 86 |
 | Azerbaijani | 2 | 95 |
 
-**Turkish is a distinct catalogue label from Azerbaijani**; the 184 Turkish results are not an estimate of Azerbaijani-language materials. **Dari** is listed separately from Persian, while **Iranian languages** is an umbrella linguistic category, not a combined total of Persian, Kurdish and other languages. Do not add these counts together to infer a unique collection.
+**Turkish and Azerbaijani are distinct catalogue labels**. **Dari** is listed separately from Persian, while **Iranian languages** is an umbrella linguistic category.
 
 ## Four related music CDs hidden under “Iranian languages”
 
@@ -68,13 +68,11 @@ Sorure Iranian ry has therefore added them to its [expanded searchable index of 
 
 This example illustrates why searching only one language filter may overlook culturally relevant materials catalogued under a broader label.
 
-Languages including Balochi, Gilaki, Mazanderani, Luri, Turkmen and Talysh do not appear as separate labels **in the supplied list**. This does not prove that the catalogue has no resources in these languages; records may be filed differently or require separate searching.
-
 ## Complete table: all 146 categories
 
 The searchable table below reproduces **every category in the supplied dataset**, including historical languages, linguistic groups, non-language categories, and labels with just one result. Search in English or Persian, sort by clicking a column heading, or filter the table to the eight labels associated with languages spoken in Iran.
 
-**Ranking method:** Larger result counts have better ranks, and tied counts share a rank. The overall rank includes both non-specific categories; the named-language rank excludes just those two. The 144 remaining categories do not necessarily represent 144 distinct living languages.
+**Ranking method:** Larger result counts have better ranks, and tied counts share a rank. The overall rank includes both non-specific categories; the named-language rank excludes just those two.
 
 {{< vaasa-language-ranking >}}
 
@@ -82,4 +80,4 @@ The searchable table below reproduces **every category in the supplied dataset**
 
 We first published a [searchable index of **311 Persian-tagged records**]({{< relref "blog/persian-books-vaasa-library-2026" >}}) with Persian/Arabic-script and original titles, creators, material types, years and direct Finna links. After including the four separate music CDs, the expanded index contains **315 records**: **273 books** and **42 other media**.
 
-**Sources and limitations:** The ranking reflects the [Vaasa Finna Language filter](https://vaasankirjasto.finna.fi/Search/Results?type=AllFields&lng=en-gb) snapshot dated **19 November 2026**. Four CDs found under the separate `ira` language facet were added to the association’s curated index on **20 November 2026**. Language facets can overlap, and adding every language count will not reliably produce a count of unique items.
+**Sources and limitations:** The ranking reflects the [Vaasa Finna Language filter](https://vaasankirjasto.finna.fi/Search/Results?type=AllFields&lng=en-gb) snapshot dated **19 November 2026**. Four CDs found under the separate `ira` language facet were added to the association’s curated index on **20 November 2026**.
