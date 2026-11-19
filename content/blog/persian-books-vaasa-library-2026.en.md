@@ -29,7 +29,7 @@ Sorure Iranian ry has prepared a searchable index of **311 catalogue records ass
 
 Publication years appear in **293 records** and ISBNs in **171**. The cover-image URL metadata supplies creator names for **288 records**; all of these have a separate editorial Persian-script rendering. All **311 records** now have titles in Persian or Arabic script; one of these is an Arabic-language title.
 
-For a comparison with other languages, see our [article on Persian's position in Vaasa City Library](/en/blog/persian-language-standing-vaasa-library-2026/), including a ranking across 146 language categories.
+For a comparison with other languages, see our [article on Persian's position in Vaasa City Library]({{< relref "blog/persian-language-standing-vaasa-library-2026" >}}), including a ranking across 146 language categories.
 
 ## Search and sort
 
