@@ -4,7 +4,7 @@ description: "ادامهٔ فعالیت‌های گروهی انجمن در سا
 slug: "sports-november-2024"
 date: "2024-11-09T12:00:00+02:00"
 publishDate: "2026-11-03T12:00:00+02:00"
-lastmod: "2026-11-03T12:00:00+02:00"
+lastmod: "2026-11-19T12:30:00+02:00"
 event_date: "2024-11-09"
 event_date_label: "۹ نوامبر ۲۰۲۴"
 date_precision: "exact"
@@ -19,6 +19,10 @@ showReadingTime: false
 showWordCount: false
 showTableOfContents: false
 venue: "Urheilukeskus, Vaasa"
+cover_image: "img/events/sports-november-2024-01.webp"
+event_gallery:
+  - src: "img/events/sports-november-2024-01.webp"
+    alt: "بازیکنان در حال بازی فوتسال در سالن ورزشی"
 ---
 
 {{< event-meta >}}

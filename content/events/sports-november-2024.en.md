@@ -4,7 +4,7 @@ description: "Another indoor sports gathering continuing Sorure's community acti
 slug: "sports-november-2024"
 date: "2024-11-09T12:00:00+02:00"
 publishDate: "2026-11-03T12:00:00+02:00"
-lastmod: "2026-11-03T12:00:00+02:00"
+lastmod: "2026-11-19T12:30:00+02:00"
 event_date: "2024-11-09"
 event_date_label: "9 November 2024"
 date_precision: "exact"
@@ -19,6 +19,10 @@ showReadingTime: false
 showWordCount: false
 showTableOfContents: false
 venue: "Urheilukeskus, Vaasa"
+cover_image: "img/events/sports-november-2024-01.webp"
+event_gallery:
+  - src: "img/events/sports-november-2024-01.webp"
+    alt: "Participants playing futsal in an indoor sports hall"
 ---
 
 {{< event-meta >}}
