@@ -27,7 +27,7 @@ Sorure Iranian ry has prepared a searchable index of **311 catalogue records ass
 | Film (DVD) | 2 |
 | **Total** | **311** |
 
-Publication years appear in **293 records** and ISBNs in **171**. The cover-image URL metadata supplies creator names for **288 records**; all of these have a separate editorial Persian-script rendering. Persian titles are provided for **305 records**.
+Publication years appear in **293 records** and ISBNs in **171**. The cover-image URL metadata supplies creator names for **288 records**; all of these have a separate editorial Persian-script rendering. Persian titles are provided for **310 records**.
 
 ## Search and sort
 
@@ -38,7 +38,7 @@ Search by original or Persian title, original or Persian creator name, year or I
 ## How to interpret the fields
 
 - **Catalogue title:** The original entry from the library feed; links to its specific record in Finna.
-- **Persian title:** An editorial transcription or translation, sometimes approximate, not independently verified against every physical cover. Six records have no confident Persian title.
+- **Persian title:** An editorial transcription or translation, sometimes approximate, not independently verified against every physical cover. One record has no confident Persian title.
 - **Creator:** Taken from catalogue cover-image URL metadata. The Persian version is an editorial rendering, not an independently verified name. For nonbooks, the person or organization may be an artist, performer or film director rather than an author.
 - **Material type:** Based on the format reported by Finna; it is not a claim that a copy is available for loan.
 - **Publication year:** Preserved as supplied. Some years are Solar Hijri and others Gregorian; numeric sorting does not convert between calendars.

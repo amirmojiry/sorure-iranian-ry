@@ -27,7 +27,7 @@ Sorure Iranian ry on koonnut **311 persiankieliseksi (fas) luokiteltua aineistot
 | Elokuva (DVD) | 2 |
 | **Yhteensä** | **311** |
 
-**293 tietueessa on julkaisuvuosi**, **171:ssä ISBN** ja **288:ssa tekijän tai muun vastuuhenkilön nimi** kansikuvan osoitteen metatiedoissa. Kaikista näistä tekijänimistä on lisätty toimituksellinen persiankielinen kirjoitusasu. **305 tietueelle** on lisätty persiankielinen nimeke.
+**293 tietueessa on julkaisuvuosi**, **171:ssä ISBN** ja **288:ssa tekijän tai muun vastuuhenkilön nimi** kansikuvan osoitteen metatiedoissa. Kaikista näistä tekijänimistä on lisätty toimituksellinen persiankielinen kirjoitusasu. **310 tietueelle** on lisätty persiankielinen nimeke.
 
 ## Haku ja järjestäminen
 
@@ -38,7 +38,7 @@ Hae alkuperäisen tai persiankielisen nimekkeen, tekijän, vuoden tai ISBN:n per
 ## Tietojen tulkinta
 
 - **Luettelon nimeke** on Finnasta saatu alkuperäinen nimeke ja suora linkki tietueeseen.
-- **Persiankielinen nimeke** on toimituksellinen, joskus likimääräinen translitterointi tai käännös; sitä ei ole vahvistettu jokaisen teoksen kannesta. Kuudelle tietueelle ei voitu määrittää luotettavaa vastinetta.
+- **Persiankielinen nimeke** on toimituksellinen, joskus likimääräinen translitterointi tai käännös; sitä ei ole vahvistettu jokaisen teoksen kannesta. Yhdelle tietueelle ei voitu määrittää luotettavaa vastinetta.
 - **Tekijä** on saatu luettelon kansikuvan osoitteesta. Persiankielinen muoto on toimituksellinen eikä jokaisen tekijän osalta riippumattomasti tarkistettu. Äänitteissä ja elokuvissa kyse voi olla esimerkiksi esittäjästä, muusikosta tai ohjaajasta.
 - **Aineistolaji** pohjautuu Finnan luokitukseen, ei tietoon lainaustilanteesta.
 - **Julkaisuvuosi** on säilytetty alkuperäisessä muodossaan: joukossa on sekä iranilaisen että gregoriaanisen kalenterin vuosia. Numeraalinen lajittelu ei muuta kalentereita.

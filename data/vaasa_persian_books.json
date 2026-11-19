@@ -16,7 +16,7 @@
       "audio_cd": 23,
       "audio_track": 10
     },
-    "persian_titles_inferred": 305,
+    "persian_titles_inferred": 310,
     "persian_author_names": 288
   },
   "materials": [
@@ -233,7 +233,7 @@
     {
       "id": "vaasa.c594b852-4f7e-4f19-adb2-7407d1747373",
       "title_latin": "Ulkir Abla",
-      "title_fa": "",
+      "title_fa": "اولکر آبلا",
       "author": "Sahiner, Seray",
       "author_fa": "سرای شاهینر",
       "year": "2024",
@@ -818,7 +818,7 @@
     {
       "id": "vaasa.f6e9e66a-61c6-4586-8e1c-c86fe4016f4f",
       "title_latin": "Hajahu dar bagcheh",
-      "title_fa": "",
+      "title_fa": "هیاهو در باغچه",
       "author": "Nordqvist, Sven",
       "author_fa": "سون نوردکویست",
       "year": "1993",
@@ -1133,7 +1133,7 @@
     {
       "id": "vaasa.c2202d58-2442-44ef-80c9-576a13440074",
       "title_latin": "Qalami va katta",
-      "title_fa": "",
+      "title_fa": "قلمی و کتّا",
       "author": "Anrell, Lasse",
       "author_fa": "لاسه آنرل",
       "year": "2007",
@@ -2873,7 +2873,7 @@
     {
       "id": "vaasa.44219dea-2680-4ee7-b571-1a64714e0852",
       "title_latin": "Hävades-e toriki-e Iran",
-      "title_fa": "",
+      "title_fa": "حوادث تاریخی ایران",
       "author": "Näjmi, Naser",
       "author_fa": "ناصر نجمی",
       "year": "1991",
@@ -4358,7 +4358,7 @@
     {
       "id": "vaasa.2f592c2c-ca0a-4718-a74e-06e8fd557b96",
       "title_latin": "HADI V GÄLEHABADI",
-      "title_fa": "",
+      "title_fa": "هادی و گله آبادی",
       "author": "Ahmadi, Kesavarz",
       "author_fa": "کشاورز احمدی",
       "year": "1992",
