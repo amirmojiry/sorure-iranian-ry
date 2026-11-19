@@ -69,7 +69,7 @@ jobs:
             assert x.search==1 and x.filter==1,(lang,'controls',x.search,x.filter)
             assert x.bars==13,(lang,'bars',x.bars)
             assert 'data-sorure-languages' in txt
-            assert 'vaasa-language-ranking' in txt
+            assert 'sorure-language-ranking' in txt
             print('LANG_HTML_PASS',lang,x.rows,x.bars)
           PY
           python3 - <<'PY'
