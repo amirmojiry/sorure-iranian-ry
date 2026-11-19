@@ -1,0 +1,164 @@
+{{- $lang := .Page.Lang -}}
+{{- $d := site.Data.vaasa_library_language_ranking_2026 -}}
+{{- $items := $d.languages -}}
+{{- $translations := dict
+  "fa" (dict "chart" "زبان‌های پیرامون جایگاه فارسی" "chart_note" "مقایسهٔ رتبه‌های ۱۲ تا ۲۴ در خروجی؛ طول هر نوار متناسب با تعداد رکوردهاست." "search" "جست‌وجوی نام زبان (فارسی یا انگلیسی)" "filter" "نمایش" "all" "تمام ۱۴۶ دسته" "named" "فقط ۱۴۴ برچسب زبانی مشخص" "iran" "۸ برچسب مرتبط با زبان‌های رایج در ایران" "rows" "دسته از ۱۴۶ دسته" "rank" "رتبه در کل فهرست" "namedrank" "رتبه میان زبان‌های مشخص" "namefa" "نام فارسی" "nameen" "عنوان در کاتالوگ" "count" "تعداد رکوردها" "empty" "دسته‌ای با این شرایط پیدا نشد." "sort" "برای مرتب‌سازی روی عنوان هر ستون کلیک کنید. کلیک دوم ترتیب را برعکس می‌کند.")
+  "en" (dict "chart" "Languages near Persian in the ranking" "chart_note" "Categories ranked 12–24; each bar is proportional to the number of catalogue results." "search" "Search by English or Persian name" "filter" "Show" "all" "All 146 categories" "named" "144 named-language labels only" "iran" "8 language labels associated with Iran" "rows" "of 146 categories" "rank" "Rank across all categories" "namedrank" "Rank among named languages" "namefa" "Persian name" "nameen" "Catalogue label" "count" "Catalogue results" "empty" "No matching categories." "sort" "Click a heading to sort; click it again to reverse.")
+  "fi" (dict "chart" "Persian sijainti kieliluettelossa" "chart_note" "Sijoilla 12–24 olevat luokat; pylväiden pituudet kuvaavat hakutulosten määriä." "search" "Hae persian- tai englanninkielisellä nimellä" "filter" "Näytä" "all" "Kaikki 146 luokkaa" "named" "Vain 144 nimettyä kieliluokkaa" "iran" "8 Iraniin liittyvää kieliluokkaa" "rows" "/ 146 luokkaa" "rank" "Sija kaikkien luokkien joukossa" "namedrank" "Sija nimettyjen kielten joukossa" "namefa" "Persiankielinen nimi" "nameen" "Luettelon nimike" "count" "Hakutuloksia" "empty" "Hakua vastaavia kieliluokkia ei löytynyt." "sort" "Järjestä napsauttamalla sarakeotsikkoa; toinen napsautus vaihtaa suunnan.")
+-}}
+{{- $t := index $translations $lang | default (index $translations "en") -}}
+<div class="sorure-language-ranking" data-sorure-languages lang="{{ $lang }}">
+  <section class="sorure-lang-neighbors" aria-label="{{ $t.chart }}">
+    <h3>{{ $t.chart }}</h3>
+    <p>{{ $t.chart_note }}</p>
+    <div class="sorure-lang-bars">
+    {{- range $i, $item := $items }}
+      {{- if and (ge $i 11) (le $i 23) }}
+      <div class="sorure-lang-bar {{ if eq $item.name_en "Persian" }}sorure-lang-bar-persian{{ end }}">
+        <span class="sorure-lang-bar-rank">{{ $item.rank_all }}</span>
+        <span class="sorure-lang-bar-title">{{ if eq $lang "fa" }}{{ $item.name_fa }}{{ else }}{{ $item.name_en }}{{ end }}</span>
+        <progress value="{{ $item.count }}" max="477" aria-label="{{ $item.name_en }}: {{ $item.count }}">{{ $item.count }}</progress>
+        <span class="sorure-lang-bar-count" dir="ltr">{{ $item.count }}</span>
+      </div>
+      {{- end }}
+    {{- end }}
+    </div>
+  </section>
+  <div class="sorure-language-controls">
+    <div>
+      <label for="sorure-lang-search-{{ $lang }}">{{ $t.search }}</label>
+      <input id="sorure-lang-search-{{ $lang }}" type="search" data-language-search autocomplete="off" placeholder="{{ $t.search }}">
+    </div>
+    <div>
+      <label for="sorure-lang-filter-{{ $lang }}">{{ $t.filter }}</label>
+      <select id="sorure-lang-filter-{{ $lang }}" data-language-filter>
+        <option value="all">{{ $t.all }}</option>
+        <option value="named">{{ $t.named }}</option>
+        <option value="iran">{{ $t.iran }}</option>
+      </select>
+    </div>
+    <p class="sorure-lang-count" aria-live="polite"><strong data-language-count>{{ len $items }}</strong> {{ $t.rows }}</p>
+  </div>
+  <p class="sorure-lang-hint">{{ $t.sort }}</p>
+  <div class="sorure-language-scroll" tabindex="0" role="region" aria-label="{{ $t.all }}">
+    <table class="sorure-language-table">
+      <thead><tr>
+        <th scope="col" aria-sort="ascending"><button type="button" data-sort-language="rank_all">{{ $t.rank }} <span data-indicator aria-hidden="true">↑</span></button></th>
+        <th scope="col" aria-sort="none"><button type="button" data-sort-language="rank_named">{{ $t.namedrank }} <span data-indicator aria-hidden="true">↕</span></button></th>
+        <th scope="col" aria-sort="none"><button type="button" data-sort-language="name_fa">{{ $t.namefa }} <span data-indicator aria-hidden="true">↕</span></button></th>
+        <th scope="col" aria-sort="none"><button type="button" data-sort-language="name_en">{{ $t.nameen }} <span data-indicator aria-hidden="true">↕</span></button></th>
+        <th scope="col" aria-sort="none"><button type="button" data-sort-language="count">{{ $t.count }} <span data-indicator aria-hidden="true">↕</span></button></th>
+      </tr></thead>
+      <tbody>
+      {{- range $item := $items }}
+        <tr data-language-row data-row-order="{{ $item.row_order }}" data-category="{{ $item.category }}" data-iran="{{ $item.iran_link }}" data-rank_all="{{ $item.rank_all }}" data-rank_named="{{ $item.rank_named }}" data-name_fa="{{ $item.name_fa }}" data-name_en="{{ $item.name_en }}" data-count="{{ $item.count }}" class="{{ if eq $item.name_en "Persian" }}sorure-language-persian{{ else if $item.iran_link }}sorure-language-iran{{ end }}">
+          <td class="sorure-rank-num" dir="ltr">{{ $item.rank_all }}</td>
+          <td class="sorure-rank-num" dir="ltr">{{ with $item.rank_named }}{{ . }}{{ else }}—{{ end }}</td>
+          <td lang="fa" dir="rtl">{{ $item.name_fa }}</td>
+          <td lang="en" dir="ltr">
+            {{- if eq $item.name_en "Persian" }}
+            <a href="https://vaasankirjasto.finna.fi/Search/Results?filter%5B%5D=%7Elanguage%3A%22fas%22&amp;type=AllFields&amp;lng=en-gb" target="_blank" rel="noopener noreferrer">{{ $item.name_en }}</a>
+            {{- else }}{{ $item.name_en }}{{- end }}
+          </td>
+          <td class="sorure-language-value" data-language-value="{{ $item.count }}" dir="ltr">{{ $item.count }}</td>
+        </tr>
+      {{- end }}
+      </tbody>
+    </table>
+  </div>
+  <p data-language-empty hidden>{{ $t.empty }}</p>
+</div>
+<style>
+.sorure-language-ranking{margin:1rem 0 2.5rem;max-width:100%;font-size:.92rem}
+.sorure-lang-neighbors{border:1px solid #cbd5d1;border-radius:.85rem;padding:1.1rem;margin:1.4rem 0 1.5rem}
+.sorure-lang-neighbors h3{margin:0 0 .35rem!important;font-size:1.1rem}
+.sorure-lang-neighbors p{margin:0 0 .85rem!important;font-size:.82rem;opacity:.8}
+.sorure-lang-bars{display:grid;gap:.42rem}
+.sorure-lang-bar{display:grid;grid-template-columns:2.1rem minmax(100px,1.2fr) minmax(80px,3fr) 3.3rem;gap:.6rem;align-items:center;border-radius:.4rem;padding:.28rem .42rem}
+.sorure-lang-bar:nth-child(even){background:rgba(125,145,135,.08)}
+.sorure-lang-bar-persian{background:rgba(32,121,95,.12)!important;outline:1px solid rgba(32,121,95,.34);font-weight:750}
+.sorure-lang-bar-rank,.sorure-lang-bar-count{font-variant-numeric:tabular-nums;font-size:.87rem}
+.sorure-lang-bar-title{font-size:.9rem;min-width:0}
+.sorure-lang-bar progress{display:block;width:100%;height:.9rem;accent-color:#648b81}
+.sorure-lang-bar-persian progress{accent-color:#16765b}
+.sorure-language-controls{display:flex;align-items:end;flex-wrap:wrap;gap:.75rem 1rem;margin:1rem 0 .55rem}
+.sorure-language-controls>div:first-child{flex:2 1 280px}
+.sorure-language-controls>div:nth-child(2){flex:1 1 210px}
+.sorure-language-controls label{display:block;font-weight:650;margin:0 0 .3rem}
+.sorure-language-controls input,.sorure-language-controls select{box-sizing:border-box;width:100%;min-height:42px;padding:.65rem .75rem;border:1px solid #83978d;border-radius:.6rem;background:transparent;color:inherit;font:inherit}
+.sorure-language-controls option{background:#fff;color:#1c2522}
+.sorure-lang-count{flex:0 0 auto;font-size:.82rem;opacity:.8;margin:0 0 .55rem!important}
+.sorure-lang-hint{font-size:.83rem;opacity:.75;margin:.5rem 0 .65rem!important}
+.sorure-language-scroll{overflow-x:auto;border:1px solid #c9d4ce;border-radius:.7rem}
+.sorure-language-table{width:100%;min-width:780px;margin:0!important;border-collapse:collapse;line-height:1.52}
+.sorure-language-table th,.sorure-language-table td{text-align:start;vertical-align:middle;padding:.62rem .82rem;border-bottom:1px solid #dfe7e2}
+.sorure-language-table th{background:rgba(99,129,113,.12)}
+.sorure-language-table th button{width:100%;margin:0;padding:0;background:transparent;border:0;display:flex;justify-content:space-between;align-items:start;gap:.35rem;font:inherit;font-weight:650;color:inherit;cursor:pointer;text-align:inherit}
+.sorure-language-table th button:hover{text-decoration:underline;text-underline-offset:3px}
+.sorure-language-table th button:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.sorure-language-table [data-indicator]{opacity:.7;flex-shrink:0}
+.sorure-language-table .sorure-language-persian{background:rgba(32,121,95,.13);font-weight:750}
+.sorure-language-table .sorure-language-iran:not(.sorure-language-persian){background:rgba(120,150,130,.07)}
+.sorure-language-table tbody tr:hover{background:rgba(111,152,124,.14)}
+.sorure-language-table .sorure-rank-num,.sorure-language-table .sorure-language-value{font-variant-numeric:tabular-nums;white-space:nowrap}
+.sorure-language-table a{text-decoration:underline;text-underline-offset:2px}
+.sorure-language-table tbody tr:last-child td{border-bottom:0}
+.sorure-language-ranking [data-language-empty]{padding:1rem;font-weight:650}
+@media(max-width:600px){.sorure-lang-neighbors{padding:.8rem}.sorure-lang-bar{grid-template-columns:1.5rem minmax(90px,1.4fr) minmax(55px,2fr) 2.5rem;gap:.3rem;padding:.3rem .2rem}.sorure-lang-bar-title{font-size:.78rem}.sorure-lang-bar-rank,.sorure-lang-bar-count{font-size:.78rem}.sorure-language-controls>div{flex:1 1 100%!important}.sorure-lang-count{margin:0!important}}
+</style>
+<script>
+(function(){
+  document.querySelectorAll('[data-sorure-languages]:not([data-initialized])').forEach(function(wrapper){
+    wrapper.setAttribute('data-initialized','true');
+    const input=wrapper.querySelector('[data-language-search]');
+    const select=wrapper.querySelector('[data-language-filter]');
+    const body=wrapper.querySelector('tbody');
+    const rows=Array.from(wrapper.querySelectorAll('[data-language-row]'));
+    const buttons=Array.from(wrapper.querySelectorAll('[data-sort-language]'));
+    const total=wrapper.querySelector('[data-language-count]');
+    const empty=wrapper.querySelector('[data-language-empty]');
+    const locale=wrapper.getAttribute('lang')==='fa'?'fa-IR':'en-US';
+    const nf=new Intl.NumberFormat(locale);
+    const collator=new Intl.Collator(locale,{numeric:true,sensitivity:'base',ignorePunctuation:true});
+    const normalize=x=>(x||'').toLocaleLowerCase().normalize('NFKC').replace(/[يى]/g,'ی').replace(/ك/g,'ک').replace(/[\u200c\u200e\u200f]/g,' ').trim();
+    let key='rank_all',asc=true;
+    rows.forEach(row=>{
+      row.dataset.searchText=normalize(row.dataset.name_fa+' '+row.dataset.name_en+' '+row.dataset.count);
+      row.querySelector('[data-language-value]').textContent=nf.format(Number(row.dataset.count));
+    });
+    wrapper.querySelectorAll('.sorure-lang-bar-count').forEach(node=>{node.textContent=nf.format(Number(node.textContent));});
+    function visible(){
+      const query=normalize(input.value),mode=select.value;
+      let n=0;
+      rows.forEach(row=>{
+        const matches=(!query||row.dataset.searchText.includes(query))
+          &&(mode==='all'||(mode==='named'&&row.dataset.category==='named_language')||(mode==='iran'&&row.dataset.iran==='true'));
+        row.hidden=!matches;row.style.display=matches?'':'none';if(matches)n++;
+      });
+      total.textContent=nf.format(n);
+      empty.hidden=n!==0;
+    }
+    function compare(a,b,sortKey,mult){
+      const one=a.getAttribute('data-'+sortKey)||'',two=b.getAttribute('data-'+sortKey)||'';
+      if((!one)!==(!two))return !one?1:-1;
+      const numeric=['rank_all','rank_named','count'].includes(sortKey);
+      const delta=numeric?Number(one)-Number(two):collator.compare(normalize(one),normalize(two));
+      return delta?delta*mult:Number(a.dataset.rowOrder)-Number(b.dataset.rowOrder);
+    }
+    function sortBy(next){
+      if(key===next)asc=!asc;else{key=next;asc=next!=='count';}
+      rows.sort((a,b)=>compare(a,b,key,asc?1:-1));
+      const frag=document.createDocumentFragment();
+      rows.forEach(row=>frag.appendChild(row));body.appendChild(frag);
+      buttons.forEach(button=>{
+        const active=button.dataset.sortLanguage===key;
+        button.closest('th').setAttribute('aria-sort',active?(asc?'ascending':'descending'):'none');
+        button.querySelector('[data-indicator]').textContent=active?(asc?'↑':'↓'):'↕';
+      });
+    }
+    input.addEventListener('input',visible);
+    select.addEventListener('change',visible);
+    buttons.forEach(button=>button.addEventListener('click',()=>sortBy(button.dataset.sortLanguage)));
+  });
+})();
+</script>
