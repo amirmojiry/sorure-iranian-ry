@@ -1,0 +1,79 @@
+name: Test expanded Persian catalogue
+on:
+  push:
+    branches: [feat/sort-and-expand-persian-catalog-2026-11]
+    paths:
+      - '.github/workflows/test-persian-catalog-upgrade.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+          cache: false
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.169.0'
+          extended: true
+      - name: Validate data and taxonomy
+        run: |
+          python3 scripts/validate_content.py
+          python3 - <<'PY'
+          import json,collections
+          d=json.load(open('data/vaasa_persian_books.json'))
+          a=d['materials']
+          expected={'book':273,'video':2,'audiobook':3,'audio_cd':23,'audio_track':10}
+          assert len(a)==311
+          assert len({x['id'] for x in a})==311
+          assert collections.Counter(x['material_type'] for x in a)==expected
+          assert sum(bool(x['author']) for x in a)==288
+          assert sum(bool(x['author_fa']) for x in a)==288
+          assert sum(bool(x['title_fa']) for x in a)==305
+          assert sum(bool(x['year']) for x in a)==293
+          assert sum(bool(x['isbn']) for x in a)==171
+          assert all(x['url'].startswith('https://vaasankirjasto.finna.fi/Record/vaasa.') for x in a)
+          assert [x['search_position'] for x in a]==list(range(1,312))
+          print('CATALOG_DATA_PASS',len(a),expected)
+          PY
+      - name: Build and check site
+        run: |
+          hugo mod get github.com/nunocoracao/blowfish/v3@v3.9.0
+          hugo --gc --minify --cleanDestinationDir
+          python3 scripts/verify_generated_site.py
+      - name: Check rendered tables and JavaScript syntax
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          import re
+          class Inspector(HTMLParser):
+            def __init__(self):super().__init__();self.rows=0;self.buttons=[];self.filters=0;self.creators=0;self.links=0
+            def handle_starttag(self,tag,attrs):
+              a=dict(attrs)
+              if tag=='tr' and 'data-book-row' in a:self.rows+=1
+              if tag=='button' and 'data-sort-key' in a:self.buttons.append(a['data-sort-key'])
+              if tag=='select' and 'data-book-type-filter' in a:self.filters+=1
+              if tag=='a' and a.get('href','').startswith('https://vaasankirjasto.finna.fi/Record/vaasa.'):self.links+=1
+          want={'order','title_fa','title_latin','material_type','author_fa','author','year','indexed_date','isbn'}
+          for lang in ('fa','en','fi'):
+            text=(Path('public')/lang/'blog'/'persian-books-vaasa-library-2026'/'index.html').read_text()
+            parser=Inspector();parser.feed(text)
+            assert parser.rows==311,(lang,'rows',parser.rows)
+            assert set(parser.buttons)==want,(lang,'buttons',parser.buttons)
+            assert len(parser.buttons)==9,(lang,'button count',len(parser.buttons))
+            assert parser.filters==1,(lang,'select',parser.filters)
+            assert parser.links==311,(lang,'record links',parser.links)
+            scripts=re.findall(r'<script(?:\s[^>]*)?>([\s\S]*?)</script>',text)
+            snippet=next((s for s in scripts if 'data-book-row' in s and 'sortBy' in s),None)
+            assert snippet,(lang,'missing sorting script')
+            Path('/tmp/catalog-'+lang+'.js').write_text(snippet)
+            print('CATALOG_HTML_PASS',lang,parser.rows,len(parser.buttons))
+          PY
+          node --check /tmp/catalog-fa.js
+          node --check /tmp/catalog-en.js
+          node --check /tmp/catalog-fi.js
