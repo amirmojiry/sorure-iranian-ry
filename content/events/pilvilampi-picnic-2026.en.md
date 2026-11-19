@@ -4,7 +4,7 @@ description: "A shared afternoon outdoors with food, games and conversation."
 slug: "pilvilampi-picnic-2026"
 date: "2026-07-04T12:00:00+02:00"
 publishDate: "2026-11-03T12:00:00+02:00"
-lastmod: "2026-11-03T12:00:00+02:00"
+lastmod: "2026-11-19T12:29:00+02:00"
 event_date: "2026-07-04"
 event_date_label: "4 July 2026"
 date_precision: "exact"
@@ -18,6 +18,12 @@ showAuthor: false
 showReadingTime: false
 showWordCount: false
 venue: "Pilvilampi, Vaasa"
+cover_image: "img/events/pilvilampi-picnic-2026-01.webp"
+event_gallery:
+  - src: "img/events/pilvilampi-picnic-2026-01.webp"
+    alt: "An axe, tree stumps and cut firewood in the forest"
+  - src: "img/events/pilvilampi-picnic-2026-02.webp"
+    alt: "A wooden insect hotel in a forest clearing"
 ---
 
 {{< event-meta >}}

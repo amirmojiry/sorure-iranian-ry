@@ -4,7 +4,7 @@ description: "An outdoor gathering to enjoy the changing season together."
 slug: "autumn-picnic-2025"
 date: "2025-10-04T12:00:00+02:00"
 publishDate: "2026-11-03T12:00:00+02:00"
-lastmod: "2026-11-03T12:00:00+02:00"
+lastmod: "2026-11-19T12:29:00+02:00"
 event_date: "2025-10-04"
 event_date_label: "4 October 2025"
 date_precision: "exact"
@@ -18,6 +18,10 @@ showAuthor: false
 showReadingTime: false
 showWordCount: false
 venue: "Mansikkasaari, Vaasa"
+cover_image: "img/events/autumn-picnic-2025-01.webp"
+event_gallery:
+  - src: "img/events/autumn-picnic-2025-01.webp"
+    alt: "Wrapped sandwiches and drinks arranged on a picnic table"
 ---
 
 {{< event-meta >}}

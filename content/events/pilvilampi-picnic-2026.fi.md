@@ -4,7 +4,7 @@ description: "Yhteinen iltapäivä luonnossa, leikkien ja seurustellen."
 slug: "pilvilampi-picnic-2026"
 date: "2026-07-04T12:00:00+02:00"
 publishDate: "2026-11-03T12:00:00+02:00"
-lastmod: "2026-11-03T12:00:00+02:00"
+lastmod: "2026-11-19T12:29:00+02:00"
 event_date: "2026-07-04"
 event_date_label: "4. heinäkuuta 2026"
 date_precision: "exact"
@@ -18,6 +18,12 @@ showAuthor: false
 showReadingTime: false
 showWordCount: false
 venue: "Pilvilampi, Vaasa"
+cover_image: "img/events/pilvilampi-picnic-2026-01.webp"
+event_gallery:
+  - src: "img/events/pilvilampi-picnic-2026-01.webp"
+    alt: "Kirves, hakkuupölkky ja polttopuita metsässä"
+  - src: "img/events/pilvilampi-picnic-2026-02.webp"
+    alt: "Puinen hyönteishotelli metsäisessä ympäristössä"
 ---
 
 {{< event-meta >}}
