@@ -4,164 +4,180 @@
     "snapshot": "2026-11-19",
     "rss_results": 311,
     "printed_books": 273,
-    "notes": "RSS publication timestamp is not verified as acquisition date; metadata from RSS and cover URLs only."
+    "notes": "RSS publication timestamp is not verified as acquisition date; metadata from RSS and cover URLs only.",
+    "persian_titles_inferred": 267,
+    "title_fa_note": "Persian titles are editorial reconstructions from catalog romanization; not verified against original title pages.",
+    "verified_holdings": false
   },
   "books": [
     {
       "id": "vaasa.ab20bb2d-170d-41d8-99ac-1755825b9429",
       "title_latin": "Sīyāsat'hā-yi jinsīyatī dar Īrān-i mudirn : bā bakhsh-i ilhāqī-i junbish-i zan, zindagī, āzādī",
-      "title_fa": "",
+      "title_fa": "سیاست‌های جنسیتی در ایران مدرن: با بخش الحاقی جنبش زن، زندگی، آزادی",
       "author": "",
       "year": "2024",
       "indexed_date": "2026-07-14",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ab20bb2d-170d-41d8-99ac-1755825b9429",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 1
     },
     {
       "id": "vaasa.0f958be4-6664-49d5-97d4-51c86fe6e2f7",
       "title_latin": "Ala al-Din va chiragh-i jadu",
-      "title_fa": "",
+      "title_fa": "علاءالدین و چراغ جادو",
       "author": "Fatahi, Hossein",
       "year": "2022",
       "indexed_date": "2026-08-18",
       "isbn": "9786002511638",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0f958be4-6664-49d5-97d4-51c86fe6e2f7",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 2
     },
     {
       "id": "vaasa.69fef78a-598d-478f-a21c-f00eaaeba658",
       "title_latin": "Āghāz-i yak pāyān",
-      "title_fa": "",
+      "title_fa": "آغاز یک پایان",
       "author": "",
       "year": "2022",
       "indexed_date": "2026-02-13",
       "isbn": "9786229413678",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.69fef78a-598d-478f-a21c-f00eaaeba658",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 3
     },
     {
       "id": "vaasa.cb6b6dca-718d-4def-8a08-c7be1bbceec8",
       "title_latin": "Ajayebe darya-ha va khoshki-ha",
-      "title_fa": "",
+      "title_fa": "عجایب دریاها و خشکی‌ها",
       "author": "",
       "year": "",
       "indexed_date": "2026-01-30",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.cb6b6dca-718d-4def-8a08-c7be1bbceec8",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 4
     },
     {
       "id": "vaasa.f55740d2-f675-472e-a143-35930da2f19e",
       "title_latin": "al-Bi_sat al-islamiya ila al-bilad al-Afranjiya",
-      "title_fa": "",
+      "title_fa": "البعثة الاسلامیة الی البلاد الافرنجیة",
       "author": "Hedayat, Sadeq",
       "year": "2009",
       "indexed_date": "2026-02-28",
       "isbn": "9789197780346",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f55740d2-f675-472e-a143-35930da2f19e",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 5
     },
     {
       "id": "vaasa.1f493f4f-47c3-4c90-b79d-b43127248fcc",
       "title_latin": "AJA PIPPI-E DSURAB BOLAND RA MI-SHENASI?",
-      "title_fa": "",
+      "title_fa": "آیا پی‌پی جوراب‌بلند را می‌شناسی؟",
       "author": "Lindgren, Astrid",
       "year": "1991",
       "indexed_date": "2026-01-11",
       "isbn": "9197126489",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1f493f4f-47c3-4c90-b79d-b43127248fcc",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 6
     },
     {
       "id": "vaasa.2cccfb4b-58ac-4352-b506-726d4f6a5468",
       "title_latin": "ALFONS-E SHEITUN KODSAST?",
-      "title_fa": "",
+      "title_fa": "آلفونس شیطون کجاست؟",
       "author": "Bergström, Gunilla",
       "year": "1992",
       "indexed_date": "2026-01-11",
       "isbn": "9188356086",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2cccfb4b-58ac-4352-b506-726d4f6a5468",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 7
     },
     {
       "id": "vaasa.623a84e5-8436-4064-805b-b7046d9b3d0b",
       "title_latin": "365 qissah barā-yi bachchah'hä-yi khūb",
-      "title_fa": "",
+      "title_fa": "۳۶۵ قصه برای بچه‌های خوب",
       "author": "Ihyai, Mahmud",
       "year": "2003",
       "indexed_date": "2026-02-28",
       "isbn": "964611251X",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.623a84e5-8436-4064-805b-b7046d9b3d0b",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 8
     },
     {
       "id": "vaasa.0b11fe22-5af8-42bf-9e87-95814016515b",
       "title_latin": "Abouzar",
-      "title_fa": "",
+      "title_fa": "ابوذر",
       "author": "Shäriäti, Äli",
       "year": "1989",
       "indexed_date": "2026-01-11",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0b11fe22-5af8-42bf-9e87-95814016515b",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 9
     },
     {
       "id": "vaasa.281209ca-a310-4b2b-8449-4a53a5f8fc82",
       "title_latin": "'Amu Nawruz damad mishavad / qissah ha-yi bar asas-i afsanah-yi nanah Sarma va 'amu Nawruz",
-      "title_fa": "",
+      "title_fa": "عمو نوروز داماد می‌شود: قصه‌هایی بر اساس افسانه ننه‌سرما و عمو نوروز",
       "author": "Shamlu, Atsa",
       "year": "1390",
       "indexed_date": "2026-02-28",
       "isbn": "9789640216026",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.281209ca-a310-4b2b-8449-4a53a5f8fc82",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 10
     },
     {
       "id": "vaasa.a1fcc0a1-dcad-408c-b580-1c613d493fd1",
       "title_latin": "Afganistanilaisia sananlaskuja koululaisten kuvittamina",
-      "title_fa": "",
+      "title_fa": "ضرب‌المثل‌های افغانستانی با تصویرگری دانش‌آموزان",
       "author": "",
       "year": "2014",
       "indexed_date": "2026-01-11",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a1fcc0a1-dcad-408c-b580-1c613d493fd1",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 11
     },
     {
       "id": "vaasa.4d4ae55d-e872-4b5a-bb71-80d0a61a818c",
       "title_latin": "Adam kuchulu'ha",
-      "title_fa": "",
+      "title_fa": "آدم کوچولوها",
       "author": "Dahl, Roald",
       "year": "2014",
       "indexed_date": "2026-06-12",
       "isbn": "9786001521331",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.4d4ae55d-e872-4b5a-bb71-80d0a61a818c",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 12
     },
     {
       "id": "vaasa.156200fe-5bda-4584-8dfb-18bc44db5945",
       "title_latin": "'Ishq virzhin 2015",
-      "title_fa": "",
+      "title_fa": "عشق ورژن ۲۰۱۵",
       "author": "Safai, Mihrnush",
       "year": "2015",
       "indexed_date": "2026-07-17",
       "isbn": "9789641931935",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.156200fe-5bda-4584-8dfb-18bc44db5945",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 13
     },
     {
       "id": "vaasa.5aee70a1-2a9c-4bec-b3a6-8641cfa63822",
@@ -173,7 +189,8 @@
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.5aee70a1-2a9c-4bec-b3a6-8641cfa63822",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 14
     },
     {
       "id": "vaasa.c594b852-4f7e-4f19-adb2-7407d1747373",
@@ -185,427 +202,463 @@
       "isbn": "9786225696730",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c594b852-4f7e-4f19-adb2-7407d1747373",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 15
     },
     {
       "id": "vaasa.983f253e-67d0-4e80-b2a4-e965cf103781",
       "title_latin": "Ṣadā-yi āzādī",
-      "title_fa": "",
+      "title_fa": "صدای آزادی",
       "author": "Soltanzadeh, Asef",
       "year": "2024",
       "indexed_date": "2025-09-17",
       "isbn": "9786220605935",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.983f253e-67d0-4e80-b2a4-e965cf103781",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 16
     },
     {
       "id": "vaasa.09c83b57-64d1-4690-8950-74dff27d243f",
       "title_latin": "Daastaan moosh ghandod / = Sagan om den söta lilla musen",
-      "title_fa": "",
+      "title_fa": "داستان موش قندود",
       "author": "",
       "year": "2024",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.09c83b57-64d1-4690-8950-74dff27d243f",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 17
     },
     {
       "id": "vaasa.00db9083-3a6a-487b-9b95-70521c44fa78",
       "title_latin": "Lamp-i Maks",
-      "title_fa": "",
+      "title_fa": "لامپ مکس",
       "author": "",
       "year": "2024",
       "indexed_date": "2026-10-29",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.00db9083-3a6a-487b-9b95-70521c44fa78",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 18
     },
     {
       "id": "vaasa.b76a7873-4b17-4eb5-959f-4c7289fd55f7",
       "title_latin": "Tu'alit-i farangi-i Maks",
-      "title_fa": "",
+      "title_fa": "توالت فرنگی مکس",
       "author": "",
       "year": "2024",
       "indexed_date": "2026-08-18",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b76a7873-4b17-4eb5-959f-4c7289fd55f7",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 19
     },
     {
       "id": "vaasa.ccea1dc7-c61a-44a7-8e48-5f404f6cada5",
       "title_latin": "Tasht-i Maks",
-      "title_fa": "",
+      "title_fa": "تشت مکس",
       "author": "",
       "year": "2024",
       "indexed_date": "2026-02-24",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ccea1dc7-c61a-44a7-8e48-5f404f6cada5",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 20
     },
     {
       "id": "vaasa.ef7b1bd8-9313-436b-906b-d922bfbb2338",
       "title_latin": "Pistanak-i Maks",
-      "title_fa": "",
+      "title_fa": "پستانک مکس",
       "author": "",
       "year": "2024",
       "indexed_date": "2026-08-18",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ef7b1bd8-9313-436b-906b-d922bfbb2338",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 21
     },
     {
       "id": "vaasa.91f2eb57-943a-4c44-936e-9eee84e8af30",
       "title_latin": "Gārīchih-i Māks",
-      "title_fa": "",
+      "title_fa": "گاریچه مکس",
       "author": "",
       "year": "2024",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.91f2eb57-943a-4c44-936e-9eee84e8af30",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 22
     },
     {
       "id": "vaasa.90c20f33-fbe6-48ca-8e58-0d899c1d070d",
       "title_latin": "Zanbur-i asal va gul",
-      "title_fa": "",
+      "title_fa": "زنبور عسل و گل",
       "author": "Hajigholi, Ali",
       "year": "2024",
       "indexed_date": "2025-09-16",
       "isbn": "9789152794371",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.90c20f33-fbe6-48ca-8e58-0d899c1d070d",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 23
     },
     {
       "id": "vaasa.c8ed2933-930a-4cbe-ae11-2c4a6a14feba",
       "title_latin": "Biet och blomman",
-      "title_fa": "",
+      "title_fa": "زنبور و گل",
       "author": "",
       "year": "2024",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c8ed2933-930a-4cbe-ae11-2c4a6a14feba",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 24
     },
     {
       "id": "vaasa.d381aae5-6c08-46f7-9461-4dc3bea07b03",
       "title_latin": "Májerá-ye eid / Darya och Donya, högtidsäventyret",
-      "title_fa": "",
+      "title_fa": "ماجرای عید (دریا و دنیا)",
       "author": "",
       "year": "2023",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d381aae5-6c08-46f7-9461-4dc3bea07b03",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 25
     },
     {
       "id": "vaasa.3d73a395-c10e-44b3-ba31-4c61dcd5a863",
       "title_latin": "MÅL. / SVENSK GRAMMATIK PÅ PERSISKA : SVENSKA SOM FRÄMMANDE SPRÅK",
-      "title_fa": "",
+      "title_fa": "آموزش دستور زبان سوئدی به فارسی (Mål)",
       "author": "Viberg, Åke",
       "year": "1989",
       "indexed_date": "2026-02-28",
       "isbn": "9127502430",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3d73a395-c10e-44b3-ba31-4c61dcd5a863",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 26
     },
     {
       "id": "vaasa.5a4f1871-8beb-4d74-922d-68768f2bbfaf",
       "title_latin": "Binävajan",
-      "title_fa": "",
+      "title_fa": "بینوایان",
       "author": "Hugo, Victor",
       "year": "1984",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.5a4f1871-8beb-4d74-922d-68768f2bbfaf",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 29
     },
     {
       "id": "vaasa.76458a56-c0bd-488c-9133-597f2576631c",
       "title_latin": "Kielioppi Suomen kielen verbityypit",
-      "title_fa": "",
+      "title_fa": "دستور زبان: انواع فعل در زبان فنلاندی",
       "author": "Nemonehkhah, Ahad",
       "year": "1993",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.76458a56-c0bd-488c-9133-597f2576631c",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 30
     },
     {
       "id": "vaasa.e0c52ff8-d910-407e-b191-8daf2880ee8d",
       "title_latin": "Malak-i gurusnah / taqvīm-i Shams-i Tabrīzī",
-      "title_fa": "",
+      "title_fa": "ملک گرسنه: تقویم شمس تبریزی",
       "author": "Tajadod, Nahal",
       "year": "2022",
       "indexed_date": "2025-09-17",
       "isbn": "9786220106289",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e0c52ff8-d910-407e-b191-8daf2880ee8d",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 31
     },
     {
       "id": "vaasa.6382882f-c80e-4fc7-aa27-abe3aac336e1",
       "title_latin": "Panahandah / Jayi bara-yi raftan nist",
-      "title_fa": "",
+      "title_fa": "پناهنده: جایی برای رفتن نیست",
       "author": "Bāzyār, ʻĪsá‏",
       "year": "2023",
       "indexed_date": "2025-09-17",
       "isbn": "9789189859302",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6382882f-c80e-4fc7-aa27-abe3aac336e1",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 33
     },
     {
       "id": "vaasa.3696892b-26e5-4746-8a1b-b3b29f88374c",
       "title_latin": "Asrare nagoshudeye jahan",
-      "title_fa": "",
+      "title_fa": "اسرار ناگشوده جهان",
       "author": "Dusti, Mohammad",
       "year": "2016",
       "indexed_date": "2026-08-18",
       "isbn": "9786004020596",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3696892b-26e5-4746-8a1b-b3b29f88374c",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 34
     },
     {
       "id": "vaasa.0d39354e-f22e-49cb-b36b-e835847dd49b",
       "title_latin": "Biganegane fazai",
-      "title_fa": "",
+      "title_fa": "بیگانگان فضایی",
       "author": "Dusti, Mohammad",
       "year": "2016",
       "indexed_date": "2026-08-18",
       "isbn": "9786004020466",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0d39354e-f22e-49cb-b36b-e835847dd49b",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 35
     },
     {
       "id": "vaasa.240d0172-634b-48da-8d7e-c074cbf7ecfa",
       "title_latin": "Atlantic ghareye gomshodeh",
-      "title_fa": "",
+      "title_fa": "آتلانتیس، قاره گمشده",
       "author": "Dusti, Mohammad",
       "year": "2016",
       "indexed_date": "2026-08-18",
       "isbn": "9786004020435",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.240d0172-634b-48da-8d7e-c074cbf7ecfa",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 36
     },
     {
       "id": "vaasa.577de1be-5cfd-47f3-84e4-2ff9220ab53e",
       "title_latin": "Zamin va faza",
-      "title_fa": "",
+      "title_fa": "زمین و فضا",
       "author": "Zolfaghari, Ali",
       "year": "2013",
       "indexed_date": "2026-08-18",
       "isbn": "9786006538853",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.577de1be-5cfd-47f3-84e4-2ff9220ab53e",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 37
     },
     {
       "id": "vaasa.b7f5f094-c07d-45db-a502-59f202063ab4",
       "title_latin": "Ashenai ba heyvanat",
-      "title_fa": "",
+      "title_fa": "آشنایی با حیوانات",
       "author": "Zolfaghari, Ali",
       "year": "2013",
       "indexed_date": "2026-08-18",
       "isbn": "9786006538860",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b7f5f094-c07d-45db-a502-59f202063ab4",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 38
     },
     {
       "id": "vaasa.fc4d99d5-94f1-4564-9f13-20970248a373",
       "title_latin": "Sang-ha fosil-ha va mavade madani",
-      "title_fa": "",
+      "title_fa": "سنگ‌ها، فسیل‌ها و مواد معدنی",
       "author": "Pellant, Chris",
       "year": "2013",
       "indexed_date": "2026-08-18",
       "isbn": "9786006538709",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fc4d99d5-94f1-4564-9f13-20970248a373",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 39
     },
     {
       "id": "vaasa.a3ff2781-4cf4-4b3e-a868-34a66584a9c2",
       "title_latin": "Ghazi panj sale",
-      "title_fa": "",
+      "title_fa": "قاضی پنج‌ساله",
       "author": "Fatahi, Hossein",
       "year": "2012",
       "indexed_date": "2026-08-18",
       "isbn": "9786002511690",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a3ff2781-4cf4-4b3e-a868-34a66584a9c2",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 40
     },
     {
       "id": "vaasa.12807895-40bc-42d8-85a7-634a79672568",
       "title_latin": "Cheshmehye jadui",
-      "title_fa": "",
+      "title_fa": "چشمه جادویی",
       "author": "Fatahi, Hossein",
       "year": "2012",
       "indexed_date": "2026-08-18",
       "isbn": "9786002511676",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.12807895-40bc-42d8-85a7-634a79672568",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 41
     },
     {
       "id": "vaasa.94d14224-8293-4c89-ac9a-8f8da135b28c",
       "title_latin": "Doraj va lakposhtha",
-      "title_fa": "",
+      "title_fa": "دراج و لاک‌پشت‌ها",
       "author": "Fatahi, Hossein",
       "year": "2012",
       "indexed_date": "2026-08-18",
       "isbn": "9786002511683",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.94d14224-8293-4c89-ac9a-8f8da135b28c",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 42
     },
     {
       "id": "vaasa.c8ac71e3-4c67-4cdb-84e5-9f93e15a3781",
       "title_latin": "Bacheh shir va adamizad",
-      "title_fa": "",
+      "title_fa": "بچه‌شیر و آدمیزاد",
       "author": "Fatahi, Hossein",
       "year": "2012",
       "indexed_date": "2026-08-18",
       "isbn": "9786002511669",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c8ac71e3-4c67-4cdb-84e5-9f93e15a3781",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 43
     },
     {
       "id": "vaasa.6e004e55-4cd9-43f1-8b1c-7d06574fe1a4",
       "title_latin": "Jazirei ke nahang bud",
-      "title_fa": "",
+      "title_fa": "جزیره‌ای که نهنگ بود",
       "author": "Fatahi, Hossein",
       "year": "2012",
       "indexed_date": "2026-08-18",
       "isbn": "9786002511645",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6e004e55-4cd9-43f1-8b1c-7d06574fe1a4",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 44
     },
     {
       "id": "vaasa.6f6e3f6b-bb77-4380-85fa-4c4d87bd236f",
       "title_latin": "Shahin va padeshah",
-      "title_fa": "",
+      "title_fa": "شاهین و پادشاه",
       "author": "Fatahi, Hossein",
       "year": "2012",
       "indexed_date": "2026-08-18",
       "isbn": "9786002511621",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6f6e3f6b-bb77-4380-85fa-4c4d87bd236f",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 45
     },
     {
       "id": "vaasa.fc651472-d9f3-4919-9020-bdf9817f6f4e",
       "title_latin": "Darreh-ye almas'ha",
-      "title_fa": "",
+      "title_fa": "دره الماس‌ها",
       "author": "Fatahi, Hossein",
       "year": "2012",
       "indexed_date": "2026-08-18",
       "isbn": "9786002511652",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fc651472-d9f3-4919-9020-bdf9817f6f4e",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 46
     },
     {
       "id": "vaasa.03af055f-8a31-4a4a-98ab-766182390827",
       "title_latin": "Hakim Ruyan va Maleke Yunan",
-      "title_fa": "",
+      "title_fa": "حکیم رویان و ملک یونان",
       "author": "Fatahi, Hossein",
       "year": "2012",
       "indexed_date": "2026-08-18",
       "isbn": "9786002511614",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.03af055f-8a31-4a4a-98ab-766182390827",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 47
     },
     {
       "id": "vaasa.91c8fd1d-bc64-4294-afa7-1e43f16aa60b",
       "title_latin": "Mahigir va div",
-      "title_fa": "",
+      "title_fa": "ماهیگیر و دیو",
       "author": "Fatahi, Hossein",
       "year": "2012",
       "indexed_date": "2026-08-18",
       "isbn": "9786002511607",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.91c8fd1d-bc64-4294-afa7-1e43f16aa60b",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 48
     },
     {
       "id": "vaasa.844c3621-cf8b-4dbb-8811-252d2c4ba52a",
       "title_latin": "Zan va rahai az vabastegi",
-      "title_fa": "",
+      "title_fa": "زن و رهایی از وابستگی",
       "author": "Thoele, Sue Patton",
       "year": "2021",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.844c3621-cf8b-4dbb-8811-252d2c4ba52a",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 49
     },
     {
       "id": "vaasa.e6ecbbb1-eb72-4b56-814a-5a886f0ff003",
       "title_latin": "Khorshid khanom sälam",
-      "title_fa": "",
+      "title_fa": "خورشید خانم سلام",
       "author": "Mahmoodipur, Fatemeh",
       "year": "2011",
       "indexed_date": "2026-08-18",
       "isbn": "9786611600600",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e6ecbbb1-eb72-4b56-814a-5a886f0ff003",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 50
     },
     {
       "id": "vaasa.560bcc1e-11d5-4280-83b7-4c706df99a78",
       "title_latin": "Väziyäte akhär",
-      "title_fa": "",
+      "title_fa": "وضعیت آخر",
       "author": "Harris, Amy Bjork",
       "year": "2018",
       "indexed_date": "2025-09-17",
       "isbn": "9786226395366",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.560bcc1e-11d5-4280-83b7-4c706df99a78",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 51
     },
     {
       "id": "vaasa.d317bccf-b52d-4770-a765-7b5300ad3688",
       "title_latin": "Khanjun va kucheye parion",
-      "title_fa": "",
+      "title_fa": "خانجون و کوچه پریون",
       "author": "Naderi, Shermin",
       "year": "2019",
       "indexed_date": "2025-10-31",
       "isbn": "9786001940101",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d317bccf-b52d-4770-a765-7b5300ad3688",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 52
     },
     {
       "id": "vaasa.f4edac7c-6695-4a9e-963d-de6d5f9facac",
       "title_latin": "Ruspi bogorgrar",
-      "title_fa": "",
+      "title_fa": "روسپی بزرگوار",
       "author": "Sartre, Jean-Paul",
       "year": "1962",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f4edac7c-6695-4a9e-963d-de6d5f9facac",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 53
     },
     {
       "id": "vaasa.f6e9e66a-61c6-4586-8e1c-c86fe4016f4f",
@@ -617,235 +670,255 @@
       "isbn": "9188356167",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f6e9e66a-61c6-4586-8e1c-c86fe4016f4f",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 54
     },
     {
       "id": "vaasa.81cb2724-0257-4293-ba0e-23934571e7f9",
       "title_latin": "LOTTA GAHR MIKONAD",
-      "title_fa": "",
+      "title_fa": "لوتا قهر می‌کند",
       "author": "Lindgren, Astrid",
       "year": "1993",
       "indexed_date": "2025-09-16",
       "isbn": "9188356124",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.81cb2724-0257-4293-ba0e-23934571e7f9",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 55
     },
     {
       "id": "vaasa.9fbcbc4b-4e31-47a7-8471-aafb0389a86d",
       "title_latin": "Diwan",
-      "title_fa": "",
+      "title_fa": "دیوان حافظ",
       "author": "Hafiz, Samseddin Muhammed",
       "year": "2020",
       "indexed_date": "2025-10-30",
       "isbn": "9786226942980",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9fbcbc4b-4e31-47a7-8471-aafb0389a86d",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 56
     },
     {
       "id": "vaasa.6a2b866b-5b1e-41c3-a3ad-ebc4e1a1128d",
       "title_latin": "Ishtibah murghabi",
-      "title_fa": "",
+      "title_fa": "اشتباه مرغابی",
       "author": "Khavari, Muhammad Riza",
       "year": "1395",
       "indexed_date": "2025-09-16",
       "isbn": "9789936803237",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6a2b866b-5b1e-41c3-a3ad-ebc4e1a1128d",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 57
     },
     {
       "id": "vaasa.a18de3b7-f6ae-4e76-bdf3-cef7830a1df8",
       "title_latin": "Āy āy Ālfuns Ubary!",
-      "title_fa": "",
+      "title_fa": "آی آی آلفونس اوبری!",
       "author": "Bergström, Gunilla",
       "year": "2000",
       "indexed_date": "2026-06-12",
       "isbn": "918835668X",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a18de3b7-f6ae-4e76-bdf3-cef7830a1df8",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 58
     },
     {
       "id": "vaasa.95d31cc2-a33b-42fd-b432-85a2efc92ab7",
       "title_latin": "Gozideh Golestane Säädi",
-      "title_fa": "",
+      "title_fa": "گزیده گلستان سعدی",
       "author": "Sa'di",
       "year": "1992",
       "indexed_date": "2025-09-17",
       "isbn": "9786226036863",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.95d31cc2-a33b-42fd-b432-85a2efc92ab7",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 59
     },
     {
       "id": "vaasa.afa37fb3-25aa-404f-ac92-91bac68a4c16",
       "title_latin": "Olis äz Bäghdad",
-      "title_fa": "",
+      "title_fa": "اولیس از بغداد",
       "author": "Schmitt, Eric-Emmanuel",
       "year": "2015",
       "indexed_date": "2025-09-17",
       "isbn": "9789642430390",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.afa37fb3-25aa-404f-ac92-91bac68a4c16",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 60
     },
     {
       "id": "vaasa.0fc452a9-a288-483f-a735-8ce07a9ef189",
       "title_latin": "Darune arteshe shah",
-      "title_fa": "",
+      "title_fa": "درون ارتش شاه",
       "author": "Moerazed, Khosro",
       "year": "1997",
       "indexed_date": "2026-02-28",
       "isbn": "9644420802",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0fc452a9-a288-483f-a735-8ce07a9ef189",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 61
     },
     {
       "id": "vaasa.1f2f1494-ea43-4d97-83ba-204eca52f105",
       "title_latin": "Eslam, zanan, musaf ha va chashmandaz ha",
-      "title_fa": "",
+      "title_fa": "اسلام، زنان، مصاف‌ها و چشم‌اندازها",
       "author": "Kamguyan, Azam",
       "year": "1997",
       "indexed_date": "2026-02-28",
       "isbn": "9163062321",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1f2f1494-ea43-4d97-83ba-204eca52f105",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 62
     },
     {
       "id": "vaasa.c31f57d0-ac58-490d-a107-b59a41663261",
       "title_latin": "Aiine jadu",
-      "title_fa": "",
+      "title_fa": "آیینه جادو",
       "author": "Avini, Morteza",
       "year": "1991",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c31f57d0-ac58-490d-a107-b59a41663261",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 63
     },
     {
       "id": "vaasa.599e3199-5edb-435a-852f-b0888b94f686",
       "title_latin": "Hazar khvurshid-i taban",
-      "title_fa": "",
+      "title_fa": "هزار خورشید تابان",
       "author": "Hosseini, Khaled",
       "year": "2007",
       "indexed_date": "2025-09-17",
       "isbn": "9789643803247",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.599e3199-5edb-435a-852f-b0888b94f686",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 65
     },
     {
       "id": "vaasa.2fac9fb6-cb23-4d50-a1e3-55b797b04367",
       "title_latin": "Faqat shadi va khandah",
-      "title_fa": "",
+      "title_fa": "فقط شادی و خنده",
       "author": "Lindgren, Astrid",
       "year": "1390",
       "indexed_date": "2025-09-16",
       "isbn": "9647501250",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2fac9fb6-cb23-4d50-a1e3-55b797b04367",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 66
     },
     {
       "id": "vaasa.066a9e33-e65f-4949-932e-a15a94ac5dd1",
       "title_latin": "Pari-i kuchak-i daryayi",
-      "title_fa": "",
+      "title_fa": "پری کوچک دریایی",
       "author": "Saunders, Katie",
       "year": "2014",
       "indexed_date": "2025-09-16",
       "isbn": "9786003201293",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.066a9e33-e65f-4949-932e-a15a94ac5dd1",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 67
     },
     {
       "id": "vaasa.6ecabd57-9450-404e-9711-f394a45d0ff2",
       "title_latin": "Majara-yi musabiqah-yi futbal",
-      "title_fa": "",
+      "title_fa": "ماجرای مسابقه فوتبال",
       "author": "Widmark, Martin",
       "year": "2016",
       "indexed_date": "2026-09-21",
       "isbn": "9786007058305",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6ecabd57-9450-404e-9711-f394a45d0ff2",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 68
     },
     {
       "id": "vaasa.e9600991-6269-40d2-abce-f8004dfbfa3f",
       "title_latin": "Majeray-e sirk",
-      "title_fa": "",
+      "title_fa": "ماجرای سیرک",
       "author": "Widmark, Martin",
       "year": "2016",
       "indexed_date": "2025-09-16",
       "isbn": "9786007058299",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e9600991-6269-40d2-abce-f8004dfbfa3f",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 69
     },
     {
       "id": "vaasa.f7e7d0eb-9aa4-4ee5-98c6-96ac98e3ed42",
       "title_latin": "Majara-yi mumyayi",
-      "title_fa": "",
+      "title_fa": "ماجرای مومیایی",
       "author": "Widmark, Martin",
       "year": "2016",
       "indexed_date": "2026-08-18",
       "isbn": "9786007058312",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f7e7d0eb-9aa4-4ee5-98c6-96ac98e3ed42",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 70
     },
     {
       "id": "vaasa.e071d540-e395-4684-824b-fb28becf75f9",
       "title_latin": "Pīpī jūrāb'bulandah",
-      "title_fa": "",
+      "title_fa": "پی‌پی جوراب‌بلند",
       "author": "Lindgren, Astrid",
       "year": "2014",
       "indexed_date": "2026-11-05",
       "isbn": "9786005463279",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e071d540-e395-4684-824b-fb28becf75f9",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 71
     },
     {
       "id": "vaasa.79dcdacd-e721-41cf-8621-bf2307968243",
       "title_latin": "Mumin trul fanlandi'tabar",
-      "title_fa": "",
+      "title_fa": "مومین، ترول فنلاندی‌تبار",
       "author": "Jansson, Tove",
       "year": "2015",
       "indexed_date": "2026-11-05",
       "isbn": "9786005317039",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.79dcdacd-e721-41cf-8621-bf2307968243",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 72
     },
     {
       "id": "vaasa.2a7a0d4e-b944-450d-9afb-efa3533af467",
       "title_latin": "KEIK-E TAVALLOD",
-      "title_fa": "",
+      "title_fa": "کیک تولد",
       "author": "Nordqvist, Sven",
       "year": "1992",
       "indexed_date": "2026-09-21",
       "isbn": "9197126470",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2a7a0d4e-b944-450d-9afb-efa3533af467",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 73
     },
     {
       "id": "vaasa.47f7d16e-71e5-4fe6-8c03-11235926e89f",
       "title_latin": "BAHAR DAR DEHKADEH-E SHULUGH",
-      "title_fa": "",
+      "title_fa": "بهار در دهکده شلوغ",
       "author": "Lindgren, Astrid",
       "year": "1990",
       "indexed_date": "2025-09-16",
       "isbn": "9197126446",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.47f7d16e-71e5-4fe6-8c03-11235926e89f",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 74
     },
     {
       "id": "vaasa.c2202d58-2442-44ef-80c9-576a13440074",
@@ -857,1123 +930,1217 @@
       "isbn": "9789185365258",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c2202d58-2442-44ef-80c9-576a13440074",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 75
     },
     {
       "id": "vaasa.71fe8a76-883f-4c7c-8f5a-8405636cad7c",
       "title_latin": "Chih kasī Ālfūns Ūbirī rā nijāt mīdahad?",
-      "title_fa": "",
+      "title_fa": "چه کسی آلفونس اوبری را نجات می‌دهد؟",
       "author": "Bergström, Gunilla",
       "year": "1996",
       "indexed_date": "2025-09-16",
       "isbn": "9188356094",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.71fe8a76-883f-4c7c-8f5a-8405636cad7c",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 76
     },
     {
       "id": "vaasa.fd693b95-b7d9-4a2e-8e3c-953fa3de0345",
       "title_latin": "Chih kasi Alfi Itkinz ra najat mi'dahad? / Khayli zirangi Alfi Itkinz! ; Khvush'hal bash Alfi Itkinz! ; Zud bash Alfi Itkinz!",
-      "title_fa": "",
+      "title_fa": "چه کسی آلفی اتکینز را نجات می‌دهد؟ و سه داستان دیگر",
       "author": "Bergström, Gunilla",
       "year": "",
       "indexed_date": "2026-02-28",
       "isbn": "9786006899114",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fd693b95-b7d9-4a2e-8e3c-953fa3de0345",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 77
     },
     {
       "id": "vaasa.401675a6-d2da-4d3e-9353-e381f27a7fe9",
       "title_latin": "Man pish az tu",
-      "title_fa": "",
+      "title_fa": "من پیش از تو",
       "author": "Moyes, Jojo",
       "year": "1393",
       "indexed_date": "2025-09-17",
       "isbn": "9786006605425",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.401675a6-d2da-4d3e-9353-e381f27a7fe9",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 78
     },
     {
       "id": "vaasa.466db599-be6c-4140-90e5-fa6282623739",
       "title_latin": "Zindān-i man",
-      "title_fa": "",
+      "title_fa": "زندان من",
       "author": "Jānahʹī, Riz̤ā",
       "year": "2020",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.466db599-be6c-4140-90e5-fa6282623739",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 79
     },
     {
       "id": "vaasa.1f1ba49e-215b-4f1b-bced-ba403647a26c",
       "title_latin": "Häft bärādär / dāstān",
-      "title_fa": "",
+      "title_fa": "هفت برادر",
       "author": "Kivi, Aleksis",
       "year": "1999",
       "indexed_date": "2025-09-17",
       "isbn": "9519817603",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1f1ba49e-215b-4f1b-bced-ba403647a26c",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 82
     },
     {
       "id": "vaasa.a183dd69-9077-4417-b722-4547584b2eb7",
       "title_latin": "MAHLOMEH LOTTA DOCHARKHEH SAVARI BALADEH",
-      "title_fa": "",
+      "title_fa": "معلومه لوتا دوچرخه‌سواری بلده",
       "author": "Lindgren, Astrid",
       "year": "1993",
       "indexed_date": "2025-09-16",
       "isbn": "9188356205",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a183dd69-9077-4417-b722-4547584b2eb7",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 84
     },
     {
       "id": "vaasa.d53dec6c-ff48-4f58-880c-14aada0e591a",
       "title_latin": "SÄGHA VÄ ADÄMHA",
-      "title_fa": "",
+      "title_fa": "سگ‌ها و آدم‌ها",
       "author": "Äghnämi, Reza",
       "year": "1999",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d53dec6c-ff48-4f58-880c-14aada0e591a",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 85
     },
     {
       "id": "vaasa.e0f44306-f59f-4fbb-b41d-5437421d4031",
       "title_latin": "SAFAR KHOSH AGHAYE REIS JOMHUR",
-      "title_fa": "",
+      "title_fa": "سفر خوش آقای رئیس‌جمهور",
       "author": "García Márquez, Gabriel",
       "year": "1998",
       "indexed_date": "2025-09-17",
       "isbn": "9646736009",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e0f44306-f59f-4fbb-b41d-5437421d4031",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 86
     },
     {
       "id": "vaasa.14908d28-560a-4cac-8b29-ede83b587f73",
       "title_latin": "Zanän-i khvud'sukhtah",
-      "title_fa": "",
+      "title_fa": "زنان خودسوخته",
       "author": "Bakhtiyär'nizhäd, Parvin",
       "year": "2003",
       "indexed_date": "2026-02-28",
       "isbn": "9645790026",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.14908d28-560a-4cac-8b29-ede83b587f73",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 87
     },
     {
       "id": "vaasa.a6de08ce-5245-458e-aa84-7dffa052bcfb",
       "title_latin": "ZÄMIINE NO ABAAD 2.",
-      "title_fa": "",
+      "title_fa": "زمین نوآباد، جلد ۲",
       "author": "Solohov, Mihail",
       "year": "1987",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a6de08ce-5245-458e-aa84-7dffa052bcfb",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 88
     },
     {
       "id": "vaasa.d7133c24-15f8-4660-9cfd-923708a3439b",
       "title_latin": "ZENDEGIJE TUUFAANI KHAATERAATE TÄGI-ZAADE",
-      "title_fa": "",
+      "title_fa": "زندگی توفانی: خاطرات تقی‌زاده",
       "author": "Äfshaar, Irädj",
       "year": "1989",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d7133c24-15f8-4660-9cfd-923708a3439b",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 89
     },
     {
       "id": "vaasa.49dcce63-2f5f-429e-a325-06e908a6c483",
       "title_latin": "Guftamān-i chap dar Īrān / (dawrahʼi ًQājār va Pahlavī-i avval)",
-      "title_fa": "",
+      "title_fa": "گفتمان چپ در ایران (دوره قاجار و پهلوی اول)",
       "author": "Aḥmadī, Muḥammad-ʻAlī",
       "year": "2017",
       "indexed_date": "2026-02-28",
       "isbn": "9786002783639",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.49dcce63-2f5f-429e-a325-06e908a6c483",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 90
     },
     {
       "id": "vaasa.7bd245e3-c099-41f0-a435-c9039a2692cb",
       "title_latin": "ZÄN DÄR GERDABE SHÄRIÄT",
-      "title_fa": "",
+      "title_fa": "زن در گرداب شریعت",
       "author": "Eyrumlu, Reza",
       "year": "2002",
       "indexed_date": "2025-09-17",
       "isbn": "916311710X",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7bd245e3-c099-41f0-a435-c9039a2692cb",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 91
     },
     {
       "id": "vaasa.94f57df1-8fb3-46ca-8e35-25d3b41fd739",
       "title_latin": "GESEH BÄHAR",
-      "title_fa": "",
+      "title_fa": "قصه بهار",
       "author": "Sams, Mohammadreza",
       "year": "1990",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.94f57df1-8fb3-46ca-8e35-25d3b41fd739",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 92
     },
     {
       "id": "vaasa.02de5126-bb58-4e32-a878-421e067ec861",
       "title_latin": "Dastan-i Darrah-'i ivin",
-      "title_fa": "",
+      "title_fa": "داستان دره اوین",
       "author": "Fatimi, Ruzbih",
       "year": "2011",
       "indexed_date": "2026-02-28",
       "isbn": "9789197833936",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.02de5126-bb58-4e32-a878-421e067ec861",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 93
     },
     {
       "id": "vaasa.99c5c44b-b81a-4e5b-a567-f6b519ead04c",
       "title_latin": "ZÄMIINE NO ABAAD 1.",
-      "title_fa": "",
+      "title_fa": "زمین نوآباد، جلد ۱",
       "author": "Solohov, Mihail",
       "year": "1987",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.99c5c44b-b81a-4e5b-a567-f6b519ead04c",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 94
     },
     {
       "id": "vaasa.d9b0a7ed-cf08-4052-95e7-2d34766af0ad",
       "title_latin": "ZÄMIN",
-      "title_fa": "",
+      "title_fa": "زمین",
       "author": "Käshkuli, Mähdokht",
       "year": "1990",
       "indexed_date": "2026-11-09",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d9b0a7ed-cf08-4052-95e7-2d34766af0ad",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 95
     },
     {
       "id": "vaasa.60b77ff7-3302-4e4a-be9a-b9eaa424c739",
       "title_latin": "SINUHE",
-      "title_fa": "",
+      "title_fa": "سینوهه",
       "author": "Waltari, Mika",
       "year": "1998",
       "indexed_date": "2026-02-03",
       "isbn": "9646092187",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.60b77ff7-3302-4e4a-be9a-b9eaa424c739",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 96
     },
     {
       "id": "vaasa.e756d764-d8ab-4578-979c-737a2db0d67d",
       "title_latin": "Khargush'ha",
-      "title_fa": "",
+      "title_fa": "خرگوش‌ها",
       "author": "Marsden, John",
       "year": "",
       "indexed_date": "2026-02-28",
       "isbn": "9786006753492",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e756d764-d8ab-4578-979c-737a2db0d67d",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 97
     },
     {
       "id": "vaasa.7ec7b92f-ebdd-4a89-94e5-8f6da22c331a",
       "title_latin": "Yak ruz, yak / majmu'ah-i panj dastan-i kutah",
-      "title_fa": "",
+      "title_fa": "یک روز، یک...: مجموعه پنج داستان کوتاه",
       "author": "Parirukh, Zuhrah",
       "year": "2017",
       "indexed_date": "2025-09-16",
       "isbn": "9786000101923",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7ec7b92f-ebdd-4a89-94e5-8f6da22c331a",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 98
     },
     {
       "id": "vaasa.e5c503f1-d51b-426a-9fa1-779188c0c362",
       "title_latin": "PERSISK SVENSK ORDBOK",
-      "title_fa": "",
+      "title_fa": "فرهنگ فارسی–سوئدی",
       "author": "Soltani, Mahmoud",
       "year": "1990",
       "indexed_date": "2025-09-17",
       "isbn": "9179709133",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e5c503f1-d51b-426a-9fa1-779188c0c362",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 99
     },
     {
       "id": "vaasa.d2c8efb6-06b4-4f2f-a473-435c2ae534c1",
       "title_latin": "Kitab-i Muqadas tarjumah tafsiri : shamil-i 'ahd-i 'atiq va 'ahd-i jadid",
-      "title_fa": "",
+      "title_fa": "کتاب مقدس: ترجمه تفسیری، شامل عهد عتیق و عهد جدید",
       "author": "",
       "year": "2002",
       "indexed_date": "2025-09-17",
       "isbn": "9171651349",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d2c8efb6-06b4-4f2f-a473-435c2ae534c1",
-      "source_page": 1
+      "source_page": 1,
+      "search_position": 100
     },
     {
       "id": "vaasa.17b53952-e9a5-435c-991b-faa5b0f3f40f",
       "title_latin": "Käniz-e maläkeje mesr 1",
-      "title_fa": "",
+      "title_fa": "کنیز ملکه مصر، جلد ۱",
       "author": "Piramo, Michel",
       "year": "1990",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.17b53952-e9a5-435c-991b-faa5b0f3f40f",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 101
     },
     {
       "id": "vaasa.9fc5b628-6524-4c14-aa09-b7cfa758932b",
       "title_latin": "Aqa-yi ra'is jumhur gurusnah ast",
-      "title_fa": "",
+      "title_fa": "آقای رئیس‌جمهور گرسنه است",
       "author": "Seigneur, Olivier",
       "year": "1393",
       "indexed_date": "2026-02-28",
       "isbn": "9789647443623",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9fc5b628-6524-4c14-aa09-b7cfa758932b",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 102
     },
     {
       "id": "vaasa.ec06976d-da33-44b0-8a93-eb82580c54f6",
       "title_latin": "Parvarish, Tarbiyat va Muraqibat az Kudakan va Nawjavanan (2 ta 5 saligi)",
-      "title_fa": "",
+      "title_fa": "پرورش، تربیت و مراقبت از کودکان و نوجوانان (۲ تا ۵ سالگی)",
       "author": "Azar, Mahyar",
       "year": "2011",
       "indexed_date": "2025-09-17",
       "isbn": "9789648875539",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ec06976d-da33-44b0-8a93-eb82580c54f6",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 103
     },
     {
       "id": "vaasa.af0d1a49-620e-454e-b3ab-ddcbff2b6ab1",
       "title_latin": "VEDA BA ÄSLÄHE",
-      "title_fa": "",
+      "title_fa": "وداع با اسلحه",
       "author": "Hemingway, Ernest",
       "year": "1989",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.af0d1a49-620e-454e-b3ab-ddcbff2b6ab1",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 104
     },
     {
       "id": "vaasa.7beece5f-232e-481a-86aa-6b133bdcf9f9",
       "title_latin": "DÄH MUS BAZIGUS",
-      "title_fa": "",
+      "title_fa": "ده موش بازیگوش",
       "author": "Dunbar, Joyce",
       "year": "1990",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7beece5f-232e-481a-86aa-6b133bdcf9f9",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 105
     },
     {
       "id": "vaasa.2fe01674-7d33-415e-ad5a-c3750be4922d",
       "title_latin": "OSTUREJ-E ZENDIGI-E ZARDOSHT",
-      "title_fa": "",
+      "title_fa": "اسطوره زندگی زردشت",
       "author": "Amuzegar, Jale",
       "year": "1993",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2fe01674-7d33-415e-ad5a-c3750be4922d",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 106
     },
     {
       "id": "vaasa.36746cd4-71a0-43fa-8b8f-434a91a80671",
       "title_latin": "PITER VÄ GORG",
-      "title_fa": "",
+      "title_fa": "پیتر و گرگ",
       "author": "Prokofjev, Sergei",
       "year": "1990",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.36746cd4-71a0-43fa-8b8f-434a91a80671",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 107
     },
     {
       "id": "vaasa.6c4da67e-d8c9-476c-92a1-5c4633e1cd57",
       "title_latin": "Shab bikhayr Alfuns Ubary",
-      "title_fa": "",
+      "title_fa": "شب بخیر آلفونس اوبری",
       "author": "Bergström, Gunilla",
       "year": "1996",
       "indexed_date": "2025-09-16",
       "isbn": "9188356213",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6c4da67e-d8c9-476c-92a1-5c4633e1cd57",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 108
     },
     {
       "id": "vaasa.c1158a3a-c038-45eb-85f2-5afb037af456",
       "title_latin": "Mu talayi va sih khirs",
-      "title_fa": "",
+      "title_fa": "موطلایی و سه خرس",
       "author": "Saunders, Katie",
       "year": "",
       "indexed_date": "2025-09-16",
       "isbn": "9786003201286",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c1158a3a-c038-45eb-85f2-5afb037af456",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 109
     },
     {
       "id": "vaasa.89d19edc-2d8c-4b58-b95f-eabec454864b",
       "title_latin": "Palangi binam-i Lulu",
-      "title_fa": "",
+      "title_fa": "پلنگی به نام لولو",
       "author": "Rempel, Dave D.",
       "year": "2015",
       "indexed_date": "2025-09-16",
       "isbn": "9781500583859",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.89d19edc-2d8c-4b58-b95f-eabec454864b",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 110
     },
     {
       "id": "vaasa.1b0b8a4c-f572-47ec-805e-e3f5b1cc6acc",
       "title_latin": "Shab bikhayr Alfi Itkinz / Alfi Itkinz va dust-i khiyali'ash ; Tu tarsuyi Alfi Itkinz? ; Babayat chikar mikunad Alfi Itkinz?",
-      "title_fa": "",
+      "title_fa": "شب بخیر آلفی اتکینز و سه داستان دیگر",
       "author": "Bergström, Gunilla",
       "year": "",
       "indexed_date": "2026-02-28",
       "isbn": "9786006899107",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1b0b8a4c-f572-47ec-805e-e3f5b1cc6acc",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 111
     },
     {
       "id": "vaasa.79d7ebcf-0f18-44d2-9a61-5e4638d5af6e",
       "title_latin": "SHAKHSIYAT VA ANDISHEJE DR. ALI SHARIATI",
-      "title_fa": "",
+      "title_fa": "شخصیت و اندیشه دکتر علی شریعتی",
       "author": "Bazärgan, Mehdi",
       "year": "1990",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.79d7ebcf-0f18-44d2-9a61-5e4638d5af6e",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 112
     },
     {
       "id": "vaasa.232a61fe-5401-4e89-9ac1-4cd6a6e3db59",
       "title_latin": "Shamim",
-      "title_fa": "",
+      "title_fa": "شمیم",
       "author": "Adl'parvar, Nigah",
       "year": "1395",
       "indexed_date": "2025-09-17",
       "isbn": "9789641931775",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.232a61fe-5401-4e89-9ac1-4cd6a6e3db59",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 113
     },
     {
       "id": "vaasa.0376a914-9302-43c2-ad25-24b278b86568",
       "title_latin": "SÄFÄR BE PANAMA",
-      "title_fa": "",
+      "title_fa": "سفر به پاناما",
       "author": "Janosch",
       "year": "1990",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0376a914-9302-43c2-ad25-24b278b86568",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 114
     },
     {
       "id": "vaasa.11798e92-dc04-48d8-87ca-f054762ad1ca",
       "title_latin": "SÄNDJAAB",
-      "title_fa": "",
+      "title_fa": "سنجاب",
       "author": "Lane, Margaret",
       "year": "1990",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.11798e92-dc04-48d8-87ca-f054762ad1ca",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 115
     },
     {
       "id": "vaasa.86011423-b2b4-4ce1-9984-781c641b1419",
       "title_latin": "Lahzahha, va ihsas",
-      "title_fa": "",
+      "title_fa": "لحظه‌ها و احساس",
       "author": "Mushiri, Faridun",
       "year": "1997",
       "indexed_date": "2025-09-17",
       "isbn": "9645983053",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.86011423-b2b4-4ce1-9984-781c641b1419",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 116
     },
     {
       "id": "vaasa.a7043fc9-7af8-451d-a289-d8379e131ae0",
       "title_latin": "Shahrzad-i shab",
-      "title_fa": "",
+      "title_fa": "شهرزاد شب",
       "author": "Dihkurdi, Fatimah",
       "year": "1390",
       "indexed_date": "2025-09-17",
       "isbn": "9789643287221",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a7043fc9-7af8-451d-a289-d8379e131ae0",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 117
     },
     {
       "id": "vaasa.59eb249a-4cf7-4c38-a7dd-59c0b3b32210",
       "title_latin": "SAÄT-E NÄHS",
-      "title_fa": "",
+      "title_fa": "ساعت نحس",
       "author": "García Márquez, Gabriel",
       "year": "1987",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.59eb249a-4cf7-4c38-a7dd-59c0b3b32210",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 118
     },
     {
       "id": "vaasa.7e3f91ac-a7f9-4f5d-8175-e919caf66ae0",
       "title_latin": "SADAKO",
-      "title_fa": "",
+      "title_fa": "ساداکو",
       "author": "Koer, Elinor",
       "year": "1991",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7e3f91ac-a7f9-4f5d-8175-e919caf66ae0",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 119
     },
     {
       "id": "vaasa.df7dcc90-8f3f-4c28-8897-81c3ea7c9e61",
       "title_latin": "RAMZ-E MOVÄFFAGH ZIISTÄN",
-      "title_fa": "",
+      "title_fa": "رمز موفق زیستن",
       "author": "Karengi-Dil",
       "year": "1993",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.df7dcc90-8f3f-4c28-8897-81c3ea7c9e61",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 127
     },
     {
       "id": "vaasa.9b85a1e6-7545-405d-8200-12905d04e9dd",
       "title_latin": "QISSAH'HÄ-YI ÄYINAH",
-      "title_fa": "",
+      "title_fa": "قصه‌های آیینه",
       "author": "Yusufi, Muhammad Riza",
       "year": "2001",
       "indexed_date": "2026-02-28",
       "isbn": "9645555205",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9b85a1e6-7545-405d-8200-12905d04e9dd",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 129
     },
     {
       "id": "vaasa.cd962ff3-15ec-4b4c-81c8-df3cb10543b9",
       "title_latin": "TERMS, FÄRZÄNDE TUFAN",
-      "title_fa": "",
+      "title_fa": "تورمس، فرزند توفان",
       "author": "Waltari, Mika",
       "year": "1996",
       "indexed_date": "2025-09-17",
       "isbn": "9645564042",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.cd962ff3-15ec-4b4c-81c8-df3cb10543b9",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 130
     },
     {
       "id": "vaasa.9bc3e64e-c301-47b5-9983-b3069c1d6387",
       "title_latin": "Ruyaha-yi pidaram / mardi ba dastan-i zindigi-yi pur hadisih",
-      "title_fa": "",
+      "title_fa": "رؤیاهای پدرم",
       "author": "Obama, Barack",
       "year": "2009",
       "indexed_date": "2025-09-17",
       "isbn": "9789641740827",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9bc3e64e-c301-47b5-9983-b3069c1d6387",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 131
     },
     {
       "id": "vaasa.e137ad0c-f839-426c-a242-f55adee48872",
       "title_latin": "Jil va säqah-i lübiyä / Jill and the beanstalk",
-      "title_fa": "",
+      "title_fa": "جیل و ساقه لوبیا",
       "author": "Gregory, Manju",
       "year": "2004",
       "indexed_date": "2025-09-16",
       "isbn": "1844440907",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e137ad0c-f839-426c-a242-f55adee48872",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 133
     },
     {
       "id": "vaasa.b3aad1aa-5d67-4a87-bd75-bb5aea867cce",
       "title_latin": "Donbalej-e djostodju dar tassavof-e Iran",
-      "title_fa": "",
+      "title_fa": "دنباله جست‌وجو در تصوف ایران",
       "author": "Zarrinkoub, Abdolhossejn",
       "year": "1990",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b3aad1aa-5d67-4a87-bd75-bb5aea867cce",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 134
     },
     {
       "id": "vaasa.6396b439-8073-4e4d-8b68-d1a3b9905ad7",
       "title_latin": "ÄNDUH-E ZÄN BUDÄN",
-      "title_fa": "",
+      "title_fa": "اندوه زن بودن",
       "author": "Khatereh, Hejazi",
       "year": "1992",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6396b439-8073-4e4d-8b68-d1a3b9905ad7",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 135
     },
     {
       "id": "vaasa.c71f4eb7-1ba8-4c11-80d3-e5f1281b8b3c",
       "title_latin": "Bazu-yi buridah",
-      "title_fa": "",
+      "title_fa": "بازوی بریده",
       "author": "Osman, Akram",
       "year": "1396",
       "indexed_date": "2025-09-17",
       "isbn": "9789936612730",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c71f4eb7-1ba8-4c11-80d3-e5f1281b8b3c",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 136
     },
     {
       "id": "vaasa.b26996a4-ed12-4dfa-b5a5-cb45c4de6546",
       "title_latin": "Moghäddäme-je Ebn-e Khäldun 1",
-      "title_fa": "",
+      "title_fa": "مقدمه ابن‌خلدون، جلد ۱",
       "author": "Ebn-e Khäldun, Äbdolrähman",
       "year": "1990",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b26996a4-ed12-4dfa-b5a5-cb45c4de6546",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 137
     },
     {
       "id": "vaasa.e3e0bdce-0a12-41b6-8698-cfda98f526b8",
       "title_latin": "Biguzār zindah bimānam",
-      "title_fa": "",
+      "title_fa": "بگذار زنده بمانم",
       "author": "Haddadi, Bardiya",
       "year": "1394",
       "indexed_date": "2026-02-28",
       "isbn": "9789198069334",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e3e0bdce-0a12-41b6-8698-cfda98f526b8",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 138
     },
     {
       "id": "vaasa.671c827a-3bcc-41ca-9563-f4d3784e028d",
       "title_latin": "Kabutar va Zagh / The pigeon and the crow",
-      "title_fa": "",
+      "title_fa": "کبوتر و زاغ",
       "author": "Zhakfar, Siddiq",
       "year": "2014",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.671c827a-3bcc-41ca-9563-f4d3784e028d",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 139
     },
     {
       "id": "vaasa.d0899923-bdd3-4515-ae9a-f298a2144ce6",
       "title_latin": "Ki az hamah pur zur'tarah",
-      "title_fa": "",
+      "title_fa": "کی از همه پرزورتره؟",
       "author": "Azad, Mahmud",
       "year": "2016",
       "indexed_date": "2026-02-28",
       "isbn": "9789644322877",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d0899923-bdd3-4515-ae9a-f298a2144ce6",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 140
     },
     {
       "id": "vaasa.af1c6b7f-c8c2-4ea4-baee-c8bc7de0d886",
       "title_latin": "TÄRAANEHA VÄ SORUUDHA",
-      "title_fa": "",
+      "title_fa": "ترانه‌ها و سرودها",
       "author": "Shäbgiir, M",
       "year": "1988",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.af1c6b7f-c8c2-4ea4-baee-c8bc7de0d886",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 141
     },
     {
       "id": "vaasa.ac63fd0b-ceb9-4e30-bbcd-06ac41b1fec5",
       "title_latin": "Bäraadäraan-e Karamazov 1",
-      "title_fa": "",
+      "title_fa": "برادران کارامازوف، جلد ۱",
       "author": "Dostojevski, Fjodor Mihailovitš",
       "year": "1989",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ac63fd0b-ceb9-4e30-bbcd-06ac41b1fec5",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 142
     },
     {
       "id": "vaasa.dbac04b7-078a-4b46-b8bd-2da9e9cbf94b",
       "title_latin": "Jashn'ha-yi Irani",
-      "title_fa": "",
+      "title_fa": "جشن‌های ایرانی",
       "author": "Rajabi, Parviz",
       "year": "1996",
       "indexed_date": "2026-02-28",
       "isbn": "9649000631",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.dbac04b7-078a-4b46-b8bd-2da9e9cbf94b",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 143
     },
     {
       "id": "vaasa.85a152b7-20e0-49f8-a2d0-d6a264c31982",
       "title_latin": "NEMADHAJ-E OSTUREH-IE VÄ RAVANSHENASI ZANAN",
-      "title_fa": "",
+      "title_fa": "نمادهای اسطوره‌ای و روان‌شناسی زنان",
       "author": "Bolen, Jean Shinoda",
       "year": "1994",
       "indexed_date": "2025-09-17",
       "isbn": "9645512107",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.85a152b7-20e0-49f8-a2d0-d6a264c31982",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 144
     },
     {
       "id": "vaasa.0597b8bb-ee26-40bf-a76c-ad137db878a0",
       "title_latin": "Indja pärändegan nemikhanänd / selected painting works of = Ici ies oiseaux ne chantent pas : recueil des ouvrages de peintur = Here, the birds are not singing",
-      "title_fa": "",
+      "title_fa": "اینجا پرندگان نمی‌خوانند",
       "author": "Keivan, Äbolhäsän",
       "year": "2000",
       "indexed_date": "2026-02-28",
       "isbn": "9645939054",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0597b8bb-ee26-40bf-a76c-ad137db878a0",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 145
     },
     {
       "id": "vaasa.fd307f0a-17bb-4fef-a897-e34290fbb51d",
       "title_latin": "Nisse va kolah-e negabdarash",
-      "title_fa": "",
+      "title_fa": "نیسه و کلاه نقاب‌دارش",
       "author": "Landström, Olof",
       "year": "1992",
       "indexed_date": "2025-09-16",
       "isbn": "9188356027",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fd307f0a-17bb-4fef-a897-e34290fbb51d",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 147
     },
     {
       "id": "vaasa.f6a0ccce-8790-4c40-817a-51a029ffbf38",
       "title_latin": "TARIKH-E ELM",
-      "title_fa": "",
+      "title_fa": "تاریخ علم",
       "author": "Sarton, George",
       "year": "1978",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f6a0ccce-8790-4c40-817a-51a029ffbf38",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 148
     },
     {
       "id": "vaasa.f388b621-8ee8-4fb1-97e0-a9341b1c2424",
       "title_latin": "KERME ÄBRISHÄME BESJAAR GOROSNE",
-      "title_fa": "",
+      "title_fa": "کرم ابریشم بسیار گرسنه",
       "author": "Carle, Eric",
       "year": "1991",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f388b621-8ee8-4fb1-97e0-a9341b1c2424",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 149
     },
     {
       "id": "vaasa.9be84d0c-8974-4ecf-95c2-7945619488de",
       "title_latin": "NEGAH-I GOZARA BE TARIKH VA FALSAFE AHL-I HAGH / AHL-I HAQQ RELIGION",
-      "title_fa": "",
+      "title_fa": "نگاهی گذرا به تاریخ و فلسفه اهل حق",
       "author": "Moradi, Golmorad",
       "year": "1999",
       "indexed_date": "2025-09-16",
       "isbn": "9188880885",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9be84d0c-8974-4ecf-95c2-7945619488de",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 150
     },
     {
       "id": "vaasa.cf7b7271-0481-42ad-8a2f-b9ca5e3dd0d0",
       "title_latin": "Iljaad",
-      "title_fa": "",
+      "title_fa": "ایلیاد",
       "author": "Homeros",
       "year": "1989",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.cf7b7271-0481-42ad-8a2f-b9ca5e3dd0d0",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 151
     },
     {
       "id": "vaasa.fa03d8d2-6ee7-46af-a8bc-084ac454721a",
       "title_latin": "Doshmän-e äziz",
-      "title_fa": "",
+      "title_fa": "دشمن عزیز",
       "author": "Webster, Jean",
       "year": "1991",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fa03d8d2-6ee7-46af-a8bc-084ac454721a",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 152
     },
     {
       "id": "vaasa.f744d1a6-60a4-4146-b36f-9f04b1fa7717",
       "title_latin": "Murgh-i qirmiz-i kūchūlū va dānih'hā-yi gandum / Den lilla röda hönan",
-      "title_fa": "",
+      "title_fa": "مرغ قرمز کوچولو و دانه‌های گندم",
       "author": "",
       "year": "2016",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f744d1a6-60a4-4146-b36f-9f04b1fa7717",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 156
     },
     {
       "id": "vaasa.b3a6c79c-b2d5-4edd-b4a2-44c944d36a2c",
       "title_latin": "Bu va Ba' dar kulak",
-      "title_fa": "",
+      "title_fa": "بو و با در کولاک",
       "author": "",
       "year": "2009",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b3a6c79c-b2d5-4edd-b4a2-44c944d36a2c",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 157
     },
     {
       "id": "vaasa.3fff8d78-7db6-4a00-91f2-96c47ac95636",
       "title_latin": "Kalevala",
-      "title_fa": "",
+      "title_fa": "کالوالا",
       "author": "",
       "year": "2022",
       "indexed_date": "2026-03-03",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3fff8d78-7db6-4a00-91f2-96c47ac95636",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 160
     },
     {
       "id": "vaasa.8bb6ad66-b9a7-4974-bf62-f3bddafb6c67",
       "title_latin": "Qissah-'i dū tā lākpusht-i tanhā",
-      "title_fa": "",
+      "title_fa": "قصه دو تا لاک‌پشت تنها",
       "author": "Rahmān'dūst, Mustafá",
       "year": "2006",
       "indexed_date": "2026-02-28",
       "isbn": "9643911004",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.8bb6ad66-b9a7-4974-bf62-f3bddafb6c67",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 162
     },
     {
       "id": "vaasa.e13a3e61-7c8d-42e0-89f8-3bf1453e9922",
       "title_latin": "Qissah'hā-yi Kūti Kūti",
-      "title_fa": "",
+      "title_fa": "قصه‌های کوتی‌کوتی",
       "author": "Hasan'zadah, Farhad",
       "year": "2007",
       "indexed_date": "2026-02-28",
       "isbn": "9789643911416",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e13a3e61-7c8d-42e0-89f8-3bf1453e9922",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 164
     },
     {
       "id": "vaasa.ff99c534-920f-4081-9564-3954aec7ca91",
       "title_latin": "RIJAZIDANAAME NAMI - 2.P",
-      "title_fa": "",
+      "title_fa": "ریاضی‌دانان نامی، جلد ۲",
       "author": "Tempel Bel, Erich",
       "year": "1982",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ff99c534-920f-4081-9564-3954aec7ca91",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 165
     },
     {
       "id": "vaasa.13d80724-a352-4c0b-896f-264081dd0cdd",
       "title_latin": "DU TÄ 'ARUS, DU TÄ DÄMÄD",
-      "title_fa": "",
+      "title_fa": "دو تا عروس، دو تا داماد",
       "author": "Rahmān'dūst, Mustafá",
       "year": "1999",
       "indexed_date": "2026-02-28",
       "isbn": "9646742238",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.13d80724-a352-4c0b-896f-264081dd0cdd",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 166
     },
     {
       "id": "vaasa.c7da74c4-6f94-4cba-bb0e-741eb9c8819e",
       "title_latin": "DORE DONYA DÄR 80 RUZ",
-      "title_fa": "",
+      "title_fa": "دور دنیا در ۸۰ روز",
       "author": "Verne, Jules",
       "year": "1991",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c7da74c4-6f94-4cba-bb0e-741eb9c8819e",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 167
     },
     {
       "id": "vaasa.3b52557c-eb64-4500-9913-d74f311bbb71",
       "title_latin": "Farar az madrese",
-      "title_fa": "",
+      "title_fa": "فرار از مدرسه",
       "author": "Zarrinkoob, Abdolhossein",
       "year": "1990",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3b52557c-eb64-4500-9913-d74f311bbb71",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 168
     },
     {
       "id": "vaasa.ea324cc1-97ce-456e-8acc-f89eeb75b1bb",
       "title_latin": "Guldilak va sih khirs / Guldlock och de tre björnarna : dari & svenska",
-      "title_fa": "",
+      "title_fa": "گلدیلاک و سه خرس (دری–سوئدی)",
       "author": "Clynes, Kate",
       "year": "2015",
       "indexed_date": "2026-02-28",
       "isbn": "9789187547171",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ea324cc1-97ce-456e-8acc-f89eeb75b1bb",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 169
     },
     {
       "id": "vaasa.822576f5-dc0d-4f3a-a4b5-b91fadc247bc",
       "title_latin": "KHERSI KE KHODKHAHI RA FÄRAMUUSH KÄRD",
-      "title_fa": "",
+      "title_fa": "خرسی که خودخواهی را فراموش کرد",
       "author": "Jing, Lin Sang",
       "year": "1989",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.822576f5-dc0d-4f3a-a4b5-b91fadc247bc",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 170
     },
     {
       "id": "vaasa.c7c7b7bc-bcbf-4577-91c9-5b524c6a4e41",
       "title_latin": "Khandah'ha-yi turubchahyi / asar-i tahsin shudah dar chaharumin",
-      "title_fa": "",
+      "title_fa": "خنده‌های تربچه‌ای",
       "author": "Qayyūmī, Samīrā",
       "year": "1391",
       "indexed_date": "2026-02-28",
       "isbn": "9786001213366",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c7c7b7bc-bcbf-4577-91c9-5b524c6a4e41",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 171
     },
     {
       "id": "vaasa.96db709f-245d-491e-bd5f-df181bad7412",
       "title_latin": "RAHIJAN-E SHEER-E EMRUZ 3.",
-      "title_fa": "",
+      "title_fa": "راهیان شعر امروز، جلد ۳",
       "author": "",
       "year": "1990",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.96db709f-245d-491e-bd5f-df181bad7412",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 172
     },
     {
       "id": "vaasa.f637295e-a75c-4697-be56-088de0286acb",
       "title_latin": "Dawlat-i Kurd dar guzar-i tarikh",
-      "title_fa": "",
+      "title_fa": "دولت کرد در گذر تاریخ",
       "author": "Enwer, Keywan Azad",
       "year": "2023",
       "indexed_date": "2025-09-17",
       "isbn": "9788293936015",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f637295e-a75c-4697-be56-088de0286acb",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 173
     },
     {
       "id": "vaasa.adca25d7-beb0-4db8-a4cc-c0d187375651",
       "title_latin": "Rahnama-yi duzdi-ya daryayi",
-      "title_fa": "",
+      "title_fa": "راهنمای دزدان دریایی",
       "author": "Cowell, Cressida",
       "year": "2013",
       "indexed_date": "2025-09-17",
       "isbn": "9786009331642",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.adca25d7-beb0-4db8-a4cc-c0d187375651",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 174
     },
     {
       "id": "vaasa.670c90fc-80a0-4997-ba93-e9fe4070989e",
       "title_latin": "Rahnama-yi ram kardan-i azhdaha",
-      "title_fa": "",
+      "title_fa": "راهنمای رام کردن اژدها",
       "author": "Cowell, Cressida",
       "year": "2013",
       "indexed_date": "2025-09-17",
       "isbn": "9786009306701",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.670c90fc-80a0-4997-ba93-e9fe4070989e",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 175
     },
     {
       "id": "vaasa.17345ea6-cdab-4fbc-924c-5032d12933d8",
       "title_latin": "Irān, jām 'ah-i kūtāh muddat",
-      "title_fa": "",
+      "title_fa": "ایران، جامعه کوتاه‌مدت",
       "author": "Katuziyan, Muhammad Ali Humayun",
       "year": "2012",
       "indexed_date": "2026-02-28",
       "isbn": "9789641852278",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.17345ea6-cdab-4fbc-924c-5032d12933d8",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 176
     },
     {
       "id": "vaasa.138ea7d0-1b49-4adb-820a-88b13afb3bd8",
       "title_latin": "Chahar'shanbah'ha yi bastani",
-      "title_fa": "",
+      "title_fa": "چهارشنبه‌های باستانی",
       "author": "Musaviyan, Insiyah",
       "year": "2015",
       "indexed_date": "2026-06-01",
       "isbn": "9786000101985",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.138ea7d0-1b49-4adb-820a-88b13afb3bd8",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 177
     },
     {
       "id": "vaasa.d29fb2f0-ba60-451b-874c-42723044abe3",
       "title_latin": "In hamah badkunak'ha-yi rangi",
-      "title_fa": "",
+      "title_fa": "این همه بادکنک‌های رنگی",
       "author": "Ahmadi, Ahmad Riza",
       "year": "1393",
       "indexed_date": "2026-02-28",
       "isbn": "9786001521478",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d29fb2f0-ba60-451b-874c-42723044abe3",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 178
     },
     {
       "id": "vaasa.79803111-035d-4764-8c43-eebdb5f7f4c6",
       "title_latin": "TARIKHE IRAN 1.",
-      "title_fa": "",
+      "title_fa": "تاریخ ایران، جلد ۱",
       "author": "Saix, Percy",
       "year": "1989",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.79803111-035d-4764-8c43-eebdb5f7f4c6",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 180
     },
     {
       "id": "vaasa.7e95c9d5-1b2c-4061-bda7-ae5edcb0fbb4",
       "title_latin": "Manam Malalah",
-      "title_fa": "",
+      "title_fa": "منم ملاله",
       "author": "Yousafzai, Malala",
       "year": "2014",
       "indexed_date": "2025-09-17",
       "isbn": "9789643519247",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7e95c9d5-1b2c-4061-bda7-ae5edcb0fbb4",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 181
     },
     {
       "id": "vaasa.80690703-f98f-4c58-91ec-7ca040479c0b",
       "title_latin": "Sindirilla",
-      "title_fa": "",
+      "title_fa": "سیندرلا",
       "author": "Saunders, Katie",
       "year": "2014",
       "indexed_date": "2025-09-16",
       "isbn": "9786003201255",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.80690703-f98f-4c58-91ec-7ca040479c0b",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 182
     },
     {
       "id": "vaasa.599dadfe-bb69-4ece-8eb4-0ebc0971d7f4",
       "title_latin": "Būd nabūd būdgār būd",
-      "title_fa": "",
+      "title_fa": "بود، نبود، بودگار بود",
       "author": "Muḥammadī, Muḥammad Ḥusayn",
       "year": "2016",
       "indexed_date": "2025-09-16",
       "isbn": "9789187359293",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.599dadfe-bb69-4ece-8eb4-0ebc0971d7f4",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 183
     },
     {
       "id": "vaasa.cea71158-57aa-48d2-9f79-db2b7b1ab82e",
       "title_latin": "Bud va bud va bud",
-      "title_fa": "",
+      "title_fa": "بود و بود و بود",
       "author": "Shaban'nizhad, Afsanah",
       "year": "1394",
       "indexed_date": "2025-09-16",
       "isbn": "9786000101824",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.cea71158-57aa-48d2-9f79-db2b7b1ab82e",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 184
     },
     {
       "id": "vaasa.7e3e1c75-4e19-478f-9306-4dac8e67a63f",
       "title_latin": "In namah bara-yi shumast?",
-      "title_fa": "",
+      "title_fa": "این نامه برای شماست؟",
       "author": "Rahmani, Farzanah",
       "year": "1392",
       "indexed_date": "2025-09-16",
       "isbn": "9786001213540",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7e3e1c75-4e19-478f-9306-4dac8e67a63f",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 186
     },
     {
       "id": "vaasa.2d5bf7e3-98cd-48f1-9e15-2d09140d490d",
       "title_latin": "ÄNKÄBYTE PORKAR",
-      "title_fa": "",
+      "title_fa": "عنکبوت پرکار",
       "author": "Carle, Eric",
       "year": "1990",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2d5bf7e3-98cd-48f1-9e15-2d09140d490d",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 187
     },
     {
       "id": "vaasa.941d84cc-92fe-4169-a805-5ac82119a816",
       "title_latin": "MIHMAN-I MAMAN",
-      "title_fa": "",
+      "title_fa": "مهمان مامان",
       "author": "Muradi Kirmani, Hushang",
       "year": "1996",
       "indexed_date": "2025-09-16",
       "isbn": "9643122441",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.941d84cc-92fe-4169-a805-5ac82119a816",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 188
     },
     {
       "id": "vaasa.22a9faf2-1495-49ce-848d-9967c9f886e2",
       "title_latin": "Man kumakit mikunam",
-      "title_fa": "",
+      "title_fa": "من کمکت می‌کنم",
       "author": "Yavar'zadah, Parisa",
       "year": "1393",
       "indexed_date": "2025-09-16",
       "isbn": "9789643916411",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.22a9faf2-1495-49ce-848d-9967c9f886e2",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 189
     },
     {
       "id": "vaasa.90c3c164-ada3-4644-9c68-ec2fce3a7a32",
       "title_latin": "Siyah kuchulu, sifid kuchulu",
-      "title_fa": "",
+      "title_fa": "سیاه کوچولو، سفید کوچولو",
       "author": "Shikarabi, Hamidah Zahid",
       "year": "2013",
       "indexed_date": "2025-09-16",
       "isbn": "9789643916398",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.90c3c164-ada3-4644-9c68-ec2fce3a7a32",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 190
     },
     {
       "id": "vaasa.44219dea-2680-4ee7-b571-1a64714e0852",
@@ -1985,1051 +2152,1139 @@
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.44219dea-2680-4ee7-b571-1a64714e0852",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 191
     },
     {
       "id": "vaasa.21c620f9-628b-4bad-a6ac-626543736b2f",
       "title_latin": "Nīmkat va daryā",
-      "title_fa": "",
+      "title_fa": "نیمکت و دریا",
       "author": "Sulaymānī, Ālālah",
       "year": "2014",
       "indexed_date": "2025-09-17",
       "isbn": "9786006605548",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.21c620f9-628b-4bad-a6ac-626543736b2f",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 192
     },
     {
       "id": "vaasa.7235032b-82a0-4fc6-9ce2-bf94d8040b2f",
       "title_latin": "MOSIBÄT-E NEVISANDEH BUDÄN",
-      "title_fa": "",
+      "title_fa": "مصیبت نویسنده بودن",
       "author": "",
       "year": "1989",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7235032b-82a0-4fc6-9ce2-bf94d8040b2f",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 193
     },
     {
       "id": "vaasa.c9660755-cfc4-4332-bb83-3da4c8e778f5",
       "title_latin": "HEIVANAAT VÄ GIAHANE BAGHE MA",
-      "title_fa": "",
+      "title_fa": "حیوانات و گیاهان باغ ما",
       "author": "Adrian, Christine",
       "year": "1991",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c9660755-cfc4-4332-bb83-3da4c8e778f5",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 194
     },
     {
       "id": "vaasa.6c3142ae-3cd8-4879-b038-93e29af843d3",
       "title_latin": "Finnish folktales / Volume one",
-      "title_fa": "",
+      "title_fa": "افسانه‌های عامیانه فنلاند، جلد اول",
       "author": "Baghbani, Kiamars",
       "year": "2012",
       "indexed_date": "2025-09-16",
       "isbn": "9789525960075",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.6c3142ae-3cd8-4879-b038-93e29af843d3",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 195
     },
     {
       "id": "vaasa.3651a7d9-6731-4839-b564-31dd539a5890",
       "title_latin": "MÄSIHE BAAZ MASLUUB",
-      "title_fa": "",
+      "title_fa": "مسیح باز مصلوب",
       "author": "Kazantzakis, Niko",
       "year": "1984",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3651a7d9-6731-4839-b564-31dd539a5890",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 196
     },
     {
       "id": "vaasa.0dccf0a0-b790-4d4c-bb7e-4bb03bfc4ef2",
       "title_latin": "Bāgh-i Hāj 'Ali Khān / (chand dastan-i kutah)",
-      "title_fa": "",
+      "title_fa": "باغ حاج علی خان: چند داستان کوتاه",
       "author": "Fatimi, Ruzbih",
       "year": "2009",
       "indexed_date": "2026-02-28",
       "isbn": "9789197833912",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0dccf0a0-b790-4d4c-bb7e-4bb03bfc4ef2",
-      "source_page": 2
+      "source_page": 2,
+      "search_position": 197
     },
     {
       "id": "vaasa.afca0c37-0292-4f00-bd94-4ffccd0746f8",
       "title_latin": "Kollijaat-e Säädi",
-      "title_fa": "",
+      "title_fa": "کلیات سعدی",
       "author": "Säädi, Moslehäddin",
       "year": "1988",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.afca0c37-0292-4f00-bd94-4ffccd0746f8",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 203
     },
     {
       "id": "vaasa.d14bb3cb-d959-4626-ac6d-ad6fc63ef4bc",
       "title_latin": "Qissah'hā-yi sar va tah / (chand qissah barā-yi kūdakān)",
-      "title_fa": "",
+      "title_fa": "قصه‌های سر و ته: چند قصه برای کودکان",
       "author": "Shams, Muhammad Riza",
       "year": "2013",
       "indexed_date": "2026-02-28",
       "isbn": "9789643918019",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d14bb3cb-d959-4626-ac6d-ad6fc63ef4bc",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 204
     },
     {
       "id": "vaasa.dc22d591-d46f-4be8-a0f2-4430c88b28ed",
       "title_latin": "Fän vä honär-e äkkasi / The technique and art of photography",
-      "title_fa": "",
+      "title_fa": "فن و هنر عکاسی",
       "author": "Shäfajieh, Hadi",
       "year": "1993",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.dc22d591-d46f-4be8-a0f2-4430c88b28ed",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 205
     },
     {
       "id": "vaasa.9a857af5-f1bb-4b02-9668-0bcfa47fc4e5",
       "title_latin": "Gul tū-yi guldūnam lālā / a collection of lullabies",
-      "title_fa": "",
+      "title_fa": "گل توی گلدونم لالا: مجموعه لالایی‌ها",
       "author": "Shaban'nizhad, Afsanah",
       "year": "2014",
       "indexed_date": "2026-02-28",
       "isbn": "9789641207030",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9a857af5-f1bb-4b02-9668-0bcfa47fc4e5",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 206
     },
     {
       "id": "vaasa.98b0e8a0-0760-40f4-83f9-19d7c57fc7c2",
       "title_latin": "Markoje ruumi",
-      "title_fa": "",
+      "title_fa": "مارکوی رومی",
       "author": "Waltari, Mika",
       "year": "1998",
       "indexed_date": "2025-09-17",
       "isbn": "964900890X",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.98b0e8a0-0760-40f4-83f9-19d7c57fc7c2",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 208
     },
     {
       "id": "vaasa.74e53243-a87b-49d2-af04-4f268890f1ee",
       "title_latin": "TOOGHI",
-      "title_fa": "",
+      "title_fa": "طوقی",
       "author": "Käshkuli, Mähdokht",
       "year": "1989",
       "indexed_date": "2026-11-09",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.74e53243-a87b-49d2-af04-4f268890f1ee",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 209
     },
     {
       "id": "vaasa.1d03b53e-926a-4fcd-bc0a-8e47b8249acb",
       "title_latin": "THE SHORTER ENGLISH-PERSIAN DICTIONARY / TREATING SOME 40000 OF THE COMMONEST AND THE MOST ESSENTIAL ENGLISH WORDS AND IDIOMS FOR USE BY IRANIAN STUDENTS OF THE ENGLISH LANGUAGE",
-      "title_fa": "",
+      "title_fa": "فرهنگ کوچک انگلیسی–فارسی",
       "author": "Haim, S",
       "year": "1987",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1d03b53e-926a-4fcd-bc0a-8e47b8249acb",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 210
     },
     {
       "id": "vaasa.39d26a8e-70ee-4b8a-976d-c949cc3a95f7",
       "title_latin": "DAASTANHAJ-E MÄSMÄVI 2.",
-      "title_fa": "",
+      "title_fa": "داستان‌های مثنوی، جلد ۲",
       "author": "Mohämmädi-E Eshtehardi, M",
       "year": "1991",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.39d26a8e-70ee-4b8a-976d-c949cc3a95f7",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 211
     },
     {
       "id": "vaasa.057bf22c-225d-49d1-a9c9-cbb2bab7ed33",
       "title_latin": "Kalid kuchuluh",
-      "title_fa": "",
+      "title_fa": "کلید کوچولو",
       "author": "Qadrdan, Ibrahim",
       "year": "1391",
       "indexed_date": "2025-09-16",
       "isbn": "9789643916541",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.057bf22c-225d-49d1-a9c9-cbb2bab7ed33",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 212
     },
     {
       "id": "vaasa.79bc92d2-9cc4-4469-af78-3f498ac5798f",
       "title_latin": "PESÄRI K SEZÄBAN MIDANOST",
-      "title_fa": "",
+      "title_fa": "پسری که سه زبان می‌دانست",
       "author": "Gerim, Vilhelm",
       "year": "1991",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.79bc92d2-9cc4-4469-af78-3f498ac5798f",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 213
     },
     {
       "id": "vaasa.03f9f33c-546b-4dc3-8cee-6f589d9fdf82",
       "title_latin": "Bachchaʹhā-yi dirakht-i Jākārāndā",
-      "title_fa": "",
+      "title_fa": "بچه‌های درخت جاکاراندا",
       "author": "Dilījānī, Saḥar",
       "year": "2015",
       "indexed_date": "2026-02-28",
       "isbn": "9789187975011",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.03f9f33c-546b-4dc3-8cee-6f589d9fdf82",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 214
     },
     {
       "id": "vaasa.520246eb-c527-4b0a-9b8f-df6910f5257e",
       "title_latin": "Chih kasi sang miʹandazad? / daftar-i shiʻr",
-      "title_fa": "",
+      "title_fa": "چه کسی سنگ می‌اندازد؟: دفتر شعر",
       "author": "Assadi, Mina",
       "year": "1989",
       "indexed_date": "2025-09-17",
       "isbn": "9197118532",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.520246eb-c527-4b0a-9b8f-df6910f5257e",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 215
     },
     {
       "id": "vaasa.200322c6-5a03-4acd-a657-18894c7619c4",
       "title_latin": "NÄGHDI BÄR TARIIKHNEGARAANE SHORÄVI",
-      "title_fa": "",
+      "title_fa": "نقدی بر تاریخ‌نگاران شوروی",
       "author": "Ämin, Behruuz",
       "year": "1990",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.200322c6-5a03-4acd-a657-18894c7619c4",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 216
     },
     {
       "id": "vaasa.05b63b84-728c-431c-8923-ea7da9dfd755",
       "title_latin": "NEGAAHI BE TAARIKHE DJÄHAN / 2",
-      "title_fa": "",
+      "title_fa": "نگاهی به تاریخ جهان، جلد ۲",
       "author": "Nehru, Javaharlal",
       "year": "1974",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.05b63b84-728c-431c-8923-ea7da9dfd755",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 217
     },
     {
       "id": "vaasa.3d844681-c659-4f48-bdd7-05bfc0ff1183",
       "title_latin": "NEGAAHI BE TAARIKHE DJÄHAN",
-      "title_fa": "",
+      "title_fa": "نگاهی به تاریخ جهان",
       "author": "Nehru, Javaharlal",
       "year": "1982",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3d844681-c659-4f48-bdd7-05bfc0ff1183",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 218
     },
     {
       "id": "vaasa.da3b3a72-2cb2-432e-b662-0a8ffda94ff4",
       "title_latin": "TÄLIBÄN",
-      "title_fa": "",
+      "title_fa": "طالبان",
       "author": "Rashid, Ahmed",
       "year": "2003",
       "indexed_date": "2025-09-17",
       "isbn": "9646887201",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.da3b3a72-2cb2-432e-b662-0a8ffda94ff4",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 219
     },
     {
       "id": "vaasa.e7519dc8-a542-4a67-a303-9fbe67496747",
       "title_latin": "Va kuh tanin andakht",
-      "title_fa": "",
+      "title_fa": "و کوه طنین انداخت",
       "author": "Hosseini, Khaled",
       "year": "1392",
       "indexed_date": "2025-09-17",
       "isbn": "9789643288150",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e7519dc8-a542-4a67-a303-9fbe67496747",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 220
     },
     {
       "id": "vaasa.9f1b4e55-f666-40ae-a8f6-b9d506dd66b9",
       "title_latin": "Bi eshgh bi negah",
-      "title_fa": "",
+      "title_fa": "بی عشق، بی نگاه",
       "author": "Äsädi, Mina",
       "year": "1994",
       "indexed_date": "2026-02-28",
       "isbn": "9197197904",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.9f1b4e55-f666-40ae-a8f6-b9d506dd66b9",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 221
     },
     {
       "id": "vaasa.8c71b4bc-0743-4c63-8ef3-b7ebc75ee225",
       "title_latin": "Magih tarsūyī, Ālfuns Ubary?",
-      "title_fa": "",
+      "title_fa": "مگه ترسویی، آلفونس اوبری؟",
       "author": "Bergström, Gunilla",
       "year": "1994",
       "indexed_date": "2025-09-16",
       "isbn": "9789188356345",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.8c71b4bc-0743-4c63-8ef3-b7ebc75ee225",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 223
     },
     {
       "id": "vaasa.a04cd3fd-467b-419a-925a-06194dc74f75",
       "title_latin": "NAMEHAI BE AGHASI REIS",
-      "title_fa": "",
+      "title_fa": "نامه‌هایی به آقای رئیس",
       "author": "Bektash, Nader",
       "year": "1997",
       "indexed_date": "2025-09-17",
       "isbn": "919733054X",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a04cd3fd-467b-419a-925a-06194dc74f75",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 224
     },
     {
       "id": "vaasa.e93b8b28-bd28-471f-83a4-2cbee7cd5866",
       "title_latin": "Barun-e deräkht neshin",
-      "title_fa": "",
+      "title_fa": "بارون درخت‌نشین",
       "author": "Calvino, Italo",
       "year": "1984",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e93b8b28-bd28-471f-83a4-2cbee7cd5866",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 225
     },
     {
       "id": "vaasa.021c1823-72b2-45e9-91d1-bfb6f3d8c712",
       "title_latin": "Bäraadäraan-e Karamazov 2",
-      "title_fa": "",
+      "title_fa": "برادران کارامازوف، جلد ۲",
       "author": "Dostojevski, Fjodor Mihailovitš",
       "year": "1989",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.021c1823-72b2-45e9-91d1-bfb6f3d8c712",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 226
     },
     {
       "id": "vaasa.1f2066cc-7b79-4c84-b7e8-bb134b11c5b0",
       "title_latin": "Chi chi qashuq va qaychi",
-      "title_fa": "",
+      "title_fa": "چی چی قاشق و قیچی",
       "author": "Khudayi, Ali",
       "year": "2013",
       "indexed_date": "2025-09-16",
       "isbn": "9789643919139",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1f2066cc-7b79-4c84-b7e8-bb134b11c5b0",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 227
     },
     {
       "id": "vaasa.764c12d8-e8b9-4a3c-af6c-b40b5a682234",
       "title_latin": "CHEGUUNE BÄCH-CHEHAAJEMAN RA BE MOTAALE'E ..",
-      "title_fa": "",
+      "title_fa": "چگونه بچه‌هایمان را به مطالعه...",
       "author": "Larik, Nansi",
       "year": "1989",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.764c12d8-e8b9-4a3c-af6c-b40b5a682234",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 228
     },
     {
       "id": "vaasa.7b2b56df-5605-4e15-bf08-ca83e41c4113",
       "title_latin": "Moghäddäme-je Ebn-e Khäldun 2",
-      "title_fa": "",
+      "title_fa": "مقدمه ابن‌خلدون، جلد ۲",
       "author": "Ebn-e Khäldun, Äbdolrähman",
       "year": "1990",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7b2b56df-5605-4e15-bf08-ca83e41c4113",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 229
     },
     {
       "id": "vaasa.89b3ec84-4f41-4fd1-8629-a4d821751269",
       "title_latin": "Sultān va āhū / du zabanah = Sultun va ahu",
-      "title_fa": "",
+      "title_fa": "سلطان و آهو (دوزبانه)",
       "author": "Vahdatī, N",
       "year": "2008",
       "indexed_date": "2025-09-16",
       "isbn": "9789643913533",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.89b3ec84-4f41-4fd1-8629-a4d821751269",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 230
     },
     {
       "id": "vaasa.027aa76d-2d37-4a98-b21c-7abdd2a9b8bb",
       "title_latin": "DUSTI, ZIBATARIN HANDIYAH / DOSTAYATI, BASHTRIN SIYARI = FRIENDSHIP, THE BEST GIFT",
-      "title_fa": "",
+      "title_fa": "دوستی، زیباترین هدیه",
       "author": "Hashemi, Rosa",
       "year": "2002",
       "indexed_date": "2026-02-28",
       "isbn": "9649237755",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.027aa76d-2d37-4a98-b21c-7abdd2a9b8bb",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 231
     },
     {
       "id": "vaasa.7a6bbcf8-2b9c-47df-96da-43e6f456a83f",
       "title_latin": "Nuqtih atf / insan'ha-yi kih shahamat dashtih'and ba zindigi rubiru shavand",
-      "title_fa": "",
+      "title_fa": "نقطه عطف: انسان‌هایی که شهامت داشته‌اند با زندگی روبه‌رو شوند",
       "author": "Sjödin, Agneta",
       "year": "2012",
       "indexed_date": "2026-02-28",
       "isbn": "9789187195006",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7a6bbcf8-2b9c-47df-96da-43e6f456a83f",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 232
     },
     {
       "id": "vaasa.df9b0474-112e-4ff8-a2c7-da9538f1a1e9",
       "title_latin": "Labkhand-i talkh",
-      "title_fa": "",
+      "title_fa": "لبخند تلخ",
       "author": "Husiyni, Nusrat",
       "year": "2010",
       "indexed_date": "2025-09-17",
       "isbn": "9789647418850",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.df9b0474-112e-4ff8-a2c7-da9538f1a1e9",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 233
     },
     {
       "id": "vaasa.a78f2056-5fa4-46a5-a7f0-427cd3812b45",
       "title_latin": "Dukhtar-i sawdagar / afsanah'ha-yi fulklurik-i Afghani",
-      "title_fa": "",
+      "title_fa": "دختر سوداگر: افسانه‌های فولکلوریک افغانی",
       "author": "Hūtak, Humāyūn",
       "year": "2015",
       "indexed_date": "2026-08-13",
       "isbn": "9789187359231",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a78f2056-5fa4-46a5-a7f0-427cd3812b45",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 234
     },
     {
       "id": "vaasa.cb11a293-a04f-43e6-9fa4-d51159e547a2",
       "title_latin": "Lālā bābā-yī",
-      "title_fa": "",
+      "title_fa": "لالا بابایی",
       "author": "Rahmān'dūst, Mustafá",
       "year": "2014",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.cb11a293-a04f-43e6-9fa4-d51159e547a2",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 235
     },
     {
       "id": "vaasa.80c2b8c4-e91e-4ff5-b494-c1247e3991f3",
       "title_latin": "Khirsi az tariki mitarsah / qissahha-yi man va khirsi",
-      "title_fa": "",
+      "title_fa": "خرسی از تاریکی می‌ترسه",
       "author": "Khayyami, Layla",
       "year": "2012",
       "indexed_date": "2025-09-16",
       "isbn": "9786006518633",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.80c2b8c4-e91e-4ff5-b494-c1247e3991f3",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 236
     },
     {
       "id": "vaasa.922d1dbf-20f3-482b-acf2-2514aa97658c",
       "title_latin": "Diivan-e Haafez",
-      "title_fa": "",
+      "title_fa": "دیوان حافظ",
       "author": "Haafez",
       "year": "1990",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.922d1dbf-20f3-482b-acf2-2514aa97658c",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 237
     },
     {
       "id": "vaasa.e67362e7-6046-4f62-a446-c5b78dcae5ae",
       "title_latin": "Divān-i nafis-i Hāfiz",
-      "title_fa": "",
+      "title_fa": "دیوان نفیس حافظ",
       "author": "Hafiz",
       "year": "2006",
       "indexed_date": "2025-09-17",
       "isbn": "9645835992",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e67362e7-6046-4f62-a446-c5b78dcae5ae",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 238
     },
     {
       "id": "vaasa.e17b0579-d20f-47ce-8239-dc93e045c333",
       "title_latin": "Khvab'ha-yi janubi / Southern dreams",
-      "title_fa": "",
+      "title_fa": "خواب‌های جنوبی",
       "author": "Nushazar, Hossein",
       "year": "1996",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e17b0579-d20f-47ce-8239-dc93e045c333",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 239
     },
     {
       "id": "vaasa.cb8d8024-337e-4f52-a262-ab23126d9d81",
       "title_latin": "Buy-i na",
-      "title_fa": "",
+      "title_fa": "بوی نی",
       "author": "Muini, Manda",
       "year": "2009",
       "indexed_date": "2025-09-17",
       "isbn": "9645724597",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.cb8d8024-337e-4f52-a262-ab23126d9d81",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 241
     },
     {
       "id": "vaasa.40d27bb9-c57d-437f-89ff-cf90d815806c",
       "title_latin": "Där kuche-baaghhaaj-e neishabuur",
-      "title_fa": "",
+      "title_fa": "در کوچه‌باغ‌های نیشابور",
       "author": "Kädkäni, Shäfiji",
       "year": "1971",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.40d27bb9-c57d-437f-89ff-cf90d815806c",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 242
     },
     {
       "id": "vaasa.5526bf12-5b78-4725-bdf9-55799aa97952",
       "title_latin": "Bih dunbal-i falak / Felekin Dalica",
-      "title_fa": "",
+      "title_fa": "به دنبال فلک",
       "author": "Karim'zadah, Manuchihr",
       "year": "2007",
       "indexed_date": "2025-09-16",
       "isbn": "9789643913557",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.5526bf12-5b78-4725-bdf9-55799aa97952",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 243
     },
     {
       "id": "vaasa.da297a71-86d0-4c28-b337-c58c21fd2f61",
       "title_latin": "Jazirah-yi bi tarbiyat'ha",
-      "title_fa": "",
+      "title_fa": "جزیره بی‌تربیت‌ها",
       "author": "Shahram, Shafi'i",
       "year": "2013",
       "indexed_date": "2026-02-28",
       "isbn": "9789643919009",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.da297a71-86d0-4c28-b337-c58c21fd2f61",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 244
     },
     {
       "id": "vaasa.c47e83a3-a3aa-48c7-aafb-c1ee6e106f22",
       "title_latin": "TAARIIKHE DONJAAJE GÄDIIM - SHÄRGE BAASTAN",
-      "title_fa": "",
+      "title_fa": "تاریخ دنیای قدیم: شرق باستان",
       "author": "Korofkin, Feodor P",
       "year": "1980",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c47e83a3-a3aa-48c7-aafb-c1ee6e106f22",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 246
     },
     {
       "id": "vaasa.68ed51ac-8546-4bc1-83e4-04f633941e58",
       "title_latin": "TARIKHE KORD VA KORDESTAN",
-      "title_fa": "",
+      "title_fa": "تاریخ کرد و کردستان",
       "author": "Safizadeh, Sadigh",
       "year": "1999",
       "indexed_date": "2025-09-17",
       "isbn": "964637333X",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.68ed51ac-8546-4bc1-83e4-04f633941e58",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 248
     },
     {
       "id": "vaasa.540a98c0-c4d6-4c4a-8fc9-6ef2a56ecc82",
       "title_latin": "NISSE BEH SALMANI MIRAVAD",
-      "title_fa": "",
+      "title_fa": "نیسه به سلمانی می‌رود",
       "author": "Landström, Olof",
       "year": "1993",
       "indexed_date": "2025-09-16",
       "isbn": "9188356248",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.540a98c0-c4d6-4c4a-8fc9-6ef2a56ecc82",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 249
     },
     {
       "id": "vaasa.5ebf5121-a6f9-4a23-9a28-af86306f3166",
       "title_latin": "Bu va Ba' daran nazafat mi'kunan",
-      "title_fa": "",
+      "title_fa": "بو و با دارن نظافت می‌کنن",
       "author": "Landström, Olof",
       "year": "2009",
       "indexed_date": "2026-02-28",
       "isbn": "9789185365623",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.5ebf5121-a6f9-4a23-9a28-af86306f3166",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 250
     },
     {
       "id": "vaasa.d2b66be8-8cad-4670-ab10-5403d1a5c524",
       "title_latin": "Chahär sarv-i afsanah",
-      "title_fa": "",
+      "title_fa": "چهار سرو افسانه",
       "author": "Arbabi, Isa",
       "year": "2001",
       "indexed_date": "2025-09-17",
       "isbn": "9646376509",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d2b66be8-8cad-4670-ab10-5403d1a5c524",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 251
     },
     {
       "id": "vaasa.08526f1e-4081-47dc-bcda-e68791fe4242",
       "title_latin": "Djäng vä solh 2.",
-      "title_fa": "",
+      "title_fa": "جنگ و صلح، جلد ۲",
       "author": "Tolstoi, Leo",
       "year": "1985",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.08526f1e-4081-47dc-bcda-e68791fe4242",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 252
     },
     {
       "id": "vaasa.4eba7f1f-1ed7-48db-ae30-91dfd706ffa9",
       "title_latin": "Djäng vä solh",
-      "title_fa": "",
+      "title_fa": "جنگ و صلح",
       "author": "Tolstoi, Leo",
       "year": "1985",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.4eba7f1f-1ed7-48db-ae30-91dfd706ffa9",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 253
     },
     {
       "id": "vaasa.e59064a3-e97a-4877-9667-d28b4cc4499c",
       "title_latin": "Safarnamah-'i bu-yi gul",
-      "title_fa": "",
+      "title_fa": "سفرنامه بوی گل",
       "author": "Pak'ayin, Pidram",
       "year": "1392",
       "indexed_date": "2026-02-28",
       "isbn": "9789644327025",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e59064a3-e97a-4877-9667-d28b4cc4499c",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 254
     },
     {
       "id": "vaasa.279de7cb-e8a8-4fd3-a7bd-40f3fc0c0738",
       "title_latin": "Ketabe zendan / 1",
-      "title_fa": "",
+      "title_fa": "کتاب زندان، جلد ۱",
       "author": "Mohadjer, Naser",
       "year": "1998",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.279de7cb-e8a8-4fd3-a7bd-40f3fc0c0738",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 255
     },
     {
       "id": "vaasa.66d3d4ac-fcb4-498a-9e53-3c0aa174ea8a",
       "title_latin": "Ketabe zendan / 2",
-      "title_fa": "",
+      "title_fa": "کتاب زندان، جلد ۲",
       "author": "Mohadjer, Naser",
       "year": "2001",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.66d3d4ac-fcb4-498a-9e53-3c0aa174ea8a",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 256
     },
     {
       "id": "vaasa.7411eda2-bb88-4af4-b015-097f71b0d0ae",
       "title_latin": "ZANGULAH'HÄ-YI GHURBAT",
-      "title_fa": "",
+      "title_fa": "زنگوله‌های غربت",
       "author": "Pourian, Mohammad R",
       "year": "2002",
       "indexed_date": "2026-02-28",
       "isbn": "9197392499",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.7411eda2-bb88-4af4-b015-097f71b0d0ae",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 257
     },
     {
       "id": "vaasa.fdad225e-ca1c-4790-8425-4c3020e1f2d8",
       "title_latin": "Zir-i pul-i Bahmanshir / (majmu'ah dastan)",
-      "title_fa": "",
+      "title_fa": "زیر پل بهمنشیر: مجموعه داستان",
       "author": "Husayn'zadah, Muhammad",
       "year": "2008",
       "indexed_date": "2025-09-17",
       "isbn": "9789163320767",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fdad225e-ca1c-4790-8425-4c3020e1f2d8",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 258
     },
     {
       "id": "vaasa.a81fe990-050c-4d84-af01-f89410a605cd",
       "title_latin": "Gurg-i āvāzkhvān",
-      "title_fa": "",
+      "title_fa": "گرگ آوازخوان",
       "author": "Pak, Abd al-Salih",
       "year": "2007",
       "indexed_date": "2025-09-16",
       "isbn": "9789643913496",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a81fe990-050c-4d84-af01-f89410a605cd",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 259
     },
     {
       "id": "vaasa.483f2d6b-6f73-43ce-acc5-03fc08fc5a6d",
       "title_latin": "Yak shab-i digar",
-      "title_fa": "",
+      "title_fa": "یک شب دیگر",
       "author": "Mir Qadiri, Mahbubah",
       "year": "2009",
       "indexed_date": "2026-02-28",
       "isbn": "9789641940111",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.483f2d6b-6f73-43ce-acc5-03fc08fc5a6d",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 260
     },
     {
       "id": "vaasa.b37da9f4-ded7-4d71-ae0b-b82ee646d2bb",
       "title_latin": "Dastan'ha-yi mahbub-i man",
-      "title_fa": "",
+      "title_fa": "داستان‌های محبوب من",
       "author": "",
       "year": "2004",
       "indexed_date": "2026-02-28",
       "isbn": "9643621472",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b37da9f4-ded7-4d71-ae0b-b82ee646d2bb",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 261
     },
     {
       "id": "vaasa.754aae4f-d1c5-4e9c-8395-6756521e7acb",
       "title_latin": "Dasture zabane farsi",
-      "title_fa": "",
+      "title_fa": "دستور زبان فارسی",
       "author": "Shariat, Mohammad Djavaad",
       "year": "1991",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.754aae4f-d1c5-4e9c-8395-6756521e7acb",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 262
     },
     {
       "id": "vaasa.bac9b24f-48d2-4e19-a974-c7d5de8a6cd0",
       "title_latin": "Giahane daruei",
-      "title_fa": "",
+      "title_fa": "گیاهان دارویی",
       "author": "Volak, Jan",
       "year": "1997",
       "indexed_date": "2026-02-28",
       "isbn": "9643110311",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.bac9b24f-48d2-4e19-a974-c7d5de8a6cd0",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 263
     },
     {
       "id": "vaasa.0ee45303-a4c1-427e-a16d-c3f81d5f6f96",
       "title_latin": "ʾAjalih kun Ālfuns Ubary!",
-      "title_fa": "",
+      "title_fa": "عجله کن، آلفونس اوبری!",
       "author": "Bergström, Gunilla",
       "year": "2000",
       "indexed_date": "2026-02-28",
       "isbn": "9789188356642",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0ee45303-a4c1-427e-a16d-c3f81d5f6f96",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 264
     },
     {
       "id": "vaasa.29727958-b803-419e-a602-5cf53482c74a",
       "title_latin": "Farsi-English, English-Farsi (Persian)",
-      "title_fa": "",
+      "title_fa": "فرهنگ فارسی–انگلیسی، انگلیسی–فارسی",
       "author": "Miandji, A. M",
       "year": "2009",
       "indexed_date": "2025-09-17",
       "isbn": "9780781808606",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.29727958-b803-419e-a602-5cf53482c74a",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 265
     },
     {
       "id": "vaasa.ce5ca5d6-859c-4685-ac4a-031a76627d8a",
       "title_latin": "RUZEGAR-E SAKHT",
-      "title_fa": "",
+      "title_fa": "روزگار سخت",
       "author": "Dickens, Charles",
       "year": "1988",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ce5ca5d6-859c-4685-ac4a-031a76627d8a",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 266
     },
     {
       "id": "vaasa.56f04623-167c-4b4a-bed3-a81cab1175c2",
       "title_latin": "Ruzi kih chashma-yi gurbaham rangi shud",
-      "title_fa": "",
+      "title_fa": "روزی که چشم‌های گربه‌ام رنگی شد",
       "author": "Bihjat, Shahrbanu",
       "year": "2013",
       "indexed_date": "2025-09-16",
       "isbn": "9786001213762",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.56f04623-167c-4b4a-bed3-a81cab1175c2",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 267
     },
     {
       "id": "vaasa.0c7dc367-fd5c-4f34-a9d4-f3e13e5d56d5",
       "title_latin": "Rūbāh-i dum 'buridah / Burritag dunbēn rōbāh",
-      "title_fa": "",
+      "title_fa": "روباه دم‌بریده",
       "author": "Pak, Abd al-Salih",
       "year": "2007",
       "indexed_date": "2026-02-28",
       "isbn": "9789643913519",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0c7dc367-fd5c-4f34-a9d4-f3e13e5d56d5",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 268
     },
     {
       "id": "vaasa.d126c52e-b4b1-4ac4-bcf3-a8ba47ab7b4d",
       "title_latin": "Rūslān-i vafādār",
-      "title_fa": "",
+      "title_fa": "روسلان وفادار",
       "author": "Vladimov, Georgij",
       "year": "2002",
       "indexed_date": "2025-09-17",
       "isbn": "9789642091171",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d126c52e-b4b1-4ac4-bcf3-a8ba47ab7b4d",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 269
     },
     {
       "id": "vaasa.0d602198-8d29-4fd3-8bee-f3fc74feba0e",
       "title_latin": "Farhange farsie amid / 1",
-      "title_fa": "",
+      "title_fa": "فرهنگ فارسی عمید، جلد ۱",
       "author": "Amid, Hasan",
       "year": "1998",
       "indexed_date": "2025-09-17",
       "isbn": "9640003891",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0d602198-8d29-4fd3-8bee-f3fc74feba0e",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 270
     },
     {
       "id": "vaasa.52a33d4c-7ad6-4273-9cc8-6d0c2974a506",
       "title_latin": "Farhange farsie amid / 2",
-      "title_fa": "",
+      "title_fa": "فرهنگ فارسی عمید، جلد ۲",
       "author": "Amid, Hasan",
       "year": "1998",
       "indexed_date": "2025-09-17",
       "isbn": "9640001538",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.52a33d4c-7ad6-4273-9cc8-6d0c2974a506",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 271
     },
     {
       "id": "vaasa.fe678629-03c7-4095-b5c4-02fdc34d2bea",
       "title_latin": "Farhange farsie amid",
-      "title_fa": "",
+      "title_fa": "فرهنگ فارسی عمید",
       "author": "Amid, Hasan",
       "year": "1999",
       "indexed_date": "2025-09-17",
       "isbn": "9640001317",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fe678629-03c7-4095-b5c4-02fdc34d2bea",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 272
     },
     {
       "id": "vaasa.708b340d-053a-47f8-b0b5-c7506d39f985",
       "title_latin": "Qandabad",
-      "title_fa": "",
+      "title_fa": "قندآباد",
       "author": "Hashimi, Sa'id",
       "year": "1392",
       "indexed_date": "2025-09-16",
       "isbn": "9789643917142",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.708b340d-053a-47f8-b0b5-c7506d39f985",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 273
     },
     {
       "id": "vaasa.346963b3-72f2-46db-98c8-20f954a45671",
       "title_latin": "JONATAN VA GESSEH-E PARVAS",
-      "title_fa": "",
+      "title_fa": "جاناتان و قصه پرواز",
       "author": "Ahlbom, Jens",
       "year": "1991",
       "indexed_date": "2025-09-16",
       "isbn": "9197126438",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.346963b3-72f2-46db-98c8-20f954a45671",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 274
     },
     {
       "id": "vaasa.535f5148-68ef-4918-adfb-64ca9f64472b",
       "title_latin": "Gām bardāsthan dar jahān / shivah'ha-yi amali-yi khallaqiyat",
-      "title_fa": "",
+      "title_fa": "گام برداشتن در جهان: شیوه‌های عملی خلاقیت",
       "author": "Cameron, Julia",
       "year": "2012",
       "indexed_date": "2025-09-17",
       "isbn": "9789643287528",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.535f5148-68ef-4918-adfb-64ca9f64472b",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 275
     },
     {
       "id": "vaasa.846a483f-4e03-45da-abb5-f2e5918de8b8",
       "title_latin": "Ma chegung ma shodim / reisheyabi ellal-e aqabmandegi dar Iran",
-      "title_fa": "",
+      "title_fa": "ما چگونه ما شدیم: ریشه‌یابی علل عقب‌ماندگی در ایران",
       "author": "Zibakalam, Sadeq",
       "year": "1994",
       "indexed_date": "2026-02-28",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.846a483f-4e03-45da-abb5-f2e5918de8b8",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 276
     },
     {
       "id": "vaasa.df07bdb7-6415-4712-aaf6-63531ebda7e6",
       "title_latin": "Jak va lubiya-yi sihramiz",
-      "title_fa": "",
+      "title_fa": "جک و لوبیای سحرآمیز",
       "author": "Saunders, Katie",
       "year": "1393",
       "indexed_date": "2025-09-16",
       "isbn": "9786003201279",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.df07bdb7-6415-4712-aaf6-63531ebda7e6",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 277
     },
     {
       "id": "vaasa.d596b99f-3e31-4267-a65a-8941952f011d",
       "title_latin": "Amn, äbi, äräm",
-      "title_fa": "",
+      "title_fa": "امن، آبی، آرام",
       "author": "Qavi'ruh, Shuhrah",
       "year": "2001",
       "indexed_date": "2026-02-28",
       "isbn": "9644422961",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d596b99f-3e31-4267-a65a-8941952f011d",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 278
     },
     {
       "id": "vaasa.04e10d97-bc75-4918-9bdf-3c00675a7065",
       "title_latin": "Bärde-je rägsan",
-      "title_fa": "",
+      "title_fa": "برده رقصان",
       "author": "Faks, Paula",
       "year": "1982",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.04e10d97-bc75-4918-9bdf-3c00675a7065",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 279
     },
     {
       "id": "vaasa.e02165c2-59f5-43e2-8742-81178a9f3b49",
       "title_latin": "Jaadhaje zendan",
-      "title_fa": "",
+      "title_fa": "جاده‌های زندان",
       "author": "Azad, F",
       "year": "1997",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e02165c2-59f5-43e2-8742-81178a9f3b49",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 280
     },
     {
       "id": "vaasa.f4f9e854-7007-4009-974b-fc5952780854",
       "title_latin": "ÄZ CHESHM-E GHÄRBI",
-      "title_fa": "",
+      "title_fa": "از چشم غربی",
       "author": "Conrad, Joseph",
       "year": "1984",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f4f9e854-7007-4009-974b-fc5952780854",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 281
     },
     {
       "id": "vaasa.8fb37855-1793-49ea-8a20-4e271c65c361",
       "title_latin": "Bargozideje ghasajed",
-      "title_fa": "",
+      "title_fa": "برگزیده قصاید",
       "author": "Ghobadjani, Naser Khosro",
       "year": "1989",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.8fb37855-1793-49ea-8a20-4e271c65c361",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 282
     },
     {
       "id": "vaasa.fbeff647-4bc6-449d-90fa-ceb6f92db47c",
       "title_latin": "BAAD-BAADÄK KODJA MIIRÄVI?",
-      "title_fa": "",
+      "title_fa": "بادبادک کجا می‌روی؟",
       "author": "Miralube",
       "year": "1989",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fbeff647-4bc6-449d-90fa-ceb6f92db47c",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 283
     },
     {
       "id": "vaasa.8f9da8a3-38a8-43f8-853f-b203cbfcf63e",
       "title_latin": "Atal matal..",
-      "title_fa": "",
+      "title_fa": "اتل متل...",
       "author": "Mahuti, Mihri",
       "year": "2003",
       "indexed_date": "2025-09-16",
       "isbn": "9643853462",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.8f9da8a3-38a8-43f8-853f-b203cbfcf63e",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 284
     },
     {
       "id": "vaasa.0bd0dc99-e5cd-40c8-86c7-36f59661953a",
       "title_latin": "Ba'adad'ha dust mishavi?",
-      "title_fa": "",
+      "title_fa": "با عددها دوست می‌شوی؟",
       "author": "Ja'fari, Lalah",
       "year": "2015",
       "indexed_date": "2026-02-28",
       "isbn": "9786000101879",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0bd0dc99-e5cd-40c8-86c7-36f59661953a",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 286
     },
     {
       "id": "vaasa.3da6eb7a-efd9-4968-8d8e-27d3dfc51ffc",
       "title_latin": "Hamah-yi mivah'ha shirin nistan dar muarriri va naqd",
-      "title_fa": "",
+      "title_fa": "همه میوه‌ها شیرین نیستند: در معرفی و نقد",
       "author": "Kadkhudayi, Masud",
       "year": "2009",
       "indexed_date": "2026-02-28",
       "isbn": "9789186065102",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.3da6eb7a-efd9-4968-8d8e-27d3dfc51ffc",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 287
     },
     {
       "id": "vaasa.78b0420f-9dd6-48f8-8b10-df44a908c6d9",
       "title_latin": "Majma' ul-jazayir-i ruya / guzidih-yi shir'ha-yi : ett urval dikter = Drömmens arkipelag",
-      "title_fa": "",
+      "title_fa": "مجمع‌الجزایر رؤیا: گزیده شعرها",
       "author": "Tranströmer, Tomas",
       "year": "2007",
       "indexed_date": "2026-02-28",
       "isbn": "9789197628105",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.78b0420f-9dd6-48f8-8b10-df44a908c6d9",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 288
     },
     {
       "id": "vaasa.a3e464b4-b7aa-4f02-a8d9-e23a2bf1d5a2",
       "title_latin": "Mahi'gir va bahar",
-      "title_fa": "",
+      "title_fa": "ماهیگیر و بهار",
       "author": "Kalhur, Muzhgan",
       "year": "1392",
       "indexed_date": "2026-02-28",
       "isbn": "9789643918071",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a3e464b4-b7aa-4f02-a8d9-e23a2bf1d5a2",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 289
     },
     {
       "id": "vaasa.2f592c2c-ca0a-4718-a74e-06e8fd557b96",
@@ -3041,247 +3296,268 @@
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2f592c2c-ca0a-4718-a74e-06e8fd557b96",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 290
     },
     {
       "id": "vaasa.ff43e211-4f46-4578-bddd-a112aba36fc9",
       "title_latin": "Hājī fīrūz-i man",
-      "title_fa": "",
+      "title_fa": "حاجی فیروز من",
       "author": "Guli, Muhammad",
       "year": "2013",
       "indexed_date": "2025-09-16",
       "isbn": "9786001213809",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.ff43e211-4f46-4578-bddd-a112aba36fc9",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 291
     },
     {
       "id": "vaasa.0f854db5-a699-4432-89af-af8d74a283d0",
       "title_latin": "Hari Patir va mahfil-i quqnus / 3",
-      "title_fa": "",
+      "title_fa": "هری پاتر و محفل ققنوس، جلد ۳",
       "author": "Rowling, Joanne K.",
       "year": "2003",
       "indexed_date": "2025-09-17",
       "isbn": "9645757746",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.0f854db5-a699-4432-89af-af8d74a283d0",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 292
     },
     {
       "id": "vaasa.803155b8-5e80-4f14-9eb3-ba6ac2e071bf",
       "title_latin": "Hari Patir va mahfil-i quqnus / 1",
-      "title_fa": "",
+      "title_fa": "هری پاتر و محفل ققنوس، جلد ۱",
       "author": "Rowling, Joanne K.",
       "year": "2003",
       "indexed_date": "2025-09-17",
       "isbn": "9645757711",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.803155b8-5e80-4f14-9eb3-ba6ac2e071bf",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 293
     },
     {
       "id": "vaasa.a89bb64f-9e7a-46f7-8983-87fe1f1146b1",
       "title_latin": "Hari Patir va mahfil-i quqnus / 2",
-      "title_fa": "",
+      "title_fa": "هری پاتر و محفل ققنوس، جلد ۲",
       "author": "Rowling, Joanne K.",
       "year": "2003",
       "indexed_date": "2025-09-17",
       "isbn": "9645757738",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.a89bb64f-9e7a-46f7-8983-87fe1f1146b1",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 294
     },
     {
       "id": "vaasa.85c4f458-0cb4-498e-9a1b-f2d61a268250",
       "title_latin": "Mobare zene rahe roshanaei",
-      "title_fa": "",
+      "title_fa": "مبارزین راه روشنایی",
       "author": "Coelho, Paulo",
       "year": "1999",
       "indexed_date": "2025-09-17",
       "isbn": "9645998409",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.85c4f458-0cb4-498e-9a1b-f2d61a268250",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 295
     },
     {
       "id": "vaasa.c23a9fb8-bd51-4c6d-b37d-b6030fd0ee9b",
       "title_latin": "SOKHANON-E PIR-E HARAT",
-      "title_fa": "",
+      "title_fa": "سخنان پیر هرات",
       "author": "Khadje, Abdullah-E Ansari",
       "year": "1991",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c23a9fb8-bd51-4c6d-b37d-b6030fd0ee9b",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 296
     },
     {
       "id": "vaasa.2e90692c-e3ab-4730-b352-9fedec567d73",
       "title_latin": "MAHI VÄ MORVARIID",
-      "title_fa": "",
+      "title_fa": "ماهی و مروارید",
       "author": "Käshkuli, Mähdokht",
       "year": "1990",
       "indexed_date": "2026-11-09",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.2e90692c-e3ab-4730-b352-9fedec567d73",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 297
     },
     {
       "id": "vaasa.d9c84d4f-bbf7-4c98-a82b-6efe28289dcd",
       "title_latin": "Ham nafas",
-      "title_fa": "",
+      "title_fa": "هم‌نفس",
       "author": "Hamidi, Minu",
       "year": "1391",
       "indexed_date": "2025-09-17",
       "isbn": "9786009271757",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.d9c84d4f-bbf7-4c98-a82b-6efe28289dcd",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 298
     },
     {
       "id": "vaasa.b1f81ab4-900b-4f15-b0cc-77264f6377e4",
       "title_latin": "12 qissah-yi tasvīrī az Parvīn I'tisāmī",
-      "title_fa": "",
+      "title_fa": "۱۲ قصه تصویری از پروین اعتصامی",
       "author": "Shaykhi, Muzhgan",
       "year": "2014",
       "indexed_date": "2026-02-28",
       "isbn": "9786002512154",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.b1f81ab4-900b-4f15-b0cc-77264f6377e4",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 299
     },
     {
       "id": "vaasa.e32c9910-790b-4648-8e3f-f9984f6f65d0",
       "title_latin": "AI GHESSE, GHESSE, GHESSE",
-      "title_fa": "",
+      "title_fa": "ای قصه، قصه، قصه",
       "author": "Taerpuur, Bähar",
       "year": "1989",
       "indexed_date": "2026-11-09",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e32c9910-790b-4648-8e3f-f9984f6f65d0",
-      "source_page": 3
+      "source_page": 3,
+      "search_position": 300
     },
     {
       "id": "vaasa.93ab7a61-5f8f-46b1-8142-59fb15f43c92",
       "title_latin": "TARIHE TAMADDON",
-      "title_fa": "",
+      "title_fa": "تاریخ تمدن",
       "author": "Shäriäti, Äli",
       "year": "1980",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.93ab7a61-5f8f-46b1-8142-59fb15f43c92",
-      "source_page": 4
+      "source_page": 4,
+      "search_position": 301
     },
     {
       "id": "vaasa.58776522-902e-45eb-a3d2-6d5cfc040549",
       "title_latin": "TARKE SEFAHI ENGELAB ESLAMI IRAN",
-      "title_fa": "",
+      "title_fa": "تاریخ شفاهی انقلاب اسلامی ایران",
       "author": "Baghi, E",
       "year": "1990",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.58776522-902e-45eb-a3d2-6d5cfc040549",
-      "source_page": 4
+      "source_page": 4,
+      "search_position": 302
     },
     {
       "id": "vaasa.10283858-c4da-49fa-9d91-d26dd01d6593",
       "title_latin": "ÄBUZÄR",
-      "title_fa": "",
+      "title_fa": "ابوذر",
       "author": "Shäriäti, Äli",
       "year": "1990",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.10283858-c4da-49fa-9d91-d26dd01d6593",
-      "source_page": 4
+      "source_page": 4,
+      "search_position": 303
     },
     {
       "id": "vaasa.e9166658-97a0-49df-840d-ae2c5c0cb2be",
       "title_latin": "MÄSNÄVI-JE MÄÄNÄVI",
-      "title_fa": "",
+      "title_fa": "مثنوی معنوی",
       "author": "Moolävi, Djälaaläddin",
       "year": "1987",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.e9166658-97a0-49df-840d-ae2c5c0cb2be",
-      "source_page": 4
+      "source_page": 4,
+      "search_position": 304
     },
     {
       "id": "vaasa.121bf690-af8c-44a4-b24d-3bf700490a8e",
       "title_latin": "MOSHA V MEHDI",
-      "title_fa": "",
+      "title_fa": "موش‌ها و مردها",
       "author": "Steinbeck, John",
       "year": "1989",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.121bf690-af8c-44a4-b24d-3bf700490a8e",
-      "source_page": 4
+      "source_page": 4,
+      "search_position": 305
     },
     {
       "id": "vaasa.35038445-3532-41ea-9d17-cc30b99cc6c1",
       "title_latin": "TÄBÄGH-E KARGÄR DÄR JAHAN-E SEVON",
-      "title_fa": "",
+      "title_fa": "طبقه کارگر در جهان سوم",
       "author": "Lloyd, Peter",
       "year": "1993",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.35038445-3532-41ea-9d17-cc30b99cc6c1",
-      "source_page": 4
+      "source_page": 4,
+      "search_position": 306
     },
     {
       "id": "vaasa.fbb6dc29-a0c0-4d24-9deb-37db50c9e1dd",
       "title_latin": "Bazgasht-E Habil",
-      "title_fa": "",
+      "title_fa": "بازگشت هابیل",
       "author": "Siyamak Haravi, Ahmad Ziya",
       "year": "2016",
       "indexed_date": "2026-02-28",
       "isbn": "9781780835877",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.fbb6dc29-a0c0-4d24-9deb-37db50c9e1dd",
-      "source_page": 4
+      "source_page": 4,
+      "search_position": 307
     },
     {
       "id": "vaasa.1e72b42b-c38d-4828-99ac-0a7fa26fa3f0",
       "title_latin": "Bäkhänman",
-      "title_fa": "",
+      "title_fa": "بی‌خانمان",
       "author": "Malot, Hector",
       "year": "1985",
       "indexed_date": "2025-09-17",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.1e72b42b-c38d-4828-99ac-0a7fa26fa3f0",
-      "source_page": 4
+      "source_page": 4,
+      "search_position": 308
     },
     {
       "id": "vaasa.c8af2e05-1373-4123-930b-103b95ddebe0",
       "title_latin": "ÄZ SEPIDE TA SHAM \"KHATERAT\"",
-      "title_fa": "",
+      "title_fa": "از سپیده تا شام: خاطرات",
       "author": "Katuzian, Kian",
       "year": "1999",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.c8af2e05-1373-4123-930b-103b95ddebe0",
-      "source_page": 4
+      "source_page": 4,
+      "search_position": 309
     },
     {
       "id": "vaasa.f904450e-7b79-48a5-895f-5b12e77ee5db",
       "title_latin": "Bagh-i hazar dukhtarun",
-      "title_fa": "",
+      "title_fa": "باغ هزار دخترون",
       "author": "Shaban'nizhad, Afsanah",
       "year": "1994",
       "indexed_date": "2025-09-16",
       "isbn": "",
       "format": "Book/Book",
       "url": "https://vaasankirjasto.finna.fi/Record/vaasa.f904450e-7b79-48a5-895f-5b12e77ee5db",
-      "source_page": 4
+      "source_page": 4,
+      "search_position": 310
     }
   ]
 }
