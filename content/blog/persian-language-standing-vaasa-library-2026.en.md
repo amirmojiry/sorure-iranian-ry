@@ -51,6 +51,23 @@ The following catalogue labels may be relevant to communities in Iran, but their
 
 **Turkish is a distinct catalogue label from Azerbaijani**; the 184 Turkish results are not an estimate of Azerbaijani-language materials. **Dari** is listed separately from Persian, while **Iranian languages** is an umbrella linguistic category, not a combined total of Persian, Kurdish and other languages. Do not add these counts together to infer a unique collection.
 
+## Four related music CDs hidden under “Iranian languages”
+
+A separate review of [Finna's Iranian languages (`ira`) category](https://vaasankirjasto.finna.fi/Search/Results?filter%5B%5D=%7Elanguage%3A%22ira%22&type=AllFields&lng=en-gb) identified **four audio/music CDs** absent from the 311 records assigned to the Persian (`fas`) label. Their artists and titles connect them with Persian or Iranian music:
+
+| Editorial title in Persian | Artist | Finna record |
+|---|---|---|
+| آریان ۲: و اما عشق | Arian Band | [ARIAN II VA AMMA ESHGH](https://vaasankirjasto.finna.fi/Record/vaasa.09936617-2576-4fcd-ac36-0d6f0af412c8) |
+| دو چهره | Behnam | [DOUBLE FACED](https://vaasankirjasto.finna.fi/Record/vaasa.05139018-c85a-400e-bd79-1e107ddc18d0) |
+| برای تو | Mohammad Khakpour | [TO YOU](https://vaasankirjasto.finna.fi/Record/vaasa.42a54432-764c-4d3c-bb76-e88b7ffb0548) |
+| چه شورها دارم، غم جانکاهی | Gholamhosein Banan | [CHE SHUURHA DARÄM GHÄME DJANKAHI](https://vaasankirjasto.finna.fi/Record/vaasa.f14f3c05-62b0-4067-a4b7-409417f424e9) |
+
+Sorure Iranian ry has therefore added them to its [expanded searchable index of **315 Persian and related records**]({{< relref "blog/persian-books-vaasa-library-2026" >}}): **311 under Persian + four under Iranian languages**. None was duplicated in the original list.
+
+**The distinction matters for the ranking:** the official Finna Persian facet remains **311** (rank **18** in the original list), and the separate Iranian languages facet remains **4**. The adjusted **315** would fall between Japanese (316) and Estonian (313) in a hypothetical editorial comparison, **but it is not the official Persian rank or count**. Nor can a CD's recorded language be established from its format alone; not every track is necessarily sung in Persian.
+
+This example illustrates why searching only one language filter may overlook culturally relevant materials catalogued under a broader label.
+
 Languages including Balochi, Gilaki, Mazanderani, Luri, Turkmen and Talysh do not appear as separate labels **in the supplied list**. This does not prove that the catalogue has no resources in these languages; records may be filed differently or require separate searching.
 
 ## Complete table: all 146 categories
@@ -63,6 +80,6 @@ The searchable table below reproduces **every category in the supplied dataset**
 
 ## Explore the Persian catalogue
 
-We have also published a [searchable index of all **311 Persian-tagged results**]({{< relref "blog/persian-books-vaasa-library-2026" >}}) with Persian/Arabic-script and original titles, creator names, material types, publication years, and direct links to Finna. Of these, **273 are classified as books** and **38 as other material types**, including films and recordings.
+We first published a [searchable index of **311 Persian-tagged records**]({{< relref "blog/persian-books-vaasa-library-2026" >}}) with Persian/Arabic-script and original titles, creators, material types, years and direct Finna links. After including the four separate music CDs, the expanded index contains **315 records**: **273 books** and **42 other media**.
 
-**Sources and limitations:** The counts were transcribed from a snapshot supplied from the [Vaasa Finna Language filter](https://vaasankirjasto.finna.fi/Search/Results?type=AllFields&lng=en-gb), dated **19 November 2026**. Language facets can overlap, and adding every language count will not reliably produce a count of unique items.
+**Sources and limitations:** The ranking reflects the [Vaasa Finna Language filter](https://vaasankirjasto.finna.fi/Search/Results?type=AllFields&lng=en-gb) snapshot dated **19 November 2026**. Four CDs found under the separate `ira` language facet were added to the association’s curated index on **20 November 2026**. Language facets can overlap, and adding every language count will not reliably produce a count of unique items.
