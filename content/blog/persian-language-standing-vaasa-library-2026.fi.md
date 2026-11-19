@@ -24,19 +24,19 @@ Tähän tarkasteluun toimitetun **19.11.2026 päivätyn kieliluokkien tulosluett
 | Persian sija kaikkien luokkien joukossa | **18** |
 | Persian sija ilman kahta yleismerkintää | **16** |
 
-**Hakutulos ei välttämättä tarkoita yksittäistä painettua kirjaa, saatavilla olevaa nidettä tai tiettyyn toimipisteeseen sijoitettua aineistoa.** Luvut perustuvat Finnan kielisuodattimeen, jonka käyttötapa kuvataan [Finnan hakuohjeessa](https://vaasankirjasto.finna.fi/Content/help-basic?lng=en-gb).
+Tässä kirjoituksessa ”tietue” tarkoittaa kirjastoluettelon hakutulosta, joka ei välttämättä ole painettu kirja (se voi olla esimerkiksi musiikkialbumi tai elokuva). Luvut perustuvat ”Language”-suodattimeen.
 
 ## Persian suhteessa muihin kieliin
 
 Eniten tietueita on suomeksi (**155 018**), ruotsiksi (**111 302**) ja englanniksi (**50 084**). Persian lähellä kieliluettelossa ovat **japani (316)** ja **viro (313)**. Persian 311 tulosta ovat vain **kaksi vähemmän kuin viron** ja **viisi vähemmän kuin japanin**. Persia sijoittuu kuitenkin **ukrainan (256)**, **turkin (184)** ja **kurdin (125)** edelle.
 
-Alla oleva vertailu kuvaa juuri tätä sijoitusten aluetta. Se ei mittaa kielen puhujien määrää Vaasassa, lainausten määrää tai kirjaston hankintalinjauksia.
+Alla oleva vertailu kuvaa juuri tätä sijoitusten aluetta.
 
 ## Myös Iranissa puhuttuja kieliä
 
 Iranissa puhutaan persian lisäksi esimerkiksi azerbaidžania, kurdia, arabiaa ja armeniaa sekä lukuisia muita kieliä. **Nämä kielet eivät kuitenkaan rajoitu Iraniin**: arabiaa puhutaan monissa maissa, kurdia useissa Lähi-idän valtioissa, armeniaa Armeniassa ja eri diasporissa sekä turkkilaisia kieliä laajalla maantieteellisellä alueella.
 
-Seuraavat luettelomerkinnät liittyvät Iranissa puhuttuihin kieliin. **Niiden määriä ei tule pitää “iranilaisen kokoelman” kokona tai mittarina Vaasan iranilaistaustaisesta väestöstä.**
+Seuraavat luettelomerkinnät liittyvät Iranissa puhuttuihin kieliin.
 
 | Luettelon kielimerkintä | Tuloksia | Sija kaikissa luokissa |
 |---|---:|---:|
@@ -49,7 +49,7 @@ Seuraavat luettelomerkinnät liittyvät Iranissa puhuttuihin kieliin. **Niiden m
 | Dari (Dari) | 3 | 86 |
 | Azerbaidžani (Azerbaijani) | 2 | 95 |
 
-**Turkish ja Azerbaijani ovat eri merkintöjä**: 184 turkinkielistä hakutulosta eivät tarkoita 184 azerbaidžaninkielistä aineistoa. **Dari** on luetteloitu erikseen persiasta, ja **Iranian languages** tarkoittaa kieliryhmää eikä kaikkien iranilaisten kielten yhteenlaskettua tietuemäärää. Määriä ei siis pidä laskea suoraan yhteen.
+**Turkish ja Azerbaijani ovat eri merkintöjä**. **Dari** on luetteloitu erikseen persiasta, ja **Iranian languages** tarkoittaa kieliryhmää.
 
 ## Neljä iranilaisten kielten ryhmään luokiteltua musiikki-CD:tä
 
@@ -68,13 +68,11 @@ Yhdistys on lisännyt nämä neljä aiempaan [315 tietueen laajennettuun persiaa
 
 Esimerkki havainnollistaa, kuinka yhteen kielisuodattimeen rajautuva haku voi jättää laajempaan kieliryhmään merkittyjä kulttuurisesti läheisiä aineistoja pois.
 
-Esimerkiksi belutši, gilaki, mazandarani, luri, turkmeeni ja talyši eivät esiinny erillisinä merkintöinä **toimitetussa luettelossa**. Se ei kuitenkaan osoita, ettei tällaisia aineistoja olisi kirjastossa: ne voivat olla luokiteltuina toisin tai vaatia tarkempaa hakua.
-
 ## Koko taulukko: kaikki 146 luokkaa
 
 Alla on alkuperäisen listan **jokainen 146 luokasta**. Mukana ovat myös vanhat kielet, kieliryhmät, ei-kielikohtaiset merkinnät ja vain yhden hakutuloksen luokat. Voit hakea kielen nimeä persiaksi tai englanniksi, järjestää luettelon sarakeotsikosta ja rajata näkymän kahdeksaan Iraniin liittyvään kielimerkintään.
 
-**Sijoitusten laskenta:** Suurempi hakutulosmäärä merkitsee parempaa sijoitusta, ja samat lukumäärät jakavat sijoituksen. Kokonaissijoituksessa ovat mukana kaksi yleisluokkaa; nimettyjen kielten sijoituksessa vain ne on poistettu. Kaikki 144 jäljelle jäävää luokkaa eivät tarkoita erillisiä nykykieliä.
+**Sijoitusten laskenta:** Suurempi hakutulosmäärä merkitsee parempaa sijoitusta, ja samat lukumäärät jakavat sijoituksen. Kokonaissijoituksessa ovat mukana kaksi yleisluokkaa; nimettyjen kielten sijoituksessa vain ne on poistettu.
 
 {{< vaasa-language-ranking >}}
 
@@ -82,4 +80,4 @@ Alla on alkuperäisen listan **jokainen 146 luokasta**. Mukana ovat myös vanhat
 
 Yhdistys julkaisi aiemmin [311 persiankieliseksi merkityn tietueen luettelon]({{< relref "blog/persian-books-vaasa-library-2026" >}}), jossa on alkuperäiset sekä persialais-arabialaisin kirjaimin kirjoitetut nimekkeet ja Finna-linkit. Neljän lisätyn CD:n jälkeen laajennettu luettelo sisältää **315 tietuetta**: **273 kirjaa** ja **42 muuta aineistoa**.
 
-**Lähteet ja rajoitukset:** Kielitilastot perustuvat [Vaasan Finnan kielisuodattimen](https://vaasankirjasto.finna.fi/Search/Results?type=AllFields&lng=en-gb) tietoihin 19.11.2026. Neljä `ira`-luokkaan merkittyä CD:tä lisättiin yhdistyksen toimitettuun luetteloon erillisen hakutuloksen perusteella 20.11.2026. Kielimerkinnät voivat mennä päällekkäin eikä niiden yhteenlaskettu summa välttämättä vastaa ainutkertaisten aineistojen määrää.
+**Lähteet ja rajoitukset:** Kielitilastot perustuvat [Vaasan Finnan kielisuodattimen](https://vaasankirjasto.finna.fi/Search/Results?type=AllFields&lng=en-gb) tietoihin 19.11.2026. Neljä `ira`-luokkaan merkittyä CD:tä lisättiin yhdistyksen toimitettuun luetteloon erillisen hakutuloksen perusteella 20.11.2026.
