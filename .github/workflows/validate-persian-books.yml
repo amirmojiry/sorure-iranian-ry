@@ -45,6 +45,6 @@ jobs:
             file=Path('public')/lang/'blog'/'persian-books-vaasa-library-2026'/'index.html'
             text=file.read_text()
             assert 'data-persian-books' in text,lang
-            assert text.count('data-book-row')==273, (lang,text.count('data-book-row'))
+            assert text.count('<tr data-book-row')==273, (lang,text.count('<tr data-book-row'))
             print('BOOK_PAGE_VALID',lang,len(text))
           PY
