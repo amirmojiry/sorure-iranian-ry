@@ -44,21 +44,6 @@ These four CDs did not appear in the original `fas` search because Finna assigns
 
 For a comparison with other languages, see our [article on Persian's position in Vaasa City Library]({{< relref "blog/persian-language-standing-vaasa-library-2026" >}}), including a ranking across 146 language categories.
 
-## Where are these materials held?
-
-The three supplied XML exports, identified as results for **Main library**, contain **264 catalogue records**. Four titles were separately identified at **Meeting point Huudi**, and one at **Variska library**.
-
-| Reported location | Records |
-|---|---:|
-| Main library — based on the three XML exports | 264 |
-| Meeting point Huudi | 4 |
-| Variska library | 1 |
-| Location not established from the supplied sources | 48 |
-
-The four Huudi titles are **Zämin** (by Mahdokht Kashkuli), **Mahi vä morvariid**, **Tooghi** and **Ai ghesse, ghesse, ghesse**. **Ajayebe darya-ha va khoshki-ha** was identified at Variska. The last two titles also appear in the three XML exports, so **both reported locations are shown** for those records; branch counts can overlap.
-
-**Source qualification:** The search URL embedded in each XML export contains **two different building-facet filters**. We have retained the contributor's Main library designation for these 264 results, but the exports do not separately prove each item's exact branch. Check the individual Finna record for copy-level holdings. **A listed location does not mean the item is available to borrow now**, and “Unknown” does not mean the library lacks a copy.
-
 ## Search and sort
 
 Search by original or Persian title, original or Persian creator name, year or ISBN. **Click any column heading to sort ascending; click again to reverse the order.** You can also filter by material type, the original **Finna language label** (`fas` or `ira`) and **library location** (Main library, Huudi, Variska or Unknown). On mobile, scroll horizontally to see all columns.
